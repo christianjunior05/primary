@@ -155,7 +155,7 @@ textbutton="Trouver une conseillère"
  <Section5
   Title="Prêt à avancer ?"
   text="Contacter un conseiller pour un premier échange téléphonique :"
-   textbutton="Trouvez un conseiller"
+   textbutton="Trouver un conseiller"
    image="bg-trajectoireSection5"
 
 

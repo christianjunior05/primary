@@ -5,6 +5,7 @@ import Section4 from "./sectionComponents/Section4";
 import Section5 from "./sectionComponents/Section5";
 import Section6 from "./sectionComponents/Section6";
 import Header from "../Header";
+import { HiArrowRight } from "react-icons/hi2";
 const PacksRepere = () =>{
     return ( 
         <div>
@@ -81,15 +82,31 @@ textbutton="Trouver un conseiller "
 
 
   />
-  <Section6
+<div className="     flex items-center justify-center gap-5  max-sm:space-x-0 my-20 ">
 
-  image="section6.jpg"
-  text1="Découvrez "
-  text2="nos autres packs"
-  textbutton1="Pack Trajectoire"
-  textbutton2="Pack exploration"
-  icon={true}
-  />
+  <div className=" size-96  rounded-xl">
+    <img src="/section6.jpg" alt="image" className="size-full object-cover rounded-xl "/>
+  </div>
+  <div className="  w-5/12  space-y-5 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center flex flex-col ">
+
+<h2 className="text-blue font-lato font-dmserif    text-4xl max-md:text-center  ">
+     
+     Découvrez  <span className="text-jauneOr"> nos autres packs </span> 
+    </h2>
+
+<div className="space-x-6 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:space-x-0 max-sm:space-y-6 ">
+
+
+           <button className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+   Pack trajectoire <HiArrowRight className="font-semibold text-lg  inline "/>
+       </button>
+             <button className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+   Pack exploration <HiArrowRight className="font-semibold text-lg  inline "/>
+       </button>
+</div>
+
+  </div>
+    </div>
         </div>
      );
 }
