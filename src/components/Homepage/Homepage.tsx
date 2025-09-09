@@ -307,12 +307,12 @@ export default function Homepage() {
   <div className=" max-[1000px]:flex max-[1000px]:flex-col  size-full ">
  <Title text1="Webinars " text2="& Blog"/>
 <button className=" text-white  max-sm:text-xs  block mb-5 mt-7   bg-jauneOr py-4 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
-            Decouvrir le blog 
+            Découvrir le blog 
             <HiArrowRight className="font-semibold text-xl ml-2  inline "/>
       </button>
 
       <button className=" text-white block  max-sm:text-xs   bg-jauneOr py-4 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
-            Decouvir les Webinars
+            Découvir les Webinars
             <HiArrowRight className="font-semibold text-xl ml-2  inline "/>
       </button>
   </div>
