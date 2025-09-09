@@ -8,7 +8,7 @@ export default function Parcours() {
       {/* Hero */}
       <section
         className="relative w-full h-[480px] bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('/Hero1.jpg')" }}
+        style={{ backgroundImage: "url('/Hero2.jpg')" }}
       >
         <div className="absolute inset-0" style={{ background: "rgba(12, 11, 11, 0.38)" }}></div>
         <div className="absolute flex flex-col items-start gap-3 left-[65px] top-1/2 transform -translate-y-1/2 w-[1184px]">
@@ -27,7 +27,7 @@ export default function Parcours() {
       {/* Ce que comprend l'accompagnement */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-          <img src="/parcours.jpg" alt="Accompagnement" className="w-full h-auto rounded-lg object-cover" />
+          <img src="/7.jpg" alt="Accompagnement" className="w-full h-auto rounded-lg object-cover" />
           <div>
             <h2 className="text-2xl font-bold text-blue mb-6">Ce que comprend l'accompagnement :</h2>
             <ul className="space-y-5 text-gray-700">
@@ -83,7 +83,7 @@ export default function Parcours() {
               <li className="flex items-start gap-3"><span className="text-yellow-400 mt-1"><FaCheck /></span><span>Des simulations et relectures régulières.</span></li>
             </ul>
           </div>
-          <img src="/Image.jpg" alt="Avantages exclusifs" className="w-full h-auto rounded-lg object-cover" />
+          <img src="/7.jpg" alt="Avantages exclusifs" className="w-full h-auto rounded-lg object-cover" />
         </div>
       </section>
 
@@ -116,7 +116,7 @@ export default function Parcours() {
               <li className="flex items-start gap-3"><span className="text-yellow-400 mt-1"><FaCheck /></span><span>Se démarquer des autres candidats avec un discours authentique et impactant.</span></li>
             </ul>
           </div>
-          <img src="/IMG3.png" alt="Préparation entretien" className="w-full h-auto rounded-lg object-cover" />
+          <img src="Image14.jpg" alt="Préparation entretien" className="w-full h-auto rounded-lg object-cover" />
         </div>
       </section>
 
