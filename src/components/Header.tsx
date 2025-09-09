@@ -30,24 +30,26 @@ const Header = ({ homepage, packsrepere, exploration, trajectoire }: Typage) => 
       {/* Pack Repère */}
       {packsrepere && (
         <div className="bg-repere h-[400px] bg-cover bg-center flex items-center">
-
           <div className="flex flex-col justify-center size-full backdrop-brightness-50">
-          <div className=" px-6 md:px-20 space-y-4  text-white font-dmserif max-w-full max-md:w-4xl ">
-            <p className="text-xl leading-5    sm:text-3xl md:text-3xl w-6/12 ">
-              Des réponses claires et personnalisées pour guider
-              <span className="text-jauneOr"> l’orientation de votre enfant.</span>
-            </p>
-            <p className="text-base sm:text-lg md:text-2xl leading-relaxed w-10/12">
-              Un rendez-vous pensé pour lever les doutes, rassurer et apporter un
-              premier éclairage sur ses choix de filière.
-            </p>
-            <p className="text-sm sm:text-base md:text-xl leading-relaxed">
-              Parce que chaque choix éclairé commence par une meilleure connaissance de soi.
-            </p>
+            <div className=" px-6 md:px-20 space-y-4  text-white font-dmserif max-w-full max-md:w-4xl ">
+              <p className="text-xl leading-5    sm:text-3xl md:text-3xl w-6/12 ">
+                Des réponses claires et personnalisées pour guider
+                <span className="text-jauneOr">
+                  {" "}
+                  l’orientation de votre enfant.
+                </span>
+              </p>
+              <p className="text-base sm:text-lg md:text-2xl leading-relaxed w-10/12">
+                Un rendez-vous pensé pour lever les doutes, rassurer et apporter
+                un premier éclairage sur ses choix de filière.
+              </p>
+              <p className="text-sm sm:text-base md:text-xl leading-relaxed">
+                Parce que chaque choix éclairé commence par une meilleure
+                connaissance de soi.
+              </p>
+            </div>
           </div>
-          </div>
-          
-        </div>
+</div>
       )}
 
       {/* Exploration */}
