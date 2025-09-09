@@ -158,7 +158,7 @@ export default function Homepage() {
     </p>
 
     {/* Bouton inchangé */}
-    <Button text="Contactez un conseiller " icons={true} />
+    <Button text="Contacter un conseiller " icons={true} />
   </div>
 </div>
 
