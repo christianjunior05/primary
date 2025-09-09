@@ -37,7 +37,7 @@ export default function Navbar() {
               </li>
               <li className="cursor-pointer pl-2    bg-blue hover:text-jauneOr transition-all  ">
                 {" "}
-                <Link to="/repere">Pack repere </Link>{" "}
+                <Link to="/repere">Pack repère </Link>{" "}
               </li>
               <li className="cursor-pointer pl-2      rounded-b-md   bg-blue hover:text-jauneOr transition-all  ">
                 {" "}
