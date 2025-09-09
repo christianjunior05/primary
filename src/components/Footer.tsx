@@ -28,7 +28,7 @@ const Footer=()=> {
          <div className=" ">
           <ul>
             <li className="mb-5">Newsletter</li>
-            <li className="mb-5">Inscrivez-svous à la newsletter pour restez informés !</li>
+            <li className="mb-5">Inscrivez-vous à la newsletter pour restez informés !</li>
           </ul>
           <form action="" className=" w-80 bg-white flex rounded-full p-1 ">
             <input type="email" name="" id="" placeholder=" Adresse mail" className="  py-2 bg-transparent w-4/5 rounded-full placeholder:text-black text-black mx-5 outline-none" />
