@@ -167,38 +167,38 @@ export default function Homepage() {
 
 
 
-<div className="flex max-sm:my-10 flex-col md:flex-row items-center justify-center gap-8  px-6 md:px-32 my-28 ">
-  {/* Image */}
-  <div className="w-full md:w-[600px] h-64 md:h-auto flex justify-center items-center">
-    <img
-      src="/photo5.jpg"
-      alt="Deux personnes assises en train d'échanger"
-      className="object-contain h-full w-full"
-    />
-  </div>
+<div className="flex  max-sm:my-10  flex-col md:flex-row items-center justify-center gap-8   my-28 ">
+        {/* Image */}
+        <div className="w-96  md:w-96 h-64 md:h-auto flex justify-center items-center">
+          <img
+            src="/photo5.jpg"
+            alt="Deux personnes assises en train d'échanger"
+            className=" h-full w-full"
+          />
+        </div>
 
-  {/* Texte */}
-  <div className="w-full md:w-7/12  space-y-4">
-    <Title text1="Accompagnement" text2="Parcoursup" />
-    <p className="text-base md:text-lg my-5">
-      Module dédié aux élèves de terminale
-    </p>
+        {/* Texte */}
+        <div className="w-full    space-y-4 md:w-7/12">
+          <Title text1="Accompagnement" text2="Parcoursup" />
+          <p className="text-base md:text-lg my-5">
+            Module dédié aux élèves de terminale
+          </p>
 
-    <ul className="leading-7 md:leading-10 mb-5 space-y-2">
-      <li>
-        <Coche text3="Aide aux choix des voeux en fonction du profil et du dossier scolaire (top 3 + alternatives)" />
-      </li>
-      <li>
-        <Coche text3="Aide à la rédaction des lettres de motivation et du dossier extra-scolaire" />
-      </li>
-      <li>
-        <Coche text3="Préparation aux entretiens de motivation" />
-      </li>
-    </ul>
+          <ul className="leading-7 md:leading-10 mb-5 space-y-2">
+            <li>
+              <Coche text3="Aide aux choix des voeux en fonction du profil et du dossier scolaire (top 3 + alternatives)" />
+            </li>
+            <li>
+              <Coche text3="Aide à la rédaction des lettres de motivation et du dossier extra-scolaire" />
+            </li>
+            <li>
+              <Coche text3="Préparation aux entretiens de motivation" />
+            </li>
+          </ul>
 
-    {/* Bouton inchangé */}
-    <Button text="En savoir plus " icons={true} />
-  </div>
+          {/* Bouton inchangé */}
+          <Button text="En savoir plus " icons={true} />
+        </div>
 </div>
 
 {/* Rencontrez nos conseillers */}
@@ -378,7 +378,7 @@ export default function Homepage() {
            <h2 className="max-xl:text-4xl max-[680px]:text-2xl  font-dmserif text-5xl text-blue "> Prêt à passer à l’étape suivante ?</h2>
            <p className=" max-xl:text-sm    font-lato ">Choisissez dès maintenant l’un de nos conseillers pour définir ensemble la formule la plus adaptée.</p>
            <p className="max-xl:text-sm  font-lato ">Prendre un rendez-vous :</p>
-           <Button text="Trouver un conseiller" icons={true} />
+           <Button text="Trouver un conseiller " icons={true} />
 
            </div>
   </div> 
