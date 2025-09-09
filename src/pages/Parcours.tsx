@@ -27,7 +27,7 @@ export default function Parcours() {
       {/* Ce que comprend l'accompagnement */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-          <img src="/Image1.jpg" alt="Accompagnement" className="w-full h-auto rounded-lg object-cover" />
+          <img src="/parcours.jpg" alt="Accompagnement" className="w-full h-auto rounded-lg object-cover" />
           <div>
             <h2 className="text-2xl font-bold text-blue mb-6">Ce que comprend l'accompagnement :</h2>
             <ul className="space-y-5 text-gray-700">
