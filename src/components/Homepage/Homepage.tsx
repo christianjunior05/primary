@@ -163,8 +163,6 @@ export default function Homepage() {
 </div>
 
 
-
-
 {/* Accompagnement Parcoursup */}
 
 
@@ -230,7 +228,7 @@ export default function Homepage() {
     </ul>
 
     {/* Bouton inchangé */}
-    <Button text="Trouvez un conseiller" />
+    <Button text="Trouver un conseiller" />
   </div>
 
   {/* Composant profil */}
