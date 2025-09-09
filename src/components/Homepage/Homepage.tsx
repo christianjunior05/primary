@@ -53,12 +53,12 @@ export default function Homepage() {
   </div>
 
   {/* Image */}
-  <div className=" border h-[300px] md:h-[450px] w-full md:w-1/2 flex justify-center items-center">
-    <img
+  <div className=" border bg-slate-500 h-[300px] md:h-[450px] w-full md:w-1/2 flex justify-center items-center">
+    {/* <img
       src="/QuiSommesNous.png"
       alt="plusieurs personnes assises en train d'échanger"
       className="object-cover h-full w-full"
-    />
+    /> */}
   </div>
 </div>
 
@@ -137,7 +137,7 @@ export default function Homepage() {
 
 {/* Parck Personnalisé  */}
 
-<div className="flex my-28 flex-col md:flex-row px-6 md:px-20 justify-center items-center gap-8 md:gap-12 bg-jauneOr/5  ">
+<div className=" py-10 flex my-28 flex-col md:flex-row px-6 md:px-20 justify-center items-center gap-8 md:gap-12 bg-jauneOr/5  ">
   {/* Image */}
   <div className="h-64 md:h-72 w-full md:w-auto flex justify-center items-center">
     <img
