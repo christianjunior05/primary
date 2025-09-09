@@ -378,7 +378,7 @@ export default function Homepage() {
            <h2 className="max-xl:text-4xl max-[680px]:text-2xl  font-dmserif text-5xl text-blue "> Prêt à passer à l’étape suivante ?</h2>
            <p className=" max-xl:text-sm    font-lato ">Choisissez dès maintenant l’un de nos conseillers pour définir ensemble la formule la plus adaptée.</p>
            <p className="max-xl:text-sm  font-lato ">Prendre un rendez-vous :</p>
-           <Button text="Trouvez un conseiller" icons={true} />
+           <Button text="Trouver un conseiller" icons={true} />
 
            </div>
   </div> 
