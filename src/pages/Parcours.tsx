@@ -46,28 +46,28 @@ export default function Parcours() {
         <h1 className="text-3xl font-dmserif text-blue"> <span className="text-jauneOr">Ce que comprend</span>  l’accompagnement :</h1>
      
           <div className="space-y-1 w-11/12">
-         <div className="font-dmserif text-blue" ><i className="fa-solid fa-graduation-cap text-jauneOr "> </i> <span>Un point de départ solide</span> </div>
+         <div className="font-dmserif text-blue space-x-2" ><i className="fa-solid fa-graduation-cap text-jauneOr "> </i> <span>Un point de départ solide</span> </div>
           <p >Entretien approfondi pour comprendre votre parcours scolaire, vos centres d’intérêt, vos  motivations et vos activités extrascolaires (sport, engagement associatif, bénévolat, stages, passions…). Tout ce qui peut valoriser votre dossier est pris en compte.</p>
           </div>
 
           <div className="space-y-1  w-11/12">
-         <div className="font-dmserif text-blue" ><i className="fa-solid fa-graduation-cap text-jauneOr "> </i> <span>Des choix d’établissements personnalisés</span> </div>
+         <div className="font-dmserif text-blue space-x-2" ><i className="fa-solid fa-graduation-cap text-jauneOr "> </i> <span>Des choix d’établissements personnalisés</span> </div>
           <p>Recommandations précises et adaptées à votre profil et à votre projet, afin de cibler des formations cohérentes, accessibles et motivantes.</p>
           </div>
 
              <div className="space-y-1">
-         <div className="font-dmserif text-blue" ><i className="fa-solid fa-graduation-cap text-jauneOr "> </i> <span>Des lettres de motivation impactantes</span> </div>
+         <div className="font-dmserif text-blue space-x-2" ><i className="fa-solid fa-graduation-cap text-jauneOr "> </i> <span>Des lettres de motivation impactantes</span> </div>
           <p>Aide à la rédaction et à l’optimisation des lettres de motivation, en mettant en valeur aussi bien vos résultats scolaires que vos expériences et qualités développées hors de l’école.</p>
           </div>
 
           
              <div className="space-y-1">
-         <div className="font-dmserif text-blue" ><i className="fa-solid fa-graduation-cap text-jauneOr "> </i> <span>Un suivi pas à pas</span> </div>
+         <div className="font-dmserif text-blue space-x-2" ><i className="fa-solid fa-graduation-cap text-jauneOr "> </i> <span>Un suivi pas à pas</span> </div>
           <p>Séances programmées et relectures personnalisées pour sécuriser chaque étape du <br /> calendrier Parcoursup®.</p>
           </div>  
           
            <div className="space-y-1">
-         <div className="font-dmserif text-blue" ><i className="fa-solid fa-graduation-cap text-jauneOr "> </i> <span>Un contrôle final</span> </div>
+         <div className="font-dmserif text-blue space-x-2" ><i className="fa-solid fa-graduation-cap text-jauneOr "> </i> <span>Un contrôle final</span> </div>
           <p>Vérification de l’ensemble du dossier avant la validation, pour éviter les erreurs et s’assurer que chaque élément reflète au mieux votre potentiel.</p>
           </div>
          
