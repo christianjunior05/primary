@@ -1,4 +1,4 @@
-import { FaArrowRight } from "react-icons/fa";
+
 import { FiArrowLeft, FiArrowRight } from "react-icons/fi";
 import { GiCheckMark } from "react-icons/gi";
 
