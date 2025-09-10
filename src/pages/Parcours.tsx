@@ -78,43 +78,35 @@ export default function Parcours() {
 </section>
 
       {/* Vos avantages exclusifs */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 ">
         <div className="container mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-2xl font-bold text-blue mb-6">
               Vos avantages exclusifs :
             </h2>
-            <ul className="space-y-3 text-gray-700">
+            <ul className="space-y-3">
               <li className="flex items-start gap-3">
-                <span className="text-yellow-400 mt-1">
-                  <FaCheck />
-                </span>
+                <i className="fa-solid fa-graduation-cap text-jauneOr "> </i>
                 <span>
                   Une méthodologie claire et rassurante adaptée aux lycéens et
                   étudiants.
                 </span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="text-yellow-400 mt-1">
-                  <FaCheck />
-                </span>
+               <i className="fa-solid fa-graduation-cap text-jauneOr "> </i>
                 <span>
                   Une mise en valeur complète : scolaire + extra-scolaire.
                 </span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="text-yellow-400 mt-1">
-                  <FaCheck />
-                </span>
+                <i className="fa-solid fa-graduation-cap text-jauneOr "> </i>
                 <span>
                   Des conseils personnalisés pour optimiser vos vœux
                   d’établissement.
                 </span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="text-yellow-400 mt-1">
-                  <FaCheck />
-                </span>
+                <i className="fa-solid fa-graduation-cap text-jauneOr "> </i>
                 <span>Des simulations et relectures régulières.</span>
               </li>
             </ul>
