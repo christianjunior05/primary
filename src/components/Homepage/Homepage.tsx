@@ -327,10 +327,29 @@ export default function Homepage() {
 
 
 <div className="max-[730px]:grid    max-[730px]:grid-cols-1 max-[730px]:justify-center  max-[730px]:flex-wrap size-full grid grid-cols-2 gap-5">
-<DivWebinaire/>
-<DivWebinaire/>
-<DivWebinaire/>
-<DivWebinaire/>
+<DivWebinaire
+             color={true}
+              title="WEBINAR"
+             text="Gestion du Stress"
+
+            />
+            <DivWebinaire
+                   color={false}
+              title="BLOG"
+             text="Actualitées orientation"
+            />
+            <DivWebinaire
+                   color={false}
+              title="BLOG"
+             text="Conseils pratique"
+            />
+            <DivWebinaire
+            
+                   color={true}
+              title="WEBINAR"
+             text="Métiers d'avenir"
+
+/>
   </div>
 
   <div className=" flex max-sm:flex-row  max-[730px]:hi flex-col items-center gap-5">
