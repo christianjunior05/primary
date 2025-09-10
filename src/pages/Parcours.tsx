@@ -34,85 +34,48 @@ export default function Parcours() {
       </section>
 
       {/* Ce que comprend l'accompagnement */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-          <img
-            src="/7.jpg"
-            alt="Accompagnement"
-            className="w-full h-auto rounded-lg object-cover"
-          />
-          <div>
-            <h2 className="text-2xl font-bold text-blue mb-6">
-              Ce que comprend l'accompagnement :
-            </h2>
-            <ul className="space-y-5 text-gray-700">
-              <li className="flex items-start gap-3">
-                <span className="text-yellow-400 mt-1">
-                  <FaCheck />
-                </span>
-                <div>
-                  <p className="font-semibold">Un point de départ solide</p>
-                  <p className="text-sm">
-                    Entretien approfondi pour comprendre votre parcours
-                    scolaire, centres d’intérêt et activités extrascolaires.
-                  </p>
-                </div>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-yellow-400 mt-1">
-                  <FaCheck />
-                </span>
-                <div>
-                  <p className="font-semibold">
-                    Des choix d’établissements personnalisés
-                  </p>
-                  <p className="text-sm">
-                    Recommandations adaptées à votre profil pour des vœux
-                    cohérents, accessibles et motivants.
-                  </p>
-                </div>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-yellow-400 mt-1">
-                  <FaCheck />
-                </span>
-                <div>
-                  <p className="font-semibold">
-                    Des lettres de motivation impactantes
-                  </p>
-                  <p className="text-sm">
-                    Aide à la rédaction et à l’optimisation des lettres pour
-                    valoriser votre parcours et vos qualités.
-                  </p>
-                </div>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-yellow-400 mt-1">
-                  <FaCheck />
-                </span>
-                <div>
-                  <p className="font-semibold">Un suivi pas à pas</p>
-                  <p className="text-sm">
-                    Séances programmées et relectures personnalisées pour
-                    sécuriser chaque étape.
-                  </p>
-                </div>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-yellow-400 mt-1">
-                  <FaCheck />
-                </span>
-                <div>
-                  <p className="font-semibold">Un contrôle final</p>
-                  <p className="text-sm">
-                    Vérification de l’ensemble du dossier avant validation.
-                  </p>
-                </div>
-              </li>
-            </ul>
+      {/* Ce que comprend l'accompagnement */}
+    <section>
+<div className="flex justify-center items-center gap-10 ">
+
+ <div className=" size-96 rounded-lg">
+  <img src="/parcours.jpg" alt="" className="size-full rounded-lg object-cover" />
+ </div>
+
+      <div className="w-7/12  space-y-4 my-20">
+        <h1 className="text-3xl font-dmserif text-blue"> <span className="text-jauneOr">Ce que comprend</span>  l’accompagnement :</h1>
+     
+          <div className="space-y-1 w-11/12">
+         <div className="font-dmserif text-blue" ><i className="fa-solid fa-graduation-cap text-jauneOr "> </i> <span>Un point de départ solide</span> </div>
+          <p >Entretien approfondi pour comprendre votre parcours scolaire, vos centres d’intérêt, vos  motivations et vos activités extrascolaires (sport, engagement associatif, bénévolat, stages, passions…). Tout ce qui peut valoriser votre dossier est pris en compte.</p>
           </div>
-        </div>
-      </section>
+
+          <div className="space-y-1  w-11/12">
+         <div className="font-dmserif text-blue" ><i className="fa-solid fa-graduation-cap text-jauneOr "> </i> <span>Des choix d’établissements personnalisés</span> </div>
+          <p>Recommandations précises et adaptées à votre profil et à votre projet, afin de cibler des formations cohérentes, accessibles et motivantes.</p>
+          </div>
+
+             <div className="space-y-1">
+         <div className="font-dmserif text-blue" ><i className="fa-solid fa-graduation-cap text-jauneOr "> </i> <span>Des lettres de motivation impactantes</span> </div>
+          <p>Aide à la rédaction et à l’optimisation des lettres de motivation, en mettant en valeur aussi bien vos résultats scolaires que vos expériences et qualités développées hors de l’école.</p>
+          </div>
+
+          
+             <div className="space-y-1">
+         <div className="font-dmserif text-blue" ><i className="fa-solid fa-graduation-cap text-jauneOr "> </i> <span>Un suivi pas à pas</span> </div>
+          <p>Séances programmées et relectures personnalisées pour sécuriser chaque étape du <br /> calendrier Parcoursup®.</p>
+          </div>  
+          
+           <div className="space-y-1">
+         <div className="font-dmserif text-blue" ><i className="fa-solid fa-graduation-cap text-jauneOr "> </i> <span>Un contrôle final</span> </div>
+          <p>Vérification de l’ensemble du dossier avant la validation, pour éviter les erreurs et s’assurer que chaque élément reflète au mieux votre potentiel.</p>
+          </div>
+         
+    
+      </div>
+</div>
+
+</section>
 
       {/* Vos avantages exclusifs */}
       <section className="py-16 bg-gray-50">
@@ -168,7 +131,7 @@ export default function Parcours() {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <img
-            src="/IMG4.png"
+            src="/parcours3.jpg"
             alt="Pourquoi accompagnement"
             className="w-full h-auto rounded-lg object-cover"
           />

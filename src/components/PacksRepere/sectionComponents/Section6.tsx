@@ -1,10 +1,9 @@
-import Title from "../../Homepage/miniComponents/Title";
 import Button from "../../Homepage/miniComponents/Button";
 
 type Typage={
   image:string,
-  text1:string,
-  text2:string,
+  text1?:string,
+  text2?:string,
   icon:boolean,
   paragraphe1?:string,
   paragraphe2?:string,
@@ -12,8 +11,6 @@ type Typage={
   textbutton2?:string,
 }
 const Section6= ({ image,
-  text1,
-  text2,
   icon,
   paragraphe1,
   paragraphe2,
@@ -26,8 +23,9 @@ const Section6= ({ image,
   <div className=" size-96  rounded-xl">
     <img src={`/${image}`} alt="image" className="size-full object-cover rounded-xl "/>
   </div>
-  <div className="  w-6/12  space-y-5 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center flex flex-col ">
-<Title text1={text1} text2={text2} />
+  <div className="  w-5/12  space-y-5 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center flex flex-col ">
+    <h2 className="text-blue font-lato font-dmserif  text-4xl max-md:text-center  "> Besoin de personnalisé <br /> <span className="text-jauneOr">votre accompagnement ?</span>   </h2>
+       
 {paragraphe1 && <p className="   " > {paragraphe1} </p> }
 {paragraphe2 && <p className="  " > {paragraphe2} </p> }
 <div className="space-x-6 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:space-x-0 max-sm:space-y-6 ">
