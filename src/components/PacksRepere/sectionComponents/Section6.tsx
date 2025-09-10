@@ -21,12 +21,12 @@ const Section6= ({ image,
   textbutton2
 }:Typage)=> {
     return ( 
-    <div className="  ml-16   flex items-center justify-center gap-5  max-sm:space-x-0 my-20 ">
+    <div className="  ml-16   flex items-center justify-center gap-20  max-sm:space-x-0 my-20 ">
 
   <div className=" size-96  rounded-xl">
     <img src={`/${image}`} alt="image" className="size-full object-cover rounded-xl "/>
   </div>
-  <div className="  w-8/12  space-y-5 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center flex flex-col ">
+  <div className="  w-6/12  space-y-5 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center flex flex-col ">
 <Title text1={text1} text2={text2} />
 {paragraphe1 && <p className="   " > {paragraphe1} </p> }
 {paragraphe2 && <p className="  " > {paragraphe2} </p> }

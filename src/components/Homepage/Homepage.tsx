@@ -149,7 +149,7 @@ export default function Homepage() {
 
   {/* Texte */}
   <div className="w-full md:w-7/12  space-y-4 md:space-y-6">
-    <Title text1="Pack Personnalisé" text2="(100% SUR Mesure)" />
+    <Title text1="Pack Personnalisé" text2="(100% sur mesure)" />
     <p className="text-base md:text-lg leading-relaxed text-gray-800 ">
       Chaque enfant est unique, avec ses forces, ses aspirations et parfois des besoins particuliers.
     </p>
