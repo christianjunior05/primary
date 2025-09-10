@@ -1,10 +1,11 @@
-import { FaCheck, FaStar, FaArrowRight } from "react-icons/fa";
+import {  FaStar, FaArrowRight } from "react-icons/fa";
+import { GiCheckMark } from "react-icons/gi";
 
 export default function Parcours() {
   return (
     <div className="min-h-screen">
       {/* Hero */}
-      <section
+      <header
         className="relative w-full h-[480px] bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: "url('/Hero2.jpg')" }}
       >
@@ -31,7 +32,7 @@ export default function Parcours() {
             personnalisé pour sécuriser chaque étape.
           </div>
         </div>
-      </section>
+      </header>
 
       {/* Ce que comprend l'accompagnement */}
       {/* Ce que comprend l'accompagnement */}
@@ -163,7 +164,7 @@ export default function Parcours() {
       </section>
 
       {/* Pourquoi un accompagnement ? */}
-      <section className="">
+      <section className="my-20 ">
         <div className="flex my-10 justify-center items-center gap-20 ">
          
          <div className="size-96">
@@ -220,100 +221,125 @@ Mettre en avant le dossier scolaire mais aussi l’extra-scolaire (sport, engage
 
       {/* Préparation aux entretiens de motivation */}
       <section className="">
-        <div className="">
-          <div>
-            <h2 className="text-3xl font-dmserif">
+        <div className=" flex gap-20 justify-center items-center">
+          <div className=" space-y-5 w-6/12">
+            <h2 className="text-3xl font-dmserif text-blue">
               Préparation <span className="text-jauneOr">aux entretiens de motivation</span> 
             </h2>
-            <p className="">
+            <p className=" w-11/12">
               De nombreuses formations sélectives demandent un entretien de
               motivation. Nous vous préparons avec une méthode éprouvée pour
               convaincre les jurys, en faisant ressortir votre profil.
             </p>
+            <p>Avec Prometheor, vous vous entraînez dans des conditions réelles pour arriver confiant et convaincant le jour J.</p>
+            <p>Les objectifs de la préparation :</p>
             <ul className="space-y-3 text-gray-700">
-              <li className="flex items-start gap-3">
-                <span className="text-yellow-400 mt-1">
-                  <FaCheck />
-                </span>
-                <span>
-                  Comprendre les attentes d’un jury et ce qui compte vraiment.
-                </span>
+           <li className="flex items-start space-x-2">
+  <GiCheckMark className="text-jauneOr mt-1" />
+  <p>
+    <span className="font-medium">Comprendre les attentes d’un jury</span> : ce qui compte vraiment dans leurs critères d’évaluation.
+  </p>
+</li>
+
+
+
+              <li className="space-x-2 flex  ">
+             
+                 <GiCheckMark className="  text-jauneOr mt-1   "/>
+              
+                <p className="" > Savoir se mettre en avant : présenter son parcours, ses
+                  engagements, passions et projets.</p>
+               
+             
               </li>
-              <li className="flex items-start gap-3">
-                <span className="text-yellow-400 mt-1">
-                  <FaCheck />
-                </span>
-                <span>
-                  Savoir se mettre en avant : présenter son parcours, ses
-                  engagements, passions et projets.
-                </span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-yellow-400 mt-1">
-                  <FaCheck />
-                </span>
-                <span>
+              <li className=" space-x-2  flex">
+               
+                 <GiCheckMark className="  text-jauneOr mt-1   "/>
+          
+               
+                <p className="">
                   Apporter des arguments clairs et pertinents : relier son
                   profil à son projet.
-                </span>
+                </p>
               </li>
-              <li className="flex items-start gap-3">
-                <span className="text-yellow-400 mt-1">
-                  <FaCheck />
-                </span>
-                <span>
+              <li className=" space-x-2 flex ">
+                 <GiCheckMark className="  text-jauneOr mt-1   "/>
+               
+                <p className="">
                   Se démarquer des autres candidats avec un discours authentique
                   et impactant.
-                </span>
+                </p>
               </li>
             </ul>
+
+
+
           </div>
-          <img
+
+          <div className="size-96">
+           <img
             src="Image14.jpg"
             alt="Préparation entretien"
             className="w-full h-auto rounded-lg object-cover"
           />
+          </div>
+        
         </div>
       </section>
 
       {/* Pack Préparation */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div className="bg-gray-50 p-6 rounded-xl shadow-sm">
-            <h3 className="text-xl font-semibold text-blue mb-4">
-              Pack Préparation (450 €)
+      <section className=" my-20">
+        <div className=" flex items-center justify-center gap-20 ">
+          <div className=" rounded-xl w-6/12 space-y-4  ">
+            <h3 className="text-3xl font-dmserif text-jauneOr ">
+              Pack Préparation <span className="font-dmserif text-blue">(450 €)</span> 
             </h3>
-            <p className="font-semibold mb-3">Les étapes de l'accompagnement</p>
-            <ol className="space-y-4 text-gray-700 list-decimal list-inside">
-              <li>
-                <p className="font-medium">Séance préparation</p>
-                <p className="text-sm">
-                  Découverte de votre profil et travail sur les attentes d’un
-                  jury : critères, pièges à éviter, points forts à mettre en
-                  valeur.
-                </p>
-              </li>
-              <li>
-                <p className="font-medium">Séance entraînement</p>
-                <p className="text-sm">
-                  Mise en situation avec questions types et spécifiques. Debrief
-                  détaillé.
-                </p>
-              </li>
-              <li>
-                <p className="font-medium">Séance répétition</p>
-                <p className="text-sm">
-                  Deuxième entretien blanc pour renforcer vos réponses et votre
-                  confiance.
-                </p>
-              </li>
-            </ol>
+            <p className="font-dmserif text-blue">Les étapes de l'accompagnement</p>
+           
+           
+             <div className="space-y-1 ">
+              <div className="font-dmserif text-blue space-x-4">
+                <i className="fa-solid fa-graduation-cap text-jauneOr "> </i>
+                <span>1. Séance préparation</span>
+              </div>
+              <p>
+             Découverte de votre profil et travail sur les attentes d’un jury : critères, pièges à éviter, premières pistes de mise en valeur.
+              </p>
+            </div>
+
+            <div className="space-y-1 ">
+              <div className="font-dmserif text-blue space-x-4">
+                <i className="fa-solid fa-graduation-cap text-jauneOr "> </i>
+                <span>2. Séance entraînement</span>
+              </div>
+              <p>
+                 Mise en situation avec questions types et spécifiques. <br /> Entretien blanc suivi d’un retour détaillé sur vos points forts et vos axes d’amélioration.
+              </p>
+            </div>
+
+
+                 <div className="space-y-1 ">
+              <div className="font-dmserif text-blue space-x-4">
+                <i className="fa-solid fa-graduation-cap text-jauneOr "> </i>
+                <span>3. Séance répétition</span>
+              </div>
+              <p>
+            Deuxième entretien blanc pour corriger vos erreurs, affiner vos réponses et renforcer votre confiance.
+              </p>
+            </div>
+
           </div>
-          <img
-            src="/IMG2.png"
+
+          <div className="size-96">
+
+                <img
+            src="/parcourSupPreparation.png"
             alt="Pack préparation"
-            className="w-full h-auto rounded-lg object-cover"
+            className="size-full  border object-cover"
           />
+
+          </div>
+      
         </div>
       </section>
 
