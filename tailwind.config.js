@@ -11,7 +11,8 @@ export default {
         jauneOr:"#E6BF58",
         blanc:"#FFFFFF",
         rose:"#E6BF58",
-        gris:"#9D9D9D"
+        gris:"#9D9D9D",
+        orange:"#E67E22"
         
        },
        fontFamily:{
@@ -35,6 +36,7 @@ export default {
                 trajectoireHeader:"url('/trajectoire.jpg')",               
                 trajectoireSection3:"url('/trajectoireSection3.png')",
                 trajectoireSection5:"url('/trajectoireSection5.png')",
+                resultats:"url('/resultats.png')",
                 
    
 

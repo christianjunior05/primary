@@ -17,7 +17,9 @@ const DivTemoignage = ({
   className,
 }: Typage) => {
   return (
-    <div className={`${className} rounded-xl border`}>
+
+    <>
+ <div className={`${className} rounded-xl border`}>
       {/* Commentaire */}
       <p className="text-sm max-md:text-base max-sm:text-sm ">{commentaire}</p>
 
@@ -47,6 +49,14 @@ const DivTemoignage = ({
         </div>
       </div>
     </div>
+
+
+
+   
+    </>
+   
+
+    
   );
 };
 

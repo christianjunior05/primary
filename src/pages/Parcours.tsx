@@ -1,5 +1,7 @@
-import {  FaStar, FaArrowRight } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa";
+import { FiArrowLeft, FiArrowRight } from "react-icons/fi";
 import { GiCheckMark } from "react-icons/gi";
+
 
 export default function Parcours() {
   return (
@@ -20,7 +22,7 @@ export default function Parcours() {
           <div className="text-white font-['DM_Serif_Display'] text-[25px] leading-[100%] mb-4">
             Votre allié pour
             <span className="text-yellow-400">
-              
+
               traverser Parcoursup® en confiance
             </span>
             .
@@ -34,7 +36,7 @@ export default function Parcours() {
         </div>
       </header>
 
-      {/* Ce que comprend l'accompagnement */}
+
       {/* Ce que comprend l'accompagnement */}
       <section>
         <div className="flex justify-center items-center gap-10 my-20 ">
@@ -46,9 +48,9 @@ export default function Parcours() {
             />
           </div>
 
-          <div className="w-7/12  space-y-4  ">
+          <div className="w-6/12  space-y-4  ">
             <h1 className="text-3xl font-dmserif text-blue">
-              
+
               <span className="text-jauneOr">Ce que comprend</span>  l’accompagnement :
             </h1>
 
@@ -119,7 +121,7 @@ export default function Parcours() {
 
       {/* Vos avantages exclusifs */}
       <section className=" ">
-        <div className="flex my-20   items-center gap-32 justify-center">
+        <div className="flex   items-center gap-40 justify-center">
           <div className="space-y-6 w-5/12 ">
             <h2 className="text-3xl  text-blue font-dmserif ">
               Vos avantages exclusifs :
@@ -137,83 +139,83 @@ export default function Parcours() {
               </li>
               <li className="flex items-start gap-3">
                 <i className="fa-solid fa-graduation-cap text-jauneOr "> </i>
-               
-               <p>   Des <span className="font-medium">conseils personnalisés </span>  pour optimiser vos vœux
+
+                <p>   Des <span className="font-medium">conseils personnalisés </span>  pour optimiser vos vœux
                   d’établissement  en cohérence avec vos ambitions..</p>
-                
+
               </li>
               <li className="flex items-start gap-3">
                 <i className="fa-solid fa-graduation-cap text-jauneOr "> </i>
                 <p>L’accompagnement d’<span className="font-medium">un coach expert</span>  en orientation scolaire et Parcoursup®.</p>
-                
-         
+
+
               </li>
             </ul>
             <p>  <span className="text-jauneOr" >Résultat : </span>  un dossier solide, authentique et valorisant, qui vous permet de vous démarquer et d’aborder Parcoursup® avec confiance.
-</p>
+            </p>
           </div>
           <div className="size-96">
-  <img
-            src="/7.jpg"
-            alt="Avantages exclusifs"
-            className="size-full rounded-lg object-cover"
-          />
+            <img
+              src="/7.jpg"
+              alt="Avantages exclusifs"
+              className="size-full rounded-lg object-cover"
+            />
           </div>
-        
+
         </div>
       </section>
 
       {/* Pourquoi un accompagnement ? */}
-      <section className="my-20 ">
-        <div className="flex my-10 justify-center items-center gap-20 ">
-         
-         <div className="size-96">
-         <img
-            src="/parcours3.jpg"
-            alt="Pourquoi accompagnement"
-            className="w-full h-auto rounded-lg object-cover"
-          />
-         </div>
+      <section className=" ">
+        <div className=" my-20 flex  justify-center items-center gap-20 ">
 
-     
+          <div className="size-96">
+            <img
+              src="/parcours3.jpg"
+              alt="Pourquoi accompagnement"
+              className="w-full h-auto rounded-lg object-cover"
+            />
+          </div>
+
+
           <div className=" space-y-5 " >
             <h2 className="text-3xl font-dmserif text-blue ">
-              Pourquoi <span className="text-jauneOr">un accompagnement ?</span> 
+              Pourquoi <span className="text-jauneOr">un accompagnement ?</span>
             </h2>
 
-         <div className="space-y-2 ">
+            <div className="space-y-2 ">
               <div className="font-dmserif text-blue space-x-2">
                 <i className="fa-solid fa-graduation-cap text-jauneOr "> </i>
                 <span>Décoder les attentes</span>
               </div>
               <p>
-             Comprendre ce que recherchent réellement les établissements au-delà des notes.
+                Comprendre ce que recherchent réellement les établissements au-delà des notes.
               </p>
-          </div>
+            </div>
 
-          <div className="space-y-2 ">
+            <div className="space-y-2 ">
               <div className="font-dmserif text-blue space-x-2">
                 <i className="fa-solid fa-graduation-cap text-jauneOr "> </i>
                 <span>Valoriser tout le parcours</span>
               </div>
               <p>
-Mettre en avant le dossier scolaire mais aussi l’extra-scolaire (sport, engagement, stages, passions).
+                Mettre en avant le dossier scolaire mais aussi l’extra-scolaire (sport, engagement, stages, passions).
               </p>
-          </div>
+            </div>
 
-         <div className="space-y-2 ">
+            <div className="space-y-2 ">
               <div className="font-dmserif text-blue space-x-2">
                 <i className="fa-solid fa-graduation-cap text-jauneOr "> </i>
                 <span>Avancer avec méthode</span>
               </div>
               <p>
-Mettre en avant le dossier scolaire mais aussi l’extra-scolaire (sport, engagement, stages, passions).
+                Mettre en avant le dossier scolaire mais aussi l’extra-scolaire (sport, engagement, stages, passions).
               </p>
-          </div>
+            </div>
 
 
             <p className="text-sm ">
-             <span className="text-jauneOr">Résultat :</span>  un dossier clair, complet et valorisant.
+              <span className="text-jauneOr">Résultat :</span>  un dossier clair, complet et valorisant.
             </p>
           </div>
         </div>
@@ -224,7 +226,7 @@ Mettre en avant le dossier scolaire mais aussi l’extra-scolaire (sport, engage
         <div className=" flex gap-20 justify-center items-center">
           <div className=" space-y-5 w-6/12">
             <h2 className="text-3xl font-dmserif text-blue">
-              Préparation <span className="text-jauneOr">aux entretiens de motivation</span> 
+              Préparation <span className="text-jauneOr">aux entretiens de motivation</span>
             </h2>
             <p className=" w-11/12">
               De nombreuses formations sélectives demandent un entretien de
@@ -234,37 +236,37 @@ Mettre en avant le dossier scolaire mais aussi l’extra-scolaire (sport, engage
             <p>Avec Prometheor, vous vous entraînez dans des conditions réelles pour arriver confiant et convaincant le jour J.</p>
             <p>Les objectifs de la préparation :</p>
             <ul className="space-y-3 text-gray-700">
-           <li className="flex items-start space-x-2">
-  <GiCheckMark className="text-jauneOr mt-1" />
-  <p>
-    <span className="font-medium">Comprendre les attentes d’un jury</span> : ce qui compte vraiment dans leurs critères d’évaluation.
-  </p>
-</li>
+              <li className="flex items-start space-x-2">
+                <GiCheckMark className="text-jauneOr mt-1" />
+                <p>
+                  <span className="font-medium">Comprendre les attentes d’un jury</span> : ce qui compte vraiment dans leurs critères d’évaluation.
+                </p>
+              </li>
 
 
 
               <li className="space-x-2 flex  ">
-             
-                 <GiCheckMark className="  text-jauneOr mt-1   "/>
-              
+
+                <GiCheckMark className="  text-jauneOr mt-1   " />
+
                 <p className="" > Savoir se mettre en avant : présenter son parcours, ses
                   engagements, passions et projets.</p>
-               
-             
+
+
               </li>
               <li className=" space-x-2  flex">
-               
-                 <GiCheckMark className="  text-jauneOr mt-1   "/>
-          
-               
+
+                <GiCheckMark className="  text-jauneOr mt-1   " />
+
+
                 <p className="">
                   Apporter des arguments clairs et pertinents : relier son
                   profil à son projet.
                 </p>
               </li>
               <li className=" space-x-2 flex ">
-                 <GiCheckMark className="  text-jauneOr mt-1   "/>
-               
+                <GiCheckMark className="  text-jauneOr mt-1   " />
+
                 <p className="">
                   Se démarquer des autres candidats avec un discours authentique
                   et impactant.
@@ -277,33 +279,34 @@ Mettre en avant le dossier scolaire mais aussi l’extra-scolaire (sport, engage
           </div>
 
           <div className="size-96">
-           <img
-            src="Image14.jpg"
-            alt="Préparation entretien"
-            className="w-full h-auto rounded-lg object-cover"
-          />
+            <img
+              src="Image14.jpg"
+              alt="Préparation entretien"
+              className="w-full h-auto rounded-lg object-cover"
+            />
           </div>
-        
+
         </div>
       </section>
 
       {/* Pack Préparation */}
-      <section className=" my-20">
-        <div className=" flex items-center justify-center gap-20 ">
-          <div className=" rounded-xl w-6/12 space-y-4  ">
+      <section className=" ">
+        <div className="my-24 flex items-center justify-center gap-20 ">
+
+          <div className=" w-6/12 space-y-4 bg-jauneOr/5 rounded-md p-5 ">
             <h3 className="text-3xl font-dmserif text-jauneOr ">
-              Pack Préparation <span className="font-dmserif text-blue">(450 €)</span> 
+              Pack Préparation <span className="font-dmserif text-blue">(450 €)</span>
             </h3>
             <p className="font-dmserif text-blue">Les étapes de l'accompagnement</p>
-           
-           
-             <div className="space-y-1 ">
+
+
+            <div className="space-y-1 ">
               <div className="font-dmserif text-blue space-x-4">
                 <i className="fa-solid fa-graduation-cap text-jauneOr "> </i>
                 <span>1. Séance préparation</span>
               </div>
               <p>
-             Découverte de votre profil et travail sur les attentes d’un jury : critères, pièges à éviter, premières pistes de mise en valeur.
+                Découverte de votre profil et travail sur les attentes d’un jury : critères, pièges à éviter, premières pistes de mise en valeur.
               </p>
             </div>
 
@@ -313,18 +316,18 @@ Mettre en avant le dossier scolaire mais aussi l’extra-scolaire (sport, engage
                 <span>2. Séance entraînement</span>
               </div>
               <p>
-                 Mise en situation avec questions types et spécifiques. <br /> Entretien blanc suivi d’un retour détaillé sur vos points forts et vos axes d’amélioration.
+                Mise en situation avec questions types et spécifiques. <br /> Entretien blanc suivi d’un retour détaillé sur vos points forts et vos axes d’amélioration.
               </p>
             </div>
 
 
-                 <div className="space-y-1 ">
+            <div className="space-y-1 ">
               <div className="font-dmserif text-blue space-x-4">
                 <i className="fa-solid fa-graduation-cap text-jauneOr "> </i>
                 <span>3. Séance répétition</span>
               </div>
               <p>
-            Deuxième entretien blanc pour corriger vos erreurs, affiner vos réponses et renforcer votre confiance.
+                Deuxième entretien blanc pour corriger vos erreurs, affiner vos réponses et renforcer votre confiance.
               </p>
             </div>
 
@@ -332,81 +335,139 @@ Mettre en avant le dossier scolaire mais aussi l’extra-scolaire (sport, engage
 
           <div className="size-96">
 
-                <img
-            src="/parcourSupPreparation.png"
-            alt="Pack préparation"
-            className="size-full  border object-cover"
-          />
+            <img
+              src="/parcourSupPreparation.png"
+              alt="Pack préparation"
+              className="size-full   object-cover "
+            />
 
           </div>
-      
+
         </div>
       </section>
 
       {/* Avis */}
-      <section className="py-16 bg-blue">
-        <div className="container mx-auto px-6">
-          <h2 className="text-white text-center text-2xl font-bold mb-10">
-            Ce qu’ils disent de l’accompagnement
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {[1, 2, 3].map((i) => (
-              <div key={i} className="bg-white rounded-xl p-6 shadow">
-                <div className="flex items-center gap-1 text-yellow-400 mb-3">
-                  {Array.from({ length: 5 }).map((_, idx) => (
-                    <FaStar key={idx} />
-                  ))}
+      <section>
+        <div className=" bg-blue  py-14 my-20 ">
+          <h3 className="text-3xl font-dmserif text-jauneOr mb-14 text-center "> Ce qu'ils disent de l'accompagnement</h3>
+          <div className="flex items-center gap-10  justify-center ">
+            <FiArrowLeft className=" max-sm:hidden border size-10 p-2 shrink-0  rounded-full text-jauneOr border-jauneOr cursor-pointer hover:bg-jauneOr hover:text-white transition-all " />
+
+            <div className="flex gap-10  flex-wrap justify-center items-center ">
+              <div className={` w-72  max-sm:space-y-2  space-y-7 bg-white     p-5    flex flex-col  rounded-xl border`}>
+
+                <p className=" max-md:text-base text-xs">Accompagnement très réussi auprès de mes fils. Sonia est une personne très qualifiée, à l'écoute de chaque élève avec des conseils très pertinents. Elle est également très disponible ! Je recommande vivement.</p>
+
+                <div className="space-y-2">
+
+                  <div className=" flex  text-sm max-md:text-base">
+                    <i className="fa-solid fa-star text-orange"></i>
+                    <i className="fa-solid fa-star text-orange"></i>
+                    <i className="fa-solid fa-star text-orange"></i>
+                    <i className="fa-solid fa-star text-orange"></i>
+                    <i className="fa-solid fa-star text-orange"></i>
+                  </div>
+                  <div>
+                    <span className="block text-xs">Charles</span>
+                    <span className="block text-xs md:text-sm">Élève de terminale</span>
+                  </div>
+
                 </div>
-                <p className="text-gray-700 mb-4">
-                  “Très bonne expérience d'orientation pour notre fils grâce à
-                  l'expertise et à l’écoute. Merci !”
-                </p>
-                <div className="text-sm text-gray-500">Julie – Parent</div>
+
               </div>
-            ))}
+
+              <div className={` w-72  max-sm:space-y-2  space-y-10 bg-white     p-5    flex flex-col  rounded-xl border`}>
+                {/* Commentaire */}
+                <p className=" max-md:text-base text-xs">Un accompagnement et une aide de qualité dans la réorientation et l’utilisation de Parcoursup ainsi qu’un suivi jusqu’au bout. Merci !</p>
+
+                {/* Étoiles */}
+
+
+                {/* Nom et profession */}
+
+
+                <div className="space-y-2">
+
+                  <div className=" flex  text-sm max-md:text-base">
+                    <i className="fa-solid fa-star text-orange"></i>
+                    <i className="fa-solid fa-star text-orange"></i>
+                    <i className="fa-solid fa-star text-orange"></i>
+                    <i className="fa-solid fa-star text-orange"></i>
+                    <i className="fa-solid fa-star text-orange"></i>
+                  </div>
+                  <div>
+                    <span className="block text-xs">Gabrielle</span>
+                    <span className="block text-xs">Élève en réorientation</span>
+                  </div>
+
+                </div>
+
+              </div>
+
+
+              <div className={` w-72  max-sm:space-y-2  space-y-10 bg-white     p-5    flex flex-col  rounded-xl border`}>
+
+                <p className=" max-md:text-base text-xs">Superbe expérience ! J’ai réalisé plusieurs entretiens et tests pour Parcoursup qui m’ont bien aidé pour l’orientation tant pour les spécialités que pour les écoles.</p>
+
+                <div className="space-y-2">
+
+                  <div className=" flex  text-sm max-md:text-base">
+                    <i className="fa-solid fa-star text-orange"></i>
+                    <i className="fa-solid fa-star text-orange"></i>
+                    <i className="fa-solid fa-star text-orange"></i>
+                    <i className="fa-solid fa-star text-orange"></i>
+                    <i className="fa-solid fa-star text-orange"></i>
+                  </div>
+                  <div>
+                    <span className="block text-xs  ">Léa</span>
+                    <span className="block text-xs">Classe de terminale</span>
+                  </div>
+
+                </div>
+
+              </div>
+
+
+
+            </div>
+            <FiArrowRight className=" max-sm:hidden border shrink-0 size-10 p-2 rounded-full text-jauneOr border-jauneOr cursor-pointer hover:bg-jauneOr hover:text-white transition-all " />
+
           </div>
         </div>
       </section>
 
       {/* Résultats */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-          <div className="bg-white/90 rounded-xl p-6 shadow-md">
-            <h3 className="text-xl font-semibold text-blue mb-3">
-              Et les résultats ?
-            </h3>
-            <p className="text-gray-700 mb-3">À l’issue de la préparation :</p>
-            <ul className="space-y-2 text-gray-700">
-              <li className="flex items-start gap-2">
-                <span className="text-yellow-400 mt-1">
-                  <FaArrowRight />
-                </span>
-                <span>Un dossier structuré, clair et convaincant.</span>
+      <section className="">
+        <div className=" h-[500px] bg-resultats bg-no-repeat bg-cover my-10 flex flex-col justify-center pl-24" >
+          <div className=" bg-white/80 text-blue w-5/12 p-6 rounded-md space-y-3">
+            <h4 className="text-3xl font-dmserif text-blue">Et les résultats ?</h4>
+            <p>À l’issue de la préparation : </p>
+            <ul className="space-y-2">
+              <li className=" space-x-2 ">
+                <GiCheckMark className="  text-jauneOr  inline  " />
+
+                <p className="inline">
+                  Un discours structuré, clair et convaincant,
+                </p>
               </li>
-              <li className="flex items-start gap-2">
-                <span className="text-yellow-400 mt-1">
-                  <FaArrowRight />
-                </span>
-                <span>
-                  Des arguments solides qui mettent en valeur votre parcours.
-                </span>
+
+              <li className=" space-x-2 ">
+                <GiCheckMark className="  text-jauneOr  inline " />
+
+                <p className="inline">
+                  Des arguments solides qui mettent en valeur votre parcours,
+                </p>
               </li>
-              <li className="flex items-start gap-2">
-                <span className="text-yellow-400 mt-1">
-                  <FaArrowRight />
-                </span>
-                <span>
-                  L’assurance nécessaire pour réussir votre entretien et obtenir
-                  la meilleure voie possible.
-                </span>
+              
+              <li className=" space-x-2 flex ">
+                <GiCheckMark className="  text-jauneOr text-xl mt-1" />
+
+                <p className="">
+                  L’assurance nécessaire pour réussir votre entretien et obtenir la 
+                  meilleure note possible. </p>
               </li>
             </ul>
           </div>
-          <img
-            src="/IMG4.png"
-            alt="Résultats"
-            className="w-full h-auto rounded-lg object-cover"
-          />
         </div>
       </section>
     </div>
