@@ -5,7 +5,7 @@ import PacksRepere from "./components/PacksRepere/PacksRepere";
 import Exploration from "./components/exploration/Exploration";
 import Trajectoire from "./components/Trajectoire/Trajectoire";
 import NotreEngagement from "./pages/NotreEngagement";
-// import QuiSommeNous from "./pages/QuiSommeNous"
+import QuiSommeNous from "./pages/QuiSommeNous"
 import Concours from "./pages/Concours";
 import Parcours from "./pages/Parcours";
 import Contact from "./pages/Contact";
@@ -25,7 +25,7 @@ export default function App() {
 
         <Route path="/Concours" element={<Concours />} />
         <Route path="/parcours" element={<Parcours />} />
-        {/* <Route path="/QuiSommesNous" element={<QuiSommesNous />} /> */}
+        <Route path="/QuiSommesNous" element={<QuiSommeNous />} />
 
         <Route path="/contact" element={<Contact />} />
       </Routes>

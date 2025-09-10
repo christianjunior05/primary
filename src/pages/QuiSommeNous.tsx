@@ -1,6 +1,7 @@
 import { FaGraduationCap } from "react-icons/fa";
 
 
+// eslint-disable-next-line react-refresh/only-export-components
 export default function () {
   return (
     <div className="min-h-screen">
@@ -8,7 +9,7 @@ export default function () {
       {/* Hero Section - Transformé en Tailwind CSS */}
       <section
         className="relative w-full h-[480px] bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('/Hero1.jpg')" }}
+        style={{ backgroundImage: "url('/Hero5.jpg')" }}
       >
         {/* Overlay - rgba(12, 11, 11, 0.38) */}
         <div className="absolute inset-0" style={{ background: "rgba(12, 11, 11, 0.38)" }}></div>
@@ -75,7 +76,7 @@ export default function () {
             </div>
             <div className="h-96 rounded-lg flex items-center justify-center">
               <img
-                src="/45c4858ae07bf0aab2c507ef6cc8ec257a259ef3.jpg"
+                src="/qsm-2.png"
                 alt="Équipe de conseillers"
                 className="object-cover w-3/4 h-full rounded-lg"
               />
@@ -90,7 +91,7 @@ export default function () {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="h-96 rounded-lg flex items-center justify-center">
               <img
-                src="/6f68e071cea952a95001bca9545ebdce79eb537d.jpg"
+                src="/qsm-5.jpg"
                 alt="Vision complète de l'accompagnement"
                 className="object-cover w-3/4 h-full rounded-lg"
               />
@@ -155,7 +156,7 @@ export default function () {
             </div>
             <div className="h-96 rounded-lg flex items-center justify-center">
               <img
-                src="/85b777e62dcfdbbb49faf0a2366fce480e7ab670.jpg"
+                src="/qsm-3.png"
                 alt="Vécu scolaire du jeune"
                 className="object-cover w-3/4 h-full rounded-lg"
               />
