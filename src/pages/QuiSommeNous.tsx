@@ -7,7 +7,7 @@ export default function () {
     <div className="min-h-screen">
       
       {/* Hero Section - Transformé en Tailwind CSS */}
-      <section
+      <header
         className="relative w-full h-[480px] bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: "url('/Hero5.jpg')" }}
       >
@@ -15,19 +15,19 @@ export default function () {
         <div className="absolute inset-0" style={{ background: "rgba(12, 11, 11, 0.38)" }}></div>
         
         {/* Hero Content */}
-        <div className="absolute flex flex-col items-start gap-3 left-[65px] top-1/2 transform -translate-y-1/2 w-[1184px] h-[247px]">
+        <div className="absolute flex flex-col items-start space-y-4 left-[65px] top-1/2 transform -translate-y-1/2 ">
           {/* Hero Badge - Label qualité OPRA */}
-          <div className="w-[1184px] h-[50px] text-white font-['DM_Serif_Display'] font-normal text-[40px] leading-[52px] order-0 flex-none">
-            Qui sommes nous ?
-          </div>
+          <h1 className=" w-[1184px] h-[50px]  text-white font-['DM_Serif_Display']  text-4xl   ">
+            Qui <span className="text-jauneOr">sommes nous ?</span>
+          </h1>
 
           {/* Hero Description */}
-          <div className="w-[1184px] h-[90px] text-white font-['DM_Serif_Display'] font-normal text-[20px] leading-[30px] order-2 self-stretch flex-none mt-2">
-          Chez Prometheor, nous croyons que chacun mérite d’être accompagné avec exigence et bienveillance pour révéler son potentiel. <br />
-          Notre mission : préparer les jeunes aux grands défis scolaires et aux exigences du monde professionnel, grâce à un accompagnement sur mesure, animé par des experts passionnés.
-          </div>
+          <p className="w-[1184px]   text-white font-montserrat font-normal text-xl   ">
+          Chez Prometheor, nous croyons que chacun mérite d’être accompagné avec exigence et <br />  bienveillance pour révéler son potentiel. <br />
+          </p>
+          <p className="w-[1184px] font-montserrat text-white  font-normal text-xl leading-[30px]  "> Notre mission : préparer les jeunes aux grands défis scolaires et aux exigences du monde professionnel, grâce à un accompagnement sur mesure, animé par des experts passionnés.</p>
         </div>
-      </section>
+      </header>
 
       {/* Section 1: Donner à chaque jeune les moyens */}
       <section className="py-16 bg-white">
@@ -41,16 +41,14 @@ export default function () {
               />
             </div>
             <div>
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">
-                Donner à chaque jeune les moyens de construire son avenir avec confiance
+              <h2 className="text-3xl text-blue font-dmserif mb-6">
+                Donner <span className="text-jauneOr" >à chaque jeune</span>  les moyens de construire <span className="text-jauneOr">son avenir avec confiance</span> 
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                Fondée par Sonia Dridi, Prometheor est née d'une ambition simple mais essentielle : 
-                permettre à chaque jeune de trouver sa voie en toute sérénité.
+                Je suis Sonia Dridi, conseillère d'orientation scolaire indépendante et fondatrice de  Prometheor. <br /> Après 14 ans à accompagner des jeunes et leurs familles dans leurs choix d’orientation, j’ai constaté à quel point les parcours scolaires peuvent être vécus comme un labyrinthe : pression, doutes, méconnaissance des filières, injonctions contradictoires…
               </p>
               <p className="text-gray-600">
-                Notre mission est de transformer l'orientation scolaire en un moment d'opportunité 
-                plutôt qu'une source d'inquiétude, en offrant un accompagnement personnalisé et expert.
+              J’ai fondé Prometheor avec une équipe de personnes passionnées et profondément investies sur les sujets de l’orientation, de la réussite scolaire et de l’accompagnement des jeunes.Nous partageons une même ambition : offrir un accompagnement structuré, humain et éclairant, à chaque étape du parcours scolaire, du collège jusqu’aux études supérieures.
               </p>
             </div>
           </div>
