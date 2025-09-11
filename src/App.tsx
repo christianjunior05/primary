@@ -9,6 +9,7 @@ import QuiSommeNous from "./pages/QuiSommeNous"
 import Concours from "./pages/Concours";
 import Parcours from "./pages/Parcours";
 import Contact from "./pages/Contact";
+import Conseillers from "./pages/Conseillers";
 import { Routes, Route } from "react-router-dom";
 
 export default function App() {
@@ -28,6 +29,7 @@ export default function App() {
         <Route path="/QuiSommesNous" element={<QuiSommeNous />} />
 
         <Route path="/contact" element={<Contact />} />
+        <Route path="/conseillers" element={<Conseillers />} />
       </Routes>
 
       <Footer />

@@ -53,7 +53,9 @@ export default function Navbar() {
               </li>
             </ul>
           </li>
-          <li className="hover:text-jauneOr transition-all">Nos conseillers</li>
+          <li className="hover:text-jauneOr transition-all">
+            <Link to="/conseillers">   Nos conseillers</Link>
+         </li>
           <li className="hover:text-jauneOr transition-all">
             <Link to="/QuiSommesNous">Qui sommes-nous</Link>
             </li>
