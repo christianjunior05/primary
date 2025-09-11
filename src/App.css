@@ -1,13 +1,13 @@
-.ChildMenu{
-visibility:hidden;
+.menu{
+display: none;
 
 
 }
 
 
 
-.menu:hover .ChildMenu{
-    visibility: visible;
+.menu.active{
+    display: block;
    
 }
 

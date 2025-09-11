@@ -44,8 +44,8 @@ export default function Conseillers() {
         </header>
 
         {/* Section: Des conseillères qualifiées et expertes */}
-
-        <div className="flex justify-center items-center gap-20 my-20">
+      <section>
+      <div className="flex justify-center items-center gap-20 my-20">
           <div className="w-full">
             <h1 className="text-4xl text-center font-dmserif  mb-4 text-blue ">
               Trouver un conseiller <br />
@@ -57,10 +57,10 @@ export default function Conseillers() {
 
           <div className="grid grid-cols-3 gap-24 px-36">
 
-      <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
+      <div className="text-lg   rounded-lg   h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className=" ">
           <img
-            src="/c1.PNG"
+            src="/c1.png"
             alt=""
             className=" rounded-t-xl size-full object-center object-cover "
           />
@@ -94,7 +94,7 @@ export default function Conseillers() {
         </div>
       </div>
 
-      <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
+      <div className="text-lg   rounded-lg   h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className=" h-56 ">
           <img
             src="/c2.JPEG"
@@ -132,7 +132,7 @@ export default function Conseillers() {
       </div>
 
 
-      <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
+      <div className="text-lg   rounded-lg   h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className="h-56 ">
           <img
             src="/c3.jpg"
@@ -169,7 +169,7 @@ export default function Conseillers() {
         </div>
       </div>
 
-      <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
+      <div className="text-lg   rounded-lg   h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className="h-56 ">
           <img
             src="/c4.png"
@@ -208,7 +208,7 @@ export default function Conseillers() {
 
 
 
-       <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
+       <div className="text-lg   rounded-lg   h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className="h-56 ">
           <img
             src="/c5.PNG"
@@ -246,7 +246,7 @@ export default function Conseillers() {
       </div>
 
 
-      <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
+      <div className="text-lg   rounded-lg   h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className="h-56 ">
           <img
             src="/c6.JPG"
@@ -284,7 +284,7 @@ export default function Conseillers() {
       </div>
 
 
-        <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
+        <div className="text-lg   rounded-lg   h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className="h-56 ">
           <img
             src="/c7.jpg"
@@ -323,7 +323,7 @@ export default function Conseillers() {
 
 
 
-        <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
+        <div className="text-lg   rounded-lg   h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className="h-56 ">
           <img
             src="/c8.PNG"
@@ -364,7 +364,7 @@ export default function Conseillers() {
 
 
 
-        <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
+        <div className="text-lg   rounded-lg   h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className="h-56 ">
           <img
             src="/c9.PNG"
@@ -402,7 +402,7 @@ export default function Conseillers() {
       </div>
 
 
-        <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
+        <div className="text-lg   rounded-lg   h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className="h-56 ">
           <img
             src="/c10.jpg"
@@ -442,7 +442,7 @@ export default function Conseillers() {
 
 
 
-        <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
+        <div className="text-lg   rounded-lg   h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className="h-56 ">
           <img
             src="/c11.png"
@@ -481,7 +481,7 @@ export default function Conseillers() {
 
         
 
-      <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
+      <div className="text-lg   rounded-lg   h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className="h-56 ">
           <img
             src="/c12.jpg"
@@ -521,7 +521,7 @@ export default function Conseillers() {
 
 
 
-        <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
+        <div className="text-lg   rounded-lg   h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className="h-56 ">
           <img
             src="/c13.jpeg"
@@ -562,7 +562,7 @@ export default function Conseillers() {
 
 
 
-        <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
+        <div className="text-lg   rounded-lg   h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className="h-56 ">
           <img
             src="/c14.png"
@@ -601,7 +601,7 @@ export default function Conseillers() {
 
 
 
-        <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
+        <div className="text-lg   rounded-lg   h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className="h-56 ">
           <img
             src="/c15.JPG"
@@ -640,7 +640,7 @@ export default function Conseillers() {
 
 
 
-        <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
+        <div className="text-lg   rounded-lg   h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className="h-56 ">
           <img
             src="/c16.jpg"
@@ -682,7 +682,7 @@ export default function Conseillers() {
 
 
 
-        <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
+        <div className="text-lg   rounded-lg   h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className="h-56 ">
           <img
             src="/c17.png"
@@ -726,7 +726,7 @@ export default function Conseillers() {
 
 
 
-        <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
+        <div className="text-lg   rounded-lg   h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className="h-56 ">
           <img
             src="/c18.jpg"
@@ -769,6 +769,9 @@ export default function Conseillers() {
           </div>
           </div>
         </div>
+
+      </section>
+        
 
     
 
