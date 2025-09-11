@@ -1,7 +1,7 @@
 import { HiArrowRight } from "react-icons/hi2";
 import Button from "../components/Homepage/miniComponents/Button";
 import { FiArrowLeft, FiArrowRight, FiPhone } from "react-icons/fi";
-import { IoIosArrowDown } from "react-icons/io";
+
 import { MdOutlineEmail, MdOutlineLocationOn } from "react-icons/md";
 export default function Conseillers() {
   return (
@@ -249,7 +249,7 @@ export default function Conseillers() {
       <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className="h-56 ">
           <img
-            src="/c5.PNG"
+            src="/c6.JPG"
             alt=""
             className=" rounded-t-xl size-full object-center  object-cover "
           />
@@ -287,7 +287,7 @@ export default function Conseillers() {
         <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className="h-56 ">
           <img
-            src="/c5.PNG"
+            src="/c7.jpg"
             alt=""
             className=" rounded-t-xl size-full object-center  object-cover "
           />
@@ -326,9 +326,9 @@ export default function Conseillers() {
         <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className="h-56 ">
           <img
-            src="/c5.PNG"
+            src="/c8.PNG"
             alt=""
-            className=" rounded-t-xl size-full object-center  object-cover "
+            className=" rounded-t-xl size-full   object-cover "
           />
         </div>
 
@@ -367,7 +367,7 @@ export default function Conseillers() {
         <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className="h-56 ">
           <img
-            src="/c5.PNG"
+            src="/c9.PNG"
             alt=""
             className=" rounded-t-xl size-full object-center  object-cover "
           />
@@ -405,7 +405,7 @@ export default function Conseillers() {
         <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className="h-56 ">
           <img
-            src="/c5.PNG"
+            src="/c10.jpg"
             alt=""
             className=" rounded-t-xl size-full object-center  object-cover "
           />
@@ -445,7 +445,7 @@ export default function Conseillers() {
         <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className="h-56 ">
           <img
-            src="/c5.PNG"
+            src="/c11.png"
             alt=""
             className=" rounded-t-xl size-full object-center  object-cover "
           />
@@ -481,10 +481,10 @@ export default function Conseillers() {
 
         
 
-          <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
+      <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className="h-56 ">
           <img
-            src="/c5.PNG"
+            src="/c12.jpg"
             alt=""
             className=" rounded-t-xl size-full object-center  object-cover "
           />
@@ -524,9 +524,9 @@ export default function Conseillers() {
         <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className="h-56 ">
           <img
-            src="/c5.PNG"
+            src="/c13.jpeg"
             alt=""
-            className=" rounded-t-xl size-full object-center  object-cover "
+            className=" rounded-t-xl size-full object-top  object-cover "
           />
         </div>
 
@@ -565,7 +565,7 @@ export default function Conseillers() {
         <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className="h-56 ">
           <img
-            src="/c5.PNG"
+            src="/c14.png"
             alt=""
             className=" rounded-t-xl size-full object-center  object-cover "
           />
@@ -604,7 +604,7 @@ export default function Conseillers() {
         <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className="h-56 ">
           <img
-            src="/c5.PNG"
+            src="/c15.JPG"
             alt=""
             className=" rounded-t-xl size-full object-center  object-cover "
           />
@@ -643,7 +643,7 @@ export default function Conseillers() {
         <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className="h-56 ">
           <img
-            src="/c5.PNG"
+            src="/c16.jpg"
             alt=""
             className=" rounded-t-xl size-full object-center  object-cover "
           />
@@ -685,7 +685,7 @@ export default function Conseillers() {
         <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className="h-56 ">
           <img
-            src="/c5.PNG"
+            src="/c17.png"
             alt=""
             className=" rounded-t-xl size-full object-center  object-cover "
           />
@@ -729,7 +729,7 @@ export default function Conseillers() {
         <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className="h-56 ">
           <img
-            src="/c5.PNG"
+            src="/c18.jpg"
             alt=""
             className=" rounded-t-xl size-full object-center  object-cover "
           />
