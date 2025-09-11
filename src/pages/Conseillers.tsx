@@ -1,7 +1,8 @@
 import { HiArrowRight } from "react-icons/hi2";
 import Button from "../components/Homepage/miniComponents/Button";
-import { FiArrowLeft, FiArrowRight } from "react-icons/fi";
-
+import { FiArrowLeft, FiArrowRight, FiPhone } from "react-icons/fi";
+import { IoIosArrowDown } from "react-icons/io";
+import { MdOutlineEmail, MdOutlineLocationOn } from "react-icons/md";
 export default function Conseillers() {
   return (
     <div>
@@ -50,103 +51,734 @@ export default function Conseillers() {
               Trouver un conseiller <br />
               <span className=" text-jauneOr  text-[20px]">
                 À vos côtés, à chaque instant grâce à une équipe de conseillers
-                dédiés{" "}
+                dédiés 
               </span>
             </h1>
 
-            <div className="space-y-4">
-              <div className="flex items-start space-x-3">
-                <i className="fa-solid fa-graduation-cap text-jauneOr mr-2 w-5 h-5  mt-1 flex-shrink-0"></i>
+          <div className="grid grid-cols-3 gap-24 px-36">
 
-                <p className="">
-                  Un apprentissage structuré des systèmes éducatifs, des
-                  filières d'études et des débouchés professionnels.
-                </p>
-              </div>
-              <div className="flex items-start space-x-3">
-                <i className="fa-solid fa-graduation-cap text-jauneOr mr-2 w-5 h-5  mt-1 flex-shrink-0"></i>
-                <p className="">
-                  Des mises en situation concrètes, basées sur des études de cas
-                  réels et des simulations d'entretien, pour maîtriser les
-                  différentes étapes de l'accompagnement.
-                </p>
-              </div>
-              <div className="flex items-start space-x-3">
-                <i className="fa-solid fa-graduation-cap text-jauneOr mr-2 w-5 h-5  mt-1 flex-shrink-0"></i>
-                <p className="">
-                  Une certification finale, validant les compétences théoriques
-                  et pratiques indispensables à l'exercice du métier.
-                </p>
-              </div>
-            </div>
-            <p className=" mt-4">
-              De plus, elles suivent un programme de formation continue
-              certifié, leur garantissant une mise à jour constante de leurs
-              connaissances sur les filières d'études, les métiers émergents et
-              les évolutions du système éducatif.
-            </p>
+      <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
+        <div className=" ">
+          <img
+            src="/c1.png"
+            alt=""
+            className=" rounded-t-xl size-full object-center object-cover "
+          />
+        </div>
+
+        <div className="p-2  h ">
+          <span className=" text-xl text-blue">Aminata Sacko</span>
+
+          <ul className="leading-8  ">
+            <li className="space-x-1">
+          
+              <FiPhone className="text-jauneOr inline mr-1 text-2xl" />
+              <span>06 65 54 44 83</span>
+            </li>
+            <li className="space-x-1">
+             
+              <MdOutlineEmail className="text-jauneOr inline mr-1 text-2xl" />
+              <span>aminata.sacko@prometheor.fr</span>
+            </li>
+            <li className="space-x-1">
+          
+              <MdOutlineLocationOn className="text-jauneOr inline mr-1 text-2xl" />
+              <span>Val de Marne</span>
+            </li>
+          </ul>
+          <button className="text-jauneOr font-montserrat mt-2 space-x-1  ">
+          
+            <span>En savoir plus sur Aminata </span>
+            <HiArrowRight className="inline " />
+          </button>
+        </div>
+      </div>
+
+      <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
+        <div className=" h-56 ">
+          <img
+            src="/c2.JPEG"
+            alt=""
+            className=" rounded-t-xl size-full object-top object-cover "
+          />
+        </div>
+
+        <div className="p-2   ">
+          <span className=" text-xl text-blue">Aminata Sacko</span>
+
+          <ul className="leading-8  ">
+            <li className="space-x-1">
+          
+              <FiPhone className="text-jauneOr inline mr-1 text-2xl" />
+              <span>06 65 54 44 83</span>
+            </li>
+            <li className="space-x-1">
+             
+              <MdOutlineEmail className="text-jauneOr inline mr-1 text-2xl" />
+              <span>aminata.sacko@prometheor.fr</span>
+            </li>
+            <li className="space-x-1">
+          
+              <MdOutlineLocationOn className="text-jauneOr inline mr-1 text-2xl" />
+              <span>Val de Marne</span>
+            </li>
+          </ul>
+          <button className="text-jauneOr font-montserrat mt-2 space-x-1  ">
+          
+            <span>En savoir plus sur Aminata </span>
+            <HiArrowRight className="inline " />
+          </button>
+        </div>
+      </div>
+
+
+      <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
+        <div className="h-56 ">
+          <img
+            src="/c3.jpg"
+            alt=""
+            className=" rounded-t-xl size-full object-center  object-cover "
+          />
+        </div>
+
+        <div className="p-2   ">
+          <span className=" text-xl text-blue">Aminata Sacko</span>
+
+          <ul className="leading-8  ">
+            <li className="space-x-1">
+          
+              <FiPhone className="text-jauneOr inline mr-1 text-2xl" />
+              <span>06 65 54 44 83</span>
+            </li>
+            <li className="space-x-1">
+             
+              <MdOutlineEmail className="text-jauneOr inline mr-1 text-2xl" />
+              <span>aminata.sacko@prometheor.fr</span>
+            </li>
+            <li className="space-x-1">
+          
+              <MdOutlineLocationOn className="text-jauneOr inline mr-1 text-2xl" />
+              <span>Val de Marne</span>
+            </li>
+          </ul>
+          <button className="text-jauneOr font-montserrat mt-2 space-x-1  ">
+          
+            <span>En savoir plus sur Aminata </span>
+            <HiArrowRight className="inline " />
+          </button>
+        </div>
+      </div>
+
+      <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
+        <div className="h-56 ">
+          <img
+            src="/c4.png"
+            alt=""
+            className=" rounded-t-xl size-full object-top  object-cover "
+          />
+        </div>
+
+        <div className="p-2   ">
+          <span className=" text-xl text-blue">Aminata Sacko</span>
+
+          <ul className="leading-8  ">
+            <li className="space-x-1">
+          
+              <FiPhone className="text-jauneOr inline mr-1 text-2xl" />
+              <span>06 65 54 44 83</span>
+            </li>
+            <li className="space-x-1">
+             
+              <MdOutlineEmail className="text-jauneOr inline mr-1 text-2xl" />
+              <span>aminata.sacko@prometheor.fr</span>
+            </li>
+            <li className="space-x-1">
+          
+              <MdOutlineLocationOn className="text-jauneOr inline mr-1 text-2xl" />
+              <span>Val de Marne</span>
+            </li>
+          </ul>
+          <button className="text-jauneOr font-montserrat mt-2 space-x-1  ">
+          
+            <span>En savoir plus sur Aminata </span>
+            <HiArrowRight className="inline " />
+          </button>
+        </div>
+      </div>
+
+
+
+       <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
+        <div className="h-56 ">
+          <img
+            src="/c5.PNG"
+            alt=""
+            className=" rounded-t-xl size-full object-center  object-cover "
+          />
+        </div>
+
+        <div className="p-2   ">
+          <span className=" text-xl text-blue">Aminata Sacko</span>
+
+          <ul className="leading-8  ">
+            <li className="space-x-1">
+          
+              <FiPhone className="text-jauneOr inline mr-1 text-2xl" />
+              <span>06 65 54 44 83</span>
+            </li>
+            <li className="space-x-1">
+             
+              <MdOutlineEmail className="text-jauneOr inline mr-1 text-2xl" />
+              <span>aminata.sacko@prometheor.fr</span>
+            </li>
+            <li className="space-x-1">
+          
+              <MdOutlineLocationOn className="text-jauneOr inline mr-1 text-2xl" />
+              <span>Val de Marne</span>
+            </li>
+          </ul>
+          <button className="text-jauneOr font-montserrat mt-2 space-x-1  ">
+          
+            <span>En savoir plus sur Aminata </span>
+            <HiArrowRight className="inline " />
+          </button>
+        </div>
+      </div>
+
+
+      <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
+        <div className="h-56 ">
+          <img
+            src="/c5.PNG"
+            alt=""
+            className=" rounded-t-xl size-full object-center  object-cover "
+          />
+        </div>
+
+        <div className="p-2   ">
+          <span className=" text-xl text-blue">Aminata Sacko</span>
+
+          <ul className="leading-8  ">
+            <li className="space-x-1">
+          
+              <FiPhone className="text-jauneOr inline mr-1 text-2xl" />
+              <span>06 65 54 44 83</span>
+            </li>
+            <li className="space-x-1">
+             
+              <MdOutlineEmail className="text-jauneOr inline mr-1 text-2xl" />
+              <span>aminata.sacko@prometheor.fr</span>
+            </li>
+            <li className="space-x-1">
+          
+              <MdOutlineLocationOn className="text-jauneOr inline mr-1 text-2xl" />
+              <span>Val de Marne</span>
+            </li>
+          </ul>
+          <button className="text-jauneOr font-montserrat mt-2 space-x-1  ">
+          
+            <span>En savoir plus sur Aminata </span>
+            <HiArrowRight className="inline " />
+          </button>
+        </div>
+      </div>
+
+
+        <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
+        <div className="h-56 ">
+          <img
+            src="/c5.PNG"
+            alt=""
+            className=" rounded-t-xl size-full object-center  object-cover "
+          />
+        </div>
+
+        <div className="p-2   ">
+          <span className=" text-xl text-blue">Aminata Sacko</span>
+
+          <ul className="leading-8  ">
+            <li className="space-x-1">
+          
+              <FiPhone className="text-jauneOr inline mr-1 text-2xl" />
+              <span>06 65 54 44 83</span>
+            </li>
+            <li className="space-x-1">
+             
+              <MdOutlineEmail className="text-jauneOr inline mr-1 text-2xl" />
+              <span>aminata.sacko@prometheor.fr</span>
+            </li>
+            <li className="space-x-1">
+          
+              <MdOutlineLocationOn className="text-jauneOr inline mr-1 text-2xl" />
+              <span>Val de Marne</span>
+            </li>
+          </ul>
+          <button className="text-jauneOr font-montserrat mt-2 space-x-1  ">
+          
+            <span>En savoir plus sur Aminata </span>
+            <HiArrowRight className="inline " />
+          </button>
+        </div>
+      </div>
+
+
+
+        <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
+        <div className="h-56 ">
+          <img
+            src="/c5.PNG"
+            alt=""
+            className=" rounded-t-xl size-full object-center  object-cover "
+          />
+        </div>
+
+        <div className="p-2   ">
+          <span className=" text-xl text-blue">Aminata Sacko</span>
+
+          <ul className="leading-8  ">
+            <li className="space-x-1">
+          
+              <FiPhone className="text-jauneOr inline mr-1 text-2xl" />
+              <span>06 65 54 44 83</span>
+            </li>
+            <li className="space-x-1">
+             
+              <MdOutlineEmail className="text-jauneOr inline mr-1 text-2xl" />
+              <span>aminata.sacko@prometheor.fr</span>
+            </li>
+            <li className="space-x-1">
+          
+              <MdOutlineLocationOn className="text-jauneOr inline mr-1 text-2xl" />
+              <span>Val de Marne</span>
+            </li>
+          </ul>
+          <button className="text-jauneOr font-montserrat mt-2 space-x-1  ">
+          
+            <span>En savoir plus sur Aminata </span>
+            <HiArrowRight className="inline " />
+          </button>
+        </div>
+      </div>
+
+
+
+
+
+        <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
+        <div className="h-56 ">
+          <img
+            src="/c5.PNG"
+            alt=""
+            className=" rounded-t-xl size-full object-center  object-cover "
+          />
+        </div>
+
+        <div className="p-2   ">
+          <span className=" text-xl text-blue">Aminata Sacko</span>
+
+          <ul className="leading-8  ">
+            <li className="space-x-1">
+          
+              <FiPhone className="text-jauneOr inline mr-1 text-2xl" />
+              <span>06 65 54 44 83</span>
+            </li>
+            <li className="space-x-1">
+             
+              <MdOutlineEmail className="text-jauneOr inline mr-1 text-2xl" />
+              <span>aminata.sacko@prometheor.fr</span>
+            </li>
+            <li className="space-x-1">
+          
+              <MdOutlineLocationOn className="text-jauneOr inline mr-1 text-2xl" />
+              <span>Val de Marne</span>
+            </li>
+          </ul>
+          <button className="text-jauneOr font-montserrat mt-2 space-x-1  ">
+          
+            <span>En savoir plus sur Aminata </span>
+            <HiArrowRight className="inline " />
+          </button>
+        </div>
+      </div>
+
+
+
+
+
+        <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
+        <div className="h-56 ">
+          <img
+            src="/c5.PNG"
+            alt=""
+            className=" rounded-t-xl size-full object-center  object-cover "
+          />
+        </div>
+
+        <div className="p-2   ">
+          <span className=" text-xl text-blue">Aminata Sacko</span>
+
+          <ul className="leading-8  ">
+            <li className="space-x-1">
+          
+              <FiPhone className="text-jauneOr inline mr-1 text-2xl" />
+              <span>06 65 54 44 83</span>
+            </li>
+            <li className="space-x-1">
+             
+              <MdOutlineEmail className="text-jauneOr inline mr-1 text-2xl" />
+              <span>aminata.sacko@prometheor.fr</span>
+            </li>
+            <li className="space-x-1">
+          
+              <MdOutlineLocationOn className="text-jauneOr inline mr-1 text-2xl" />
+              <span>Val de Marne</span>
+            </li>
+          </ul>
+          <button className="text-jauneOr font-montserrat mt-2 space-x-1  ">
+          
+            <span>En savoir plus sur Aminata </span>
+            <HiArrowRight className="inline " />
+          </button>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+        <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
+        <div className="h-56 ">
+          <img
+            src="/c5.PNG"
+            alt=""
+            className=" rounded-t-xl size-full object-center  object-cover "
+          />
+        </div>
+
+        <div className="p-2   ">
+          <span className=" text-xl text-blue">Aminata Sacko</span>
+
+          <ul className="leading-8  ">
+            <li className="space-x-1">
+          
+              <FiPhone className="text-jauneOr inline mr-1 text-2xl" />
+              <span>06 65 54 44 83</span>
+            </li>
+            <li className="space-x-1">
+             
+              <MdOutlineEmail className="text-jauneOr inline mr-1 text-2xl" />
+              <span>aminata.sacko@prometheor.fr</span>
+            </li>
+            <li className="space-x-1">
+          
+              <MdOutlineLocationOn className="text-jauneOr inline mr-1 text-2xl" />
+              <span>Val de Marne</span>
+            </li>
+          </ul>
+          <button className="text-jauneOr font-montserrat mt-2 space-x-1  ">
+          
+            <span>En savoir plus sur Aminata </span>
+            <HiArrowRight className="inline " />
+          </button>
+        </div>
+      </div>
+
+        
+
+          <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
+        <div className="h-56 ">
+          <img
+            src="/c5.PNG"
+            alt=""
+            className=" rounded-t-xl size-full object-center  object-cover "
+          />
+        </div>
+
+        <div className="p-2   ">
+          <span className=" text-xl text-blue">Aminata Sacko</span>
+
+          <ul className="leading-8  ">
+            <li className="space-x-1">
+          
+              <FiPhone className="text-jauneOr inline mr-1 text-2xl" />
+              <span>06 65 54 44 83</span>
+            </li>
+            <li className="space-x-1">
+             
+              <MdOutlineEmail className="text-jauneOr inline mr-1 text-2xl" />
+              <span>aminata.sacko@prometheor.fr</span>
+            </li>
+            <li className="space-x-1">
+          
+              <MdOutlineLocationOn className="text-jauneOr inline mr-1 text-2xl" />
+              <span>Val de Marne</span>
+            </li>
+          </ul>
+          <button className="text-jauneOr font-montserrat mt-2 space-x-1  ">
+          
+            <span>En savoir plus sur Aminata </span>
+            <HiArrowRight className="inline " />
+          </button>
+        </div>
+      </div>
+
+
+
+
+        <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
+        <div className="h-56 ">
+          <img
+            src="/c5.PNG"
+            alt=""
+            className=" rounded-t-xl size-full object-center  object-cover "
+          />
+        </div>
+
+        <div className="p-2   ">
+          <span className=" text-xl text-blue">Aminata Sacko</span>
+
+          <ul className="leading-8  ">
+            <li className="space-x-1">
+          
+              <FiPhone className="text-jauneOr inline mr-1 text-2xl" />
+              <span>06 65 54 44 83</span>
+            </li>
+            <li className="space-x-1">
+             
+              <MdOutlineEmail className="text-jauneOr inline mr-1 text-2xl" />
+              <span>aminata.sacko@prometheor.fr</span>
+            </li>
+            <li className="space-x-1">
+          
+              <MdOutlineLocationOn className="text-jauneOr inline mr-1 text-2xl" />
+              <span>Val de Marne</span>
+            </li>
+          </ul>
+          <button className="text-jauneOr font-montserrat mt-2 space-x-1  ">
+          
+            <span>En savoir plus sur Aminata </span>
+            <HiArrowRight className="inline " />
+          </button>
+        </div>
+      </div>
+
+
+
+
+
+        <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
+        <div className="h-56 ">
+          <img
+            src="/c5.PNG"
+            alt=""
+            className=" rounded-t-xl size-full object-center  object-cover "
+          />
+        </div>
+
+        <div className="p-2   ">
+          <span className=" text-xl text-blue">Aminata Sacko</span>
+
+          <ul className="leading-8  ">
+            <li className="space-x-1">
+          
+              <FiPhone className="text-jauneOr inline mr-1 text-2xl" />
+              <span>06 65 54 44 83</span>
+            </li>
+            <li className="space-x-1">
+             
+              <MdOutlineEmail className="text-jauneOr inline mr-1 text-2xl" />
+              <span>aminata.sacko@prometheor.fr</span>
+            </li>
+            <li className="space-x-1">
+          
+              <MdOutlineLocationOn className="text-jauneOr inline mr-1 text-2xl" />
+              <span>Val de Marne</span>
+            </li>
+          </ul>
+          <button className="text-jauneOr font-montserrat mt-2 space-x-1  ">
+          
+            <span>En savoir plus sur Aminata </span>
+            <HiArrowRight className="inline " />
+          </button>
+        </div>
+      </div>
+
+
+
+        <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
+        <div className="h-56 ">
+          <img
+            src="/c5.PNG"
+            alt=""
+            className=" rounded-t-xl size-full object-center  object-cover "
+          />
+        </div>
+
+        <div className="p-2   ">
+          <span className=" text-xl text-blue">Aminata Sacko</span>
+
+          <ul className="leading-8  ">
+            <li className="space-x-1">
+          
+              <FiPhone className="text-jauneOr inline mr-1 text-2xl" />
+              <span>06 65 54 44 83</span>
+            </li>
+            <li className="space-x-1">
+             
+              <MdOutlineEmail className="text-jauneOr inline mr-1 text-2xl" />
+              <span>aminata.sacko@prometheor.fr</span>
+            </li>
+            <li className="space-x-1">
+          
+              <MdOutlineLocationOn className="text-jauneOr inline mr-1 text-2xl" />
+              <span>Val de Marne</span>
+            </li>
+          </ul>
+          <button className="text-jauneOr font-montserrat mt-2 space-x-1  ">
+          
+            <span>En savoir plus sur Aminata </span>
+            <HiArrowRight className="inline " />
+          </button>
+        </div>
+      </div>
+
+
+
+        <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
+        <div className="h-56 ">
+          <img
+            src="/c5.PNG"
+            alt=""
+            className=" rounded-t-xl size-full object-center  object-cover "
+          />
+        </div>
+
+        <div className="p-2   ">
+          <span className=" text-xl text-blue">Aminata Sacko</span>
+
+          <ul className="leading-8  ">
+            <li className="space-x-1">
+          
+              <FiPhone className="text-jauneOr inline mr-1 text-2xl" />
+              <span>06 65 54 44 83</span>
+            </li>
+            <li className="space-x-1">
+             
+              <MdOutlineEmail className="text-jauneOr inline mr-1 text-2xl" />
+              <span>aminata.sacko@prometheor.fr</span>
+            </li>
+            <li className="space-x-1">
+          
+              <MdOutlineLocationOn className="text-jauneOr inline mr-1 text-2xl" />
+              <span>Val de Marne</span>
+            </li>
+          </ul>
+          <button className="text-jauneOr font-montserrat mt-2 space-x-1  ">
+          
+            <span>En savoir plus sur Aminata </span>
+            <HiArrowRight className="inline " />
+          </button>
+        </div>
+      </div>
+
+
+
+
+
+
+        <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
+        <div className="h-56 ">
+          <img
+            src="/c5.PNG"
+            alt=""
+            className=" rounded-t-xl size-full object-center  object-cover "
+          />
+        </div>
+
+        <div className="p-2   ">
+          <span className=" text-xl text-blue">Aminata Sacko</span>
+
+          <ul className="leading-8  ">
+            <li className="space-x-1">
+          
+              <FiPhone className="text-jauneOr inline mr-1 text-2xl" />
+              <span>06 65 54 44 83</span>
+            </li>
+            <li className="space-x-1">
+             
+              <MdOutlineEmail className="text-jauneOr inline mr-1 text-2xl" />
+              <span>aminata.sacko@prometheor.fr</span>
+            </li>
+            <li className="space-x-1">
+          
+              <MdOutlineLocationOn className="text-jauneOr inline mr-1 text-2xl" />
+              <span>Val de Marne</span>
+            </li>
+          </ul>
+          <button className="text-jauneOr font-montserrat mt-2 space-x-1  ">
+          
+            <span>En savoir plus sur Aminata </span>
+            <HiArrowRight className="inline " />
+          </button>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+        <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
+        <div className="h-56 ">
+          <img
+            src="/c5.PNG"
+            alt=""
+            className=" rounded-t-xl size-full object-center  object-cover "
+          />
+        </div>
+
+        <div className="p-2   ">
+          <span className=" text-xl text-blue">Aminata Sacko</span>
+
+          <ul className="leading-8  ">
+            <li className="space-x-1">
+          
+              <FiPhone className="text-jauneOr inline mr-1 text-2xl" />
+              <span>06 65 54 44 83</span>
+            </li>
+            <li className="space-x-1">
+             
+              <MdOutlineEmail className="text-jauneOr inline mr-1 text-2xl" />
+              <span>aminata.sacko@prometheor.fr</span>
+            </li>
+            <li className="space-x-1">
+          
+              <MdOutlineLocationOn className="text-jauneOr inline mr-1 text-2xl" />
+              <span>Val de Marne</span>
+            </li>
+          </ul>
+          <button className="text-jauneOr font-montserrat mt-2 space-x-1  ">
+          
+            <span>En savoir plus sur Aminata </span>
+            <HiArrowRight className="inline " />
+          </button>
+        </div>
+      </div>
+
+
+      
+ 
+          </div>
           </div>
         </div>
 
-        {/* Section: Un accompagnement 100% personnalisé */}
-        <section className=" ">
-          <div className="flex  flex-wrap  justify-center gap-20  items-center">
-            <div className="bg-jauneOr/5 p-5 rounded-lg w-6/12 ">
-              <h2 className="text-4xl  text-blue font-dmserif mb-6">
-                Un accompagnement{" "}
-                <span className="text-jauneOr">100% personnalisé</span>
-              </h2>
-              <p className="text-lg  mb-6">
-                Chaque élève est unique, et son projet d'avenir doit l'être
-                aussi. Nous avons conçu une approche individualisée qui prend en
-                compte :
-              </p>
-              <div className="space-y-4">
-                <div className="flex items-start space-x-3">
-                  <i className="fa-solid fa-graduation-cap text-jauneOr mr-2 w-5 h-5  mt-1 flex-shrink-0"></i>
-                  <p className="">
-                    Ses aptitudes et centres d'intérêt, grâce à des bilans
-                    d'orientation approfondis
-                  </p>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <i className="fa-solid fa-graduation-cap text-jauneOr mr-2 w-5 h-5  mt-1 flex-shrink-0"></i>
-                  <p className="">
-                    Sa personnalité et ses motivations, via des entretiens
-                    personnalisés
-                  </p>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <i className="fa-solid fa-graduation-cap text-jauneOr mr-2 w-5 h-5  mt-1 flex-shrink-0"></i>
-                  <p className="">
-                    Ses résultats académiques et son environnement familial,
-                    pour formuler des recommandations réalistes et ambitieuses
-                  </p>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <i className="fa-solid fa-graduation-cap text-jauneOr mr-2 w-5 h-5  mt-1 flex-shrink-0"></i>
-                  <p className="">
-                    Les tendances du marché du travail, afin de l'aider à faire
-                    des choix éclairés et porteurs d'avenir
-                  </p>
-                </div>
-              </div>
-              <p className=" mt-6">
-                Les conseillères ne proposent jamais de solutions toutes faites.
-                Elles co-construisent avec l'élève et ses parents un projet sur
-                mesure, qui correspond à ses aspirations et lui ouvre des
-                perspectives solides.
-              </p>
-            </div>
-            <div className=" size-[500px] rounded-lg ">
-              <img
-                src="/45c4858ae07bf0aab2c507ef6cc8ec257a259ef3.jpg"
-                alt="Conseillère souriante"
-                className="object-cover size-full  rounded-lg"
-              />
-            </div>
-          </div>
-        </section>
+    
 
    <section>
         <div className=" bg-blue  py-14 my-20 ">
