@@ -249,7 +249,7 @@ export default function Conseillers() {
       <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className="h-56 ">
           <img
-            src="/c5.PNG"
+            src="/c6.JPG"
             alt=""
             className=" rounded-t-xl size-full object-center  object-cover "
           />
@@ -287,7 +287,7 @@ export default function Conseillers() {
         <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className="h-56 ">
           <img
-            src="/c5.PNG"
+            src="/c7.jpg"
             alt=""
             className=" rounded-t-xl size-full object-center  object-cover "
           />
@@ -326,50 +326,9 @@ export default function Conseillers() {
         <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className="h-56 ">
           <img
-            src="/c5.PNG"
+            src="/c8.PNG"
             alt=""
-            className=" rounded-t-xl size-full object-center  object-cover "
-          />
-        </div>
-
-        <div className="p-2   ">
-          <span className=" text-xl text-blue">Aminata Sacko</span>
-
-          <ul className="leading-8  ">
-            <li className="space-x-1">
-          
-              <FiPhone className="text-jauneOr inline mr-1 text-2xl" />
-              <span>06 65 54 44 83</span>
-            </li>
-            <li className="space-x-1">
-             
-              <MdOutlineEmail className="text-jauneOr inline mr-1 text-2xl" />
-              <span>aminata.sacko@prometheor.fr</span>
-            </li>
-            <li className="space-x-1">
-          
-              <MdOutlineLocationOn className="text-jauneOr inline mr-1 text-2xl" />
-              <span>Val de Marne</span>
-            </li>
-          </ul>
-          <button className="text-jauneOr font-montserrat mt-2 space-x-1  ">
-          
-            <span>En savoir plus sur Aminata </span>
-            <HiArrowRight className="inline " />
-          </button>
-        </div>
-      </div>
-
-
-
-
-
-        <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
-        <div className="h-56 ">
-          <img
-            src="/c5.PNG"
-            alt=""
-            className=" rounded-t-xl size-full object-center  object-cover "
+            className=" rounded-t-xl size-full   object-cover "
           />
         </div>
 
@@ -408,7 +367,48 @@ export default function Conseillers() {
         <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className="h-56 ">
           <img
-            src="/c5.PNG"
+            src="/c9.PNG"
+            alt=""
+            className=" rounded-t-xl size-full object-center  object-cover "
+          />
+        </div>
+
+        <div className="p-2   ">
+          <span className=" text-xl text-blue">Aminata Sacko</span>
+
+          <ul className="leading-8  ">
+            <li className="space-x-1">
+          
+              <FiPhone className="text-jauneOr inline mr-1 text-2xl" />
+              <span>06 65 54 44 83</span>
+            </li>
+            <li className="space-x-1">
+             
+              <MdOutlineEmail className="text-jauneOr inline mr-1 text-2xl" />
+              <span>aminata.sacko@prometheor.fr</span>
+            </li>
+            <li className="space-x-1">
+          
+              <MdOutlineLocationOn className="text-jauneOr inline mr-1 text-2xl" />
+              <span>Val de Marne</span>
+            </li>
+          </ul>
+          <button className="text-jauneOr font-montserrat mt-2 space-x-1  ">
+          
+            <span>En savoir plus sur Aminata </span>
+            <HiArrowRight className="inline " />
+          </button>
+        </div>
+      </div>
+
+
+
+
+
+        <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
+        <div className="h-56 ">
+          <img
+            src="/c10.jpg"
             alt=""
             className=" rounded-t-xl size-full object-center  object-cover "
           />
@@ -453,7 +453,7 @@ export default function Conseillers() {
         <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className="h-56 ">
           <img
-            src="/c5.PNG"
+            src="/c11.png"
             alt=""
             className=" rounded-t-xl size-full object-center  object-cover "
           />
@@ -489,10 +489,10 @@ export default function Conseillers() {
 
         
 
-          <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
+      <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className="h-56 ">
           <img
-            src="/c5.PNG"
+            src="/c12.jpg"
             alt=""
             className=" rounded-t-xl size-full object-center  object-cover "
           />
@@ -532,9 +532,9 @@ export default function Conseillers() {
         <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className="h-56 ">
           <img
-            src="/c5.PNG"
+            src="/c13.jpeg"
             alt=""
-            className=" rounded-t-xl size-full object-center  object-cover "
+            className=" rounded-t-xl size-full object-top  object-cover "
           />
         </div>
 
@@ -573,7 +573,7 @@ export default function Conseillers() {
         <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className="h-56 ">
           <img
-            src="/c5.PNG"
+            src="/c14.png"
             alt=""
             className=" rounded-t-xl size-full object-center  object-cover "
           />
@@ -612,7 +612,7 @@ export default function Conseillers() {
         <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className="h-56 ">
           <img
-            src="/c5.PNG"
+            src="/c15.JPG"
             alt=""
             className=" rounded-t-xl size-full object-center  object-cover "
           />
@@ -651,7 +651,7 @@ export default function Conseillers() {
         <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className="h-56 ">
           <img
-            src="/c5.PNG"
+            src="/c16.jpg"
             alt=""
             className=" rounded-t-xl size-full object-center  object-cover "
           />
@@ -693,7 +693,7 @@ export default function Conseillers() {
         <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className="h-56 ">
           <img
-            src="/c5.PNG"
+            src="/c17.png"
             alt=""
             className=" rounded-t-xl size-full object-center  object-cover "
           />
@@ -737,7 +737,7 @@ export default function Conseillers() {
         <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className="h-56 ">
           <img
-            src="/c5.PNG"
+            src="/c18.jpg"
             alt=""
             className=" rounded-t-xl size-full object-center  object-cover "
           />
