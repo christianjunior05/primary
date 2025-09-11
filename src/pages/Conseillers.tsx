@@ -1,7 +1,7 @@
 import { HiArrowRight } from "react-icons/hi2";
 import Button from "../components/Homepage/miniComponents/Button";
 import { FiArrowLeft, FiArrowRight, FiPhone } from "react-icons/fi";
-import { IoIosArrowDown } from "react-icons/io";
+
 import { MdOutlineEmail, MdOutlineLocationOn } from "react-icons/md";
 export default function Conseillers() {
   return (
@@ -60,35 +60,35 @@ export default function Conseillers() {
       <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
         <div className=" ">
           <img
-            src="/c1.png"
+            src="/c1.PNG"
             alt=""
             className=" rounded-t-xl size-full object-center object-cover "
           />
         </div>
 
         <div className="p-2  h ">
-          <span className=" text-xl text-blue">Aminata Sacko</span>
+          <span className=" text-xl text-blue">Gladys khady</span>
 
           <ul className="leading-8  ">
             <li className="space-x-1">
           
               <FiPhone className="text-jauneOr inline mr-1 text-2xl" />
-              <span>06 65 54 44 83</span>
+              <span>07 51 06 42 84</span>
             </li>
             <li className="space-x-1">
              
               <MdOutlineEmail className="text-jauneOr inline mr-1 text-2xl" />
-              <span>aminata.sacko@prometheor.fr</span>
+              <span>gwladys.kady@prometheor.fr</span>
             </li>
             <li className="space-x-1">
           
               <MdOutlineLocationOn className="text-jauneOr inline mr-1 text-2xl" />
-              <span>Val de Marne</span>
+              <span>Ile de france, Centre-Val de Loire</span>
             </li>
           </ul>
           <button className="text-jauneOr font-montserrat mt-2 space-x-1  ">
           
-            <span>En savoir plus sur Aminata </span>
+            <span>En savoir plus sur Gwladys </span>
             <HiArrowRight className="inline " />
           </button>
         </div>
@@ -104,28 +104,28 @@ export default function Conseillers() {
         </div>
 
         <div className="p-2   ">
-          <span className=" text-xl text-blue">Aminata Sacko</span>
+          <span className=" text-xl text-blue">Sonia Dridi</span>
 
           <ul className="leading-8  ">
             <li className="space-x-1">
           
               <FiPhone className="text-jauneOr inline mr-1 text-2xl" />
-              <span>06 65 54 44 83</span>
+              <span>06 62 82 32 01</span>
             </li>
             <li className="space-x-1">
              
               <MdOutlineEmail className="text-jauneOr inline mr-1 text-2xl" />
-              <span>aminata.sacko@prometheor.fr</span>
+              <span>sonia@prometheor.fr</span>
             </li>
             <li className="space-x-1">
           
               <MdOutlineLocationOn className="text-jauneOr inline mr-1 text-2xl" />
-              <span>Val de Marne</span>
+              <span>Ile de France, Hauts de Seine</span>
             </li>
           </ul>
           <button className="text-jauneOr font-montserrat mt-2 space-x-1  ">
           
-            <span>En savoir plus sur Aminata </span>
+            <span>En savoir plus sur Sonia </span>
             <HiArrowRight className="inline " />
           </button>
         </div>
@@ -142,28 +142,28 @@ export default function Conseillers() {
         </div>
 
         <div className="p-2   ">
-          <span className=" text-xl text-blue">Aminata Sacko</span>
+          <span className=" text-xl text-blue">Sarah Pelisson</span>
 
           <ul className="leading-8  ">
             <li className="space-x-1">
           
               <FiPhone className="text-jauneOr inline mr-1 text-2xl" />
-              <span>06 65 54 44 83</span>
+              <span>06 50 99 49 56</span>
             </li>
             <li className="space-x-1">
              
               <MdOutlineEmail className="text-jauneOr inline mr-1 text-2xl" />
-              <span>aminata.sacko@prometheor.fr</span>
+              <span>sarah.pelisson@prometheor.fr</span>
             </li>
             <li className="space-x-1">
           
               <MdOutlineLocationOn className="text-jauneOr inline mr-1 text-2xl" />
-              <span>Val de Marne</span>
+              <span>Ile de France, Val de Marne</span>
             </li>
           </ul>
           <button className="text-jauneOr font-montserrat mt-2 space-x-1  ">
           
-            <span>En savoir plus sur Aminata </span>
+            <span>En savoir plus sur Sarah</span>
             <HiArrowRight className="inline " />
           </button>
         </div>
@@ -218,28 +218,28 @@ export default function Conseillers() {
         </div>
 
         <div className="p-2   ">
-          <span className=" text-xl text-blue">Aminata Sacko</span>
+          <span className=" text-xl text-blue">Virginie Colette</span>
 
           <ul className="leading-8  ">
             <li className="space-x-1">
           
               <FiPhone className="text-jauneOr inline mr-1 text-2xl" />
-              <span>06 65 54 44 83</span>
+              <span>06 82 32 92 28</span>
             </li>
             <li className="space-x-1">
              
               <MdOutlineEmail className="text-jauneOr inline mr-1 text-2xl" />
-              <span>aminata.sacko@prometheor.fr</span>
+              <span>virginie.colette@prometheor.fr</span>
             </li>
             <li className="space-x-1">
           
               <MdOutlineLocationOn className="text-jauneOr inline mr-1 text-2xl" />
-              <span>Val de Marne</span>
+              <span>Yvelines</span>
             </li>
           </ul>
           <button className="text-jauneOr font-montserrat mt-2 space-x-1  ">
           
-            <span>En savoir plus sur Aminata </span>
+            <span>En savoir plus sur Virginie </span>
             <HiArrowRight className="inline " />
           </button>
         </div>
@@ -256,23 +256,23 @@ export default function Conseillers() {
         </div>
 
         <div className="p-2   ">
-          <span className=" text-xl text-blue">Aminata Sacko</span>
+          <span className=" text-xl text-blue">Fabyene Nimirf</span>
 
           <ul className="leading-8  ">
             <li className="space-x-1">
           
               <FiPhone className="text-jauneOr inline mr-1 text-2xl" />
-              <span>06 65 54 44 83</span>
+              <span>06 22 63 27 63</span>
             </li>
             <li className="space-x-1">
              
               <MdOutlineEmail className="text-jauneOr inline mr-1 text-2xl" />
-              <span>aminata.sacko@prometheor.fr</span>
+              <span>fabyene.nimirf@prometheor.fr</span>
             </li>
             <li className="space-x-1">
           
               <MdOutlineLocationOn className="text-jauneOr inline mr-1 text-2xl" />
-              <span>Val de Marne</span>
+              <span>Yvelines</span>
             </li>
           </ul>
           <button className="text-jauneOr font-montserrat mt-2 space-x-1  ">
@@ -294,28 +294,28 @@ export default function Conseillers() {
         </div>
 
         <div className="p-2   ">
-          <span className=" text-xl text-blue">Aminata Sacko</span>
+          <span className=" text-xl text-blue">Juliette Lacoste</span>
 
           <ul className="leading-8  ">
             <li className="space-x-1">
           
               <FiPhone className="text-jauneOr inline mr-1 text-2xl" />
-              <span>06 65 54 44 83</span>
+              <span>06 82 80 15 74</span>
             </li>
             <li className="space-x-1">
              
               <MdOutlineEmail className="text-jauneOr inline mr-1 text-2xl" />
-              <span>aminata.sacko@prometheor.fr</span>
+              <span>juliette.lacoste@prometheor.fr</span>
             </li>
             <li className="space-x-1">
           
               <MdOutlineLocationOn className="text-jauneOr inline mr-1 text-2xl" />
-              <span>Val de Marne</span>
+              <span>Yvelines</span>
             </li>
           </ul>
           <button className="text-jauneOr font-montserrat mt-2 space-x-1  ">
           
-            <span>En savoir plus sur Aminata </span>
+            <span>En savoir plus sur Juliette </span>
             <HiArrowRight className="inline " />
           </button>
         </div>
@@ -333,28 +333,28 @@ export default function Conseillers() {
         </div>
 
         <div className="p-2   ">
-          <span className=" text-xl text-blue">Aminata Sacko</span>
+          <span className=" text-xl text-blue">Myriam Diebold</span>
 
           <ul className="leading-8  ">
             <li className="space-x-1">
           
               <FiPhone className="text-jauneOr inline mr-1 text-2xl" />
-              <span>06 65 54 44 83</span>
+              <span>06 84 84 54 07</span>
             </li>
             <li className="space-x-1">
              
               <MdOutlineEmail className="text-jauneOr inline mr-1 text-2xl" />
-              <span>aminata.sacko@prometheor.fr</span>
+              <span>myriam.diebold@prometheor.fr</span>
             </li>
             <li className="space-x-1">
           
               <MdOutlineLocationOn className="text-jauneOr inline mr-1 text-2xl" />
-              <span>Val de Marne</span>
+              <span>Auvergne Rhône Alpes</span>
             </li>
           </ul>
           <button className="text-jauneOr font-montserrat mt-2 space-x-1  ">
           
-            <span>En savoir plus sur Aminata </span>
+            <span>En savoir plus sur Myriam </span>
             <HiArrowRight className="inline " />
           </button>
         </div>
@@ -374,35 +374,32 @@ export default function Conseillers() {
         </div>
 
         <div className="p-2   ">
-          <span className=" text-xl text-blue">Aminata Sacko</span>
+          <span className=" text-xl text-blue">Nadia Royer</span>
 
           <ul className="leading-8  ">
             <li className="space-x-1">
           
               <FiPhone className="text-jauneOr inline mr-1 text-2xl" />
-              <span>06 65 54 44 83</span>
+              <span>06 26 48 33 76</span>
             </li>
             <li className="space-x-1">
              
               <MdOutlineEmail className="text-jauneOr inline mr-1 text-2xl" />
-              <span>aminata.sacko@prometheor.fr</span>
+              <span>nadia.royer@gmail.com</span>
             </li>
             <li className="space-x-1">
           
               <MdOutlineLocationOn className="text-jauneOr inline mr-1 text-2xl" />
-              <span>Val de Marne</span>
+              <span>Auvergne-Rhône-Alpes</span>
             </li>
           </ul>
           <button className="text-jauneOr font-montserrat mt-2 space-x-1  ">
           
-            <span>En savoir plus sur Aminata </span>
+            <span>En savoir plus sur Nadia </span>
             <HiArrowRight className="inline " />
           </button>
         </div>
       </div>
-
-
-
 
 
         <div className="text-lg   rounded-lg  border h-[400px]   shadow-xl shadow-jauneOr/10 ">
@@ -415,37 +412,32 @@ export default function Conseillers() {
         </div>
 
         <div className="p-2   ">
-          <span className=" text-xl text-blue">Aminata Sacko</span>
+          <span className=" text-xl text-blue">Laetitia Masini</span>
 
           <ul className="leading-8  ">
             <li className="space-x-1">
           
               <FiPhone className="text-jauneOr inline mr-1 text-2xl" />
-              <span>06 65 54 44 83</span>
+              <span>06 06 63 22 34</span>
             </li>
             <li className="space-x-1">
              
               <MdOutlineEmail className="text-jauneOr inline mr-1 text-2xl" />
-              <span>aminata.sacko@prometheor.fr</span>
+              <span>laetitia.masini@prometheor.fr</span>
             </li>
             <li className="space-x-1">
           
               <MdOutlineLocationOn className="text-jauneOr inline mr-1 text-2xl" />
-              <span>Val de Marne</span>
+              <span>Auvergne-Rhône-Alpes</span>
             </li>
           </ul>
           <button className="text-jauneOr font-montserrat mt-2 space-x-1  ">
           
-            <span>En savoir plus sur Aminata </span>
+            <span>En savoir plus sur Laeticia </span>
             <HiArrowRight className="inline " />
           </button>
         </div>
       </div>
-
-
-
-
-
 
 
 
@@ -460,28 +452,28 @@ export default function Conseillers() {
         </div>
 
         <div className="p-2   ">
-          <span className=" text-xl text-blue">Aminata Sacko</span>
+          <span className=" text-xl text-blue">Caroline Geraads</span>
 
           <ul className="leading-8  ">
             <li className="space-x-1">
           
               <FiPhone className="text-jauneOr inline mr-1 text-2xl" />
-              <span>06 65 54 44 83</span>
+              <span>06 50 99 49 56</span>
             </li>
             <li className="space-x-1">
              
               <MdOutlineEmail className="text-jauneOr inline mr-1 text-2xl" />
-              <span>aminata.sacko@prometheor.fr</span>
+              <span>caroline.geraads@prometheor.fr</span>
             </li>
             <li className="space-x-1">
           
               <MdOutlineLocationOn className="text-jauneOr inline mr-1 text-2xl" />
-              <span>Val de Marne</span>
+              <span>Auvergne-Rhône-Alpes</span>
             </li>
           </ul>
           <button className="text-jauneOr font-montserrat mt-2 space-x-1  ">
           
-            <span>En savoir plus sur Aminata </span>
+            <span>En savoir plus sur Caroline </span>
             <HiArrowRight className="inline " />
           </button>
         </div>
@@ -499,28 +491,28 @@ export default function Conseillers() {
         </div>
 
         <div className="p-2   ">
-          <span className=" text-xl text-blue">Aminata Sacko</span>
+          <span className=" text-xl text-blue">Jessica afonso</span>
 
           <ul className="leading-8  ">
             <li className="space-x-1">
           
               <FiPhone className="text-jauneOr inline mr-1 text-2xl" />
-              <span>06 65 54 44 83</span>
+              <span>07 83 05 74 38</span>
             </li>
             <li className="space-x-1">
              
               <MdOutlineEmail className="text-jauneOr inline mr-1 text-2xl" />
-              <span>aminata.sacko@prometheor.fr</span>
+              <span>jessica.afonso@prometheor.fr</span>
             </li>
             <li className="space-x-1">
           
               <MdOutlineLocationOn className="text-jauneOr inline mr-1 text-2xl" />
-              <span>Val de Marne</span>
+              <span>Auvergne-Rhône-Alpes</span>
             </li>
           </ul>
           <button className="text-jauneOr font-montserrat mt-2 space-x-1  ">
           
-            <span>En savoir plus sur Aminata </span>
+            <span>En savoir plus sur Jessica </span>
             <HiArrowRight className="inline " />
           </button>
         </div>
@@ -539,28 +531,28 @@ export default function Conseillers() {
         </div>
 
         <div className="p-2   ">
-          <span className=" text-xl text-blue">Aminata Sacko</span>
+          <span className=" text-xl text-blue">Laurie Allios</span>
 
           <ul className="leading-8  ">
             <li className="space-x-1">
           
               <FiPhone className="text-jauneOr inline mr-1 text-2xl" />
-              <span>06 65 54 44 83</span>
+              <span>07 51 06 42 84</span>
             </li>
             <li className="space-x-1">
              
               <MdOutlineEmail className="text-jauneOr inline mr-1 text-2xl" />
-              <span>aminata.sacko@prometheor.fr</span>
+              <span>laurie.allios@prometheor.fr</span>
             </li>
             <li className="space-x-1">
           
               <MdOutlineLocationOn className="text-jauneOr inline mr-1 text-2xl" />
-              <span>Val de Marne</span>
+              <span>Occitanie</span>
             </li>
           </ul>
           <button className="text-jauneOr font-montserrat mt-2 space-x-1  ">
           
-            <span>En savoir plus sur Aminata </span>
+            <span>En savoir plus sur Laurie </span>
             <HiArrowRight className="inline " />
           </button>
         </div>
@@ -580,28 +572,28 @@ export default function Conseillers() {
         </div>
 
         <div className="p-2   ">
-          <span className=" text-xl text-blue">Aminata Sacko</span>
+          <span className=" text-xl text-blue">Brigitte Fressy</span>
 
           <ul className="leading-8  ">
             <li className="space-x-1">
           
               <FiPhone className="text-jauneOr inline mr-1 text-2xl" />
-              <span>06 65 54 44 83</span>
+              <span>07 62 26 61 97</span>
             </li>
             <li className="space-x-1">
              
               <MdOutlineEmail className="text-jauneOr inline mr-1 text-2xl" />
-              <span>aminata.sacko@prometheor.fr</span>
+              <span>brigitte.fressy@prometheor.fr</span>
             </li>
             <li className="space-x-1">
           
               <MdOutlineLocationOn className="text-jauneOr inline mr-1 text-2xl" />
-              <span>Val de Marne</span>
+              <span>Occitanie</span>
             </li>
           </ul>
           <button className="text-jauneOr font-montserrat mt-2 space-x-1  ">
           
-            <span>En savoir plus sur Aminata </span>
+            <span>En savoir plus sur Brigitte </span>
             <HiArrowRight className="inline " />
           </button>
         </div>
@@ -619,28 +611,28 @@ export default function Conseillers() {
         </div>
 
         <div className="p-2   ">
-          <span className=" text-xl text-blue">Aminata Sacko</span>
+          <span className=" text-xl text-blue">Estelle Finck-Rolly</span>
 
           <ul className="leading-8  ">
             <li className="space-x-1">
           
               <FiPhone className="text-jauneOr inline mr-1 text-2xl" />
-              <span>06 65 54 44 83</span>
+              <span>06 84 23 77 19</span>
             </li>
             <li className="space-x-1">
              
               <MdOutlineEmail className="text-jauneOr inline mr-1 text-2xl" />
-              <span>aminata.sacko@prometheor.fr</span>
+              <span>estelle.finck-rolly@prometheor.fr</span>
             </li>
             <li className="space-x-1">
           
               <MdOutlineLocationOn className="text-jauneOr inline mr-1 text-2xl" />
-              <span>Val de Marne</span>
+              <span>Grand Est</span>
             </li>
           </ul>
           <button className="text-jauneOr font-montserrat mt-2 space-x-1  ">
           
-            <span>En savoir plus sur Aminata </span>
+            <span>En savoir plus sur Estelle </span>
             <HiArrowRight className="inline " />
           </button>
         </div>
@@ -658,28 +650,28 @@ export default function Conseillers() {
         </div>
 
         <div className="p-2   ">
-          <span className=" text-xl text-blue">Aminata Sacko</span>
+          <span className=" text-xl text-blue">Laurence Rabier</span>
 
           <ul className="leading-8  ">
             <li className="space-x-1">
           
               <FiPhone className="text-jauneOr inline mr-1 text-2xl" />
-              <span>06 65 54 44 83</span>
+              <span>06 21 68 59 45</span>
             </li>
             <li className="space-x-1">
              
               <MdOutlineEmail className="text-jauneOr inline mr-1 text-2xl" />
-              <span>aminata.sacko@prometheor.fr</span>
+              <span>laurence.rabier@prometheor.fr</span>
             </li>
             <li className="space-x-1">
           
               <MdOutlineLocationOn className="text-jauneOr inline mr-1 text-2xl" />
-              <span>Val de Marne</span>
+              <span>Nouvelle Aquitaine</span>
             </li>
           </ul>
           <button className="text-jauneOr font-montserrat mt-2 space-x-1  ">
           
-            <span>En savoir plus sur Aminata </span>
+            <span>En savoir plus sur Laurence </span>
             <HiArrowRight className="inline " />
           </button>
         </div>
@@ -700,28 +692,28 @@ export default function Conseillers() {
         </div>
 
         <div className="p-2   ">
-          <span className=" text-xl text-blue">Aminata Sacko</span>
+          <span className=" text-xl text-blue">Martine Lolom</span>
 
           <ul className="leading-8  ">
             <li className="space-x-1">
           
               <FiPhone className="text-jauneOr inline mr-1 text-2xl" />
-              <span>06 65 54 44 83</span>
+              <span>06 30 40 01 07</span>
             </li>
             <li className="space-x-1">
              
               <MdOutlineEmail className="text-jauneOr inline mr-1 text-2xl" />
-              <span>aminata.sacko@prometheor.fr</span>
+              <span>martine.lolom@prometheor.fr</span>
             </li>
             <li className="space-x-1">
           
               <MdOutlineLocationOn className="text-jauneOr inline mr-1 text-2xl" />
-              <span>Val de Marne</span>
+              <span>Bretagne</span>
             </li>
           </ul>
           <button className="text-jauneOr font-montserrat mt-2 space-x-1  ">
           
-            <span>En savoir plus sur Aminata </span>
+            <span>En savoir plus sur Martine </span>
             <HiArrowRight className="inline " />
           </button>
         </div>
@@ -744,28 +736,28 @@ export default function Conseillers() {
         </div>
 
         <div className="p-2   ">
-          <span className=" text-xl text-blue">Aminata Sacko</span>
+          <span className=" text-xl text-blue">Karine Toulouse</span>
 
           <ul className="leading-8  ">
             <li className="space-x-1">
           
               <FiPhone className="text-jauneOr inline mr-1 text-2xl" />
-              <span>06 65 54 44 83</span>
+              <span>06 14 32 57 68</span>
             </li>
             <li className="space-x-1">
              
               <MdOutlineEmail className="text-jauneOr inline mr-1 text-2xl" />
-              <span>aminata.sacko@prometheor.fr</span>
+              <span>karine.toulouse@prometheor.fr</span>
             </li>
             <li className="space-x-1">
           
               <MdOutlineLocationOn className="text-jauneOr inline mr-1 text-2xl" />
-              <span>Val de Marne</span>
+              <span>Bourgogne-Franche-Comté</span>
             </li>
           </ul>
           <button className="text-jauneOr font-montserrat mt-2 space-x-1  ">
           
-            <span>En savoir plus sur Aminata </span>
+            <span>En savoir plus sur Karine </span>
             <HiArrowRight className="inline " />
           </button>
         </div>
