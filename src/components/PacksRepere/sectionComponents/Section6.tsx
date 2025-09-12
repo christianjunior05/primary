@@ -23,12 +23,12 @@ const Section6= ({ image,
   <div className=" size-96  rounded-xl">
     <img src={`/${image}`} alt="image" className="size-full object-cover rounded-xl "/>
   </div>
-  <div className="    space-y-5 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center flex flex-col ">
-    <h2 className="text-blue font-lato font-dmserif  text-4xl max-md:text-center  "> Besoin de personnalisé  <span className="text-jauneOr">votre accompagnement ?</span>   </h2>
+  <div className="  w-5/12  space-y-5 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center flex flex-col ">
+    <h2 className="text-blue font-lato font-dmserif  text-4xl max-md:text-center  "> Besoin de personnalisé <br /> <span className="text-jauneOr">votre accompagnement ?</span>   </h2>
        
 {paragraphe1 && <p className="   " > {paragraphe1} </p> }
 {paragraphe2 && <p className="  " > {paragraphe2} </p> }
-<div className="space-x-6 flex justify-center max-sm:flex max-sm:flex-col max-sm:items-center max-sm:space-x-0 max-sm:space-y-6 ">
+<div className="space-x-6 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:space-x-0 max-sm:space-y-6 ">
 
     <Button text={textbutton1} icons={icon} />
  { textbutton2 && <Button text={textbutton2} icons={icon} />}

@@ -37,13 +37,13 @@ const Section1 = ({
       </div>
 
       {/* Texte */}
-      <div className="py-10 w-1/2 max-lg:w-7/12 max-md:w-full space-y-4 p-5 rounded-lg bg-jauneOr/5 flex flex-col items-start justify-around">
-        <p className="text-3xl  font-dmserif text-blue">
+      <div className="py-10 w-1/2 max-lg:w-7/12 max-md:w-full space-y-4 p-5 rounded-lg bg-jauneOr/5 text-sm flex flex-col items-start justify-around">
+        <p className="text-3xl max-lg:text-2xl max-md:text-xl font-dmserif text-blue">
           {paragraphe1}
         </p>
-        <p className="text-base ">{paragraphe2}</p>
-        <p className="text-blue font-dmserif text-2xl ">
-          {textBlue}
+        <p className="text-base max-md:text-sm">{paragraphe2}</p>
+        <p className="text-blue font-dmserif text-2xl max-lg:text-xl max-md:text-lg">
+          {textBlue}{" "}
           <span className="text-jauneOr">{textOrange}</span>
         </p>
 
