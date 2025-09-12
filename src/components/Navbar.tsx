@@ -37,36 +37,49 @@ export default function Navbar() {
           <li onClick={handleClick} className="   hover:text-jauneOr transition-all  cursor-pointer  ">
             Nos offres d'orientation
             <ul ref={el=>{ClickRef.current[0]=el!}} className=" menu   absolute z-20 text-white   leading-10 bg-blue w-44  rounded-md  ">
+            
+               <li className="cursor-pointer pl-2    bg-blue hover:text-jauneOr transition-all  ">
+              
+                <Link to="/repere">Repère </Link>
+              </li>
+              
+
+              <li className="cursor-pointer pl-2    bg-blue hover:text-jauneOr transition-all  ">
+             
+                <Link to="/exploration">Exploration</Link>
+              </li>
+
               <li className="cursor-pointer pl-2    bg-blue hover:text-jauneOr transition-all   ">
-                <Link to="/trajectoire">Pack trajectoire </Link>{" "}
+                <Link to="/trajectoire">Trajectoire </Link>
               </li>
-              <li className="cursor-pointer pl-2    bg-blue hover:text-jauneOr transition-all  ">
-                {" "}
-                <Link to="/exploration">Pack exploration</Link>{" "}
-              </li>
-              <li className="cursor-pointer pl-2    bg-blue hover:text-jauneOr transition-all  ">
-                {" "}
-                <Link to="/repere">Pack repère </Link>{" "}
-              </li>
+              
+              
               <li className="cursor-pointer pl-2      rounded-b-md   bg-blue hover:text-jauneOr transition-all  ">
-                {" "}
-                <Link to="/parcours">Pack parcoursup 360</Link>{" "}
+             
+                <Link to="/parcours">Parcoursup</Link>
               </li>
             </ul>
           </li>
           <li onClick={handleClick} className=" hover:text-jauneOr transition-all   space-y-5  cursor-pointer ">
-            Nos stages
-            <ul  ref={el=>{ClickRef.current[1]=el!}} className="absolute menu ChildMenu text-white    bg-blue   rounded-md ">
-              <li className="cursor-pointer hover:text-jauneOr p-2 rounded-md transition-all bg-blue ">
-                Concours et test post Bac
-              </li>
-            </ul>
+             <Link to="/concours"> Nos stages</Link> 
+           
           </li>
           <li className="hover:text-jauneOr transition-all cursor-pointer">
             <Link to="/conseillers">   Nos conseillers</Link>
          </li>
-          <li className="hover:text-jauneOr transition-all cursor-pointer">
-            <Link to="/QuiSommesNous">Qui sommes-nous</Link>
+          <li onClick={handleClick} className="hover:text-jauneOr transition-all cursor-pointer">
+            Qui sommes-nous
+
+              <ul  ref={el=>{ClickRef.current[1]=el!}} className="absolute menu ChildMenu text-white    bg-blue   rounded-md ">
+             
+              <li className="cursor-pointer hover:text-jauneOr p-2 rounded-md transition-all bg-blue ">
+               <Link to="/QuiSommesNous">Qui sommes-nous</Link>
+              </li>
+             
+              <li className="cursor-pointer hover:text-jauneOr p-2 rounded-md transition-all bg-blue ">
+               <Link to="/notreengagement">notre Engagement</Link>
+              </li>
+            </ul>
             </li>
           <li className="hover:text-jauneOr transition-all cursor-pointer">Nous contacter</li>
           <li className="hover:text-jauneOr transition-all cursor-pointer">Blog</li>

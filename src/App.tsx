@@ -22,12 +22,9 @@ export default function App() {
         <Route path="/exploration" element={<Exploration />} />
         <Route path="/trajectoire" element={<Trajectoire />} />
         <Route path="/notreengagement" element={<NotreEngagement />} />
-        {/* <Route path="/" element={<QuiSommesNous1 />} /> */}
-
-        <Route path="/Concours" element={<Concours />} />
+        <Route path="/concours" element={<Concours />} />
         <Route path="/parcours" element={<Parcours />} />
         <Route path="/QuiSommesNous" element={<QuiSommeNous />} />
-
         <Route path="/contact" element={<Contact />} />
         <Route path="/conseillers" element={<Conseillers />} />
       </Routes>
