@@ -12,8 +12,7 @@ export default function () {
         style={{ backgroundImage: "url('/Hero5.jpg')" }}
       >
         {/* Overlay - rgba(12, 11, 11, 0.38) */}
-        <div className="absolute inset-0" style={{ background: "rgba(12, 11, 11, 0.38)" }}></div>
-        
+     
         {/* Hero Content */}
         <div className="absolute flex flex-col items-start space-y-4 left-[65px] top-1/2 transform -translate-y-1/2 ">
           {/* Hero Badge - Label qualité OPRA */}
@@ -101,7 +100,7 @@ export default function () {
                 Une <span className="text-jauneOr" >vision complète </span> de l'accompagnement
               </h2>
               <p className="text-lg  mb-6">
-                Nous avons développé une méthodologie structurée autour de nos <span className="font-medium">3P: Profil –Projet – Parcours</span> 
+                Nous avons développé une méthodologie structurée autour de nos <span className="font-medium text-blue">3P: Profil –Projet – Parcours</span> 
               </p>
               <div className="space-y-4">
                 <div className="flex items-start space-x-2">

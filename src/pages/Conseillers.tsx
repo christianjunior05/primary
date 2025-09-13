@@ -1,8 +1,9 @@
 import { HiArrowRight } from "react-icons/hi2";
 import Button from "../components/Homepage/miniComponents/Button";
 import { FiArrowLeft, FiArrowRight, FiPhone } from "react-icons/fi";
-
+import c1 from "../../public/c1.png"
 import { MdOutlineEmail, MdOutlineLocationOn } from "react-icons/md";
+import { IoIosArrowDown } from "react-icons/io";
 export default function Conseillers() {
   return (
     <div>
@@ -56,20 +57,21 @@ export default function Conseillers() {
             </h1>
 
           <div className="grid grid-cols-3 gap-24 px-36">
+ 
 
-      <div className="text-lg   rounded-lg   h-[400px]   shadow-xl shadow-jauneOr/10 ">
-        <div className=" ">
+      <div className="text-lg w-72 bg-jauneOr/5  rounded-lg      shadow-xl shadow-jauneOr/10 ">
+        <div className="h-52   ">
           <img
             src="/c1.png"
             alt=""
-            className=" rounded-t-xl size-full object-center object-cover "
+            className=" rounded-t-xl  object-cover"
           />
         </div>
 
-        <div className="p-2  h ">
+        <div className=" text-sm  p-2">
           <span className=" text-xl text-blue">Gladys khady</span>
 
-          <ul className="leading-8  ">
+          <ul className="leading-8  space-y-1 ">
             <li className="space-x-1">
           
               <FiPhone className="text-jauneOr inline mr-1 text-2xl" />
@@ -86,7 +88,7 @@ export default function Conseillers() {
               <span>Ile de france, Centre-Val de Loire</span>
             </li>
           </ul>
-          <button className="text-jauneOr font-montserrat mt-2 space-x-1  ">
+          <button className="text-jauneOr font-montserrat mt-4 space-x-1  ">
           
             <span>En savoir plus sur Gwladys </span>
             <HiArrowRight className="inline " />
@@ -94,8 +96,8 @@ export default function Conseillers() {
         </div>
       </div>
 
-      <div className="text-lg   rounded-lg   h-[400px]   shadow-xl shadow-jauneOr/10 ">
-        <div className=" h-56 ">
+      <div className="text-lg w-72   rounded-lg  bg-jauneOr/5   shadow-xl shadow-jauneOr/10 ">
+        <div className=" h-52 ">
           <img
             src="/c2.JPEG"
             alt=""
@@ -106,7 +108,7 @@ export default function Conseillers() {
         <div className="p-2   ">
           <span className=" text-xl text-blue">Sonia Dridi</span>
 
-          <ul className="leading-8  ">
+          <ul className="leading-8 space-y-1  ">
             <li className="space-x-1">
           
               <FiPhone className="text-jauneOr inline mr-1 text-2xl" />

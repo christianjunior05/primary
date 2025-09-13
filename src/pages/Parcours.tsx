@@ -1,9 +1,36 @@
 
+import { useRef } from "react";
 import { FiArrowLeft, FiArrowRight } from "react-icons/fi";
 import { GiCheckMark } from "react-icons/gi";
 
 
 export default function Parcours() {
+
+const VideoRef=useRef<HTMLVideoElement>(null)
+
+
+
+const  HandleClick=()=>{
+
+if (VideoRef.current) {
+  VideoRef.current.play()
+}
+
+
+}
+
+const HandleEnded=()=>{
+
+if (VideoRef.current) {
+  VideoRef.current.load()
+}
+
+}
+
+
+
+
+  
   return (
     <div className="min-h-screen">
       {/* Hero */}
@@ -14,22 +41,21 @@ export default function Parcours() {
         <div
           className="absolute inset-0"
           style={{ background: "rgba(12, 11, 11, 0.38)" }}
-        ></div>
+        >
+          
+        </div>
         <div className="absolute flex flex-col items-start gap-3 left-[65px] top-1/2 transform -translate-y-1/2 w-[1184px]">
           <div className="text-white font-['DM_Serif_Display'] text-[40px] leading-[52px]">
-            <span className="block">Offre Parcoursup 360°</span>
+            <span className="block">Offre Parcoursup® 360°</span>
           </div>
           <div className="text-white font-['DM_Serif_Display'] text-[25px] leading-[100%] mb-4">
             Votre allié pour
-            <span className="text-yellow-400">
-
-              traverser Parcoursup® en confiance
-            </span>
+            <span className="text-yellow-400">  traverser Parcoursup en confiance</span>
             .
           </div>
           <div className="text-white font-['DM_Serif_Display'] text-[20px] leading-[30px] max-w-[900px]">
-            Chaque année, Parcoursup® est une étape décisive, souvent source de
-            doutes et de stress pour les familles. Avec l’offre Parcoursup®
+            Chaque année, Parcoursup est une étape décisive, souvent source de
+            doutes et de stress pour les familles. Avec l’offre Parcoursup
             360°, vous bénéficiez d’un accompagnement global, méthodique et
             personnalisé pour sécuriser chaque étape.
           </div>
@@ -40,12 +66,13 @@ export default function Parcours() {
       {/* Ce que comprend l'accompagnement */}
       <section>
         <div className="flex justify-center items-center gap-10 my-20 ">
-          <div className=" size-96 rounded-lg">
-            <img
-              src="/parcours.jpg"
-              alt=""
-              className="size-full rounded-lg object-cover"
-            />
+          <div className=" cursor-pointer size-96 rounded-lg">
+    <video onClick={HandleClick} 
+    ref={VideoRef} 
+    src="/parcoursup.mp4"  
+    poster="/w5.jpg"
+    onEnded={HandleEnded}
+    className="size-full  object-cover rounded-lg" />
           </div>
 
           <div className="w-6/12  space-y-4  ">
@@ -156,7 +183,7 @@ export default function Parcours() {
           </div>
           <div className="size-96">
             <img
-              src="/7.jpg"
+              src="/w1.jpg"
               alt="Avantages exclusifs"
               className="size-full rounded-lg object-cover"
             />
@@ -171,7 +198,7 @@ export default function Parcours() {
 
           <div className="size-96">
             <img
-              src="/parcours3.jpg"
+              src="/w2.jpg"
               alt="Pourquoi accompagnement"
               className="w-full h-auto rounded-lg object-cover"
             />

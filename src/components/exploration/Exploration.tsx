@@ -1,5 +1,4 @@
 import Header from "../Header";
-import Section1 from "../PacksRepere/sectionComponents/Section1";
 import Title from "../Homepage/miniComponents/Title";
 import Coche from "../Homepage/miniComponents/Coche";
 import { TbPointFilled } from "react-icons/tb";
@@ -8,8 +7,36 @@ import Section4 from "../PacksRepere/sectionComponents/Section4";
 import Section5 from "../PacksRepere/sectionComponents/Section5";
 import Section6 from "../PacksRepere/sectionComponents/Section6";
 import ListElement from "./miniComponents/ListElement";
+import { useRef } from "react";
+import { IoCheckmark } from "react-icons/io5";
 
 const Exploration= ()=> {
+
+
+const VideoRef=useRef<HTMLVideoElement>(null)
+
+
+
+const  HandleClick=()=>{
+
+if (VideoRef.current) {
+  VideoRef.current.play()
+}
+
+
+}
+
+const HandleEnded=()=>{
+
+if (VideoRef.current) {
+  VideoRef.current.load()
+}
+
+}
+
+
+
+
     return ( 
         <div>
 <Header
@@ -18,18 +45,60 @@ packsrepere={false}
 exploration={true}
 trajectoire={false}
 />
-<Section1 
-alt="une fille"
-image="explorsection1.png"
-paragraphe1="Votre enfant hésite sur la voie à suivre ? Il ne sait pas encore quels métiers pourraient lui convenir ou comment orienter ses choix scolaires ?..."
-paragraphe2="... Le Pack Exploration l’accompagne pour mieux se connaître grâce à des tests et exercices ciblés de connaissance de soi, découvrir des secteurs d’activité en accord avec ses forces et ses motivations, et clarifier ses choix."
-list1="Collégiens : transformer un premier intérêt en projet préparatoire pour la seconde."
-list2="Lycéens:  pour commencer à construire son parcours d'orientation et initialiser son dossier Parcoursup"
-list3="Étudiants qui s'interrogent sur une réorientation ou sur leur poursuite d’études."
-textBlue="À qui s’adresse "
-textOrange="ce pack ?"
-textbutton="Trouver une conseillère"
-/>
+
+
+{/* Donnez à votre enfant les clés pour définir son projet et réussir Parcoursup avec confiance. */}
+
+<div className=" flex justify-center items-center gap-10 my-32 flex-wrap">
+      {/* Image */}
+      <div className=" size-[500px] cursor-pointer border max-lg:w-80 max-lg:h-80 max-md:w-64 max-md:h-64 bg-gris ">
+          <video onClick={HandleClick} 
+    ref={VideoRef} 
+    src="/exploration.mp4"  
+    poster="/w3.jpg"
+    onEnded={HandleEnded}
+    className="size-full  object-cover" />
+      </div>
+
+      {/* Texte */}
+      <div className="py-10 w-1/2 max-lg:w-7/12 max-md:w-full space-y-4 p-5 rounded-lg bg-jauneOr/5 text-sm flex flex-col items-start justify-around">
+        <p className="text-3xl max-lg:text-2xl max-md:text-xl font-dmserif text-blue">
+Votre enfant hésite sur la voie à suivre ? Il ne sait pas encore quels métiers pourraient lui convenir ou comment orienter ses choix scolaires ?...        </p>
+        <p className="text-base max-md:text-sm">
+... Le Pack Exploration l’accompagne pour mieux se connaître grâce à des tests et exercices ciblés de connaissance de soi, découvrir des secteurs d’activité en accord avec ses forces et ses motivations, et clarifier ses choix.
+</p>
+        <p className="text-blue font-dmserif text-2xl max-lg:text-xl max-md:text-lg">
+       À qui s’adresse 
+          <span className="text-jauneOr">ce pack ?</span>
+        </p>
+
+        <ul className="space-y-4 mb-3">
+          <li className="flex">
+            <IoCheckmark className="text-jauneOr inline size-5 max-md:size-4" />
+Collégiens : transformer un premier intérêt en projet préparatoire pour la seconde.     
+     </li>
+          <li className="flex">
+            <IoCheckmark className="text-jauneOr inline size-5 max-md:size-4" />{" "}
+   Lycéens:  pour commencer à construire son parcours d'orientation et initialiser son dossier Parcoursup
+          </li>
+
+          <li className="flex">
+                        <IoCheckmark className="text-jauneOr inline size-5 max-md:size-4" />{" "}
+                       Étudiants qui s'interrogent sur une réorientation ou sur leur poursuite d’études.
+                      </li>
+       
+        </ul>
+
+          <button className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+        Trouver une conseillère
+           
+            </button>
+
+      </div>
+</div>
+
+
+
 
 <div className="flex flex-col md:flex-row items-center justify-center gap-10 my-6 mx-5 md:mx-20">
 

@@ -9,7 +9,7 @@ import { IoIosArrowDown } from "react-icons/io";
 
 const InfoProfile = () => {
   return (
-    <div className=" flex items-center gap-5   ">
+   <div className=" flex items-center gap-5   ">
       <div className="text-lg shadow  rounded-lg shadow-jauneOr/15 h-full   ">
         <div className=" ">
           <img
@@ -51,7 +51,7 @@ const InfoProfile = () => {
         <IoIosArrowDown className="border text-3xl p-1 cursor-pointer rounded-full text-gray-400 border-gray-400" />
         <IoIosArrowDown className="border text-3xl p-1 cursor-pointer rounded-full text-blue border-blue" />
       </div>
-    </div>
+    </div> 
   );
 };
 
