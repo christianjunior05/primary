@@ -1,4 +1,4 @@
-import Navbar from "./components/Navbar";
+
 import Homepage from "./components/Homepage/Homepage";
 import Footer from "./components/Footer";
 import PacksRepere from "./components/PacksRepere/PacksRepere";
@@ -11,6 +11,7 @@ import Parcours from "./pages/Parcours";
 import Contact from "./pages/Contact";
 import Conseillers from "./pages/Conseillers";
 import { Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
 
 export default function App() {
   return (
