@@ -11,7 +11,7 @@ import Parcours from "./pages/Parcours";
 import Contact from "./pages/Contact";
 import Conseillers from "./pages/Conseillers";
 import { Routes, Route } from "react-router-dom";
-
+import Presentation from "./pages/Presentation/Presentation";
 export default function App() {
   return (
     <main className="overflow-x-hidden">
@@ -27,6 +27,7 @@ export default function App() {
         <Route path="/QuiSommesNous" element={<QuiSommeNous />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/conseillers" element={<Conseillers />} />
+        <Route path="/details" element={<Presentation />} />
       </Routes>
 
       <Footer />
