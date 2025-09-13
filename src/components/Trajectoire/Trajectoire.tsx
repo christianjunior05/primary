@@ -1,5 +1,4 @@
 import Header from "../Header";
-import Section1 from "../PacksRepere/sectionComponents/Section1";
 import Section3 from "../PacksRepere/sectionComponents/Section3";
 import Coche from "../Homepage/miniComponents/Coche";
 import Title from "../Homepage/miniComponents/Title";
@@ -7,9 +6,43 @@ import ListElement from "../exploration/miniComponents/ListElement";
 import Section4 from "../PacksRepere/sectionComponents/Section4";
 import Section5 from "../PacksRepere/sectionComponents/Section5";
 import Section6 from "../PacksRepere/sectionComponents/Section6";
+import { IoCheckmark } from "react-icons/io5";
+
+import { useRef } from "react";
 
 
 const Trajectoire= ()=> {
+
+
+
+
+const VideoRef=useRef<HTMLVideoElement>(null)
+
+
+
+const  HandleClick=()=>{
+
+if (VideoRef.current) {
+  VideoRef.current.play()
+}
+
+
+}
+
+const HandleEnded=()=>{
+
+if (VideoRef.current) {
+  VideoRef.current.load()
+}
+
+}
+
+
+
+
+
+
+
     return (  
 
         <div>
@@ -19,18 +52,48 @@ const Trajectoire= ()=> {
   exploration={false}
   trajectoire={true}
   />
-<Section1
-  image="photo4.png"
-  alt="image"
-paragraphe1="Donnez à votre enfant les clés pour définir son projet et réussir Parcoursup avec confiance."
-paragraphe2="... Le Pack Trajectoire  est conçu pour offrir un accompagnement complet et structuré, depuis la découverte du profil et des intérêts de votre enfant jusqu’à la sélection précise de formations et d’établissements. Un parcours en plusieurs étapes pour avancer avec confiance, clarté et des choix solides pour l’avenir."
-textBlue="À qui s’adresse "
-textOrange="ce pack ?"
 
-list1="Lycéens : Définir et confirmer ses parcours d'orientation pour construire sa stratégie Parcoursup"
-list2="Étudiants : valider ses choix de poursuite d'études"
-textbutton="Trouver une conseillère"
-/>
+<div className=" flex justify-center items-center gap-10 my-32 flex-wrap">
+      {/* Image */}
+      <div className=" size-[500px] cursor-pointer border max-lg:w-80 max-lg:h-80 max-md:w-64 max-md:h-64 bg-gris ">
+          <video onClick={HandleClick} 
+    ref={VideoRef} 
+    src="/trajectoire.mp4"  
+    poster="/w4.jpg"
+    onEnded={HandleEnded}
+    className="size-full  object-cover" />
+      </div>
+
+      {/* Texte */}
+      <div className="py-10 w-1/2 max-lg:w-7/12 max-md:w-full space-y-4 p-5 rounded-lg bg-jauneOr/5 text-sm flex flex-col items-start justify-around">
+        <p className="text-3xl max-lg:text-2xl max-md:text-xl font-dmserif text-blue">
+         Donnez à votre enfant les clés pour définir son projet et réussir Parcoursup avec confiance.
+        </p>
+        <p className="text-base max-md:text-sm">... Le Pack Trajectoire  est conçu pour offrir un accompagnement complet et structuré, depuis la découverte du profil et des intérêts de votre enfant jusqu’à la sélection précise de formations et d’établissements. Un parcours en plusieurs étapes pour avancer avec confiance, clarté et des choix solides pour l’avenir.</p>
+        <p className="text-blue font-dmserif text-2xl max-lg:text-xl max-md:text-lg">
+          À qui s’adresse 
+          <span className="text-jauneOr">ce pack ?</span>
+        </p>
+
+        <ul className="space-y-4 mb-3">
+          <li className="flex">
+            <IoCheckmark className="text-jauneOr inline size-5 max-md:size-4" />
+          Lycéens : Définir et confirmer ses parcours d'orientation pour construire sa stratégie Parcoursup
+          </li>
+          <li className="flex">
+            <IoCheckmark className="text-jauneOr inline size-5 max-md:size-4" />{" "}
+          Étudiants : valider ses choix de poursuite d'études
+          </li>
+       
+        </ul>
+
+          <button className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+         Trouver une conseillère
+           
+            </button>
+
+      </div>
+    </div>
 
 <div className="flex flex-col md:flex-row items-center justify-center gap-5 my-6 mx-5 md:mx-20">
 

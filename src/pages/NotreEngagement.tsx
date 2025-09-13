@@ -8,7 +8,7 @@ const NotreEgagement = () => {
       {/* Hero Section - Transformé en Tailwind CSS */}
       <header
         className="relative w-full h-[480px] bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('/Hero1.jpg')" }}
+        style={{ backgroundImage: "url('/eng1.jpg')" }}
       >
         {/* Overlay - rgba(12, 11, 11, 0.38) */}
         <div className="absolute inset-0" style={{ background: "rgba(12, 11, 11, 0.38)" }}></div>
@@ -93,7 +93,7 @@ const NotreEgagement = () => {
           <div className="flex  flex-wrap  justify-center gap-20  items-center">
             <div className="bg-jauneOr/5 p-5 rounded-lg w-6/12 " >
               <h2 className="text-4xl  text-blue font-dmserif mb-6">
-                Un accompagnement <span className="text-jauneOr">100% personnalisé</span>
+                Un accompagnement <br /> <span className="text-jauneOr">100% personnalisé</span>
               </h2>
               <p className="text-lg  mb-6">
                 Chaque élève est unique, et son projet d'avenir doit l'être aussi. Nous avons conçu une approche individualisée qui prend en compte :

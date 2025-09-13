@@ -3,14 +3,23 @@ import { HiOutlineLockClosed } from "react-icons/hi2";
 import { Link } from "react-router-dom";
 import { CiMenuBurger } from "react-icons/ci";
 import { IoMdClose } from "react-icons/io";
-import { useState } from "react";
+import { useState, useRef } from "react";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const ClickRef = useRef<HTMLUListElement[]>([]);
   
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
+
+
+  const handleClick = (event: React.MouseEvent<HTMLLIElement>) => {
+  const target = event.currentTarget.querySelector('.menu');
+  if (target) {
+    target.classList.toggle("active");
+  }
+};
 
   return (
     <nav className=" bg-blue text-white font-lato relative z-50  ">
@@ -22,45 +31,58 @@ export default function Navbar() {
 
         {/* Liens Desktop */}
         <ul className="  md:flex space-x-6 items-center text-xs lg:text-base   whitespace-nowrap">
-          <li className="hover:text-jauneOr transition-all">
+          <li className="hover:text-jauneOr transition-all cursor-pointer">
             <Link to="/"> Accueil</Link>
           </li>
-          <li className=" menu  hover:text-jauneOr transition-all   ">
+          <li onClick={handleClick} className="   hover:text-jauneOr transition-all  cursor-pointer  ">
             Nos offres d'orientation
-            <ul className=" ChildMenu    absolute z-20 text-white   leading-10 bg-blue w-44  rounded-md  ">
+            <ul ref={el=>{ClickRef.current[0]=el!}} className=" menu   absolute z-20 text-white   leading-10 bg-blue w-44  rounded-md  ">
+            
+               <li className="cursor-pointer pl-2    bg-blue hover:text-jauneOr transition-all  ">
+              
+                <Link to="/repere">Repère </Link>
+              </li>
+              
+
+              <li className="cursor-pointer pl-2    bg-blue hover:text-jauneOr transition-all  ">
+             
+                <Link to="/exploration">Exploration</Link>
+              </li>
+
               <li className="cursor-pointer pl-2    bg-blue hover:text-jauneOr transition-all   ">
-                <Link to="/trajectoire">Pack trajectoire </Link>{" "}
+                <Link to="/trajectoire">Trajectoire </Link>
               </li>
-              <li className="cursor-pointer pl-2    bg-blue hover:text-jauneOr transition-all  ">
-                {" "}
-                <Link to="/exploration">Pack exploration</Link>{" "}
-              </li>
-              <li className="cursor-pointer pl-2    bg-blue hover:text-jauneOr transition-all  ">
-                {" "}
-                <Link to="/repere">Pack repère </Link>{" "}
-              </li>
+              
+              
               <li className="cursor-pointer pl-2      rounded-b-md   bg-blue hover:text-jauneOr transition-all  ">
-                {" "}
-                <Link to="/parcours">Pack parcoursup 360</Link>{" "}
+             
+                <Link to="/parcours">Parcoursup</Link>
               </li>
             </ul>
           </li>
-          <li className="menu  hover:text-jauneOr transition-all   space-y-5  ">
-            Nos stages
-            <ul className="absolute ChildMenu text-white    bg-blue   rounded-md ">
-              <li className="cursor-pointer hover:text-jauneOr p-2 rounded-md transition-all bg-blue ">
-                Concours et test post Bac
-              </li>
-            </ul>
+          <li onClick={handleClick} className=" hover:text-jauneOr transition-all   space-y-5  cursor-pointer ">
+             <Link to="/concours"> Nos stages</Link> 
+           
           </li>
-          <li className="hover:text-jauneOr transition-all">
+          <li className="hover:text-jauneOr transition-all cursor-pointer">
             <Link to="/conseillers">   Nos conseillers</Link>
          </li>
-          <li className="hover:text-jauneOr transition-all">
-            <Link to="/QuiSommesNous">Qui sommes-nous</Link>
+          <li onClick={handleClick} className="hover:text-jauneOr transition-all cursor-pointer">
+            Qui sommes-nous
+
+              <ul  ref={el=>{ClickRef.current[1]=el!}} className="absolute menu ChildMenu text-white    bg-blue   rounded-md ">
+             
+              <li className="cursor-pointer hover:text-jauneOr p-2 rounded-md transition-all bg-blue ">
+               <Link to="/QuiSommesNous">Qui sommes-nous</Link>
+              </li>
+             
+              <li className="cursor-pointer hover:text-jauneOr p-2 rounded-md transition-all bg-blue ">
+               <Link to="/notreengagement">notre Engagement</Link>
+              </li>
+            </ul>
             </li>
-          <li className="hover:text-jauneOr transition-all">Nous contacter</li>
-          <li className="hover:text-jauneOr transition-all">Blog</li>
+          <li className="hover:text-jauneOr transition-all cursor-pointer">Nous contacter</li>
+          <li className="hover:text-jauneOr transition-all cursor-pointer">Blog</li>
           <li className="flex items-center space-x-2 text-jauneOr">
             <HiOutlineLockClosed />
             <span>Connexion</span>

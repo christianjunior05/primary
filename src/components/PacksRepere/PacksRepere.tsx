@@ -31,6 +31,8 @@ textBlue="À qui s’adresse"
 textOrange="ce pack ?"
 textbutton="Trouver un conseiller "
 />
+
+
   
   <Section2/>
   <Section3
@@ -103,6 +105,7 @@ textbutton="Trouver un conseiller "
              <button className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
    Pack exploration <HiArrowRight className="font-semibold text-lg  inline "/>
        </button>
+       
 </div>
 
   </div>

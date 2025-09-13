@@ -10,7 +10,7 @@ const Button = ({ text, icons }: Typage) => {
       {text}
       {icons && (
         <HiArrowRight className="font-semibold text-lg  inline " />
-      )}{" "}
+      )}
     </button>
   );
 };

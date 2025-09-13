@@ -1,9 +1,34 @@
+import { useRef } from "react";
 import { FaArrowRight } from "react-icons/fa";
 import { HiArrowRight } from "react-icons/hi2";
 
 
 
 const Concours = () => {
+
+const VideoRef=useRef<HTMLVideoElement>(null)
+
+
+
+const  HandleClick=()=>{
+
+if (VideoRef.current) {
+  VideoRef.current.play()
+}
+
+
+}
+
+const HandleEnded=()=>{
+
+if (VideoRef.current) {
+  VideoRef.current.load()
+}
+
+}
+
+
+
   return (
     <div className="min-h-screen">
     
@@ -17,17 +42,20 @@ const Concours = () => {
       </header>
 
       {/* Section: Concours d'entrée en école de commerce */}
-      <section className="py-16 bg-white">
+      <section className="py-16 ">
         
-          <div className=" flex gap-14 m-auto   items-center w-10/12 ">
-            <div className="size-[25rem] rounded-lg overflow-hidden flex items-center justify-center">
-              <img
-                src="/Image14.jpg"
-                alt="Étudiants préparant concours commerce"
-                className="object-cover size-full object-center rounded-lg"
-              />
+          <div className=" flex gap-14 m-auto   items-center justify-center w-10/12">
+            <div className="size-[25rem] cursor-pointer   rounded-lg overflow-hidden flex items-center justify-center">
+
+          <video onClick={HandleClick} 
+    ref={VideoRef} 
+    src="/stages.mp4"  
+    poster="/w6.jpg"
+    onEnded={HandleEnded}
+    className="object-cover size-full object-center rounded-lg" />
+
             </div>
-            <div className=" space-y-5" >
+            <div className=" space-y-5  " >
               <h2 className="text-3xl font-dmserif text-blue font-lato ">
                Concours d'entrée  <span className="text-jauneOr "> en école de <br/> commerce post-bac</span>
               </h2>
@@ -68,9 +96,9 @@ const Concours = () => {
       {/* Section: Concours d'entrée en école d'ingénieur */}
     
 
-         <section className="py-16 bg-white">
+         <section className="py-16 ">
         
-          <div className=" flex gap-14 m-auto   items-center w-10/12 ">
+          <div className=" flex gap-14 m-auto  justify-center  items-center w-10/12 ">
            
             <div className=" space-y-5" >
               <h2 className="text-3xl font-dmserif text-jauneOr font-lato ">
@@ -118,9 +146,8 @@ const Concours = () => {
       {/* Section: Préparations aux certifications */}
    
 
-      <section className="py-16 bg-white">
-        
-          <div className=" flex gap-14 m-auto   items-center w-10/12 ">
+      <section className="py-16 ">        
+          <div className=" flex gap-14 m-auto justify-center  items-center w-10/12 ">
            
 
           <div className="size-[25rem] rounded-lg overflow-hidden flex items-center justify-center">
@@ -182,7 +209,6 @@ const Concours = () => {
 
             
           </div>
-      
       </section>
 
       {/* Section: Call to Action */}

@@ -9,11 +9,13 @@ import QuiSommeNous from "./pages/QuiSommeNous"
 import Concours from "./pages/Concours";
 import Parcours from "./pages/Parcours";
 import Contact from "./pages/Contact";
-import Conseillers from "./pages/Conseillers";
+import Conseillers from "./pages/Conseiller/Conseillers";
 import { Routes, Route } from "react-router-dom";
+import Presentation from "./pages/Conseiller/Presentation";
 import Navbar from "./components/Navbar";
-
 export default function App() {
+
+ 
   return (
     <main className="overflow-x-hidden">
       <Navbar />
@@ -23,14 +25,12 @@ export default function App() {
         <Route path="/exploration" element={<Exploration />} />
         <Route path="/trajectoire" element={<Trajectoire />} />
         <Route path="/notreengagement" element={<NotreEngagement />} />
-        {/* <Route path="/" element={<QuiSommesNous1 />} /> */}
-
-        <Route path="/Concours" element={<Concours />} />
+        <Route path="/concours" element={<Concours />} />
         <Route path="/parcours" element={<Parcours />} />
         <Route path="/QuiSommesNous" element={<QuiSommeNous />} />
-
         <Route path="/contact" element={<Contact />} />
         <Route path="/conseillers" element={<Conseillers />} />
+        <Route path="/conseillers/:id" element={<Presentation  />} />
       </Routes>
 
       <Footer />
