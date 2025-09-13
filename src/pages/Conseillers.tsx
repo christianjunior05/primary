@@ -1,9 +1,8 @@
 import { HiArrowRight } from "react-icons/hi2";
 import Button from "../components/Homepage/miniComponents/Button";
 import { FiArrowLeft, FiArrowRight, FiPhone } from "react-icons/fi";
-import c1 from "../../public/c1.png"
+
 import { MdOutlineEmail, MdOutlineLocationOn } from "react-icons/md";
-import { IoIosArrowDown } from "react-icons/io";
 export default function Conseillers() {
   return (
     <div>
