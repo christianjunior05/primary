@@ -1,8 +1,10 @@
 import { HiArrowRight } from "react-icons/hi2";
-import Button from "../components/Homepage/miniComponents/Button";
+import Button from "../../components/Homepage/miniComponents/Button";
 import { FiArrowLeft, FiArrowRight, FiPhone } from "react-icons/fi";
+import Users from "./Data";
 
 import { MdOutlineEmail, MdOutlineLocationOn } from "react-icons/md";
+import { Link } from "react-router-dom";
 export default function Conseillers() {
   return (
     <div>
@@ -58,44 +60,51 @@ export default function Conseillers() {
           <div className="grid grid-cols-3 gap-24 px-36">
  
 
-      <div className="text-lg w-72 bg-jauneOr/5  rounded-lg      shadow-xl shadow-jauneOr/10 ">
+   { Users.map((User)=>(
+
+    <>
+
+    <div key={User.id} className="text-lg w-72 bg-jauneOr/5  rounded-lg      shadow-xl shadow-jauneOr/10 ">
         <div className="h-52   ">
           <img
-            src="/c1.png"
+            src={`/${User.image}`}
             alt=""
             className=" rounded-t-xl  object-cover"
           />
         </div>
 
         <div className=" text-sm  p-2">
-          <span className=" text-xl text-blue">Gladys khady</span>
+          <span className=" text-xl text-blue"> {User.prenom} {User.nom} </span>
 
           <ul className="leading-8  space-y-1 ">
             <li className="space-x-1">
           
               <FiPhone className="text-jauneOr inline mr-1 text-2xl" />
-              <span>07 51 06 42 84</span>
+              <span> {User.number} </span>
             </li>
             <li className="space-x-1">
              
               <MdOutlineEmail className="text-jauneOr inline mr-1 text-2xl" />
-              <span>gwladys.kady@prometheor.fr</span>
+              <span> {User.email}</span>
             </li>
             <li className="space-x-1">
           
               <MdOutlineLocationOn className="text-jauneOr inline mr-1 text-2xl" />
-              <span>Ile de france, Centre-Val de Loire</span>
+              <span> {User.localisation} </span>
             </li>
           </ul>
           <button className="text-jauneOr font-montserrat mt-4 space-x-1  ">
-          
-            <span>En savoir plus sur Gwladys </span>
+          <Link to={`./${User.id}`}>En savoir plus sur {User.prenom}</Link>
             <HiArrowRight className="inline " />
           </button>
         </div>
       </div>
+    </>
+   ))}
 
-      <div className="text-lg w-72   rounded-lg  bg-jauneOr/5   shadow-xl shadow-jauneOr/10 ">
+      
+
+      {/* <div className="text-lg w-72   rounded-lg  bg-jauneOr/5   shadow-xl shadow-jauneOr/10 ">
         <div className=" h-52 ">
           <img
             src="/c2.JPEG"
@@ -763,7 +772,7 @@ export default function Conseillers() {
           </button>
         </div>
       </div>
-
+ */}
 
       
  
