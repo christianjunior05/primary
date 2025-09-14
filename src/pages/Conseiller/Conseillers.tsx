@@ -46,65 +46,64 @@ export default function Conseillers() {
         </header>
 
         {/* Section: Des conseillères qualifiées et expertes */}
-      <section>
-      <div className="flex justify-center items-center gap-20 my-20">
-          <div className="w-full">
-            <h1 className="text-4xl text-center font-dmserif  mb-4 text-blue ">
-              Trouver un conseiller <br />
-              <span className=" text-jauneOr  text-[20px]">
-                À vos côtés, à chaque instant grâce à une équipe de conseillers
-                dédiés 
-              </span>
-            </h1>
+        <section>
+          <div className="flex justify-center items-center gap-20 my-20">
+            <div className="w-full">
+              <h1 className="text-4xl text-center font-dmserif  mb-4 text-blue ">
+                Trouver un conseiller <br />
+                <span className=" text-jauneOr  text-[20px]">
+                  À vos côtés, à chaque instant grâce à une équipe de
+                  conseillers dédiés
+                </span>
+              </h1>
 
-          <div className="grid grid-cols-3 gap-24 px-36">
- 
+              <div className="grid grid-cols-3 gap-24 px-36">
+                {Users.map((User) => (
+                  <>
+                    <div
+                      key={User.id}
+                      className="text-lg w-72 bg-jauneOr/5  rounded-lg      shadow-xl shadow-jauneOr/10 "
+                    >
+                      <div className="h-52   ">
+                        <img
+                          src={`/${User.image}`}
+                          alt=""
+                          className=" rounded-t-xl  object-cover"
+                        />
+                      </div>
 
-   { Users.map((User)=>(
+                      <div className=" text-sm  p-2">
+                        <span className=" text-xl text-blue">
+                          {" "}
+                          {User.prenom} {User.nom}{" "}
+                        </span>
 
-    <>
+                        <ul className="leading-8  space-y-1 ">
+                          <li className="space-x-1">
+                            <FiPhone className="text-jauneOr inline mr-1 text-2xl" />
+                            <span> {User.number} </span>
+                          </li>
+                          <li className="space-x-1">
+                            <MdOutlineEmail className="text-jauneOr inline mr-1 text-2xl" />
+                            <span> {User.email}</span>
+                          </li>
+                          <li className="space-x-1">
+                            <MdOutlineLocationOn className="text-jauneOr inline mr-1 text-2xl" />
+                            <span> {User.localisation} </span>
+                          </li>
+                        </ul>
+                        <button className="text-jauneOr font-montserrat mt-4 space-x-1  ">
+                          <Link to={`./${User.id}`}>
+                            En savoir plus sur {User.prenom}
+                          </Link>
+                          <HiArrowRight className="inline " />
+                        </button>
+                      </div>
+                    </div>
+                  </>
+                ))}
 
-    <div key={User.id} className="text-lg w-72 bg-jauneOr/5  rounded-lg      shadow-xl shadow-jauneOr/10 ">
-        <div className="h-52   ">
-          <img
-            src={`/${User.image}`}
-            alt=""
-            className=" rounded-t-xl  object-cover"
-          />
-        </div>
-
-        <div className=" text-sm  p-2">
-          <span className=" text-xl text-blue"> {User.prenom} {User.nom} </span>
-
-          <ul className="leading-8  space-y-1 ">
-            <li className="space-x-1">
-          
-              <FiPhone className="text-jauneOr inline mr-1 text-2xl" />
-              <span> {User.number} </span>
-            </li>
-            <li className="space-x-1">
-             
-              <MdOutlineEmail className="text-jauneOr inline mr-1 text-2xl" />
-              <span> {User.email}</span>
-            </li>
-            <li className="space-x-1">
-          
-              <MdOutlineLocationOn className="text-jauneOr inline mr-1 text-2xl" />
-              <span> {User.localisation} </span>
-            </li>
-          </ul>
-          <button className="text-jauneOr font-montserrat mt-4 space-x-1  ">
-          <Link to={`./${User.id}`}>En savoir plus sur {User.prenom}</Link>
-            <HiArrowRight className="inline " />
-          </button>
-        </div>
-      </div>
-    </>
-   ))}
-
-      
-
-      {/* <div className="text-lg w-72   rounded-lg  bg-jauneOr/5   shadow-xl shadow-jauneOr/10 ">
+                {/* <div className="text-lg w-72   rounded-lg  bg-jauneOr/5   shadow-xl shadow-jauneOr/10 ">
         <div className=" h-52 ">
           <img
             src="/c2.JPEG"
@@ -773,108 +772,107 @@ export default function Conseillers() {
         </div>
       </div>
  */}
-
-      
- 
-          </div>
-          </div>
-        </div>
-
-      </section>
-        
-
-    
-
-   <section>
-        <div className=" bg-blue  py-14 my-20 ">
-          <h3 className="text-3xl font-dmserif text-jauneOr mb-14 text-center "> Ce qu'ils disent de l'accompagnement</h3>
-          <div className="flex items-center gap-10  justify-center ">
-            <FiArrowLeft className=" max-sm:hidden border size-10 p-2 shrink-0  rounded-full text-jauneOr border-jauneOr cursor-pointer hover:bg-jauneOr hover:text-white transition-all " />
-
-            <div className="flex gap-10  flex-wrap justify-center items-center ">
-              <div className={` w-72  max-sm:space-y-2  space-y-7 bg-white     p-5    flex flex-col  rounded-xl border`}>
-
-                <p className=" max-md:text-base text-xs">Accompagnement très réussi auprès de mes fils. Sonia est une personne très qualifiée, à l'écoute de chaque élève avec des conseils très pertinents. Elle est également très disponible ! Je recommande vivement.</p>
-
-                <div className="space-y-2">
-
-                  <div className=" flex  text-sm max-md:text-base">
-                    <i className="fa-solid fa-star text-orange"></i>
-                    <i className="fa-solid fa-star text-orange"></i>
-                    <i className="fa-solid fa-star text-orange"></i>
-                    <i className="fa-solid fa-star text-orange"></i>
-                    <i className="fa-solid fa-star text-orange"></i>
-                  </div>
-                  <div>
-                    <span className="block text-xs">Charles</span>
-                    <span className="block text-xs md:text-sm">Élève de terminale</span>
-                  </div>
-
-                </div>
-
               </div>
-
-              <div className={` w-72  max-sm:space-y-2  space-y-10 bg-white     p-5    flex flex-col  rounded-xl border`}>
-                {/* Commentaire */}
-                <p className=" max-md:text-base text-xs">Un accompagnement et une aide de qualité dans la réorientation et l’utilisation de Parcoursup ainsi qu’un suivi jusqu’au bout. Merci !</p>
-
-                {/* Étoiles */}
-
-
-                {/* Nom et profession */}
-
-
-                <div className="space-y-2">
-
-                  <div className=" flex  text-sm max-md:text-base">
-                    <i className="fa-solid fa-star text-orange"></i>
-                    <i className="fa-solid fa-star text-orange"></i>
-                    <i className="fa-solid fa-star text-orange"></i>
-                    <i className="fa-solid fa-star text-orange"></i>
-                    <i className="fa-solid fa-star text-orange"></i>
-                  </div>
-                  <div>
-                    <span className="block text-xs">Gabrielle</span>
-                    <span className="block text-xs">Élève en réorientation</span>
-                  </div>
-
-                </div>
-
-              </div>
-
-
-              <div className={` w-72  max-sm:space-y-2  space-y-10 bg-white     p-5    flex flex-col  rounded-xl border`}>
-
-                <p className=" max-md:text-base text-xs">Superbe expérience ! J’ai réalisé plusieurs entretiens et tests pour Parcoursup qui m’ont bien aidé pour l’orientation tant pour les spécialités que pour les écoles.</p>
-
-                <div className="space-y-2">
-
-                  <div className=" flex  text-sm max-md:text-base">
-                    <i className="fa-solid fa-star text-orange"></i>
-                    <i className="fa-solid fa-star text-orange"></i>
-                    <i className="fa-solid fa-star text-orange"></i>
-                    <i className="fa-solid fa-star text-orange"></i>
-                    <i className="fa-solid fa-star text-orange"></i>
-                  </div>
-                  <div>
-                    <span className="block text-xs  ">Léa</span>
-                    <span className="block text-xs">Classe de terminale</span>
-                  </div>
-
-                </div>
-
-              </div>
-
-
-
             </div>
-            <FiArrowRight className=" max-sm:hidden border shrink-0 size-10 p-2 rounded-full text-jauneOr border-jauneOr cursor-pointer hover:bg-jauneOr hover:text-white transition-all " />
-
           </div>
-        </div>
-      </section>
+        </section>
 
+        <section>
+          <div className=" bg-blue  py-14 my-20 ">
+            <h3 className="text-3xl font-dmserif text-jauneOr mb-14 text-center ">
+              {" "}
+              Ce qu'ils disent de l'accompagnement
+            </h3>
+            <div className="flex items-center gap-10  justify-center ">
+              <FiArrowLeft className=" max-sm:hidden border size-10 p-2 shrink-0  rounded-full text-jauneOr border-jauneOr cursor-pointer hover:bg-jauneOr hover:text-white transition-all " />
 
+              <div className="flex gap-10  flex-wrap justify-center items-center ">
+                <div
+                  className={` w-72  max-sm:space-y-2  space-y-7 bg-white     p-5    flex flex-col  rounded-xl border`}
+                >
+                  <p className=" max-md:text-base text-xs">
+                    Accompagnement très réussi auprès de mes fils. Sonia est une
+                    personne très qualifiée, à l'écoute de chaque élève avec des
+                    conseils très pertinents. Elle est également très disponible
+                    ! Je recommande vivement.
+                  </p>
+
+                  <div className="space-y-2">
+                    <div className=" flex  text-sm max-md:text-base">
+                      <i className="fa-solid fa-star text-orange"></i>
+                      <i className="fa-solid fa-star text-orange"></i>
+                      <i className="fa-solid fa-star text-orange"></i>
+                      <i className="fa-solid fa-star text-orange"></i>
+                      <i className="fa-solid fa-star text-orange"></i>
+                    </div>
+                    <div>
+                      <span className="block text-xs">Charles</span>
+                      <span className="block text-xs md:text-sm">
+                        Élève de terminale
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  className={` w-72  max-sm:space-y-2  space-y-10 bg-white     p-5    flex flex-col  rounded-xl border`}
+                >
+                  {/* Commentaire */}
+                  <p className=" max-md:text-base text-xs">
+                    Un accompagnement et une aide de qualité dans la
+                    réorientation et l’utilisation de Parcoursup ainsi qu’un
+                    suivi jusqu’au bout. Merci !
+                  </p>
+
+                  {/* Étoiles */}
+
+                  {/* Nom et profession */}
+
+                  <div className="space-y-2">
+                    <div className=" flex  text-sm max-md:text-base">
+                      <i className="fa-solid fa-star text-orange"></i>
+                      <i className="fa-solid fa-star text-orange"></i>
+                      <i className="fa-solid fa-star text-orange"></i>
+                      <i className="fa-solid fa-star text-orange"></i>
+                      <i className="fa-solid fa-star text-orange"></i>
+                    </div>
+                    <div>
+                      <span className="block text-xs">Gabrielle</span>
+                      <span className="block text-xs">
+                        Élève en réorientation
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  className={` w-72  max-sm:space-y-2  space-y-10 bg-white     p-5    flex flex-col  rounded-xl border`}
+                >
+                  <p className=" max-md:text-base text-xs">
+                    Superbe expérience ! J’ai réalisé plusieurs entretiens et
+                    tests pour Parcoursup qui m’ont bien aidé pour l’orientation
+                    tant pour les spécialités que pour les écoles.
+                  </p>
+
+                  <div className="space-y-2">
+                    <div className=" flex  text-sm max-md:text-base">
+                      <i className="fa-solid fa-star text-orange"></i>
+                      <i className="fa-solid fa-star text-orange"></i>
+                      <i className="fa-solid fa-star text-orange"></i>
+                      <i className="fa-solid fa-star text-orange"></i>
+                      <i className="fa-solid fa-star text-orange"></i>
+                    </div>
+                    <div>
+                      <span className="block text-xs  ">Léa</span>
+                      <span className="block text-xs">Classe de terminale</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <FiArrowRight className=" max-sm:hidden border shrink-0 size-10 p-2 rounded-full text-jauneOr border-jauneOr cursor-pointer hover:bg-jauneOr hover:text-white transition-all " />
+            </div>
+          </div>
+        </section>
 
         {/* Section: Une méthodologie éprouvée et innovante */}
         <section className="">
@@ -962,28 +960,39 @@ export default function Conseillers() {
                 :rendez-vous en présentiel et/ou visioconférence .
               </p>
               <p className="text-lg  mb-6">
-                <span className="text-jauneOr">+Réponses sous 24h ouvrées </span>
+                <span className="text-jauneOr">
+                  +Réponses sous 24h ouvrées{" "}
+                </span>
                 votre demande est prise en charge dans les meilleurs délais.
               </p>
               <Button text="Trouver un conseiller" icons={false} />
             </div>
           </div>
         </section>
-          {/* Section: Call to Action */}
-            
-        
-              <section>
-                     <div className={`  max-sm:pl-5 bg-conseil   pl-20 place-content-center  my-10 h-[400px] bg-no-repeat bg-cover `} >
-                           <div className="  space-y-5 max-md:w-4/5  w-2/5   py-5 pl-10 bg-white/80 rounded-xl">
-                           <h2 className=" max-sm:text-xl font-dmserif text-2xl  text-blue "> Envie d’accompagner les jeunes dans leurs choix d’avenir ?</h2>
-                           <p className="  font-lato  text-sm"> Nous formons des conseillers d’orientation capables d’écouter, d’analyser et de proposer des solutions concrètes pour construire des projets d’études et de carrière adaptés. </p>
-                                     <button className=" text-white   max-sm:text-sm  bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
-                                        Découvrir nos formations <HiArrowRight className="font-semibold text-xl  inline "/>
-                             </button>
-                
-                           </div>
-                  </div>
-              </section>
+        {/* Section: Call to Action */}
+
+        <section>
+          <div
+            className={`  max-sm:pl-5 bg-conseil   pl-20 place-content-center  my-10 h-[400px] bg-no-repeat bg-cover `}
+          >
+            <div className="  space-y-5 max-md:w-4/5  w-2/5   py-5 pl-10 bg-white/80 rounded-xl">
+              <h2 className=" max-sm:text-xl font-dmserif text-2xl  text-blue ">
+                {" "}
+                Envie d’accompagner les jeunes dans leurs choix d’avenir ?
+              </h2>
+              <p className="  font-lato  text-sm">
+                {" "}
+                Nous formons des conseillers d’orientation capables d’écouter,
+                d’analyser et de proposer des solutions concrètes pour
+                construire des projets d’études et de carrière adaptés.{" "}
+              </p>
+              <button className=" text-white   max-sm:text-sm  bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+                Découvrir nos formations{" "}
+                <HiArrowRight className="font-semibold text-xl  inline " />
+              </button>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
   );
