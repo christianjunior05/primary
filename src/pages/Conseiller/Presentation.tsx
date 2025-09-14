@@ -13,7 +13,7 @@ console.log(id)
     (user) => user.id === parseInt(id || "0", 10)
   );
 
-  if (!Conseiller) return <p className="p-4">Conseiller introuvable ❌</p>;
+  if (!Conseiller) return <p className="p-4">Conseiller introuvable </p>;
 
   return (
     <div>
@@ -21,7 +21,7 @@ console.log(id)
       <div className="flex h-[400px] justify-center items-center bg-jauneOr/25 gap-20">
         <div className="size-52">
           <img
-            src={`/${Conseiller.image}`}
+            src={`/${Conseiller.image2}`}
             alt=""
             className="size-full object-cover object-top rounded-full"
           />

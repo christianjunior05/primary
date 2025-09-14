@@ -39,7 +39,8 @@ export default {
                 resultats:"url('/resultats.png')",
                 conseil:"url('/conseillers4.png')",
 
-       }
+       },
+    
     },
   },
   plugins: [],
