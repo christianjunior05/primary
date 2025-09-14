@@ -1,7 +1,7 @@
 const Users = [
   {
     id: 1,
-    image: "c1.PNG  ",
+    image: "c1.png  ",
     nom: " khady",
     prenom: "Gladys",
     number: "07 51 06 42 84",
@@ -20,7 +20,7 @@ const Users = [
 
   {
     id: 2,
-    image: "c2.JPEG",
+    image: "c2.jpeg",
     nom: "   Sonia",
     prenom: "Dridri",
     number: "06 62 82 32 01",
@@ -274,7 +274,7 @@ const Users = [
 
         {
     id: 15,
-    image: "c15.png",
+    image: "c15.jpg",
     nom: "Laurence    ",
     prenom: "Rabier ",
     number: "06 84 23 77 19",
@@ -331,6 +331,23 @@ const Users = [
 "Quant aux adultes, je les accompagne lors de virage à 360°. Nous construisons ensemble étapes par étapes leur futur projet, jusqu’à la création de leur activité.",
 "Au plaisir de vous rencontrer!"
 
+            ]
+      },
+          {
+    id: 19,
+    image: "c18.jpg",
+    nom: "Céline    ",
+    prenom: "Sanchez",
+    number: "06 72 02 41 52",
+    email: "celine.sanchez@prometheor.com",
+    localisation: "Bretagne",
+    TextParagraphe: [
+    "<h1>Qui je suis ? : une professionnelle passionnée par l'accompagnement humain</h1>",
+    "Consultante indépendante, j’ai fait de l’accompagnement et du conseil mon métier, animé par une conviction profonde : chaque personne possède les ressources pour évoluer et s’épanouir. Que ce soit sur le plan scolaire, professionnel ou personnel, j’interviens auprès de mes bénéficiaires pour les guider avec bienveillance et rigueur dans leurs projets et leurs réflexions.",
+    "Mes valeurs, fondement de mon approche",
+    "L’écoute, l’empathie et l’honnêteté sont les piliers de mon travail. Ces valeurs me permettent de nouer une relation de confiance avec chaque personne que j’accompagne. Persévérante et réactive, je m’efforce d’adapter mon approche à chaque situation, dans le respect des besoins et des objectifs définis ensemble. Mon engagement est de fournir un accompagnement sur mesure, propice à des prises de décisions éclairées et à un épanouissement durable.",
+    "Un accompagnement personnalisé pour des résultats concrets",
+    "Chaque parcours est unique, et j’accorde une attention particulière à proposer un accompagnement adapté à chacun. Qu’il s’agisse d’un élève cherchant sa voie, d’un professionnel en quête de reconversion ou d’un particulier souhaitant retrouver confiance en soi, je mets tout en œuvre pour offrir un cadre rassurant et motivant. Mon rôle est de faire émerger des solutions qui répondent à vos attentes tout en respectant votre rythme."
             ]
       },
 ];
