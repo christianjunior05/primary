@@ -1,7 +1,8 @@
 const Users = [
   {
     id: 1,
-    image: "c1.png",
+    image1: "c1.png",
+    image2: "c3.png",
     nom: " khady",
     prenom: "Gladys",
     number: "07 51 06 42 84",
@@ -20,7 +21,8 @@ const Users = [
 
   {
     id: 2,
-    image: "c2.jpeg",
+    image1: "c2.jpeg",
+    image2: "c2.jpeg",
     nom: "   Sonia",
     prenom: "Dridri",
     number: "06 62 82 32 01",
@@ -38,7 +40,8 @@ const Users = [
 
   {
     id: 3,
-    image: "c3.jpg",
+    image1: "c3.jpg",
+    image2: "c3.jpg",
     nom: "Sarah ",
     prenom: "Pelisson",
     number: "06 50 99 49 56",
@@ -56,7 +59,8 @@ const Users = [
 
   {
     id: 4,
-    image: "c4.png",
+    image1: "c4.png",
+    image2: "c4.png",
     nom: "Aminata ",
     prenom: "Sacko",
     number: "06 65 54 44 83",
@@ -74,7 +78,8 @@ const Users = [
 
   {
     id: 5,
-    image: "c5.png",
+    image1: "c5.png",
+    image2: "c5.png",
     nom: "Virgine ",
     prenom: "Colette",
     number: "06 82 32 92 28",
@@ -91,7 +96,8 @@ const Users = [
 
   {
     id: 6,
-    image: "c6.jpg",
+    image1: "c6.jpg",
+    image2: "c6.jpg",
     nom: "Fabyene",
     prenom: "Nimirf",
     number: "06 22 63 27 63",
@@ -109,7 +115,8 @@ const Users = [
 
   {
     id: 7,
-    image: "c7.jpg",
+    image1: "c7.jpg",
+    image2: "c7.jpg",
     nom: "Juliette",
     prenom: "Lacoste",
     number: "06 82 80 15 74",
@@ -128,7 +135,8 @@ const Users = [
 
   {
     id: 8,
-    image: "c8.png",
+    image1: "c8.png",
+    image2: "c8.png",
     nom: "Myriam",
     prenom: "Diebold",
     number: "06 84 84 54 07",
@@ -145,7 +153,8 @@ const Users = [
 
   {
     id: 9,
-    image: "c9.png",
+    image1: "c9.png",
+    image2: "c9.png",
     nom: "Nadia ",
     prenom: "Royer",
     number: "06 26 48 33 76",
@@ -163,7 +172,8 @@ const Users = [
 
     {
     id: 10,
-    image: "c10.jpg",
+    image1: "c10.jpg",
+    image2: "c10.jpg",
     nom: "Laetitia ",
     prenom: "Masini ",
     number: "06 06 63 22 34",
@@ -182,7 +192,8 @@ const Users = [
 
   {
     id: 11    ,
-    image: "c10.jpg",
+    image1: "c10.jpg",
+    image2: "c10.jpg",
     nom: "Caroline ",
     prenom: "Geraads ",
     number: "06 50 99 49 56",
@@ -201,7 +212,8 @@ const Users = [
 
    {
     id: 12,
-    image: "c11.png",
+    image1: "c11.png",
+    image2: "c11.png",
     nom: "Brigitte ",
     prenom: "Fressy ",
     number: "07 62 26 61 97",
@@ -219,7 +231,8 @@ const Users = [
 
     {
     id: 13,
-    image: "e8.png",
+    image1: "e8.png",
+    image2: "e8.png",
     nom: "Jessica  ",
     prenom: "Afonso ",
     number: "07 83 05 74 38",
@@ -237,7 +250,8 @@ const Users = [
 
        {
     id: 14,
-    image: "c13.jpeg",
+    image1: "c13.jpeg",
+    image2: "c13.jpeg",
     nom: "Brigitte    ",
     prenom: "Fressy ",
     number: "07 62 26 61 97",
@@ -255,7 +269,8 @@ const Users = [
 
        {
     id: 15,
-    image: "c14.png",
+    image1: "c14.png",
+    image2: "c14.png",
     nom: "Estelle    ",
     prenom: "Finck-Rolly ",
     number: "06 84 23 77 19",
@@ -274,7 +289,8 @@ const Users = [
 
         {
     id: 16,
-    image: "c15.jpg",
+    image1: "c15.jpg",
+    image2: "c15.jpg",
     nom: "Laurence    ",
     prenom: "Rabier ",
     number: "06 84 23 77 19",
@@ -294,7 +310,8 @@ const Users = [
 
           {
     id: 17,
-    image: "c17.png",
+    image1: "c17.png",
+    image2: "c17.png",
     nom: "Lolom   ",
     prenom: "Martine ",
     number: "06 30 40 01 07",
@@ -315,7 +332,8 @@ const Users = [
 
          {
     id: 18,
-    image: "c18.jpg",
+    image1: "c18.jpg",
+    image2: "c18.jpg",
     nom: "Lolom   ",
     prenom: "Martine ",
     number: "06 30 40 01 07",
