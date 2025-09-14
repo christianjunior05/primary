@@ -1,7 +1,7 @@
 const Users = [
   {
     id: 1,
-    image: "c1.png",
+    image: "c1.PNG  ",
     nom: " khady",
     prenom: "Gladys",
     number: "07 51 06 42 84",
@@ -20,7 +20,7 @@ const Users = [
 
   {
     id: 2,
-    image: "c2.jpeg",
+    image: "c2.JPEG",
     nom: "   Sonia",
     prenom: "Dridri",
     number: "06 62 82 32 01",
