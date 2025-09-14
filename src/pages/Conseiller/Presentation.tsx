@@ -13,7 +13,7 @@ console.log(id)
     (user) => user.id === parseInt(id || "0", 10)
   );
 
-  if (!Conseiller) return <p className="p-4">Conseiller introuvable ❌</p>;
+  if (!Conseiller) return <p className="p-4">Conseiller introuvable </p>;
 
   return (
     <div>
