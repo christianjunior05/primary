@@ -112,6 +112,7 @@ export default function Conseillers() {
           </div>
         </section>
 
+
         <section>
           <div className=" bg-blue  py-14 my-20 ">
             <h3 className="text-3xl font-dmserif text-jauneOr mb-14 text-center ">
@@ -209,7 +210,7 @@ export default function Conseillers() {
           </div>
         </section>
 
-        {/* Section: Une méthodologie éprouvée et innovante */}
+{/* Formations de conseillers certifié Qualiopi */}
         <section className="">
           <div className="flex justify-center gap-20 items-center flex-wrap my-20">
             <div className="size-[500px] rounded-lg flex items-center justify-center">
@@ -264,8 +265,7 @@ export default function Conseillers() {
             </div>
           </div>
         </section>
-
-        {/* Section: Une amélioration continue de nos services */}
+{/* Vous souhaitez échanger avec un conseiller ? */}
         <section className="">
           <div className="flex justify-center gap-20 items-center my-20">
             <div className="size-[500px] rounded-lg flex items-center justify-center">
@@ -281,22 +281,22 @@ export default function Conseillers() {
               </h2>
               <p className="text-lg  mb-6">
                 <span className="text-jauneOr">
-                  +Premier échange téléphonique de 15 minutes{" "}
+                  Premier échange téléphonique de 15 minutes
                 </span>
                 :nous identifions la formule d'accompagnement la plus adaptée .
               </p>
               <p className="text-lg  mb-6">
-                <span className="text-jauneOr">+Écoute bienveillante </span>
+                <span className="text-jauneOr">Écoute bienveillante </span>
                 :chaque conseillère prend le temps de comprendre votre contexte
                 scolaire, les forces et les freins de l’élève.
               </p>
               <p className="text-lg  mb-6">
-                <span className="text-jauneOr">+Disponibilités flexibles </span>
+                <span className="text-jauneOr">Disponibilités flexibles </span>
                 :rendez-vous en présentiel et/ou visioconférence .
               </p>
               <p className="text-lg  mb-6">
                 <span className="text-jauneOr">
-                  +Réponses sous 24h ouvrées{" "}
+                  Réponses sous 24h ouvrées{" "}
                 </span>
                 votre demande est prise en charge dans les meilleurs délais.
               </p>

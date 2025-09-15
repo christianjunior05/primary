@@ -50,15 +50,15 @@ const EnsavoirPlus= (
     <img src={image} alt="" className="size-full rounded-t-2xl" />
   </div>
 
-  <div className="px-10 py-10 flex-1">
+  <div className="px-7 py-10 flex-1">
     <h3 className="text-start text-blue font-dmserif text-lg">
       {titre1} <span className="text-jauneOr"> {titre2} </span> :
     </h3>
-    <p className="my-5 text-start text-sm">
+    <p className="my-5 text-start ">
       <span className="text-jauneOr">Objectif :</span>
       <span> {objectif} </span>
     </p>
-    <ul className="text-xs leading-5">
+    <ul className=" space-y-5">
       <Coche text2={text1} />
       <Coche text2={text2} />
       <Coche text2={text3} />

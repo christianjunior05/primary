@@ -13,6 +13,7 @@ import Conseillers from "./pages/Conseiller/Conseillers";
 import { Routes, Route } from "react-router-dom";
 import Presentation from "./pages/Conseiller/Presentation";
 import Navbar from "./components/Navbar";
+import DevenirConseillers from "./pages/Conseiller/DevenirConseillers";
 export default function App() {
 
  
@@ -31,6 +32,7 @@ export default function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/conseillers" element={<Conseillers />} />
         <Route path="/conseillers/:id" element={<Presentation  />} />
+        <Route path="/devenirconseiller" element={<DevenirConseillers />} />
       </Routes>
 
       <Footer />

@@ -139,11 +139,11 @@ export default function Homepage() {
 
 <div className=" py-10 flex my-28 flex-col md:flex-row px-6 md:px-20 justify-center items-center gap-8 md:gap-12 bg-jauneOr/5  ">
   {/* Image */}
-  <div className="h-64 md:h-72 w-full md:w-auto flex justify-center items-center">
+  <div className="h-64  md:h-72 w-full md:w-auto flex justify-center items-center">
     <img
-      src="/photo4.png"
+      src="/h1.png"
       alt="Pack personnalisé"
-      className="object-contain h-full w-full"
+      className="object-cover  h-full w-full "
     />
   </div>
 
