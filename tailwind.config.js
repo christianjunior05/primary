@@ -38,6 +38,7 @@ export default {
                 trajectoireSection5:"url('/trajectoireSection5.png')",
                 resultats:"url('/resultats.png')",
                 conseil:"url('/conseillers4.png')",
+                DevenezConseiler:"url('/w7.jpg')",
 
        },
     

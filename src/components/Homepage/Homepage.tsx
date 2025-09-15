@@ -54,11 +54,7 @@ export default function Homepage() {
 
   {/* Image */}
   <div className=" border bg-slate-500 h-[300px] md:h-[450px] w-full md:w-1/2 flex justify-center items-center">
-    {/* <img
-      src="/QuiSommesNous.png"
-      alt="plusieurs personnes assises en train d'échanger"
-      className="object-cover h-full w-full"
-    /> */}
+
   </div>
 </div>
 

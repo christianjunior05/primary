@@ -1,52 +1,60 @@
+import { GiCheckMark } from "react-icons/gi";
 
 
 export default function DevenirConseillers() {
   return (
   <div className="min-h-screen">
       
-      {/* Hero Section - Transformé en Tailwind CSS */}
-      <header
-        className="relative w-full h-[480px] bg-cover bg-center bg-no-repeat mb-32"
-        style={{ backgroundImage: "url('/Hero5.jpg')" }}
-      >
-        {/* Overlay - rgba(12, 11, 11, 0.38) */}
-     
-        {/* Hero Content */}
-        <div className="absolute flex flex-col items-start space-y-4 left-[65px] top-1/2 transform -translate-y-1/2 ">
-          {/* Hero Badge - Label qualité OPRA */}
-          <h1 className=" w-11/12 h-[50px]  text-white font-['DM_Serif_Display']  text-4xl   ">
-            Qui <span className="text-jauneOr">sommes nous ?</span>
-          </h1>
+    <header>
+        <div className="bg-DevenezConseiler mb-20 h-[400px] bg-cover bg-center flex items-center">
+        
+        <div className="  size-full flex flex-col justify-center">
 
-          {/* Hero Description */}
-          <p className="   text-white font-montserrat font-normal text-xl   ">
-          Chez Prometheor, nous croyons que chacun mérite d’être accompagné avec exigence et <br />  bienveillance pour révéler son potentiel. <br />
-          </p>
-          <p className="w-11/12 font-montserrat text-white  font-normal text-xl leading-[30px]  "> Notre mission : préparer les jeunes aux grands défis scolaires et aux exigences du monde professionnel, grâce à un accompagnement sur mesure, animé par des experts passionnés.</p>
+        <div className=" md:px-10    text-white font-dmserif max-w-full  ">
+         
+            <p className="text-2xl sm:text-3xl md:text-4xl mb-5 leading-snug">
+            Devenez conseiller d’orientation scolaire
+            </p>
+            <p className="text-base sm:text-lg md:text-xl leading-relaxed">
+             Nous vous formons à accompagner chacun vers un avenir aligné et porteur de sens.
+            </p>
+            <p className="text-sm sm:text-base md:text-lg leading-relaxed">
+         
+         Grâce à un parcours structuré et pratique, vous apprendrez à guider, écouter
+         
+            </p>
+            <p  className="text-sm sm:text-base md:text-lg leading-relaxed"> et révéler le potentiel de chaque personne.</p>
+          </div>
+
         </div>
-      </header>
+        
+          
+        </div>
+    </header>
 
-      {/* Section 1: Donner à chaque jeune les moyens */}
       <section className="">
         
-          <div className="flex justify-center gap-20 flex-wrap  items-center">
-            <div className="size-[500px] rounded-lg overflow-hidden flex items-center justify-center">
+          <div className="flex justify-center gap-10 flex-wrap  items-center">
+            <div className=" w-[500px] h-[550px] ">
               <img
-                src="/eb5c5d44a1164ca3f39990b7a055b717305d82f8.jpg"
+                src="/w8.png"
                 alt="Jeunes construisant leur avenir"
                 className="object-cover size-full rounded-lg"
               />
             </div>
-            <div className=" border-black w-5/12 space-y-5">
-              <h2 className="text-3xl text-blue font-dmserif w-10/12">
-                Donner <span className="text-jauneOr" >à chaque jeune</span>  les moyens de construire <span className="text-jauneOr">son avenir avec confiance</span> 
-              </h2>
+
+            <div className=" border-black w-6/12 space-y-5">
+              <h2 className="text-4xl text-blue font-dmserif w-10/12">
+             Un métier d’avenir, une activité  indépendante, un réseau solide</h2>
               <p className="   ">
-                Je suis Sonia Dridi, conseillère d'orientation scolaire indépendante et fondatrice de  Prometheor. <br /> Après 14 ans à accompagner des jeunes et leurs familles dans leurs choix d’orientation, j’ai constaté à quel point les parcours scolaires peuvent être vécus comme un labyrinthe : pression, doutes, méconnaissance des filières, injonctions contradictoires…
+               Vous souhaitez accompagner les jeunes dans leurs choix d’orientation scolaire et professionnelle tout en développant votre propre activité ?
               </p>
-              <p className="">
-              J’ai fondé <span className="font-medium">Prometheor avec une équipe de personnes passionnées et profondément investies</span> sur les sujets de l’orientation, de la réussite scolaire et de l’accompagnement des jeunes.Nous partageons une même ambition : offrir un accompagnement structuré, humain et éclairant, à chaque étape du parcours scolaire, du collège jusqu’aux études supérieures.
-              </p>
+              <p className="">Nous vous proposons une formation complète et certifiante, basée sur 14 ans d’expérience , pour vous permettre de devenir conseiller d’orientation scolaire indépendant et de réussir dans ce métier passionnant.
+                </p>
+                <h3 className="text-xl font-dmserif text-blue" >Pourquoi suivre  <span className="text-jauneOr">cette formation avec nous ?</span></h3>
+               <div className="text-jauneOr font-dmserif"><i className="fa-solid fa-graduation-cap text-jauneOr mr-2"></i> <span>Une expertise de terrain éprouvée</span></div>
+                <p>“ Depuis plus de 14 ans, j’accompagne des centaines de jeunes et de familles dans leurs décisions d’orientation. J’ai développé une méthode d’accompagnement efficace et bienveillante, basée sur l’écoute, des outils précis et un suivi adapté aux besoins de chacun.”</p>
+               <p> Sonia DRIDI, co-fondatrice de Prometheor</p>
             </div>
           </div>
      
@@ -56,24 +64,27 @@ export default function DevenirConseillers() {
       <section className="">
        
           <div className="flex justify-center gap-16 items-center flex-wrap my-32">
-            <div className="w-6/12 space-y-7 bg-jauneOr/5 p-10 rounded-lg">
-              <h2 className="text-3xl text-blue font-dmserif">
-                Une équipe de <span className="text-jauneOr">conseillers engagée</span> , partout en France
-              </h2>
-              <p className="">
-              Aujourd’hui, je suis entourée d’une équipe de professionnelles de l’orientation, toutes  profondément investies dans leur mission. <br /> Issues de parcours variés (éducation, psychologie, formation, ressources humaines…),<br />  elles partagent une même conviction :
-              </p>
-              <p className="">
-             ”L’orientation ne se résume pas à remplir des vœux Parcoursup, c’est un processus de construction de soi “
-              </p>
+ 
+      <div className="space-y-5 w-5/12">
+  <div className="text-jauneOr text-xl font-dmserif"><i className="fa-solid fa-graduation-cap text-jauneOr mr-2"></i>  <span>Une formation concrète et pratique</span></div>
 
-              <p>
-                Nos conseillères sont également sensibilisées aux situations de handicap, aux troubles des apprentissages et aux besoins spécifiques. Elles portent cette attention avec sérieux et engagement, dans une approche respectueuse des singularités de chaque jeune.
-              </p>
-            </div>
-            <div className="size-[500px]">
+   <ul className="space-y-2">
+    <li className="flex items-center"><GiCheckMark className="  text-jauneOr mr-2  "/> <span>Comprendre les enjeux de l’orientation scolaire et professionnelle</span></li>
+    <li className="flex items-center"><GiCheckMark className="  text-jauneOr mr-2   "/> <span>Maîtriser les outils indispensables : bilans d’orientation, tests, entretiens, plateformes d’information</span></li>
+    <li className="flex items-center"><GiCheckMark className="  text-jauneOr mr-2   "/> <span>Développer son activité indépendante : prospection, gestion des clients</span></li>
+    <li className="flex items-center"><GiCheckMark className="  text-jauneOr mr-2   "/> <span>Savoir accompagner les jeunes et leurs familles avec justesse et impact</span></li>
+   </ul>
+     <div className="text-jauneOr text-xl font-dmserif"><i className="fa-solid fa-graduation-cap text-jauneOr mr-2"></i>  <span>Un accompagnement personnalisé</span></div>
+ <p>En plus de la formation, je vous propose :</p>
+  <ul className="space-y-2">
+    <li className="flex items-center"><GiCheckMark className="  text-jauneOr mr-2  "/> <span>Un suivi individuel pour répondre à vos questions</span></li>
+    <li className="flex items-center"><GiCheckMark className="  text-jauneOr mr-2  "/> <span>Des cas pratiques et des mises en situation réelles</span></li>
+    <li className="flex items-center"><GiCheckMark className="  text-jauneOr mr-2  "/> <span>L’accès à un réseau de conseillers indépendants avec qui partager vos expériences et évoluer</span></li>
+   </ul>
+      </div>
+            <div className="">
               <img
-                src="/qsm-2.png"
+                src="/w9.jpg"
                 alt="Équipe de conseillers"
                 className="object-cover size-full "
               />

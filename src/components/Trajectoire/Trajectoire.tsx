@@ -1,4 +1,4 @@
-import Header from "../Header";
+
 import Section3 from "../PacksRepere/sectionComponents/Section3";
 import Coche from "../Homepage/miniComponents/Coche";
 import Title from "../Homepage/miniComponents/Title";
@@ -46,12 +46,27 @@ if (VideoRef.current) {
     return (  
 
         <div>
-  <Header
-      homepage={false}
-  packsrepere={false}
-  exploration={false}
-  trajectoire={true}
-  />
+<div className="bg-trajectoireHeader h-[400px] bg-cover bg-center flex items-center">
+        
+        <div className="  backdrop-brightness-50 size-full flex flex-col justify-center">
+
+        <div className=" md:px-10    text-white font-dmserif max-w-full  ">
+         
+            <p className="text-2xl sm:text-3xl md:text-4xl mb-5 leading-snug">
+              De l’orientation à l’action : un plan complet et concret pour avancer
+            </p>
+            <p className="text-base sm:text-lg md:text-xl leading-relaxed">
+              Un parcours complet pour définir son profil, explorer les formations adaptées.
+            </p>
+            <p className="text-sm sm:text-base md:text-lg leading-relaxed">
+              L’accompagnement qui transforme les doutes en décisions.
+            </p>
+          </div>
+
+        </div>
+        
+          
+        </div>
 
 <div className=" flex justify-center items-center gap-10 my-32 flex-wrap">
       {/* Image */}
