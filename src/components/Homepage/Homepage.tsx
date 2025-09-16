@@ -34,7 +34,7 @@ export default function Homepage() {
       {/* texte */}
       
       <div className="mt-10  flex flex-col  bg-no-repeat bg-cover  justify-centern border items-center">
-        <div className="w-1/2 border flex flex-col items-center ">
+        <div className="w-1/2 flex flex-col items-center ">
           <h1 className="text-blue text-4xl font-dmserif">
             L'origine de Prometheor
           </h1>
@@ -66,12 +66,18 @@ export default function Homepage() {
 
       <div className="flex flex-col md:flex-row justify-center items-start md:items-center mt-20 mb-60 space-y-10 md:space-y-0 md:space-x-10 px-6 md:px-20">
         {/* Texte */}
+
+  <div className=" border bg-homepages h-[300px] md:h-[450px] w-full md:w-1/2 flex justify-center items-center"></div>
+
         <div className="font-lato flex-1 flex flex-col justify-between items-start space-y-6">
-          <Title text1="Qui " text2=" sommes nous " text3="?" />
-          <p className="w-full md:w-10/12 leading-relaxed text-base md:text-lg">
-            Premier réseau national de conseillers d'orientation scolaire
-            indépendants, nous accompagnons les collégiens, lycéens et étudiants
-            dans leurs choix d’orientation.
+          <Title text1="Choisir son orientation"  text2="ce n’est pas tirer au sort une filière"  />
+          <p className="w-full md:w-10/12 leading-relaxed text-base md:text-lg text-blue">
+            <span className="text-jauneOr">Notre méthode des 3 P </span>: simple, claire, efficace
+            
+          </p>
+          <p>
+            Grâce à la méthode des 3 P, l’orientation devient une progression simple et constructive, du
+premier questionnement jusqu’au projet abouti.
           </p>
           <ul className="leading-7 text-jauneOr space-y-2">
             <li>
@@ -91,7 +97,7 @@ export default function Homepage() {
         </div>
 
         {/* Image */}
-        <div className=" border bg-slate-500 h-[300px] md:h-[450px] w-full md:w-1/2 flex justify-center items-center"></div>
+      
       </div>
 
       {/* pour qui ? */}
