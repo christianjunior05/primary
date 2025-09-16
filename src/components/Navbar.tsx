@@ -77,7 +77,7 @@ export default function Navbar() {
               </li>
              
               <li className="cursor-pointer hover:text-jauneOr p-2 rounded-md transition-all bg-blue ">
-               <Link to="/notreengagement">notre Engagement</Link>
+               <Link to="/notreengagement">Notre engagement</Link>
               </li>
 
                <li className="cursor-pointer hover:text-jauneOr p-2 rounded-md transition-all bg-blue ">
