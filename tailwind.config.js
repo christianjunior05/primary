@@ -39,6 +39,7 @@ export default {
                 resultats:"url('/resultats.png')",
                 conseil:"url('/conseillers4.png')",
                 DevenezConseiler:"url('/w7.jpg')",
+                homepagee: "url('/h2.png')"
 
        },
     
