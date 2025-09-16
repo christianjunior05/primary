@@ -3,7 +3,6 @@ import { HiArrowRight } from "react-icons/hi2";
 import { IoIosArrowDown } from "react-icons/io";
 
 
-
 export default function DevenirConseillers() {
   return (
   <div className="min-h-screen">

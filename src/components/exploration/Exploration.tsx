@@ -1,4 +1,4 @@
-import Header from "../Header";
+
 import Title from "../Homepage/miniComponents/Title";
 import Coche from "../Homepage/miniComponents/Coche";
 import { TbPointFilled } from "react-icons/tb";
@@ -39,13 +39,27 @@ if (VideoRef.current) {
 
     return ( 
         <div>
-<Header
-homepage={false}
-packsrepere={false}
-exploration={true}
-trajectoire={false}
-/>
-
+<header>
+      <div className="bg-exploration h-[400px] bg-cover bg-center flex items-center">
+       <div className="backdrop-brightness-50 size-full flex flex-col justify-center">
+  <div className="px-6  md:px-10 space-y-4  text-white font-dmserif max-w-full ">
+            <p className="text-2xl sm:text-3xl md:text-4xl leading-snug ">
+              Explorer pour mieux se
+              <span className="text-jauneOr"> connaître et choisir sa voie</span>
+            </p>
+            <p className="text-base max-w-3xl sm:text-lg md:text-xl leading-relaxed">
+              Un accompagnement qui aide à mieux se connaître, identifier ses intérêts
+              et ouvrir les premières pistes d’orientation en toute confiance.
+            </p>
+            <p className="text-sm sm:text-base md:text-xl leading-relaxed">
+              Derrière chaque réussite se trouve un accompagnement qui fait la différence.
+            </p>
+          </div>
+       </div>
+       
+        
+        </div>
+</header>
 
 {/* Donnez à votre enfant les clés pour définir son projet et réussir Parcoursup avec confiance. */}
 
@@ -65,7 +79,7 @@ trajectoire={false}
         <p className="text-3xl max-lg:text-2xl max-md:text-xl font-dmserif text-blue">
 Votre enfant hésite sur la voie à suivre ? Il ne sait pas encore quels métiers pourraient lui convenir ou comment orienter ses choix scolaires ?...        </p>
         <p className="text-base max-md:text-sm">
-... Le Pack Exploration l’accompagne pour mieux se connaître grâce à des tests et exercices ciblés de connaissance de soi, découvrir des secteurs d’activité en accord avec ses forces et ses motivations, et clarifier ses choix.
+... Le Pack Exploration l’accompagne pour mieux se connaître grâce à des tests et exercices ciblés de connaissance de soi, découvrir des secteurs d’activité en accord avec ses forces et ses motivations, et clarifier ses choix.
 </p>
         <p className="text-blue font-dmserif text-2xl max-lg:text-xl max-md:text-lg">
        À qui s’adresse 

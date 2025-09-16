@@ -8,14 +8,26 @@ import Temoignage from "./miniComponents/Temoignage";
 import DivWebinaire from "./miniComponents/DivWebinar";
 import { HiArrowRight } from "react-icons/hi2";
 import { IoIosArrowDown } from "react-icons/io";
-import Header from "../Header";
+
 // tout ce qui est ici concerne la page Homapage
 export default function Homepage() {
   return (
     <div>
       {/*  entete de la page Homepage */}
 
-      <Header homepage={true} packsrepere={false} exploration={false} />
+        <div className="bg-homepage h-[500px] bg-cover bg-center flex items-center px-6 md:px-20">
+          <div className="text-white font-dmserif max-w-full space-y-7  ">
+            <h1 className="text-2xl sm:text-4xl  md:text-5xl  leading-tight">
+              La promesse d’une orientation choisie.
+            </h1>
+            <p className="text-base sm:text-lg md:text-xl  leading-relaxed">
+              Donnez à votre enfant les clés de sa réussite, en toute confiance.
+            </p>
+            <Button text="Découvrir nos offres " icons={true} />
+          </div>
+        </div>
+   
+
 
       {/* Image */}
       <div className="mt-[35px] bg-homepagee h-[300px] w-full md:h-[450px] bg-no-repeat bg-cover flex justify-center items-center"></div>
