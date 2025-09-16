@@ -40,7 +40,7 @@ export default {
                 conseil:"url('/conseillers4.png')",
                 DevenezConseiler:"url('/w7.jpg')",
                 homepagee: "url('/h2.png')",
-                homepages: "url('/h3.png')",
+                dc3: "url('/dc3.png')",
 
        },
     
