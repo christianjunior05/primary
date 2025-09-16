@@ -1,7 +1,7 @@
 import { GiCheckMark } from "react-icons/gi";
 import { HiArrowRight } from "react-icons/hi2";
 import { IoIosArrowDown } from "react-icons/io";
-import { IoCheckmark } from "react-icons/io5";
+
 
 
 export default function DevenirConseillers() {
@@ -198,12 +198,42 @@ export default function DevenirConseillers() {
         </div>
       </section>
 
-
-
 <section>
-    <div className="h-[500px]   ">
+          <div
+            className={`  max-sm:pl-5 bg-dc3 pr-10  place-content-center place-items-end  my-10 h-[400px] bg-no-repeat bg-cover `}
+          >
+            <div className="  space-y-5 max-md:w-4/5  w-6/12  text-blue  p-8  bg-white/80 rounded-xl">
+              <h2 className=" max-sm:text-xl font-dmserif text-3xl   text-blue ">
+              Et <span className="text-jauneOr">aprés la formation</span> ?
+              </h2>
+           <ul className="space-y-3">
+            <li className="flex space-x-2 " ><GiCheckMark className="  text-jauneOr inline shrink-0 mt-2 "/> <span>Un accompagnement post-formation pour vous aider à démarrer sereinement</span> </li>
+            <li className="flex space-x-2 " ><GiCheckMark className="  text-jauneOr inline shrink-0 mt-2 "/> <span>L’accès à des outils et ressources exclusives pour structurer et développer votre activité</span> </li>
+            <li className="flex space-x-2 " ><GiCheckMark className="  text-jauneOr inline shrink-0 mt-2 "/> <span>Des opportunités d’échange et de collaboration avec d’autres professionnels</span> </li>
+           </ul>
+           
+            </div>
+          </div>
+</section>
 
-    </div>
+ <section>
+          <div
+            className={`  max-sm:pl-5 bg-conseil   pr-20 place-content-center place-items-end   h-[400px] bg-no-repeat bg-cover `}
+          >
+            <div className="  space-y-5 max-md:w-4/5  w-4/12   py-5 pl-10 bg-white/80 rounded-xl">
+              <h2 className=" max-sm:text-xl font-dmserif text-3xl text-blue ">
+             
+                Envie d’accompagner les jeunes dans leurs choix d’avenir ?
+              </h2>
+
+            
+           
+              <button className=" text-white   max-sm:text-sm  bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+                Découvrir notre formation
+                <HiArrowRight className="font-semibold text-xl  inline " />
+              </button>
+            </div>
+          </div>
 </section>
     </div>
   );
