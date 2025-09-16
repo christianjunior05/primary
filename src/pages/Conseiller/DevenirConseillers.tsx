@@ -1,4 +1,7 @@
 import { GiCheckMark } from "react-icons/gi";
+import { HiArrowRight } from "react-icons/hi2";
+import { IoIosArrowDown } from "react-icons/io";
+import { IoCheckmark } from "react-icons/io5";
 
 
 export default function DevenirConseillers() {
@@ -69,17 +72,17 @@ export default function DevenirConseillers() {
   <div className="text-jauneOr text-xl font-dmserif"><i className="fa-solid fa-graduation-cap text-jauneOr mr-2"></i>  <span>Une formation concrète et pratique</span></div>
 
    <ul className="space-y-2">
-    <li className="flex items-center"><GiCheckMark className="  text-jauneOr mr-2  "/> <span>Comprendre les enjeux de l’orientation scolaire et professionnelle</span></li>
-    <li className="flex items-center"><GiCheckMark className="  text-jauneOr mr-2   "/> <span>Maîtriser les outils indispensables : bilans d’orientation, tests, entretiens, plateformes d’information</span></li>
-    <li className="flex items-center"><GiCheckMark className="  text-jauneOr mr-2   "/> <span>Développer son activité indépendante : prospection, gestion des clients</span></li>
-    <li className="flex items-center"><GiCheckMark className="  text-jauneOr mr-2   "/> <span>Savoir accompagner les jeunes et leurs familles avec justesse et impact</span></li>
+    <li className="flex "><GiCheckMark className=" mt-2  text-jauneOr mr-2  shrink-0 "/> <span>Comprendre les enjeux de l’orientation scolaire et professionnelle</span></li>
+    <li className="flex  "><GiCheckMark className=" mt-2  text-jauneOr mr-2  shrink-0  "/> <span>Maîtriser les outils indispensables : bilans d’orientation, tests, entretiens, plateformes d’information</span></li>
+    <li className="flex  "><GiCheckMark className=" mt-2  text-jauneOr mr-2  shrink-0  "/> <span>Développer son activité indépendante : prospection, gestion des clients</span></li>
+    <li className="flex  "><GiCheckMark className=" mt-2  text-jauneOr mr-2  shrink-0  "/> <span>Savoir accompagner les jeunes et leurs familles avec justesse et impact</span></li>
    </ul>
      <div className="text-jauneOr text-xl font-dmserif"><i className="fa-solid fa-graduation-cap text-jauneOr mr-2"></i>  <span>Un accompagnement personnalisé</span></div>
  <p>En plus de la formation, je vous propose :</p>
   <ul className="space-y-2">
-    <li className="flex items-center"><GiCheckMark className="  text-jauneOr mr-2  "/> <span>Un suivi individuel pour répondre à vos questions</span></li>
-    <li className="flex items-center"><GiCheckMark className="  text-jauneOr mr-2  "/> <span>Des cas pratiques et des mises en situation réelles</span></li>
-    <li className="flex items-center"><GiCheckMark className="  text-jauneOr mr-2  "/> <span>L’accès à un réseau de conseillers indépendants avec qui partager vos expériences et évoluer</span></li>
+    <li className="flex  "><GiCheckMark className=" mt-2  text-jauneOr mr-2  shrink-0"/> <span>Un suivi individuel pour répondre à vos questions</span></li>
+    <li className="flex  "><GiCheckMark className=" mt-2  text-jauneOr mr-2  shrink-0"/> <span>Des cas pratiques et des mises en situation réelles</span></li>
+    <li className="flex  "><GiCheckMark className=" mt-2  text-jauneOr mr-2 shrink-0 "/> <span>L’accès à un réseau de conseillers indépendants avec qui partager vos expériences et évoluer</span></li>
    </ul>
       </div>
             <div className="">
@@ -96,98 +99,112 @@ export default function DevenirConseillers() {
       {/* Section 3: Une vision complète de l'accompagnement */}
       <section className="">
         
-          <div className="flex  items-center justify-center gap-20 flex-wrap ">
-            <div className=" w-[500px] h-[420px] rounded-lg flex items-center justify-center">
+          <div className="flex  items-center justify-center gap-10  ">
+            <div className="">
               <img
-                src="/qsm-5.jpg"
+                src="/w10.jpg"
                 alt="Vision complète de l'accompagnement"
                 className="object-cover size-full rounded-lg"
               />
             </div>
-            <div className=" w-5/12   space-y-5">
-              <h2 className="text-3xl font-dmserif">
-                Une <span className="text-jauneOr" >vision complète </span> de l'accompagnement
+            <div className="   space-y-5 w-6/12  ">
+              <h2 className="text-3xl font-dmserif text-blue">
+                Formation de conseiller <span className="text-jauneOr" >certifiée Qualiopi</span> 
               </h2>
-              <p className="text-lg  mb-6">
-                Nous avons développé une méthodologie structurée autour de nos <span className="font-medium text-blue">3P: Profil –Projet – Parcours</span> 
+              <p className=" ">Pour assurer un accompagnement de qualité, chaque conseiller suit un parcours de formation interne  la certification Qualiopi.  
               </p>
-              <div className="space-y-4">
-                <div className="flex items-start space-x-2">
-                  <i className="fa-solid fa-graduation-cap text-jauneOr mr-2 w-5 h-5  mt-1 flex-shrink-0"></i> 
+
+              <p>Parmi les outils clés qu’ils maîtrisent figure la méthode des 3 P  Personnalité, Parcours, Projet – qui permet d’analyser rapidement et efficacement le profil de chaque élève  :</p>
+              <ul className="space-y-4">
+                <li className="flex items-start space-x-2">
+                  <i className="fa-solid fa-graduation-cap text-jauneOr mr-2 w-5 h-5  mt-1 flex-shrink-0"></i>                 
+                    <p className="">Personnalité : identifier les traits de caractère et les aptitudes.</p>
                   
-                    <p className="">Définir son Profil pour se connaître</p>
-                  
-                </div>
-                <div className="flex items-start space-x-2">
+                </li>
+                <li className="flex items-start space-x-2">
                   <i className="fa-solid fa-graduation-cap text-jauneOr mr-2 w-5 h-5  mt-1 flex-shrink-0"></i> 
-                  <p className="">Trouver votre Projet <br /> Parce qu’il n’y a pas d’orientation réussie sans un projet concret.</p>          
-                </div>
-                <div className="flex items-start space-x-2">
+                  <p className=""></p>          
+                </li>
+                <li className="flex items-start space-x-2">
                   <i className="fa-solid fa-graduation-cap text-jauneOr mr-2 w-5 h-5  mt-1 flex-shrink-0"></i> 
-                 <p className="">Déterminer un Plan d’action détaillé pour vous mener à votre projet.</p>
-                
-                </div>
-              </div>
+                 <p className="">Parcours : prendre en compte le cheminement scolaire et personnel.</p>              
+                </li>
+
+                    <li className="flex items-start space-x-2">
+                  <i className="fa-solid fa-graduation-cap text-jauneOr mr-2 w-5 h-5  mt-1 flex-shrink-0"></i> 
+                 <p className="">Projet : définir des pistes concrètes (métiers, filières, formations) adaptées au profil.</p>              
+                </li>
+              </ul>
               <p className=" ">
-              Nous pensons que bien s’orienter, c’est :
+             Ce savoir-faire leur permet de guider chaque élève, quelle que soit sa situation, vers des choix éclairés et cohérents.
               </p>
-           <div className="space-y-4">
-          <div className="flex items-start space-x-2">
-                  <i className="fa-solid fa-graduation-cap text-jauneOr mr-2 w-5 h-5  mt-1 flex-shrink-0"></i> 
-                 <p className="">Mieux se connaître</p>
-                
-            </div>
-
-            <div className="flex items-start space-x-2">
-                  <i className="fa-solid fa-graduation-cap text-jauneOr mr-2 w-5 h-5  mt-1 flex-shrink-0"></i> 
-                 <p className="">Mieux comprendre le monde qui nous entoure</p>
-                
-            </div>
-            <div className="flex items-start space-x-2">
-                  <i className="fa-solid fa-graduation-cap text-jauneOr mr-2 w-5 h-5  mt-1 flex-shrink-0"></i> 
-                 <p className="">Et mieux identifier les ressources et les opportunités </p>
-                
-            </div>
-           </div>
-           
-
             </div>
           </div>
       
       </section>
 
-      {/* Section 4: Mais c'est aussi tenir compte du vécu scolaire */}
-      <section className="">
-        
-          <div className="flex justify-center flex-wrap gap-20 items-center my-32">
-            <div className="w-6/12 space-y-5 p-10 rounded-lg bg-jauneOr/5  ">
-              <h2 className=" text-3xl font-dmserif text-blue mb-6">
-                Mais c'est aussi tenir compte <span className="text-jauneOr">du vécu scolaire du jeune</span> ...
-              </h2>
-              <p className="text-lg  mb-6">
-                ... de ses éventuelles fragilités ou difficultés, pour l’aider à se projeter avec réalisme et ambition. C’est pourquoi nous intégrons pleinement la dimension scolaire dans nos accompagnements, en lien avec les objectifs, les méthodes de travail, les résultats et le cadre personnel de chaque élève. 
-              </p>
-              <p className="">
-                Notre approche se veut à la fois personnalisée, inclusive et bienveillante, avec des outils fiables, des repères clairs, et une véritable qualité d’écoute.
-              </p>
+      <section>
+        <div className="flex justify-center my-20 gap-44 py-20 bg-jauneOr/15">
+            <div className="space-y-5">
+                <h4 className="text-blue font-dmserif text-4xl">Les indicateurs de satisfaction</h4>
+                <span className="block">Les taux mesurés:</span>
+                <ul className="space-y-4">
+                    <li><GiCheckMark className="  text-jauneOr inline "/> <span>La satisfaction globale : 100%</span></li>
+                    <li><GiCheckMark className="  text-jauneOr  inline "/> <span>Contenu de la formation : 100%</span></li>
+                    <li><GiCheckMark className="  text-jauneOr inline  "/> <span>Compétences de la formatrice : 100%</span></li>
+                </ul>
+                <button className=" max-lg:text-xs text-white text-sm space-x-8   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+                  <span> Découvrir les avis Google </span>  
+                      <HiArrowRight className="font-semibold text-lg  inline " />
+                 </button>
+             </div>
 
-              <p className="font-medium">Prometheor, c’est bien plus qu’un service d’orientation :</p>
-            <p>C’est un partenaire de confiance, engagé pour que chaque jeune puisse trouver sa voie, à son rythme, dans le respect de ce qu’il est !</p>
 
-            </div>
-            
-          
+             <div className="flex items-center gap-20   ">
+                <div className=" w-80 h-full  space-y-14  bg-white shadow-xl shadow-jauneOr/15      p-5    flex flex-col justify-evenly   rounded-xl ">
 
-             <div className=" w-[500px] h-[420px] rounded-lg flex items-center justify-center">
-              <img
-                src="/qsm-3.png"
-                alt="Vision complète de l'accompagnement"
-                className="object-cover size-full rounded-lg"
-              />
-            </div>
-          </div>
-    
+                <p className=" max-md:text-base ">“Formation très complète et de grande qualité. Accompagnement personnalisé et adapté au parcours de chaque conseiller. Je recommande.”</p>
+
+                <div className="space-y-3">
+
+                  <div className=" flex  text-sm max-md:text-base">
+                    <i className="fa-solid fa-star text-jauneOr"></i>
+                    <i className="fa-solid fa-star text-jauneOr"></i>
+                    <i className="fa-solid fa-star text-jauneOr"></i>
+                    <i className="fa-solid fa-star text-jauneOr"></i>
+                    <i className="fa-solid fa-star text-jauneOr"></i>
+                  </div>
+
+
+                  <div className="flex space-x-3">
+                    <div className="size-10">
+                        <img src="/e1.png" alt="" className="size-full object-cover object-center" />
+                    </div>
+                     <div>
+                    <span className="block text-xs md:text-sm">Charles</span>
+                    <span className="block text-xs md:text-sm">Élève de terminale</span>
+                  </div>
+                  </div>
+                 
+
+                </div>
+
+              </div>
+               <div className=" space-y-2  ">
+                      <IoIosArrowDown className="border hover:bg-blue hover:text-white  transition-all hover:border-white text-3xl p-1 cursor-pointer rounded-full text-gray-400 border-gray-400 rotate-180" />
+                      <IoIosArrowDown className="border bg-white/50 hover:bg-blue hover:text-white  transition-all hover:border-white text-3xl p-1 cursor-pointer rounded-full text-blue border-blue" />
+                    </div>
+             </div>
+        </div>
       </section>
+
+
+
+<section>
+    <div className="h-[500px]   ">
+
+    </div>
+</section>
     </div>
   );
 }
