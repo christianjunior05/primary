@@ -1,7 +1,6 @@
 import { GiCheckMark } from "react-icons/gi";
 import { HiArrowRight } from "react-icons/hi2";
 import { IoIosArrowDown } from "react-icons/io";
-import { IoCheckmark } from "react-icons/io5";
 
 
 export default function DevenirConseillers() {
