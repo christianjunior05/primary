@@ -4,7 +4,6 @@ import Coche from "../Homepage/miniComponents/Coche";
 import { TbPointFilled } from "react-icons/tb";
 import Section4 from "../PacksRepere/sectionComponents/Section4";
 import Section5 from "../PacksRepere/sectionComponents/Section5";
-import Section6 from "../PacksRepere/sectionComponents/Section6";
 import ListElement from "./miniComponents/ListElement";
 import { useRef } from "react";
 import { IoCheckmark } from "react-icons/io5";
