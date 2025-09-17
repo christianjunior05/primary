@@ -1,6 +1,5 @@
 import Button from "./miniComponents/Button";
 import Title from "./miniComponents/Title";
-import { TbPointFilled } from "react-icons/tb";
 import Coche from "./miniComponents/Coche";
 import EnsavoirPlus from "./miniComponents/EnsavoirPlus";
 import InfoProfile from "./miniComponents/InfoProfile";
@@ -15,7 +14,8 @@ export default function Homepage() {
     <div>
       {/*  entete de la page Homepage */}
 
-        <div className="bg-homepage h-[500px] bg-cover bg-center flex items-center px-6 md:px-20">
+  <header>
+  <div className="bg-homepage h-[500px] bg-cover bg-center flex items-center px-6 md:px-20">
           <div className="text-white font-dmserif max-w-full space-y-7  ">
             <h1 className="text-2xl sm:text-4xl  md:text-5xl  leading-tight">
               La promesse d’une orientation choisie.
@@ -26,37 +26,40 @@ export default function Homepage() {
             <Button text="Découvrir nos offres " icons={true} />
           </div>
         </div>
+  </header>
+
+      
    
 
-
-      {/* Image */}
-      <div className="mt-[35px] bg-homepagee h-[300px] w-full md:h-[450px] bg-no-repeat bg-cover flex justify-center items-center"></div>
+<section>
+ {/* Image */}
+      <div className="bg-homepagee my-10  h-[300px] w-full md:h-[450px] bg-no-repeat bg-cover flex justify-center items-center"></div>
       {/* texte */}
       
-      <div className="mt-10  flex flex-col  bg-no-repeat bg-cover  justify-centern border items-center">
-        <div className="w-1/2 flex flex-col items-center ">
+      <div className=" flex flex-col my-10  bg-no-repeat bg-cover  justify-centern  items-center">
+        <div className="w-1/2 flex flex-col items-center space-y-8 ">
           <h1 className="text-blue text-4xl font-dmserif">
             L'origine de Prometheor
           </h1>
-          <p className="mt-12 text-center">
+          <p className=" text-center">
             Nous avons fondé Prometheor avec une conviction : l’orientation doit
             être à la fois humaine, moderne et ambitieuse.
           </p>
-          <p className="mt-14 text-center">
+          <p className="text-center">
             {" "}
             <span className="text-jauneOr">Notre objectif </span>: est de
             transformer un moment souvent stressant en une expérience
             constructive, où chaque jeune peut découvrir son potentiel et tracer
             un chemin qui lui ressemble.
           </p>
-          <p className="mt-8 text-center">
+          <p className=" text-center">
             Pour cela, nous avons réuni un réseau de conseillères d’orientation
             qualifiées partout en France et développé une plateforme digitale
             innovante. Elle centralise des outils pratiques, une méthode
             éprouvée et des ressources fiables, pour offrir un accompagnement à
             la fois personnalisé et structuré.
           </p>
-          <p className="mt-10 text-center">
+          <p className=" text-center">
             Notre mission : donner à chaque adolescent les clés pour bâtir son
             avenir avec confiance et ambition.
           </p>
@@ -64,13 +67,25 @@ export default function Homepage() {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row justify-center items-start md:items-center mt-20 mb-60 space-y-10 md:space-y-0 md:space-x-10 px-6 md:px-20">
+    
+</section>
+     
+
+{/* section Choisir son orientation, 
+ce n’est pas tirer au sort une filière   */}
+
+<section>
+
+    
+      <div className="flex justify-center items-center my-20  gap-10 ">
         {/* Texte */}
 
-  <div className=" border bg-homepages h-[300px] md:h-[450px] w-full md:w-1/2 flex justify-center items-center"></div>
-
-        <div className="font-lato flex-1 flex flex-col justify-between items-start space-y-6">
-          <Title text1="Choisir son orientation"  text2="ce n’est pas tirer au sort une filière"  />
+<div className="w-[500px] h-[450px] ">
+<img src="/h3.png" alt="" className="size-full object-cover object-center rounded-lg" />
+</div>
+      <div className=" w-1/2 space-y-5">
+  <h5 className="text-4xl font-dmserif text-blue">Choisir son orientation, <br /> 
+  <span className="text-jauneOr">ce n’est pas tirer au sort une filière</span> </h5>
           <p className="w-full md:w-10/12 leading-relaxed text-base md:text-lg text-blue">
             <span className="text-jauneOr">Notre méthode des 3 P </span>: simple, claire, efficace
             
@@ -79,49 +94,32 @@ export default function Homepage() {
             Grâce à la méthode des 3 P, l’orientation devient une progression simple et constructive, du
 premier questionnement jusqu’au projet abouti.
           </p>
-          <ul className="leading-7 text-jauneOr space-y-2">
-            <li>
-              <TbPointFilled className="inline mr-2" />
-              Environnement scolaire (méthodologie, handicap)
-            </li>
-            <li>
-              <TbPointFilled className="inline mr-2" />
-              Notre engagement qualité (Écoute, neutralité, bienveillance)
-            </li>
-            <li>
-              <TbPointFilled className="inline mr-2" />
-              Formation de conseiller d'orientation certifiée Qualiopi
-            </li>
-          </ul>
-          <Button text="Nous découvrir " icons={true} />
+
+          <div className="space-y-3">
+            <div className="space-x-2">     <i className="fa-solid fa-graduation-cap text-jauneOr flex-shrink-0"></i> <span>1. Personnalité : révéler qui je suis </span></div>
+          <p>Découvrir ses talents, ses forces, ses centres d’intérêt.
+          Apprendre à mieux se connaître pour construire un projet qui a du sens.</p>
+          </div>
+
+             <div  className="space-y-3">
+            <div className="space-x-2">     <i className="fa-solid fa-graduation-cap text-jauneOr flex-shrink-0"></i> <span>2.  Parcours : explorer mes options </span></div>
+          <p>Études courtes ou longues ? Université, école, lycée professionnel, prépa ?
+Nous accompagnons à la découverte des établissements adaptés au profil du jeune.</p>
+          </div>
+
+             <div  className="space-y-3">
+            <div className="space-x-2">     <i className="fa-solid fa-graduation-cap text-jauneOr flex-shrink-0"></i> <span>3. Projet: tracer ma route</span></div>
+          <p>Rédiger un dossier, préparer un oral, organiser son planning, réussir Parcoursup…
+Nous donnons les clés pour transformer le projet en plan concret, pas à pas.</p>
+          </div>
+      
         </div>
 
         {/* Image */}
       
       </div>
 
-      {/* pour qui ? */}
-
-      <div className="flex my-20 flex-col md:flex-row h-auto md:h-[400px] bg-jauneOr/5 justify-center items-center gap-10 md:gap-40 px-6 md:px-20 py-10 md:py-0">
-        {/* Image */}
-        <div className="h-60 md:h-80 w-full md:w-auto flex justify-center items-center">
-          <img
-            src="/photo1.png"
-            alt="Un groupe d'amis en pause photo"
-            className="object-contain h-full w-full"
-          />
-        </div>
-
-        {/* Texte */}
-        <div className="flex-1 max-w-md">
-          <Title text1="Pour" text2="qui ?" />
-          <ul className="leading-7 py-5 space-y-2">
-            <Coche text="Les collégiens (à partir de la classe de 4ème)" />
-            <Coche text="Lycéens" />
-            <Coche text="Étudiants" />
-          </ul>
-        </div>
-      </div>
+</section>
 
       {/* Nos solution d'orientation */}
 

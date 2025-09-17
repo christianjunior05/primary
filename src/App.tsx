@@ -14,6 +14,7 @@ import { Routes, Route } from "react-router-dom";
 import Presentation from "./pages/Conseiller/Presentation";
 import Navbar from "./components/Navbar";
 import DevenirConseillers from "./pages/Conseiller/DevenirConseillers";
+import BlogWebinaires from "./pages/BlogWebinaire/BlogWebinaires";
 export default function App() {
 
  
@@ -33,6 +34,7 @@ export default function App() {
         <Route path="/conseillers" element={<Conseillers />} />
         <Route path="/conseillers/:id" element={<Presentation  />} />
         <Route path="/devenirconseiller" element={<DevenirConseillers />} />
+        <Route path="/Blog-webinaires" element={<BlogWebinaires />} />
       </Routes>
 
       <Footer />

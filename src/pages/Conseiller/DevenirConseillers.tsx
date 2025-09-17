@@ -216,9 +216,7 @@ export default function DevenirConseillers() {
 </section>
 
  <section>
-          <div
-            className={`  max-sm:pl-5 bg-conseil   pr-20 place-content-center place-items-end   h-[400px] bg-no-repeat bg-cover `}
-          >
+          <div className={`  max-sm:pl-5 bg-conseil   pr-20 place-content-center place-items-end   h-[400px] bg-no-repeat bg-cover `}>
             <div className="  space-y-5 max-md:w-4/5  w-4/12   py-5 pl-10 bg-white/80 rounded-xl">
               <h2 className=" max-sm:text-xl font-dmserif text-3xl text-blue ">
              
