@@ -2,13 +2,14 @@
 import Title from "../Homepage/miniComponents/Title";
 import Coche from "../Homepage/miniComponents/Coche";
 import { TbPointFilled } from "react-icons/tb";
-import Section3 from "../PacksRepere/sectionComponents/Section3";
 import Section4 from "../PacksRepere/sectionComponents/Section4";
 import Section5 from "../PacksRepere/sectionComponents/Section5";
 import Section6 from "../PacksRepere/sectionComponents/Section6";
 import ListElement from "./miniComponents/ListElement";
 import { useRef } from "react";
 import { IoCheckmark } from "react-icons/io5";
+import { GoPlus } from "react-icons/go";
+import { HiArrowRight } from "react-icons/hi2";
 
 const Exploration= ()=> {
 
@@ -63,6 +64,7 @@ if (VideoRef.current) {
 
 {/* Donnez à votre enfant les clés pour définir son projet et réussir Parcoursup avec confiance. */}
 
+<section>
 <div className=" flex justify-center items-center gap-10 my-32 flex-wrap">
       {/* Image */}
       <div className=" size-[500px] cursor-pointer border max-lg:w-80 max-lg:h-80 max-md:w-64 max-md:h-64 bg-gris ">
@@ -87,18 +89,19 @@ Votre enfant hésite sur la voie à suivre ? Il ne sait pas encore quels métier
         </p>
 
         <ul className="space-y-4 mb-3">
-          <li className="flex">
+          <li className="flex space-x-2">
             <IoCheckmark className="text-jauneOr inline size-5 max-md:size-4" />
-Collégiens : transformer un premier intérêt en projet préparatoire pour la seconde.     
+    <p>    Collégiens : transformer un premier intérêt en projet préparatoire pour la seconde.     
+</p>
      </li>
-          <li className="flex">
+          <li className="flex space-x-2">
             <IoCheckmark className="text-jauneOr inline size-5 max-md:size-4" />{" "}
-   Lycéens:  pour commencer à construire son parcours d'orientation et initialiser son dossier Parcoursup
+          <p>Lycéens:  pour commencer à construire son parcours d'orientation et initialiser son dossier Parcoursup</p>
           </li>
 
-          <li className="flex">
+          <li className="flex space-x-2">
                         <IoCheckmark className="text-jauneOr inline size-5 max-md:size-4" />{" "}
-                       Étudiants qui s'interrogent sur une réorientation ou sur leur poursuite d’études.
+             <p> Étudiants qui s'interrogent sur une réorientation ou sur leur poursuite d’études.</p>
                       </li>
        
         </ul>
@@ -109,7 +112,13 @@ Collégiens : transformer un premier intérêt en projet préparatoire pour la s
             </button>
 
       </div>
+
+
+
+      
 </div>
+</section>
+
 
 
 
@@ -180,15 +189,34 @@ Collégiens : transformer un premier intérêt en projet préparatoire pour la s
 </div>
 
 
- <Section3
-  text1="À l'issue de la séance :"
-  text2="  Une vision claire du profil et des motivations de votre enfant."
-  text3=" Des secteurs d’activité adaptés à ses intérêts et aptitudes."
-  text4=" Un plan d’actions concret pour orienter ses choix scolaires et extrascolaires."
-  textButton="contacter un conseiller "
-  icons={true}
-  image="bg-explorsection4 "
-  />
+ 
+
+   <div
+        className={` bg-explorsection4 bg-cover bg-center h-[500px] flex flex-col justify-center my-32`}
+      >
+        <div className="space-y-5 ml-20 max-sm:mx-2 max-[1100px]:w-3/5 max-[740px]:w-4/5   w-6/12 shrink-0  p-6 rounded-xl bg-white/80">
+          <h5 className="text-4xl  font-dmserif text-blue">
+            À l'issue de la séance :
+          </h5>
+  
+          <ul className="text-blue text-lg space-y-2">
+            <li className="max-md:text-xs space-x-2 flex items-baseline" >
+              <GoPlus className="text-jauneOr inline mr-1 " /> <p>Une vision claire du profil et des motivations de votre enfant.</p>
+            </li>
+            <li className="max-md:text-xs space-x-2 flex items-baseline" >
+              <GoPlus className="text-jauneOr inline mr-1 " /> <p> Des secteurs d’activité adaptés à ses intérêts et aptitudes.</p> 
+            </li>
+            <li className="max-md:text-xs space-x-2 flex items-baseline" >
+              <GoPlus className="text-jauneOr inline mr-1 " /> <p> Un plan d’actions concret pour orienter ses choix scolaires et extrascolaires.</p>
+            </li>
+          </ul>
+  
+             <button className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+        Contacter un conseiller <HiArrowRight className="font-semibold text-lg  inline " />
+   
+      </button>
+        </div>
+      </div>
 
 <Section4
 
@@ -216,16 +244,36 @@ image="bg-explorsection5 "
 
 />
 
-<Section6
 
-  image="explorsection6.jpg"
-  text1="Découvrez "
-  text2="nos autres packs"
-  textbutton1="Pack repère "
-  textbutton2="Pack trajectoire "
-  icon={true}
-  
-/>
+
+  <div className="  ml-16   flex items-center justify-center gap-20  max-sm:space-x-0 my-20 ">
+
+  <div className=" size-96  rounded-xl">
+    <img src="/explorsection6.jpg" alt="image" className="size-full object-cover rounded-xl "/>
+  </div>
+  <div className="  w-5/12  space-y-5 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center flex flex-col ">
+    <h2 className="text-blue font-lato font-dmserif  text-4xl max-md:text-center  "> Découvrez  <span className="text-jauneOr">nos autres packs</span>   </h2>
+       
+<div className="space-x-6 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:space-x-0 max-sm:space-y-6 ">
+
+
+ <button className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+   <span>Pack repère </span> 
+    
+        <HiArrowRight className="font-semibold text-lg  inline " />
+    
+    </button>
+
+     <button className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+   <span>Pack trajectoire</span>  
+      
+        <HiArrowRight className="font-semibold text-lg  inline " />
+   
+    </button>
+</div>
+
+  </div>
+</div>
         </div>
      );
 }

@@ -65,7 +65,7 @@ const EnsavoirPlus= (
     </ul>
   </div>
 
-  <button className="bg-blue text-white w-full py-2 rounded-b-2xl font-montserrat">
+  <button className="bg-blue hover:bg-blue/80 transition-all text-white w-full py-2 rounded-b-2xl font-montserrat">
     En savoir plus <HiArrowRight className="inline" />
   </button>
 </div>

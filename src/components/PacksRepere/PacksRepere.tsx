@@ -1,10 +1,11 @@
-import Section1 from "./sectionComponents/Section1";
+import { GoPlus } from "react-icons/go";
 import Section2 from "./sectionComponents/Section2";
-import Section3 from "./sectionComponents/Section3";
 import Section4 from "./sectionComponents/Section4";
 import Section5 from "./sectionComponents/Section5";
 import Section6 from "./sectionComponents/Section6";
 import { HiArrowRight } from "react-icons/hi2";
+import { IoCheckmark } from "react-icons/io5";
+
 const PacksRepere = () =>{
     return ( 
         <div>
@@ -33,36 +34,91 @@ const PacksRepere = () =>{
           </div>
 </div>
 </header>
- 
-  <Section1
-alt="deux dame"
-image="section1.png"
-paragraphe1="Vous êtes parents et vous vous posez des questions ..."
-paragraphe2="... sur le choix de filière de votre enfant ?  Sur une éventuelle réorientation ? Le Pack Repère est conçu pour vous apporter un premier avis éclairé ."
-list1="Collégiens : pour valider ses choix se section (générale& technologique ou professionnelle)."
-list2="Lycéens: confirmer ses spécialités et avoir des réponses à vos questions"
-list3="Étudiants :réfléchir à sa poursuite d'études ou changer de filière"
-textBlue="À qui s’adresse"
-textOrange="ce pack ?"
-textbutton="Trouver un conseiller "
-/>
+
+
+<section>
+<div className=" flex justify-center items-center gap-20 my-32 flex-wrap">
+      {/* Image */}
+      <div className="size-96 max-lg:w-80 max-lg:h-80 max-md:w-64 max-md:h-64 bg-gris ">
+
+      </div>
+
+      {/* Texte */}
+      <div className="py-10 w-1/2 max-lg:w-7/12 max-md:w-full space-y-4 p-5 rounded-lg bg-jauneOr/5 text-sm flex flex-col items-start justify-around">
+        <p className="text-3xl max-lg:text-2xl max-md:text-xl font-dmserif text-blue">
+         Vous êtes parents et vous vous posez des questions ...
+        </p>
+        <p className="text-base max-md:text-sm">... sur le choix de filière de votre enfant ?  Sur une éventuelle réorientation ? Le Pack Repère est conçu pour vous apporter un premier avis éclairé .</p>
+        <p className="text-blue font-dmserif text-2xl max-lg:text-xl max-md:text-lg">
+         À qui s’adresse <span className="text-jauneOr">ce pack ?</span>
+        </p>
+
+        <ul className="space-y-4 mb-3">
+          <li className="flex space-x-2">
+            <IoCheckmark className="text-jauneOr inline size-5 max-md:size-4" />
+            <p>Collégiens : pour valider ses choix se section (générale& technologique ou professionnelle).</p>
+          </li>
+          <li className="flex space-x-2">
+            <IoCheckmark className="text-jauneOr inline size-5 max-md:size-4" />
+          <p>Lycéens: confirmer ses spécialités et avoir des réponses à vos questions</p>
+          </li>
+      
+            <li className="flex space-x-2">
+              <IoCheckmark className="text-jauneOr inline size-5 max-md:size-4" />
+              <p>Étudiants :réfléchir à sa poursuite d'études ou changer de filière</p>
+            </li>
+         
+        </ul>
+
+      
+
+         <button className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+    <span>Trouver un conseiller</span>
+    
+        <HiArrowRight className="font-semibold text-lg  inline " />
+   
+    </button>
+      </div>
+    </div>
+</section>
+   
 
 
   
   <Section2/>
-  <Section3
-  text1="À l'issue de la séance :"
-  text2="Une vision plus structurée"
-  text3="Des recommandations personnalisées"
-  text4="Un plan d'actions et des repères pour avancer sereinement"
-  textButton="Contacter un conseiller "
-  icons={true}
-  image="bg-section3"
-  />
+
+
+
+   <div
+      className={` bg-section3 bg-cover bg-center h-[500px] flex flex-col justify-center my-32`}
+    >
+      <div className="space-y-5 ml-20 max-sm:mx-2 max-[1100px]:w-3/5 max-[740px]:w-4/5   w-6/12 shrink-0  p-6 rounded-xl bg-white/80">
+        <h5 className="text-4xl  font-dmserif text-blue">
+          À l'issue de la séance :
+        </h5>
+
+        <ul className="text-blue text-lg space-y-2">
+          <li className="max-md:text-xs" >
+            <GoPlus className="text-jauneOr inline mr-1" /> Une vision plus structurée
+          </li>
+          <li className="max-md:text-xs" >
+            <GoPlus className="text-jauneOr inline mr-1" /> Des recommandations personnalisées
+          </li>
+          <li className="max-md:text-xs" >
+            <GoPlus className="text-jauneOr inline mr-1" /> Un plan d'actions et des repères pour avancer sereinement
+          </li>
+        </ul>
+
+           <button className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+      Contacter un conseiller <HiArrowRight className="font-semibold text-lg  inline " />
+ 
+    </button>
+      </div>
+    </div>
 
 <Section6
 
-  image="photo4.png"
+  image="w16.png"
   text1="Besoin de personnalié "
   text2="votre accompagnement ?"
   textbutton1="Contacter un conseiller " 
@@ -81,10 +137,10 @@ textbutton="Trouver un conseiller "
     commentaire1="Accompagnement très réussi auprès de mes fils. Sonia est une personne très qualifiée, à l'écoute de chaque élève avec des conseils très pertinents. Elle est également très disponible ! Je recommande vivement."
     commentaire2="Juliette Lacoste est un superbe professeur qui m’a énormément aidé lors de mon parcours scolaire et dans la vie active pour ma recherche d’emploi et dans mes projets personnels. Je la recommande à 100% !Elle est Géniale, elle est très pédagogue et très patiente !" 
     commentaire3="Ma fille a été suivie par Virginie qui a analysé ses qualités et appétences personnelles et professionnelles. Nous avons eu un accès dédié sur une page web. Elle lui a ensuite prodigué les meilleurs conseils et propositions d'établissements. Prometheor est une solution que je recommande vivement aux parents et élèves en phase d'orientation."
-    profession1="Élève de terminale"  
+    profession1="maman de Charles"  
     profession2= "classe de terminale"
     profession3="Élève de terminale"
-    nom1="Charles"
+    nom1="Laurence"
     nom2="Léa"
     nom3="Jules"
     dimenssion="size-80"

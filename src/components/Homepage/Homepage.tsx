@@ -7,6 +7,7 @@ import Temoignage from "./miniComponents/Temoignage";
 import DivWebinaire from "./miniComponents/DivWebinar";
 import { HiArrowRight } from "react-icons/hi2";
 import { IoIosArrowDown } from "react-icons/io";
+import { IoCheckmark } from "react-icons/io5";
 
 // tout ce qui est ici concerne la page Homapage
 export default function Homepage() {
@@ -29,14 +30,14 @@ export default function Homepage() {
   </header>
 
       
-   
+   {/* L'origine de Prometheor */}
 
 <section>
  {/* Image */}
-      <div className="bg-homepagee my-10  h-[300px] w-full md:h-[450px] bg-no-repeat bg-cover flex justify-center items-center"></div>
+      <div className="bg-homepagee my-10   h-[300px] w-full md:h-[450px] bg-no-repeat bg-cover flex justify-center items-center"></div>
       {/* texte */}
       
-      <div className=" flex flex-col my-10  bg-no-repeat bg-cover  justify-centern  items-center">
+      <div className=" bg-jauneOr/10 py-10 flex flex-col my-10  bg-no-repeat bg-cover  justify-centern  items-center">
         <div className="w-1/2 flex flex-col items-center space-y-8 ">
           <h1 className="text-blue text-4xl font-dmserif">
             L'origine de Prometheor
@@ -59,10 +60,13 @@ export default function Homepage() {
             éprouvée et des ressources fiables, pour offrir un accompagnement à
             la fois personnalisé et structuré.
           </p>
-          <p className=" text-center">
-            Notre mission : donner à chaque adolescent les clés pour bâtir son
-            avenir avec confiance et ambition.
-          </p>
+         < div className="  flex  space-x-2  ">
+           <IoCheckmark className=" text-jauneOr shrink-0 text-xl mt-1"/>
+            <p className="  w-9/12 text-center ">Notre mission : donner à chaque adolescent les clés pour bâtir son
+            avenir avec confiance et ambition.</p>
+            
+            
+          </div>
           <Button text="Trouvez une conseillere" />
         </div>
       </div>
@@ -123,7 +127,8 @@ Nous donnons les clés pour transformer le projet en plan concret, pas à pas.</
 
       {/* Nos solution d'orientation */}
 
-      <div className="   mt-20  my-20 ">
+<section>
+  <div className="   mt-20  my-20 ">
         <div className="text-center  ">
           <Title text1="Nos solutions" text2="d'orientation" />
           <p className="text-blue mt-10 mb-14  max-md:mx-5 ">
@@ -132,7 +137,7 @@ Nous donnons les clés pour transformer le projet en plan concret, pas à pas.</
             répondre à votre besoin:
           </p>
 
-          <div className=" flex justify-center  max-lg:items-center  gap-10 max-md:gap-5 flex-wrap ">
+          <div className=" flex justify-evenly   ">
             <EnsavoirPlus
               titre1="Pack"
               titre2="Repère"
@@ -161,10 +166,12 @@ Nous donnons les clés pour transformer le projet en plan concret, pas à pas.</
               text2="Pour aider les lycéens à choisir leurs spécialités et répondre à des interrogations spécifiques"
             />
 
-            <div></div>
+           
           </div>
         </div>
       </div>
+</section>
+    
 
       {/* Parck Personnalisé  */}
 
@@ -298,7 +305,7 @@ Nous donnons les clés pour transformer le projet en plan concret, pas à pas.</
             <img src="/photo9.png" alt="Icone satisfaction" className="mb-4" />
             <span className="text-jauneOr font-dmserif text-3xl my-2">94%</span>
             <span className="text-xs">
-              Taux de satisfaction auprès des clients
+              Taux de satisfaction auprès des parents 
             </span>
           </li>
 

@@ -10,7 +10,7 @@ const Coche= ({text , text2 ,text3}:{text?:string  ,text2?:string, text3?:string
 {            text &&   <li className=" font-dmserif "><IoCheckmark className="inline text-jauneOr"/> <p className="inline"> {text} </p> </li>
 }
 
-{            text2 &&   <li className="mb-2  flex  "><GiCheckMark className="  text-jauneOr mr-2  "/>
+{            text2 &&   <li className="mb-2  flex  space-x-2 "><GiCheckMark className=" shrink-0  text-jauneOr mt-2  "/>
 <div className=" w-full "> <p className="  text-start    "> {text2} </p> 
 </div  >
  

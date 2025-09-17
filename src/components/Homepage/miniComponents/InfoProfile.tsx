@@ -13,36 +13,34 @@ const InfoProfile = () => {
       <div className="text-lg shadow  rounded-lg shadow-jauneOr/15 h-full   ">
         <div className=" ">
           <img
-            src="/5.png"
+            src="/w15.png"
             alt=""
             className=" rounded-t-xl size-full object-cover "
           />
         </div>
 
         <div className="p-2">
-          <span className="font-lato text-xl text-blue">Virginie Colette</span>
+          <span className="font-lato text-xl text-blue">Caroline.P</span>
 
           <ul className="leading-8  ">
             <li>
-              {" "}
+           
               <FiPhone className="text-jauneOr inline mr-1 text-2xl" />{" "}
-              <span>06 82 32 92 28 </span>{" "}
+              <span>06 30 40 01 07 </span>
             </li>
             <li>
-              {" "}
+             
               <MdOutlineEmail className="text-jauneOr inline mr-1 text-2xl" />{" "}
-              <span>virginie.colette@prometheor.fr</span>{" "}
+              <span>virginie.colette@prometheor.fr</span>
             </li>
             <li>
-              {" "}
               <MdOutlineLocationOn className="text-jauneOr inline mr-1 text-2xl" />{" "}
-              <span>Yveline</span>
+              <span>Yvelines</span>
             </li>
           </ul>
           <button className="text-jauneOr  ">
-            {" "}
-            <span>En savoir plus virginie </span>{" "}
-            <HiArrowRight className="inline " />{" "}
+            <span>En savoir plus virginie </span>
+            <HiArrowRight className="inline " />
           </button>
         </div>
       </div>
