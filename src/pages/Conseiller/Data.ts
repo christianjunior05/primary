@@ -78,7 +78,7 @@ const Users = [
 
   {
     id: 5,
-    image1: "c5.png",
+    image1: "5.png",
     image2: "e5.png",
     nom: "Virgine ",
     prenom: "Colette",
@@ -170,7 +170,7 @@ const Users = [
     ],
   },
 
-    {
+  {
     id: 10,
     image1: "c10.jpg",
     image2: "e10.png",
@@ -183,15 +183,14 @@ const Users = [
       "J'ai rejoint l'univers de l'orientation scolaire après 20 ans passés dans la communication et le design jusqu'à créer mon entreprise spécialisée dans le conseil.",
       "Mère de 2 enfants, j’ai constaté que les jeunes doivent faire des choix structurants de plus en plus tôt, notamment dès la fin de la Seconde.",
       "Il est donc essentiel de se renseigner et de rencontrer un conseiller d’orientation qui prendra le temps d'écouter, d'identifier les forces et les centres d'intérêts de chacun.",
-      "L’orientation est un chemin évolutif, il faut savoir construire pas à pas un projet solide, motivant et adapté au profil des jeunes." ,
+      "L’orientation est un chemin évolutif, il faut savoir construire pas à pas un projet solide, motivant et adapté au profil des jeunes.",
       "Ce qui m'anime : accompagner les élèves dans leur orientation en développant la confiance en leur potentiel et en donnant du sens à leurs apprentissages.",
       "Je suis à votre écoute pour un premier échange et définir vos besoins",
-
     ],
   },
 
   {
-    id: 11    ,
+    id: 11,
     image1: "c11.png",
     image2: "e11.png",
     nom: "Caroline ",
@@ -203,52 +202,53 @@ const Users = [
       "J'ai rejoint l'univers de l'orientation scolaire après 20 ans passés dans la communication et le design jusqu'à créer mon entreprise spécialisée dans le conseil.",
       "Mère de 2 enfants, j’ai constaté que les jeunes doivent faire des choix structurants de plus en plus tôt, notamment dès la fin de la Seconde.",
       "Il est donc essentiel de se renseigner et de rencontrer un conseiller d’orientation qui prendra le temps d'écouter, d'identifier les forces et les centres d'intérêts de chacun.",
-      "L’orientation est un chemin évolutif, il faut savoir construire pas à pas un projet solide, motivant et adapté au profil des jeunes." ,
+      "L’orientation est un chemin évolutif, il faut savoir construire pas à pas un projet solide, motivant et adapté au profil des jeunes.",
       "Ce qui m'anime : accompagner les élèves dans leur orientation en développant la confiance en leur potentiel et en donnant du sens à leurs apprentissages.",
       "Je suis à votre écoute pour un premier échange et définir vos besoins",
-
     ],
   },
 
-   {
+  {
     id: 12,
     image1: "c12.png",
     image2: "e12.png",
-    nom: "Brigitte ",
-    prenom: "Fressy ",
+    nom: "Jessica  ",
+    prenom: "Afonso ",
     number: "07 62 26 61 97",
-    email: "brigitte.fressy@prometheor.fr",
+    email: "jessica.afonso@prometheor.fr",
     localisation: "Occitanie",
     TextParagraphe: [
       "Basée dans le Val-de-Marne, j’ai exercé dans le domaine des Ressources Humaines et plus particulièrement du recrutement en entreprise pendant plus de 10 ans.",
       "Diplômée d’un Master en Ressources Humaines, j’ai toujours su que je m’orienterais vers un métier d’accompagnement et de conseils.",
       "Passionnée par l’humain et son développement, je me suis rapidement tournée dans mes expériences professionnelles vers un public jeune en gérant, en plus des recrutements, les partenariats avec les grandes écoles de commerce, ingénieur, Université, etc... J’ai ainsi pu guider et orienter les jeunes, depuis leur entrée en formation jusqu’à leur insertion dans le monde du travail.",
       "Après avoir fait le choix de l’entrepreneuriat, c’est donc tout naturellement que j’ai choisi de prendre cette casquette de Conseillère d’Orientation afin de poursuivre cette mission qui me tient à cœur : Accompagner les jeunes dans ce difficile chemin qu’est l’orientation scolaire et professionnelle.J’ai à cœur de créer un environnement de confiance et bienveillant pour que l’accompagnement soit aussi un plaisir et un moment de découverte et de révélation de soi.",
-      "Ma valeur ajoutée : Grâce à ma casquette recrutement, une bonne connaissance du marché du travail et des différents métiers existants !"
-
+      "Ma valeur ajoutée : Grâce à ma casquette recrutement, une bonne connaissance du marché du travail et des différents métiers existants !",
     ],
   },
 
-    {
+  {
     id: 13,
     image1: "c13.jpeg",
     image2: "e13.png",
-    nom: "Jessica  ",
-    prenom: "Afonso ",
-    number: "07 83 05 74 38",
-    email: "jessica.afonso@prometheor.fr",
+    nom: "Allios",
+    prenom: "Laurie ",
+    number: "07 51 06 42 84",
+    email: "laurie.allios@prometheor.fr",
     localisation: "Auvergne-Rhône-Alpes",
     TextParagraphe: [
-      "Basée dans le Val-de-Marne, j’ai exercé dans le domaine des Ressources Humaines et plus particulièrement du recrutement en entreprise pendant plus de 10 ans.",
-      "Diplômée d’un Master en Ressources Humaines, j’ai toujours su que je m’orienterais vers un métier d’accompagnement et de conseils.",
-      "Passionnée par l’humain et son développement, je me suis rapidement tournée dans mes expériences professionnelles vers un public jeune en gérant, en plus des recrutements, les partenariats avec les grandes écoles de commerce, ingénieur, Université, etc... J’ai ainsi pu guider et orienter les jeunes, depuis leur entrée en formation jusqu’à leur insertion dans le monde du travail.",
-      "Après avoir fait le choix de l’entrepreneuriat, c’est donc tout naturellement que j’ai choisi de prendre cette casquette de Conseillère d’Orientation afin de poursuivre cette mission qui me tient à cœur : Accompagner les jeunes dans ce difficile chemin qu’est l’orientation scolaire et professionnelle.",
-      "J’ai à cœur de créer un environnement de confiance et bienveillant pour que l’accompagnement soit aussi un plaisir et un moment de découverte et de révélation de soi.",
-      "Ma valeur ajoutée : Grâce à ma casquette recrutement, une bonne connaissance du marché du travail et des différents métiers existants !"
+      "Et si le vrai problème n’était pas que les jeunes ne savent pas quoi faire... mais qu’on ne les aide pas vraiment à se poser les bonnes questions ?",
+      "J’ai connu ce manque d’accompagnement à l’adolescence. Des choix scolaires faits trop vite, des chemins qui ne correspondaient pas vraiment à mes aspirations... Ces détours m’ont appris que les hésitations ne sont pas des faiblesses, mais ils m’ont surtout donné une conviction profonde : personne ne devrait avancer à l’aveugle dans une étape aussi importante de sa vie.",
+      "C’est cette conviction qui m’a guidée dans mon parcours. J’ai travaillé dans l’insertion professionnelle, le recrutement et la formation, en accompagnant des profils très variés : des jeunes en quête de repères, des étudiants hésitants, mais aussi des managers et des dirigeants en repositionnement. J’ai également aidé de nombreux adultes à développer des",
+      "Ma mission :",
+      "Aujourd’hui, j’ai à cœur d’accompagner les adolescents et leurs familles à construire une orientation qui a du sens.  Mon approche ne se limite pas à l’écoute et à la bienveillance :J’aide les jeunes à mettre des mots clairs sur leurs talents, leurs valeurs et leurs envies",
+      "Je les guide à élargir le champ des possibles pour explorer des pistes parfois insoupçonnées",
+      "Je les accompagne dans l’établissement d’un plan d’action concret et réaliste, qui leur permet de passer de la réflexion à la mise en mouvement",
+      "Et j’aide aussi ceux qui ont déjà une idée précise à valider leur projet et à sécuriser sa mise en œuvre, pour leur donner toutes les chances de réussir.",
+      "Parce que je suis convaincue d’une chose : on n’a pas besoin d’attendre 40 ans pour trouver une voie professionnelle épanouissante et alignée avec ses valeurs — même si la vie, bien sûr, est faite de changements... et heureusement.  Car lorsqu’on y est prêt, le changement devient une force : on trouve toujours une voie pour s’adapter et avancer.",
     ],
-      },
+  },
 
-       {
+  {
     id: 14,
     image1: "c14.png",
     image2: "e14.png",
@@ -258,38 +258,44 @@ const Users = [
     email: "brigitte.fressy@prometheor.fr",
     localisation: "Occitanie",
     TextParagraphe: [
-      "Basée dans le Val-de-Marne, j’ai exercé dans le domaine des Ressources Humaines et plus particulièrement du recrutement en entreprise pendant plus de 10 ans.",     
+      "Basée dans le Val-de-Marne, j’ai exercé dans le domaine des Ressources Humaines et plus particulièrement du recrutement en entreprise pendant plus de 10 ans.",
       "Diplômée d’un Master en Ressources Humaines, j’ai toujours su que je m’orienterais vers un métier d’accompagnement et de conseils.",
       "Passionnée par l’humain et son développement, je me suis rapidement tournée dans mes expériences professionnelles vers un public jeune en gérant, en plus des recrutements, les partenariats avec les grandes écoles de commerce, ingénieur, Université, etc... J’ai ainsi pu guider et orienter les jeunes, depuis leur entrée en formation jusqu’à leur insertion dans le monde du travail.",
       "Après avoir fait le choix de l’entrepreneuriat, c’est donc tout naturellement que j’ai choisi de prendre cette casquette de Conseillère d’Orientation afin de poursuivre cette mission qui me tient à cœur : Accompagner les jeunes dans ce difficile chemin qu’est l’orientation scolaire et professionnelle.",
       "J’ai à cœur de créer un environnement de confiance et bienveillant pour que l’accompagnement soit aussi un plaisir et un moment de découverte et de révélation de soi.",
-      "Ma valeur ajoutée : Grâce à ma casquette recrutement, une bonne connaissance du marché du travail et des différents métiers existants !"
+      "Ma valeur ajoutée : Grâce à ma casquette recrutement, une bonne connaissance du marché du travail et des différents métiers existants !",
     ],
-      },
+  },
 
-       {
+  {
     id: 15,
-    image1: "c14.png",
-    image2: "e14.png",
-    nom: "Estelle    ",
-    prenom: "Finck-Rolly ",
+    image1: "cs1.png",
+    image2: "e15.png",
+    nom: "Céline",
+    prenom: "Sanchez  ",
     number: "06 84 23 77 19",
     email: "estelle.finck-rolly@prometheor.fr",
     localisation: "Grand Est",
     TextParagraphe: [
-      "Après 20 ans dans l’enseignement en tant que professeure des écoles, j’ai décidé en 2020 de quitter l’Education nationale pour m’ouvrir à d’autres horizons.",
-      "A cette même période, je me suis réorientée dans la relecture et correction d’ouvrages mais très vite, je me suis rendu compte que le contact avec les enfants et les adolescents me manquait.",
-      "J’ai donc créé mon entreprise de formation et j’ai accompagné des élèves de la seconde jusqu’au BAC+2 en les préparant à plusieurs types d’examen.",
-      "Souvent en échangeant avec eux, mon expérience d’enseignante m’indiquait que la voie dans laquelle les jeunes s’engageaient n’était pas la bonne… Elle ne correspondait pas à leurs attentes, leur personnalité, leur manière d’être et de travailler, leurs particularités (HPI, dys…).",
-      "J’ai aussi retrouvé cette problématique en tant que maman lors de l’orientation de mon fils.",
+      "Qui je suis ? : une professionnelle passionnée par l'accompagnement humain",
+      "Consultante indépendante, j’ai fait de l’accompagnement et du conseil mon métier, animé par une conviction profonde : chaque personne possède les ressources pour évoluer et s’épanouir. Que ce soit sur le plan scolaire, professionnel ou personnel, j’interviens auprès de mes bénéficiaires pour les guider avec bienveillance et rigueur dans leurs projets et leurs réflexions.",
+      "Mes valeurs, fondement de mon approche",
+      "L’écoute, l’empathie et l’honnêteté sont les piliers de mon travail. Ces valeurs me permettent de nouer une relation de confiance avec chaque personne que j’accompagne. Persévérante et réactive, je m’efforce d’adapter mon approche à chaque situation, dans le respect des besoins et des objectifs définis ensemble. Mon engagement est de fournir un",
+      "accompagnement sur mesure, propice à des prises de décisions éclairées et à un épanouissement durable.",
+      "Un accompagnement personnalisé pour des résultats concrets",
+      "Chaque parcours est unique, et j’accorde une attention particulière à proposer un accompagnement adapté à chacun. Qu’il s’agisse d’un élève cherchant sa voie, d’un professionnel en quête de reconversion ou d’un particulier souhaitant retrouver confiance en soi, je mets tout en œuvre pour offrir un cadre rassurant et motivant. Mon rôle est de faire émerger des solutions qui répondent à vos attentes tout en respectant votre rythme.",
+      "Une vision tournée vers l’avenir",
+      "Je suis persuadée que chaque étape de vie peut être une opportunité de changement positif. Mon objectif est de vous donner les clés pour avancer, en mettant en lumière vos atouts et en vous aidant à construire des plans d’action concrets. Ensemble, nous travaillerons à révéler le meilleur de vous-même et à bâtir un avenir qui vous ressemble.",
+      "« Mon objectif : vous aider à atteindre le vôtre »",
+      "Avec ce credo, je m’engage à vos côtés pour vous accompagner dans vos projets avec professionnalisme, humanité et dévouement. Je crois profondément en votre capacité à réussir et je suis là pour vous guider à chaque étape de votre cheminement.",
       "Pour pallier ce manque d’informations et afin de répondre aux besoins de ces jeunes et de leurs parents, j’ai décidé de me former au métier de conseillère d’orientation.",
-      "Ma valeur ajoutée: une connaissance approfondie du milieu scolaire et de l’Education nationale, la préparation à certains examens, la connaissance des méthodes d’apprentissage des élèves à profil particulier (dyslexiques, HPI…)."
-            ]
-      },
+      "Ma valeur ajoutée: une connaissance approfondie du milieu scolaire et de l’Education nationale, la préparation à certains examens, la connaissance des méthodes d’appretissage des élèves à profil particulier (dyslexiques, HPI…).",
+    ],
+  },
 
-        {
+  {
     id: 16,
-    image1: "c15.jpg",
+    image1: "c16.jpg",
     image2: "e16.png",
     nom: "Laurence    ",
     prenom: "Rabier ",
@@ -303,12 +309,11 @@ const Users = [
       "Dans mon entourage, j’ai pu constater beaucoup d’erreurs d’orientation par manque d’informations et j’ai vu trop de jeunes qui ont subi plutôt que choisi leur orientation.",
       "Forte de ce constat, j’ai souhaité orienter ma carrière vers un métier qui me permettait d’aider les jeunes et devenir Conseillère d’orientation répondait parfaitement à cet objectif.",
       "Depuis 7 ans maintenant j’exerce ce métier qui me permet d’accompagner les jeunes dans leur parcours d’orientation afin de les aider à trouver le chemin qui correspond le mieux à leurs attentes et à leurs compétences.",
-      "Quel beau challenge que d’aider un jeune à identifier ses talents!"
+      "Quel beau challenge que d’aider un jeune à identifier ses talents!",
+    ],
+  },
 
-            ]
-      },
-
-          {
+  {
     id: 17,
     image1: "c17.png",
     image2: "e17.png",
@@ -318,77 +323,79 @@ const Users = [
     email: "martine.lolom@prometheor.fr",
     localisation: "Bretagne",
     TextParagraphe: [
-      "Après l’obtention de ma Maîtrise de Gestion, j’ai travaillé 5 ans dans la fonction finances. A l’issue de cette période, j’ai réalisé un bilan de compétences qui a conforté mon souhait d’évoluer vers les RH.", 
-"Pour asseoir ce nouveau projet sur des bases solides, j’ai réalisé une formation de généraliste en RH. Puis j’ai poursuivi mon activité professionnelle, pendant 10 ans, dans des cabinets conseils de « reclassement », accompagnement de la transition professionnelle avec ou sans reconversion.",
-"A l’issue d’une expatriation de 13 ans, je me suis tournée vers l’orientation scolaire, à la suite de mon expérience au sein de l’association de parents d’élèves du lycée de mes enfants. J’y ai réalisé que chaque enfant devait avoir un accompagnement personnalisé. J’exerce donc le métier de conseillère en orientation scolaire et professionnelle depuis 2019.",
-"Cette nouvelle expérience me procure énormément de joie et de plaisir. En effet, J’aide les collégiens et lycéens a déterminé leur choix d’orientation, grâce à des outils sérieux (test inspiré du RIASEC) et à des entretiens approfondis avec eux et leur famille. L’orientation scolaire est une étape cruciale dès la classe de 3ᵉ. ",
-"C’est à ce moment que les élèves doivent choisir entre la filière générale et d’autres voies, un choix déterminant pour la suite de leur parcours. En classe de 2nde, la sélection des spécialités joue un rôle clé : elle permet de définir les orientations possibles et d’assurer une cohérence dans les choix de cursus post-bac. Ce travail de réflexion en amont facilite grandement la sélection des vœux sur Parcoursup.",
-"Par ailleurs, j’accompagne les élèves dans leur préparation aux entretiens, qu’il s’agisse de concours ou du grand oral, afin qu’ils soient confiants et performants.",
-"Quant aux adultes, je les accompagne lors de virage à 360°. Nous construisons ensemble étapes par étapes leur futur projet, jusqu’à la création de leur activité.",
-"Au plaisir de vous rencontrer!"
+      "Après l’obtention de ma Maîtrise de Gestion, j’ai travaillé 5 ans dans la fonction finances. A l’issue de cette période, j’ai réalisé un bilan de compétences qui a conforté mon souhait d’évoluer vers les RH.",
+      "Pour asseoir ce nouveau projet sur des bases solides, j’ai réalisé une formation de généraliste en RH. Puis j’ai poursuivi mon activité professionnelle, pendant 10 ans, dans des cabinets conseils de « reclassement », accompagnement de la transition professionnelle avec ou sans reconversion.",
+      "A l’issue d’une expatriation de 13 ans, je me suis tournée vers l’orientation scolaire, à la suite de mon expérience au sein de l’association de parents d’élèves du lycée de mes enfants. J’y ai réalisé que chaque enfant devait avoir un accompagnement personnalisé. J’exerce donc le métier de conseillère en orientation scolaire et professionnelle depuis 2019.",
+      "Cette nouvelle expérience me procure énormément de joie et de plaisir. En effet, J’aide les collégiens et lycéens a déterminé leur choix d’orientation, grâce à des outils sérieux (test inspiré du RIASEC) et à des entretiens approfondis avec eux et leur famille. L’orientation scolaire est une étape cruciale dès la classe de 3ᵉ. ",
+      "C’est à ce moment que les élèves doivent choisir entre la filière générale et d’autres voies, un choix déterminant pour la suite de leur parcours. En classe de 2nde, la sélection des spécialités joue un rôle clé : elle permet de définir les orientations possibles et d’assurer une cohérence dans les choix de cursus post-bac. Ce travail de réflexion en amont facilite grandement la sélection des vœux sur Parcoursup.",
+      "Par ailleurs, j’accompagne les élèves dans leur préparation aux entretiens, qu’il s’agisse de concours ou du grand oral, afin qu’ils soient confiants et performants.",
+      "Quant aux adultes, je les accompagne lors de virage à 360°. Nous construisons ensemble étapes par étapes leur futur projet, jusqu’à la création de leur activité.",
+      "Au plaisir de vous rencontrer!",
+    ],
+  },
 
-            ]
-      },
-
-         {
+  {
     id: 18,
     image1: "c18.jpg",
     image2: "e18.png",
-    nom: "Lolom   ",
-    prenom: "Martine ",
-    number: "06 30 40 01 07",
-    email: "martine.lolom@prometheor.fr",
-    localisation: "Bretagne",
+    nom: "Toulouse",
+    prenom: "Karime",
+    number: "06 14 32 57 68",
+    email: "karine.toulouse@prometheor.fr",
+    localisation: "Bourgogne-Franche-Comté",
     TextParagraphe: [
-      "Après l’obtention de ma Maîtrise de Gestion, j’ai travaillé 5 ans dans la fonction finances. A l’issue de cette période, j’ai réalisé un bilan de compétences qui a conforté mon souhait d’évoluer vers les RH.", 
-"Pour asseoir ce nouveau projet sur des bases solides, j’ai réalisé une formation de généraliste en RH. Puis j’ai poursuivi mon activité professionnelle, pendant 10 ans, dans des cabinets conseils de « reclassement », accompagnement de la transition professionnelle avec ou sans reconversion.",
-"A l’issue d’une expatriation de 13 ans, je me suis tournée vers l’orientation scolaire, à la suite de mon expérience au sein de l’association de parents d’élèves du lycée de mes enfants. J’y ai réalisé que chaque enfant devait avoir un accompagnement personnalisé. J’exerce donc le métier de conseillère en orientation scolaire et professionnelle depuis 2019.",
-"Cette nouvelle expérience me procure énormément de joie et de plaisir. En effet, J’aide les collégiens et lycéens a déterminé leur choix d’orientation, grâce à des outils sérieux (test inspiré du RIASEC) et à des entretiens approfondis avec eux et leur famille. L’orientation scolaire est une étape cruciale dès la classe de 3ᵉ. ",
-"C’est à ce moment que les élèves doivent choisir entre la filière générale et d’autres voies, un choix déterminant pour la suite de leur parcours. En classe de 2nde, la sélection des spécialités joue un rôle clé : elle permet de définir les orientations possibles et d’assurer une cohérence dans les choix de cursus post-bac. Ce travail de réflexion en amont facilite grandement la sélection des vœux sur Parcoursup.",
-"Par ailleurs, j’accompagne les élèves dans leur préparation aux entretiens, qu’il s’agisse de concours ou du grand oral, afin qu’ils soient confiants et performants.",
-"Quant aux adultes, je les accompagne lors de virage à 360°. Nous construisons ensemble étapes par étapes leur futur projet, jusqu’à la création de leur activité.",
-"Au plaisir de vous rencontrer!"
-
-            ]
-      },
-          {
+      "Qui je suis ?",
+      "Conseillère en orientation, révélatrice de potentiels & souffleuse de sens",
+      "Vous avez un ado en plein flou artistique ? Une tête bien faite mais perdue entre médecine, BTS, année sabbatique et envie de 'changer le monde' ? Respirez... vous êtes au bon endroit.",
+      "Avec plus de 20 ans de parcours dans le recrutement, la formation, le développement personnel et la sophrologie, j’accompagne les jeunes (et leurs familles) à retrouver clarté, confiance et cap.",
+      "Je ne me contente pas de parler filières ou débouchés : je fais émerger ce qui fait sens, je traduis les ressentis en plans d'action, et j’aide chacun à prendre sa juste place dans un monde en mouvement.",
+      "Mon ADN :",
+      "Écoute active et sans jugement",
+      "Approche sur-mesure, ancrée dans le concret",
+      "Paroles vraies, pas de bla-bla scolaire",
+      "Un sens aigu des transitions de vie",
+      "Ce qui m’anime ?",
+      "Voir un jeune (ou un parent !) sortir de l’entretien avec l’étincelle dans les yeux. Le genre d’étincelle qui dit : OK, j’ai pigé où je vais et pourquoi.",
+      "Et si on en parlait ? Le premier pas, c’est parfois juste un coup de fil.",
+    ],
+  },
+  {
     id: 19,
-    image1: "c18.jpg",
-    image2: "e19.png",
-    nom: "Céline    ",
-    prenom: "Sanchez",
+    image1: "c15.png",
+    image2: "e15.png",
+    nom: "Finck-Rolly",
+    prenom: "Estelle",
     number: "06 72 02 41 52",
-    email: "celine.sanchez@prometheor.com",
-    localisation: "Bretagne",
+    email: "estelle.finck-rolly@prometheor.fr",
+    localisation: "Grand Est",
     TextParagraphe: [
-    "<h1>Qui je suis ? : une professionnelle passionnée par l'accompagnement humain</h1>",
-    "Consultante indépendante, j’ai fait de l’accompagnement et du conseil mon métier, animé par une conviction profonde : chaque personne possède les ressources pour évoluer et s’épanouir. Que ce soit sur le plan scolaire, professionnel ou personnel, j’interviens auprès de mes bénéficiaires pour les guider avec bienveillance et rigueur dans leurs projets et leurs réflexions.",
-    "Mes valeurs, fondement de mon approche",
-    "L’écoute, l’empathie et l’honnêteté sont les piliers de mon travail. Ces valeurs me permettent de nouer une relation de confiance avec chaque personne que j’accompagne. Persévérante et réactive, je m’efforce d’adapter mon approche à chaque situation, dans le respect des besoins et des objectifs définis ensemble. Mon engagement est de fournir un accompagnement sur mesure, propice à des prises de décisions éclairées et à un épanouissement durable.",
-    "Un accompagnement personnalisé pour des résultats concrets",
-    "Chaque parcours est unique, et j’accorde une attention particulière à proposer un accompagnement adapté à chacun. Qu’il s’agisse d’un élève cherchant sa voie, d’un professionnel en quête de reconversion ou d’un particulier souhaitant retrouver confiance en soi, je mets tout en œuvre pour offrir un cadre rassurant et motivant. Mon rôle est de faire émerger des solutions qui répondent à vos attentes tout en respectant votre rythme."
-            ]
-      },
+      "<h1>Qui je suis ? : une professionnelle passionnée par l'accompagnement humain</h1>",
+      "Consultante indépendante, j’ai fait de l’accompagnement et du conseil mon métier, animé par une conviction profonde : chaque personne possède les ressources pour évoluer et s’épanouir. Que ce soit sur le plan scolaire, professionnel ou personnel, j’interviens auprès de mes bénéficiaires pour les guider avec bienveillance et rigueur dans leurs projets et leurs réflexions.",
+      "Mes valeurs, fondement de mon approche",
+      "L’écoute, l’empathie et l’honnêteté sont les piliers de mon travail. Ces valeurs me permettent de nouer une relation de confiance avec chaque personne que j’accompagne. Persévérante et réactive, je m’efforce d’adapter mon approche à chaque situation, dans le respect des besoins et des objectifs définis ensemble. Mon engagement est de fournir un accompagnement sur mesure, propice à des prises de décisions éclairées et à un épanouissement durable.",
+      "Un accompagnement personnalisé pour des résultats concrets",
+      "Chaque parcours est unique, et j’accorde une attention particulière à proposer un accompagnement adapté à chacun. Qu’il s’agisse d’un élève cherchant sa voie, d’un professionnel en quête de reconversion ou d’un particulier souhaitant retrouver confiance en soi, je mets tout en œuvre pour offrir un cadre rassurant et motivant. Mon rôle est de faire émerger des solutions qui répondent à vos attentes tout en respectant votre rythme.",
+    ],
+  },
 
-
-             {
+  {
     id: 20,
     image1: "c20.png",
     image2: "e20.png",
-    nom: "Céline    ",
-    prenom: "Sanchez",
+    nom: "Duguet   ",
+    prenom: "Karine",
     number: "06 72 02 41 52",
-    email: "celine.sanchez@prometheor.com",
-    localisation: "Bretagne",
+    email: "karine.duguet@prometheor.fr",
+    localisation: "Ile de France, Paris",
     TextParagraphe: [
-    "<h1>Qui je suis ? : une professionnelle passionnée par l'accompagnement humain</h1>",
-    "Consultante indépendante, j’ai fait de l’accompagnement et du conseil mon métier, animé par une conviction profonde : chaque personne possède les ressources pour évoluer et s’épanouir. Que ce soit sur le plan scolaire, professionnel ou personnel, j’interviens auprès de mes bénéficiaires pour les guider avec bienveillance et rigueur dans leurs projets et leurs réflexions.",
-    "Mes valeurs, fondement de mon approche",
-    "L’écoute, l’empathie et l’honnêteté sont les piliers de mon travail. Ces valeurs me permettent de nouer une relation de confiance avec chaque personne que j’accompagne. Persévérante et réactive, je m’efforce d’adapter mon approche à chaque situation, dans le respect des besoins et des objectifs définis ensemble. Mon engagement est de fournir un accompagnement sur mesure, propice à des prises de décisions éclairées et à un épanouissement durable.",
-    "Un accompagnement personnalisé pour des résultats concrets",
-    "Chaque parcours est unique, et j’accorde une attention particulière à proposer un accompagnement adapté à chacun. Qu’il s’agisse d’un élève cherchant sa voie, d’un professionnel en quête de reconversion ou d’un particulier souhaitant retrouver confiance en soi, je mets tout en œuvre pour offrir un cadre rassurant et motivant. Mon rôle est de faire émerger des solutions qui répondent à vos attentes tout en respectant votre rythme."
-            ]
-      },
+      "Après un parcours universitaire en LEA et une école de Commerce, j’ai intégré une société américaine de biens de grande consommation (P&G : Ariel, Pampers, Tampax, Mr Propre, etc…) dans laquelle j’ai évolué pendant 12 ans dans le domaine des études de marché. Depuis 2008, je suis à mon compte en tant que Consultante d’études marketing qualitatives avec cette même mission d’étudier les comportements des consommateurs et à tester de nouveaux produits ou services.",
+"L’observation, l’écoute, l’analyse et des recommandations concrètes sont les qualités nécessaires à ce métier et attendues par mes clients… cette démarche, j’ai décidé de la mettre également au service de l’orientation scolaire.",
+"Depuis 6 ans maintenant, j’ai endossé une double casquette : études qualitatives et orientation scolaire. L’orientation scolaire me permet de m’appuyer sur mes compétences professionnelles et d’accompagner un public qui me tient à cœur : les adolescents. Mon objectif est d’aider chaque jeune à trouver sa voie,à planter des graines pour faire grandir et évoluer leur réflexion…tout en rassurant les parents. Ma démarche d’accompagnement se veut bienveillante et pragmatique.",
+"Ma valeur ajoutée ? Avec mon métier de conseil en études qualitatives, j’ai une connaissance et un contact avec le marché du travail et une vision de différents métiers.",
+"Chaque année, j'accompagne une cinquantaine de familles, en présentiel et en visioconférence, dans la réussite de leur orientation.",
+      "Chaque parcours est unique, et j’accorde une attention particulière à proposer un accompagnement adapté à chacun. Qu’il s’agisse d’un élève cherchant sa voie, d’un professionnel en quête de reconversion ou d’un particulier souhaitant retrouver confiance en soi, je mets tout en œuvre pour offrir un cadre rassurant et motivant. Mon rôle est de faire émerger des solutions qui répondent à vos attentes tout en respectant votre rythme.",
+    ],
+  },
 ];
 
 export default Users;
