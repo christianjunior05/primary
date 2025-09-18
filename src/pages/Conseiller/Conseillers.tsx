@@ -116,7 +116,7 @@ export default function Conseillers() {
         <section>
           <div className=" bg-blue  py-14 my-20 ">
             <h3 className="text-3xl font-dmserif text-jauneOr mb-14 text-center ">
-              {" "}
+              
               Ce qu'ils disent de l'accompagnement
             </h3>
             <div className="flex items-center gap-10  justify-center ">
