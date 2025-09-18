@@ -8,7 +8,7 @@ const NotreEgagement = () => {
       {/* Hero Section - Transformé en Tailwind CSS */}
       <header
         className="relative w-full h-[480px] bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('/eng1.jpg')" }}
+        style={{ backgroundImage: "url('/w7.jpg')" }}
       >
         {/* Overlay - rgba(12, 11, 11, 0.38) */}
         <div className="absolute inset-0" style={{ background: "rgba(12, 11, 11, 0.38)" }}></div>
