@@ -52,7 +52,7 @@ const NotreEgagement = () => {
               <p className="text-lg  mb-4">
                 Les conseillères en orientation suivent une formation rigoureuse et approfondie avant d'intégrer le réseau.
               </p>
-              <h3 className="text-xl font-semibold  mb-4">
+              <h3 className=" mb-4">
                 Ce programme comprend :
               </h3>
               <div className="space-y-4">
@@ -92,8 +92,8 @@ const NotreEgagement = () => {
        
           <div className="flex  flex-wrap  justify-center gap-20  items-center">
             <div className="bg-jauneOr/5 p-5 rounded-lg w-6/12 " >
-              <h2 className="text-4xl  text-blue font-dmserif mb-6">
-                Un accompagnement <br /> <span className="text-jauneOr">100% personnalisé</span>
+              <h2 className="text-3xl  text-blue font-dmserif mb-6">
+                Un accompagnement  <span className="text-jauneOr">100% personnalisé</span>
               </h2>
               <p className="text-lg  mb-6">
                 Chaque élève est unique, et son projet d'avenir doit l'être aussi. Nous avons conçu une approche individualisée qui prend en compte :
@@ -204,7 +204,7 @@ const NotreEgagement = () => {
        
           <div className="flex justify-center gap-20 items-center">
             <div className="w-6/12">
-              <h2 className="text-4xl font-dmserif mb-6">
+              <h2 className="text-4xl font-dmserif mb-6 text-blue">
                 Un cadre <span className="text-jauneOr">éthique et bienveillant</span>
               </h2>
               <p className="text-lg  mb-6">
