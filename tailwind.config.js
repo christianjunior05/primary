@@ -41,7 +41,8 @@ export default {
                 DevenezConseiler:"url('/w7.jpg')",
                 homepagee: "url('/h2.png')",
                 dc3: "url('/dc3.png')",
-                herooo:"url('/Herooo.jpg')"
+                herooo:"url('/Herooo.jpg')",
+                reperee:"url('/r1.png')"
 
        },
     

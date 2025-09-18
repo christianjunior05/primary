@@ -39,7 +39,7 @@ const PacksRepere = () =>{
 <section>
 <div className=" flex justify-center items-center gap-20 my-32 flex-wrap">
       {/* Image */}
-      <div className="size-96 max-lg:w-80 max-lg:h-80 max-md:w-64 max-md:h-64 bg-gris ">
+      <div className="size-96 max-lg:w-60 max-lg:h-80 max-md:w-64 max-md:h-64 bg-reperee ">
 
       </div>
 
@@ -60,12 +60,12 @@ const PacksRepere = () =>{
           </li>
           <li className="flex space-x-2">
             <IoCheckmark className="text-jauneOr inline size-5 max-md:size-4" />
-          <p>Lycéens: confirmer ses spécialités et avoir des réponses à vos questions</p>
+          <p>Lycéens : confirmer ses spécialités et avoir des réponses à vos questions</p>
           </li>
       
             <li className="flex space-x-2">
               <IoCheckmark className="text-jauneOr inline size-5 max-md:size-4" />
-              <p>Étudiants :réfléchir à sa poursuite d'études ou changer de filière</p>
+              <p>Étudiants : réfléchir à sa poursuite d'études ou changer de filière</p>
             </li>
          
         </ul>
