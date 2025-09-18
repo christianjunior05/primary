@@ -160,7 +160,7 @@ if (VideoRef.current) {
 
             <div className=" space-y-5" >
               <h2 className="text-3xl font-dmserif text-blue font-lato ">
-               Preparation   <span className="text-jauneOr ">aux certificat en <br /> langue et en expression </span>: pour <br /> tous les ages</h2>
+               Préparation   <span className="text-jauneOr ">aux certificats en <br /> langue et en expression </span>: pour <br /> tous les ages</h2>
               <p className="   ">
                 Pour renforcer son dossier ou répondre aux attendus d’une formation, <br /> nous   proposons  des préparations aux:                    
               </p>
@@ -217,7 +217,7 @@ if (VideoRef.current) {
       <section>
              <div className={`  max-sm:pl-5 bg-footer   pl-20 place-content-center  my-10 h-[400px] bg-no-repeat bg-cover `} >
                    <div className="  space-y-5 max-md:w-4/5  w-2/5   py-5 pl-10 bg-white/80 rounded-xl">
-                   <h2 className=" max-sm:text-3xl font-dmserif text-4xl text-blue "> Interessez par nos stages</h2>
+                   <h2 className=" max-sm:text-3xl font-dmserif text-4xl text-blue "> Intéressez par nos stages</h2>
                    <p className="  font-lato  text-sm"> Choisissez dès maintenant l’une de nos conseillères pour définir ensemble la formule la plus adaptée. </p>
                              <button className=" text-white   max-sm:text-sm  bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
                                 Découvrir nos formations <HiArrowRight className="font-semibold text-xl  inline "/>
