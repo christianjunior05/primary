@@ -120,10 +120,7 @@ export default function DevenirConseillers() {
                     <p className="">Personnalité : identifier les traits de caractère et les aptitudes.</p>
                   
                 </li>
-                <li className="flex items-start space-x-2">
-                  <i className="fa-solid fa-graduation-cap text-jauneOr mr-2 w-5 h-5  mt-1 flex-shrink-0"></i> 
-                  <p className=""></p>          
-                </li>
+              
                 <li className="flex items-start space-x-2">
                   <i className="fa-solid fa-graduation-cap text-jauneOr mr-2 w-5 h-5  mt-1 flex-shrink-0"></i> 
                  <p className="">Parcours : prendre en compte le cheminement scolaire et personnel.</p>              
