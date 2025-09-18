@@ -10,6 +10,7 @@ import { IoCheckmark } from "react-icons/io5";
 
 import { useRef } from "react";
 import { HiArrowRight } from "react-icons/hi2";
+import { GoPlus } from "react-icons/go";
 
 
 const Trajectoire= ()=> {
@@ -192,15 +193,36 @@ if (VideoRef.current) {
 </div>
 
 
- <Section3
-  text1="À l’issue du Pack Trajectoire, votre enfant aura ?"
-  text2="Une meilleure connaissance de lui-même et de ses atouts."
-  text3="Un projet professionnel affiné et validé"
-  text4="Un choix d’études clair et une stratégie solide pour Parcoursup."
-  textButton="Contacter un conseiller "
-  icons={true}
-  image="bg-trajectoireSection3"
-  />
+
+
+
+
+  <div
+          className={`bg-trajectoireSection3 bg-cover bg-center h-[500px] flex flex-col justify-center my-32`}
+        >
+          <div className="space-y-5 ml-20 max-sm:mx-2 max-[1100px]:w-3/5 max-[740px]:w-4/5   w-6/12 shrink-0  p-6 rounded-xl bg-white/80">
+            <h5 className="text-4xl  font-dmserif text-blue">
+           À l’issue du Pack Trajectoire, votre enfant aura ?
+            </h5>
+    
+            <ul className="text-blue text-lg space-y-2">
+              <li className="max-md:text-xs space-x-2 flex items-baseline" >
+                <GoPlus className="text-jauneOr inline mr-1 " /> <p>Une meilleure connaissance de lui-même et de ses atouts.</p>
+              </li>
+              <li className="max-md:text-xs space-x-2 flex items-baseline" >
+                <GoPlus className="text-jauneOr inline mr-1 " /> <p> Un projet professionnel affiné et validé</p> 
+              </li>
+              <li className="max-md:text-xs space-x-2 flex items-baseline" >
+                <GoPlus className="text-jauneOr inline mr-1 " /> <p>Un choix d’études clair et une stratégie solide pour Parcoursup.</p>
+              </li>
+            </ul>
+    
+               <button className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+          Contacter un conseiller <HiArrowRight className="font-semibold text-lg  inline " />
+     
+        </button>
+          </div>
+        </div>
 
   <Section6
 
