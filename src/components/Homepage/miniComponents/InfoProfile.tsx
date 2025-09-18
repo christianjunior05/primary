@@ -19,7 +19,7 @@ const InfoProfile = () => {
           />
         </div>
 
-        <div className="p-2">
+        <div className="p-2 blur-sm">
           <span className="font-lato text-xl text-blue">Caroline.P</span>
 
           <ul className="leading-8  ">
