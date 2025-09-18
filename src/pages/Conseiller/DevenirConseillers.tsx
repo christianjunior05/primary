@@ -200,7 +200,7 @@ export default function DevenirConseillers() {
           >
             <div className="  space-y-5 max-md:w-4/5  w-6/12  text-blue  p-8  bg-white/80 rounded-xl">
               <h2 className=" max-sm:text-xl font-dmserif text-3xl   text-blue ">
-              Et <span className="text-jauneOr">aprés la formation</span> ?
+              Et <span className="text-jauneOr">après la formation</span> ?
               </h2>
            <ul className="space-y-3">
             <li className="flex space-x-2 " ><GiCheckMark className="  text-jauneOr inline shrink-0 mt-2 "/> <span>Un accompagnement post-formation pour vous aider à démarrer sereinement</span> </li>
