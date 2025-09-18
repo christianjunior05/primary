@@ -1,15 +1,11 @@
 import { FiPhone } from "react-icons/fi";
+import { HiArrowRight } from "react-icons/hi2";
 import { MdOutlineEmail } from "react-icons/md";
 import { MdOutlineLocationOn } from "react-icons/md";
-import { HiArrowRight } from "react-icons/hi2";
-
-
-// concerne la section " Rencontrez nos conseillers "
-//DIV du block droit
 
 const InfoProfile = () => {
   return (
-   <div className=" flex items-center gap-5   ">
+    <div className=" flex items-center gap-5   ">
       <div className="text-lg shadow  rounded-lg shadow-jauneOr/15 h-full   ">
         <div className=" ">
           <img
@@ -24,12 +20,10 @@ const InfoProfile = () => {
 
           <ul className="leading-8  ">
             <li>
-           
               <FiPhone className="text-jauneOr inline mr-1 text-2xl" />{" "}
               <span>06 30 40 01 07 </span>
             </li>
             <li>
-             
               <MdOutlineEmail className="text-jauneOr inline mr-1 text-2xl" />{" "}
               <span>virginie.colette@prometheor.fr</span>
             </li>
@@ -44,9 +38,7 @@ const InfoProfile = () => {
           </button>
         </div>
       </div>
-
-
-    </div> 
+    </div>
   );
 };
 
