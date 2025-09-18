@@ -45,10 +45,7 @@ const InfoProfile = () => {
         </div>
       </div>
 
-      <div className=" flex flex-col items-center gap-5">
-        <IoIosArrowDown className="border text-3xl p-1 cursor-pointer rounded-full text-gray-400 border-gray-400" />
-        <IoIosArrowDown className="border text-3xl p-1 cursor-pointer rounded-full text-blue border-blue" />
-      </div>
+     
     </div> 
   );
 };
