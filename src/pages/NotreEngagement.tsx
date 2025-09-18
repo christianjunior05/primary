@@ -8,7 +8,7 @@ const NotreEgagement = () => {
       {/* Hero Section - Transformé en Tailwind CSS */}
       <header
         className="relative w-full h-[480px] bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('/eng1.jpg')" }}
+        style={{ backgroundImage: "url('/w7.jpg')" }}
       >
         {/* Overlay - rgba(12, 11, 11, 0.38) */}
         <div className="absolute inset-0" style={{ background: "rgba(12, 11, 11, 0.38)" }}></div>
@@ -40,7 +40,7 @@ const NotreEgagement = () => {
           <div className="flex justify-center items-center gap-20 my-20">
             <div className="size-[500px] rounded-lg overflow-hidden flex items-center justify-center">
               <img
-                src="/eb5c5d44a1164ca3f39990b7a055b717305d82f8.jpg"
+                src="/w18.png"
                 alt="Conseillère souriante"
                 className="object-cover size-full rounded-lg"
               />
@@ -147,7 +147,7 @@ const NotreEgagement = () => {
           <div className="flex justify-center gap-20 items-center flex-wrap my-20">
             <div className="size-[500px] rounded-lg flex items-center justify-center">
               <img
-                src="/7.jpg"
+                src="/w2.jpg"
                 alt="Conseillère souriante"
                 className="object-cover size-full  rounded-lg"
               />

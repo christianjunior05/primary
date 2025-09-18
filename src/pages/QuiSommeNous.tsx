@@ -1,6 +1,4 @@
 
-
-
 // eslint-disable-next-line react-refresh/only-export-components
 export default function () {
   return (
@@ -34,7 +32,7 @@ export default function () {
           <div className="flex justify-center gap-20 flex-wrap  items-center">
             <div className="size-[500px] rounded-lg overflow-hidden flex items-center justify-center">
               <img
-                src="/eb5c5d44a1164ca3f39990b7a055b717305d82f8.jpg"
+                src="/w17.png"
                 alt="Jeunes construisant leur avenir"
                 className="object-cover size-full rounded-lg"
               />
