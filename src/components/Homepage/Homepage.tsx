@@ -34,10 +34,10 @@ export default function Homepage() {
 
 <section>
  {/* Image */}
-      <div className="bg-homepagee my-10   h-[300px] w-full md:h-[450px] bg-no-repeat bg-cover flex justify-center items-center"></div>
+      <div className="bg-homepagee mt-10   h-[300px] w-full md:h-[450px] bg-no-repeat bg-cover flex justify-center items-center"></div>
       {/* texte */}
       
-      <div className=" bg-jauneOr/10 py-10 flex flex-col my-10  bg-no-repeat bg-cover  justify-centern  items-center">
+      <div className=" bg-jauneOr/10  flex flex-col   bg-no-repeat bg-cover  justify-centern  items-center">
         <div className="w-1/2 flex flex-col items-center space-y-8 ">
           <h1 className="text-blue text-4xl font-dmserif">
             L'origine de Prometheor
@@ -81,7 +81,7 @@ ce n’est pas tirer au sort une filière   */}
 <section>
 
     
-      <div className="flex justify-center items-center my-20  gap-10 ">
+      <div className="flex justify-center items-center my-10  gap-10 ">
         {/* Texte */}
 
 <div className="w-[500px] h-[450px] ">
