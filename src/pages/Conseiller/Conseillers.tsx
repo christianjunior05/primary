@@ -67,7 +67,7 @@ export default function Conseillers() {
                     <div className="h-52 w-full">
   <img
     src={`/${User.image1}`}
-    alt=""
+    alt="image"
     className="w-full h-full rounded-t-xl object-cover"
   />
 </div>
