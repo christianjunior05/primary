@@ -116,7 +116,7 @@ if (VideoRef.current) {
   <div className="space-y-5 w-full md:w-9/12">
     <Title
       text1="Objectif du pack"
-      text2="trajetctoire"
+      text2="trajectoire"
       text3="(690€)"
     />
 
