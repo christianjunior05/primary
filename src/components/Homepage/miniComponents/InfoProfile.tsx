@@ -2,7 +2,7 @@ import { FiPhone } from "react-icons/fi";
 import { MdOutlineEmail } from "react-icons/md";
 import { MdOutlineLocationOn } from "react-icons/md";
 import { HiArrowRight } from "react-icons/hi2";
-import { IoIosArrowDown } from "react-icons/io";
+
 
 // concerne la section " Rencontrez nos conseillers "
 //DIV du block droit
