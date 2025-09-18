@@ -1,5 +1,4 @@
 import { HiArrowRight } from "react-icons/hi2";
-import Button from "../../components/Homepage/miniComponents/Button";
 import { FiArrowLeft, FiArrowRight, FiPhone } from "react-icons/fi";
 import Users from "./Data";
 
