@@ -160,7 +160,7 @@ if (VideoRef.current) {
 
             <div className=" space-y-5" >
               <h2 className="text-3xl font-dmserif text-blue font-lato ">
-               Préparation   <span className="text-jauneOr ">aux certificats en <br /> langue et en expression </span>: pour <br /> tous les ages</h2>
+               Préparation   <span className="text-jauneOr ">aux certificats en <br /> langue et en expression </span>: pour <br /> tous les âges </h2>
               <p className="   ">
                 Pour renforcer son dossier ou répondre aux attendus d’une formation, <br /> nous   proposons  des préparations aux:                    
               </p>
