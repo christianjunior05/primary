@@ -85,7 +85,7 @@ if (VideoRef.current) {
         <p className="text-3xl max-lg:text-2xl max-md:text-xl font-dmserif text-blue">
          Donnez à votre enfant les clés pour définir son projet et réussir Parcoursup avec confiance.
         </p>
-        <p className="text-base max-md:text-sm">... Le Pack Trajectoire  est conçu pour offrir un accompagnement complet et structuré, depuis la découverte du profil et des intérêts de votre enfant jusqu’à la sélection précise de formations et d’établissements. Un parcours en plusieurs étapes pour avancer avec confiance, clarté et des choix solides pour l’avenir.</p>
+        <p className="text-base max-md:text-sm">... Le Pack Trajectoire est conçu pour offrir un accompagnement complet et structuré, depuis la découverte du profil et des intérêts de votre enfant jusqu’à la sélection précise de formations et d’établissements. Un parcours en plusieurs étapes pour avancer avec confiance, clarté et des choix solides pour l’avenir.</p>
         <p className="text-blue font-dmserif text-2xl max-lg:text-xl max-md:text-lg">
           À qui s’adresse 
           <span className="text-jauneOr">ce pack ?</span>
