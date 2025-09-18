@@ -47,7 +47,7 @@ if (VideoRef.current) {
     return (  
 
         <div>
-<div className="bg-trajectoireHeader h-[400px] bg-cover bg-center flex items-center">
+<div className="bg-trajectoireHeader h-[500px] bg-cover bg-center flex items-center">
         
         <div className="  backdrop-brightness-50 size-full flex flex-col justify-center">
 
