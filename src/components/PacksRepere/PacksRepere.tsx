@@ -39,9 +39,11 @@ const PacksRepere = () =>{
 <section>
 <div className=" flex justify-center items-center gap-20 my-32 flex-wrap">
       {/* Image */}
-      <div className="size-96 max-lg:w-60 max-lg:h-80 max-md:w-64 max-md:h-64 bg-reperee ">
+     <div
+  className="size-96 max-lg:w-60 max-lg:h-80 max-md:w-64 max-md:h-64 bg-cover bg-center"
+  style={{ backgroundImage: "url('/r1.png')" }}
+></div>
 
-      </div>
 
       {/* Texte */}
       <div className="py-10 w-1/2 max-lg:w-7/12 max-md:w-full space-y-4 p-5 rounded-lg bg-jauneOr/5 text-sm flex flex-col items-start justify-around">
