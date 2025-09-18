@@ -75,8 +75,8 @@ export default function Conseillers() {
 
                       <div className=" text-sm  p-2">
                         <span className=" text-xl text-blue">
-                          {" "}
-                          {User.prenom} {User.nom}{" "}
+                         
+                          {User.prenom} {User.nom}
                         </span>
 
                         <ul className="leading-8  space-y-1 ">
