@@ -9,6 +9,7 @@ import Section6 from "../PacksRepere/sectionComponents/Section6";
 import { IoCheckmark } from "react-icons/io5";
 
 import { useRef } from "react";
+import { HiArrowRight } from "react-icons/hi2";
 
 
 const Trajectoire= ()=> {
@@ -203,7 +204,7 @@ if (VideoRef.current) {
 
   <Section6
 
-  image="photo4.png"
+  image="h1.png"
   text1="Besoin de personnalié "
   text2="votre accompagnement ?"
   textbutton1="Contacter un conseiller " 
@@ -238,15 +239,35 @@ if (VideoRef.current) {
 
 
   />
-  <Section6
 
-  image="photo5.jpg"
-  text1="Découvrez "
-  text2="nos autres packs"
-  textbutton1=" Pack exploration "
-  textbutton2="Pack repère "
-  icon={true}
-  />
+    <div className="  ml-16   flex items-center justify-center gap-20  max-sm:space-x-0 my-20 ">
+  
+    <div className=" size-96  rounded-xl">
+      <img src="/photo5.jpg" alt="image" className="size-full object-cover rounded-xl "/>
+    </div>
+    <div className="  w-5/12  space-y-5 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center flex flex-col ">
+      <h2 className="text-blue font-lato font-dmserif  text-4xl max-md:text-center  "> Découvrez  <span className="text-jauneOr">nos autres packs</span>   </h2>
+         
+  <div className="space-x-6 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:space-x-0 max-sm:space-y-6 ">
+  
+  
+   <button className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+     <span>Pack exploration </span> 
+      
+          <HiArrowRight className="font-semibold text-lg  inline " />
+      
+      </button>
+  
+       <button className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+     <span>Pack repère</span>  
+        
+          <HiArrowRight className="font-semibold text-lg  inline " />
+     
+      </button>
+  </div>
+  
+    </div>
+  </div>
         </div>
     );
 }
