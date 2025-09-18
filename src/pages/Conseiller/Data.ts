@@ -274,7 +274,7 @@ const Users = [
     prenom: "Sanchez  ",
     number: "06 72 02 41 52",
     email: "celine.sanchez@prometheor.com",
-    localisation: "Grand Est",
+    localisation: "Occitanie",
     TextParagraphe: [
       "Qui je suis ? : une professionnelle passionnée par l'accompagnement humain",
       "Consultante indépendante, j’ai fait de l’accompagnement et du conseil mon métier, animé par une conviction profonde : chaque personne possède les ressources pour évoluer et s’épanouir. Que ce soit sur le plan scolaire, professionnel ou personnel, j’interviens auprès de mes bénéficiaires pour les guider avec bienveillance et rigueur dans leurs projets et leurs réflexions.",
