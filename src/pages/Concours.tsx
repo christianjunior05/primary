@@ -134,7 +134,7 @@ if (VideoRef.current) {
 
              <div className="size-[25rem] rounded-lg overflow-hidden flex items-center justify-center">
               <img
-                src="/Image13.jpg"
+                src="/cc2.jpg"
                 alt="Étudiants préparant concours commerce"
                 className="object-cover size-full object-center rounded-lg"
               />
@@ -152,7 +152,7 @@ if (VideoRef.current) {
 
           <div className="size-[25rem] rounded-lg overflow-hidden flex items-center justify-center">
               <img
-                src="/Image12.png"
+                src="/cc3.jpg"
                 alt="Étudiants préparant une certification"
                 className="object-cover size-full object-center rounded-lg"
               />
