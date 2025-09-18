@@ -92,7 +92,7 @@ const PacksRepere = () =>{
 
 
    <div
-      className={` bg-section3 bg-cover bg-center h-[500px] flex flex-col justify-center my-32`}
+      className={` bg-section3 bg-cover bg-center h-[600px] flex flex-col justify-center my-32`}
     >
       <div className="space-y-5 ml-20 max-sm:mx-2 max-[1100px]:w-3/5 max-[740px]:w-4/5   w-6/12 shrink-0  p-6 rounded-xl bg-white/80">
         <h5 className="text-4xl  font-dmserif text-blue">

@@ -24,7 +24,7 @@ const Section6= ({ image,
     <img src={`/${image}`} alt="image" className="size-full object-cover rounded-xl "/>
   </div>
   <div className="  w-5/12  space-y-5 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center flex flex-col ">
-    <h2 className="text-blue font-lato font-dmserif  text-4xl max-md:text-center  "> Besoin de personnalisé <br /> <span className="text-jauneOr">votre accompagnement ?</span>   </h2>
+    <h2 className="text-blue font-lato font-dmserif  text-4xl max-md:text-center  "> Besoin de personnaliser <br /> <span className="text-jauneOr">votre accompagnement ?</span>   </h2>
        
 {paragraphe1 && <p className="   " > {paragraphe1} </p> }
 {paragraphe2 && <p className="  " > {paragraphe2} </p> }
