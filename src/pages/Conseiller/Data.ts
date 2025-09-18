@@ -273,8 +273,8 @@ const Users = [
     image2: "e15.png",
     nom: "Céline",
     prenom: "Sanchez  ",
-    number: "06 84 23 77 19",
-    email: "estelle.finck-rolly@prometheor.fr",
+    number: "06 72 02 41 52",
+    email: "celine.sanchez@prometheor.com",
     localisation: "Grand Est",
     TextParagraphe: [
       "Qui je suis ? : une professionnelle passionnée par l'accompagnement humain",
