@@ -97,7 +97,7 @@ const Exploration = () => {
               <li className="flex space-x-2">
                 <IoCheckmark className="text-jauneOr inline size-5 max-md:size-4" />
                 <p>
-                  Lycéens: pour commencer à construire son parcours
+                  Lycéens : pour commencer à construire son parcours
                   d'orientation et initialiser son dossier Parcoursup
                 </p>
               </li>
