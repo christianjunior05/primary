@@ -7,7 +7,6 @@ const Footer=()=> {
       <ul  className=" ">
           <li className="mb-5"><img src="/logo.png" alt=" logo" /></li>
           <li className="mb-5">Email : contact@prometheor.fr</li>
-          <li className="mb-5"> Telephone : 01.23.45.67.89 </li>
           <li className="mb-5"> Devenir conseillère ? </li>
         </ul>
 
@@ -38,7 +37,7 @@ const Footer=()=> {
         </div>
        <img src="/appliFooter.png" alt="" className="my-10" />
 
-       <span>© 2025 Educompétence | Tous droits réservés</span>
+       <span>© 2025 Prometheor | Tous droits réservés</span>
       </div>
   )
 }
