@@ -94,7 +94,7 @@ export default function () {
               />
             </div>
             <div className=" w-5/12   space-y-5">
-              <h2 className="text-3xl font-dmserif">
+              <h2 className="text-3xl font-dmserif text-blue">
                 Une <span className="text-jauneOr" >vision complète </span> de l'accompagnement
               </h2>
               <p className="text-lg  mb-6">
