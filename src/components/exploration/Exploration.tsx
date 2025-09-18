@@ -64,7 +64,7 @@ const Exploration = () => {
               onEnded={HandleEnded}
               className="size-full  object-cover"
             />
-            <h1 className="text-blue text-center mt-2 text-xl">Cliquez sur l'image pour regardez la vidéo </h1>
+            <h1 className="text-blue text-center mt-2 text-xl">Cliquez sur l'image pour regarder la vidéo </h1>
           </div>
 
           {/* Texte */}
