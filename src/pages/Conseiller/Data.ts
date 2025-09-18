@@ -59,20 +59,20 @@ const Users = [
 
   {
     id: 4,
-    image1: "c4.png",
-    image2: "e4.png",
-    nom: "Aminata ",
-    prenom: "Sacko",
-    number: "06 65 54 44 83",
-    email: "aminata.sacko@prometheor.fr",
-    localisation: "Val de Marne",
+    image1: "c20.png",
+    image2: "e20.png",
+    nom: "Duguet   ",
+    prenom: "Karine",
+    number: "06 72 02 41 52",
+    email: "karine.duguet@prometheor.fr",
+    localisation: "Ile de France, Paris",
     TextParagraphe: [
-      "Basée dans le Val-de-Marne, j’ai exercé dans le domaine des Ressources Humaines et plus particulièrement du recrutement en entreprise pendant plus de 10 ans.",
-      "Diplômée d’un Master en Ressources Humaines, j’ai toujours su que je m’orienterais vers un métier d’accompagnement et de conseils.",
-      "Passionnée par l’humain et son développement, je me suis rapidement tournée dans mes expériences professionnelles vers un public jeune en gérant, en plus des recrutements, les partenariats avec les grandes écoles de commerce, ingénieur, Université, etc... J’ai ainsi pu guider et orienter les jeunes, depuis leur entrée en formation jusqu’à leur insertion dans le monde du travail.",
-      "Après avoir fait le choix de l’entrepreneuriat, c’est donc tout naturellement que j’ai choisi de prendre cette casquette de Conseillère d’Orientation afin de poursuivre cette mission qui me tient à cœur : Accompagner les jeunes dans ce difficile chemin qu’est l’orientation scolaire et professionnelle.",
-      "J’ai à cœur de créer un environnement de confiance et bienveillant pour que l’accompagnement soit aussi un plaisir et un moment de découverte et de révélation de soi.",
-      "Ma valeur ajoutée : Grâce à ma casquette recrutement, une bonne connaissance du marché du travail et des différents métiers existants !",
+      "Après un parcours universitaire en LEA et une école de Commerce, j’ai intégré une société américaine de biens de grande consommation (P&G : Ariel, Pampers, Tampax, Mr Propre, etc…) dans laquelle j’ai évolué pendant 12 ans dans le domaine des études de marché. Depuis 2008, je suis à mon compte en tant que Consultante d’études marketing qualitatives avec cette même mission d’étudier les comportements des consommateurs et à tester de nouveaux produits ou services.",
+"L’observation, l’écoute, l’analyse et des recommandations concrètes sont les qualités nécessaires à ce métier et attendues par mes clients… cette démarche, j’ai décidé de la mettre également au service de l’orientation scolaire.",
+"Depuis 6 ans maintenant, j’ai endossé une double casquette : études qualitatives et orientation scolaire. L’orientation scolaire me permet de m’appuyer sur mes compétences professionnelles et d’accompagner un public qui me tient à cœur : les adolescents. Mon objectif est d’aider chaque jeune à trouver sa voie,à planter des graines pour faire grandir et évoluer leur réflexion…tout en rassurant les parents. Ma démarche d’accompagnement se veut bienveillante et pragmatique.",
+"Ma valeur ajoutée ? Avec mon métier de conseil en études qualitatives, j’ai une connaissance et un contact avec le marché du travail et une vision de différents métiers.",
+"Chaque année, j'accompagne une cinquantaine de familles, en présentiel et en visioconférence, dans la réussite de leur orientation.",
+      "Chaque parcours est unique, et j’accorde une attention particulière à proposer un accompagnement adapté à chacun. Qu’il s’agisse d’un élève cherchant sa voie, d’un professionnel en quête de reconversion ou d’un particulier souhaitant retrouver confiance en soi, je mets tout en œuvre pour offrir un cadre rassurant et motivant. Mon rôle est de faire émerger des solutions qui répondent à vos attentes tout en respectant votre rythme.",
     ],
   },
 
@@ -378,24 +378,26 @@ const Users = [
     ],
   },
 
-  {
+
+    {
     id: 20,
-    image1: "c20.png",
-    image2: "e20.png",
-    nom: "Duguet   ",
-    prenom: "Karine",
-    number: "06 72 02 41 52",
-    email: "karine.duguet@prometheor.fr",
-    localisation: "Ile de France, Paris",
+    image1: "c4.png",
+    image2: "e4.png",
+    nom: "Aminata ",
+    prenom: "Sacko",
+    number: "06 65 54 44 83",
+    email: "aminata.sacko@prometheor.fr",
+    localisation: "Val de Marne",
     TextParagraphe: [
-      "Après un parcours universitaire en LEA et une école de Commerce, j’ai intégré une société américaine de biens de grande consommation (P&G : Ariel, Pampers, Tampax, Mr Propre, etc…) dans laquelle j’ai évolué pendant 12 ans dans le domaine des études de marché. Depuis 2008, je suis à mon compte en tant que Consultante d’études marketing qualitatives avec cette même mission d’étudier les comportements des consommateurs et à tester de nouveaux produits ou services.",
-"L’observation, l’écoute, l’analyse et des recommandations concrètes sont les qualités nécessaires à ce métier et attendues par mes clients… cette démarche, j’ai décidé de la mettre également au service de l’orientation scolaire.",
-"Depuis 6 ans maintenant, j’ai endossé une double casquette : études qualitatives et orientation scolaire. L’orientation scolaire me permet de m’appuyer sur mes compétences professionnelles et d’accompagner un public qui me tient à cœur : les adolescents. Mon objectif est d’aider chaque jeune à trouver sa voie,à planter des graines pour faire grandir et évoluer leur réflexion…tout en rassurant les parents. Ma démarche d’accompagnement se veut bienveillante et pragmatique.",
-"Ma valeur ajoutée ? Avec mon métier de conseil en études qualitatives, j’ai une connaissance et un contact avec le marché du travail et une vision de différents métiers.",
-"Chaque année, j'accompagne une cinquantaine de familles, en présentiel et en visioconférence, dans la réussite de leur orientation.",
-      "Chaque parcours est unique, et j’accorde une attention particulière à proposer un accompagnement adapté à chacun. Qu’il s’agisse d’un élève cherchant sa voie, d’un professionnel en quête de reconversion ou d’un particulier souhaitant retrouver confiance en soi, je mets tout en œuvre pour offrir un cadre rassurant et motivant. Mon rôle est de faire émerger des solutions qui répondent à vos attentes tout en respectant votre rythme.",
+      "Basée dans le Val-de-Marne, j’ai exercé dans le domaine des Ressources Humaines et plus particulièrement du recrutement en entreprise pendant plus de 10 ans.",
+      "Diplômée d’un Master en Ressources Humaines, j’ai toujours su que je m’orienterais vers un métier d’accompagnement et de conseils.",
+      "Passionnée par l’humain et son développement, je me suis rapidement tournée dans mes expériences professionnelles vers un public jeune en gérant, en plus des recrutements, les partenariats avec les grandes écoles de commerce, ingénieur, Université, etc... J’ai ainsi pu guider et orienter les jeunes, depuis leur entrée en formation jusqu’à leur insertion dans le monde du travail.",
+      "Après avoir fait le choix de l’entrepreneuriat, c’est donc tout naturellement que j’ai choisi de prendre cette casquette de Conseillère d’Orientation afin de poursuivre cette mission qui me tient à cœur : Accompagner les jeunes dans ce difficile chemin qu’est l’orientation scolaire et professionnelle.",
+      "J’ai à cœur de créer un environnement de confiance et bienveillant pour que l’accompagnement soit aussi un plaisir et un moment de découverte et de révélation de soi.",
+      "Ma valeur ajoutée : Grâce à ma casquette recrutement, une bonne connaissance du marché du travail et des différents métiers existants !",
     ],
   },
+
 ];
 
 export default Users;
