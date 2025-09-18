@@ -26,7 +26,7 @@ const Section2 = () => {
       {/* Image */}
       <div className="w-full md:w-96 h-64 md:h-auto rounded-lg">
         <img
-          src="/section2.jpg"
+          src="/photo5.jpg"
           alt=""
           className="w-full h-full object-cover rounded-lg"
         />
