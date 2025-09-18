@@ -7,7 +7,7 @@ export default function () {
       {/* Hero Section - Transformé en Tailwind CSS */}
       <header
         className="relative w-full h-[480px] bg-cover bg-center bg-no-repeat mb-32"
-        style={{ backgroundImage: "url('/Hero5.jpg')" }}
+        style={{ backgroundImage: "url('/Hero55.jpg')" }}
       >
         {/* Overlay - rgba(12, 11, 11, 0.38) */}
      

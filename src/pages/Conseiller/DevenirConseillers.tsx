@@ -203,9 +203,9 @@ export default function DevenirConseillers() {
               Et <span className="text-jauneOr">après la formation</span> ?
               </h2>
            <ul className="space-y-3">
-            <li className="flex space-x-2 " ><GiCheckMark className="  text-jauneOr inline shrink-0 mt-2 "/> <span>Un accompagnement post-formation pour vous aider à démarrer sereinement</span> </li>
-            <li className="flex space-x-2 " ><GiCheckMark className="  text-jauneOr inline shrink-0 mt-2 "/> <span>L’accès à des outils et ressources exclusives pour structurer et développer votre activité</span> </li>
-            <li className="flex space-x-2 " ><GiCheckMark className="  text-jauneOr inline shrink-0 mt-2 "/> <span>Des opportunités d’échange et de collaboration avec d’autres professionnels</span> </li>
+            <li className="flex space-x-2" ><GiCheckMark className="  text-jauneOr inline shrink-0 mt-2 "/> <span>Un accompagnement post-formation pour vous aider à démarrer sereinement</span> </li>
+            <li className="flex space-x-2" ><GiCheckMark className="  text-jauneOr inline shrink-0 mt-2 "/> <span>L’accès à des outils et ressources exclusives pour structurer et développer votre activité</span> </li>
+            <li className="flex space-x-2" ><GiCheckMark className="  text-jauneOr inline shrink-0 mt-2 "/> <span>Des opportunités d’échange et de collaboration avec d’autres professionnels</span> </li>
            </ul>
            
             </div>

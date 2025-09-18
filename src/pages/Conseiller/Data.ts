@@ -48,13 +48,12 @@ const Users = [
     email: "sarah.pelisson@prometheor.fr",
     localisation: "Ile de France, Val de Marne",
     TextParagraphe: [
-      "Après une formation universitaire, j’ai travaillé pour les groupes Saint-Gobain et Suez dans les domaines de la logistique et de la qualité.",
-      "Après 10 ans en tant que salariée, j’ai décidé de revenir à ce qui m’animait depuis toujours : l’accompagnement et le développement des jeunes.",
-      "C’est ainsi qu’en 2010 j’ouvre mon agence de soutien scolaire à Versailles et deux ans plus tard je propose en complément un service d’accompagnement en orientation scolaire destiné aux collégiens, lycéens et aux étudiants.",
-      "Avec mon équipe d’enseignants, j’ai suivi pendant plus de 14 ans des élèves en soutien scolaire, méthodologie et orientation, en France et à l’étranger.",
-      "Pour comprendre et répondre aux besoins de chacun, je me forme régulièrement sur différentes thématiques comme celles liées aux troubles des apprentissages, aux mécanismes de la motivation ou à l’accompagnement des enfants HPI.",
-      "Chaque année, j’accompagne une centaine de familles, en présentiel et en visioconférence, dans la réussite de leurs projets scolaires et leur orientation",
-    ],
+  "En 2022, j’ai choisi de donner une nouvelle impulsion à ma carrière en devenant Coach professionnelle certifiée, spécialisée dans l’accompagnement des transitions professionnelles et l’orientation des jeunes.",
+  "Ce choix s’inscrit dans la continuité de mon parcours. Psychologue du travail de formation, j’ai évolué pendant près de 20 ans dans les Ressources Humaines et le recrutement. Ces années m’ont appris à identifier les forces et les talents, à révéler les potentiels et à accompagner les évolutions de carrière.",
+  "Parallèlement, j’ai toujours eu à cœur d’accompagner les jeunes, que ce soit dans le cadre de missions bénévoles ou, plus personnellement, en vivant au quotidien les questions d’orientation avec mes deux ados. Ces expériences m’ont amenée à une évidence : c’est auprès des jeunes que je souhaite investir mon énergie et mon expertise.",
+  "Tout cela a nourri une conviction forte : mieux se connaître est la clé pour bien s’orienter. C’est précisément là que je trouve tout le sens de mon métier et que je me sens pleinement utile.",
+],
+
   },
 
   {
@@ -68,10 +67,10 @@ const Users = [
     localisation: "Ile de France, Paris",
     TextParagraphe: [
       "Après un parcours universitaire en LEA et une école de Commerce, j’ai intégré une société américaine de biens de grande consommation (P&G : Ariel, Pampers, Tampax, Mr Propre, etc…) dans laquelle j’ai évolué pendant 12 ans dans le domaine des études de marché. Depuis 2008, je suis à mon compte en tant que Consultante d’études marketing qualitatives avec cette même mission d’étudier les comportements des consommateurs et à tester de nouveaux produits ou services.",
-"L’observation, l’écoute, l’analyse et des recommandations concrètes sont les qualités nécessaires à ce métier et attendues par mes clients… cette démarche, j’ai décidé de la mettre également au service de l’orientation scolaire.",
-"Depuis 6 ans maintenant, j’ai endossé une double casquette : études qualitatives et orientation scolaire. L’orientation scolaire me permet de m’appuyer sur mes compétences professionnelles et d’accompagner un public qui me tient à cœur : les adolescents. Mon objectif est d’aider chaque jeune à trouver sa voie,à planter des graines pour faire grandir et évoluer leur réflexion…tout en rassurant les parents. Ma démarche d’accompagnement se veut bienveillante et pragmatique.",
-"Ma valeur ajoutée ? Avec mon métier de conseil en études qualitatives, j’ai une connaissance et un contact avec le marché du travail et une vision de différents métiers.",
-"Chaque année, j'accompagne une cinquantaine de familles, en présentiel et en visioconférence, dans la réussite de leur orientation.",
+      "L’observation, l’écoute, l’analyse et des recommandations concrètes sont les qualités nécessaires à ce métier et attendues par mes clients… cette démarche, j’ai décidé de la mettre également au service de l’orientation scolaire.",
+      "Depuis 6 ans maintenant, j’ai endossé une double casquette : études qualitatives et orientation scolaire. L’orientation scolaire me permet de m’appuyer sur mes compétences professionnelles et d’accompagner un public qui me tient à cœur : les adolescents. Mon objectif est d’aider chaque jeune à trouver sa voie,à planter des graines pour faire grandir et évoluer leur réflexion…tout en rassurant les parents. Ma démarche d’accompagnement se veut bienveillante et pragmatique.",
+      "Ma valeur ajoutée ? Avec mon métier de conseil en études qualitatives, j’ai une connaissance et un contact avec le marché du travail et une vision de différents métiers.",
+      "Chaque année, j'accompagne une cinquantaine de familles, en présentiel et en visioconférence, dans la réussite de leur orientation.",
       "Chaque parcours est unique, et j’accorde une attention particulière à proposer un accompagnement adapté à chacun. Qu’il s’agisse d’un élève cherchant sa voie, d’un professionnel en quête de reconversion ou d’un particulier souhaitant retrouver confiance en soi, je mets tout en œuvre pour offrir un cadre rassurant et motivant. Mon rôle est de faire émerger des solutions qui répondent à vos attentes tout en respectant votre rythme.",
     ],
   },
@@ -378,8 +377,7 @@ const Users = [
     ],
   },
 
-
-    {
+  {
     id: 20,
     image1: "c4.png",
     image2: "e4.png",
@@ -397,7 +395,6 @@ const Users = [
       "Ma valeur ajoutée : Grâce à ma casquette recrutement, une bonne connaissance du marché du travail et des différents métiers existants !",
     ],
   },
-
 ];
 
 export default Users;
