@@ -33,7 +33,7 @@ if (VideoRef.current) {
     <div className="min-h-screen">
     
       {/* Hero Section - Transformé en Tailwind CSS */}
-      <header className="h-[400px] bg-trajectoireHeader gb-center bg-cover flex  items-center pl-10 bg-no-repeat ">
+      <header className="h-[400px] bg-concours gb-center bg-cover flex  items-center pl-10 bg-no-repeat ">
       <div className="space-y-3">
   <p className="text-4xl text-white font-dmserif">Préparez efficacement <span className="text-jauneOr " >vos concours et certifications post-bac</span> </p>
   <p className="text-xl text-white font-dmserif  " >Vous visez une école de commerce ou une école d’ingénieur après le bac ?</p>
