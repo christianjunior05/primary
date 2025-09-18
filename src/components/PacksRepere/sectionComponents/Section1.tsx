@@ -1,6 +1,3 @@
-
-
-
 import { IoCheckmark } from "react-icons/io5";
 import Button from "../../Homepage/miniComponents/Button";
 
@@ -43,22 +40,22 @@ const Section1 = ({
         </p>
         <p className="text-base max-md:text-sm">{paragraphe2}</p>
         <p className="text-blue font-dmserif text-2xl max-lg:text-xl max-md:text-lg">
-          {textBlue}{" "}
+          {textBlue}
           <span className="text-jauneOr">{textOrange}</span>
         </p>
 
         <ul className="space-y-4 mb-3">
           <li className="flex">
-            <IoCheckmark className="text-jauneOr inline size-5 max-md:size-4" />{" "}
+            <IoCheckmark className="text-jauneOr inline size-5 max-md:size-4" />
             {list1}
           </li>
           <li className="flex">
-            <IoCheckmark className="text-jauneOr inline size-5 max-md:size-4" />{" "}
+            <IoCheckmark className="text-jauneOr inline size-5 max-md:size-4" />
             {list2}
           </li>
           {list3 && (
             <li className="flex">
-              <IoCheckmark className="text-jauneOr inline size-5 max-md:size-4" />{" "}
+              <IoCheckmark className="text-jauneOr inline size-5 max-md:size-4" />
               {list3}
             </li>
           )}

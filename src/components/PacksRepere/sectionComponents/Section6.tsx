@@ -18,7 +18,7 @@ const Section6= ({ image,
   textbutton2
 }:Typage)=> {
     return ( 
-    <div className="  ml-16   flex items-center justify-center gap-20  max-sm:space-x-0 my-20 ">
+    <div className="ml-16 flex items-center justify-center gap-20  max-sm:space-x-0 my-20 ">
 
   <div className=" size-96  rounded-xl">
     <img src={`/${image}`} alt="image" className="size-full object-cover rounded-xl "/>
