@@ -33,6 +33,7 @@ export default {
                 explorsection4:"url('/explorsection4.png')",
                 explorsection5:"url('/explorsection5.png')",
                 trajectoire:"url('/trajectoire.png')",
+                concours:"url('/concours.jpg')",
                 trajectoireHeader:"url('/trajectoire.jpg')",               
                 trajectoireSection3:"url('/trajectoireSection3.png')",
                 trajectoireSection5:"url('/trajectoireSection5.png')",

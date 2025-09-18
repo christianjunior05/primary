@@ -112,7 +112,7 @@ Nous accompagnons à la découverte des établissements adaptés au profil du je
           </div>
 
              <div  className="space-y-3">
-            <div className="space-x-2">     <i className="fa-solid fa-graduation-cap text-jauneOr flex-shrink-0"></i> <span>3. Projet: tracer ma route</span></div>
+            <div className="space-x-2">  <i className="fa-solid fa-graduation-cap text-jauneOr flex-shrink-0"></i> <span>3. Projet: tracer ma route</span></div>
           <p>Rédiger un dossier, préparer un oral, organiser son planning, réussir Parcoursup…
 Nous donnons les clés pour transformer le projet en plan concret, pas à pas.</p>
           </div>
@@ -209,7 +209,7 @@ Nous donnons les clés pour transformer le projet en plan concret, pas à pas.</
         {/* Image */}
         <div className="w-96  md:w-96 h-64 md:h-auto flex justify-center items-center">
           <img
-            src="/photo5.jpg"
+            src="/section2.jpg"
             alt="Deux personnes assises en train d'échanger"
             className=" h-full w-full"
           />
