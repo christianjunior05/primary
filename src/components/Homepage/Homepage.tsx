@@ -38,7 +38,7 @@ export default function Homepage() {
       {/* texte */}
       
       <div className=" bg-jauneOr/10  flex flex-col   bg-no-repeat bg-cover  justify-centern  items-center">
-        <div className="w-1/2 flex flex-col items-center space-y-8 pt-[10px]">
+        <div className="w-1/2 flex flex-col items-center space-y-8 pt-[30px]">
           <h1 className="text-blue text-4xl font-dmserif">
             L'origine de Prometheor
           </h1>
@@ -67,7 +67,7 @@ export default function Homepage() {
             
             
           </div>
-          <div className="pb-[10px]">
+          <div className="pb-[30px]">
 
           <Button text="Trouvez une conseillere"  />
           </div>
