@@ -40,7 +40,7 @@ const NotreEgagement = () => {
           <div className="flex justify-center items-center gap-20 my-20">
             <div className="size-[500px] rounded-lg overflow-hidden flex items-center justify-center">
               <img
-                src="/eb5c5d44a1164ca3f39990b7a055b717305d82f8.jpg"
+                src="/w18.png"
                 alt="Conseillère souriante"
                 className="object-cover size-full rounded-lg"
               />
