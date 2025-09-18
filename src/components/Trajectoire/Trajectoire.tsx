@@ -1,5 +1,4 @@
 
-import Section3 from "../PacksRepere/sectionComponents/Section3";
 import Coche from "../Homepage/miniComponents/Coche";
 import Title from "../Homepage/miniComponents/Title";
 import ListElement from "../exploration/miniComponents/ListElement";
