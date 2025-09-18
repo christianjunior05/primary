@@ -64,6 +64,7 @@ const Exploration = () => {
               onEnded={HandleEnded}
               className="size-full  object-cover"
             />
+            <h1 className="text-blue text-center mt-2 text-xl">Cliquez sur l'image pour regardez la vidéo </h1>
           </div>
 
           {/* Texte */}
@@ -80,7 +81,7 @@ const Exploration = () => {
               motivations, et clarifier ses choix.
             </p>
             <p className="text-blue font-dmserif text-2xl max-lg:text-xl max-md:text-lg">
-              À qui s’adresse
+              À qui s’adresse <span></span>
               <span className="text-jauneOr">ce pack ?</span>
             </p>
 
