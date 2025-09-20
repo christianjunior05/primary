@@ -31,16 +31,16 @@ console.log(id)
             {Conseiller.prenom} {Conseiller.nom}
           </h1>
           <ul className="leading-8 space-y-1 text-xl">
-            <li className="space-x-1">
-              <FiPhone className="text-jauneOr inline  text-2xl" />
+            <li className="space-x-2 flex items-center ">
+              <FiPhone className="text-jauneOr   text-2xl shrink-0" />
               <span>{Conseiller.number}</span>
             </li>
-            <li className="space-x-1">
-              <MdOutlineEmail className="text-jauneOr inline  text-2xl" />
+            <li className="space-x-2 flex items-center ">
+              <MdOutlineEmail className="text-jauneOr   text-2xl shrink-0" />
               <span>{Conseiller.email}</span>
             </li>
-            <li className="space-x-1">
-              <MdOutlineLocationOn className="text-jauneOr inline  text-2xl" />
+            <li className="space-x-2 flex items-center ">
+              <MdOutlineLocationOn className="text-jauneOr   text-2xl shrink-0" />
               <span>{Conseiller.localisation}</span>
             </li>
           </ul>
@@ -60,13 +60,10 @@ console.log(id)
       </div>
 
       {/* Présentation */}
-      <div className="w-10/12 m-auto space-y-5 my-20">
-        <h2 className="font-dmserif text-3xl text-blue">Présentation :</h2>
-        <div className="font-medium space-y-5">
-          {Conseiller.TextParagraphe.map((text, index) => (
-            <p key={index} dangerouslySetInnerHTML={{ __html: text }} />
-          ))}
-        </div>
+      <div className="w-9/12 m-auto space-y-5 my-20">
+           
+          {Conseiller.content}
+       
       </div>
     </div>
   );

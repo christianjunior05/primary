@@ -1,4 +1,5 @@
 
+import { Link } from "react-router-dom";
 import Coche from "./Coche";
 import { HiArrowRight } from "react-icons/hi2";
 // dans la section "nos solution d'orientation" de la page HomePage
@@ -10,6 +11,7 @@ type Typage ={
   text2:string,
   text3?:string,
   image:string,
+  link:string
 
 }
 
@@ -20,7 +22,7 @@ const EnsavoirPlus= (
   objectif,
   text1,
   text2,
-  text3,image}:Typage
+  text3,image,link}:Typage
 )=> {
     return ( 
   //       <div className="w-80  max-md:mb-5   shadow-black/5 shadow-sm rounded-2xl     ">
@@ -65,9 +67,9 @@ const EnsavoirPlus= (
     </ul>
   </div>
 
-  <button className="bg-blue hover:bg-blue/80 transition-all text-white w-full py-2 rounded-b-2xl font-montserrat">
-    En savoir plus <HiArrowRight className="inline" />
-  </button>
+
+   <Link className="bg-blue hover:bg-blue/80 transition-all text-white w-full py-2 rounded-b-2xl font-montserrat" to={link} > En savoir plus  <HiArrowRight className="inline" /></Link> 
+ 
 </div>
 
 
