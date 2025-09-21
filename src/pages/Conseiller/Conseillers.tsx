@@ -4,6 +4,7 @@ import Users from "./Data";
 
 import { MdOutlineEmail, MdOutlineLocationOn } from "react-icons/md";
 import { Link } from "react-router-dom";
+
 export default function Conseillers() {
   return (
     <div>
@@ -63,11 +64,11 @@ export default function Conseillers() {
                       key={User.id}
                       className="text-lg w-72 bg-jauneOr/5  rounded-lg      shadow-xl shadow-jauneOr/10 "
                     >
-                    <div className="h-52 w-full">
+                    <div className="h-52 w-full ">
   <img
     src={`/${User.image1}`}
     alt="image"
-    className="w-full h-full rounded-t-xl object-cover"
+    className= {`${User.classNameImage1}`} 
   />
 </div>
 
@@ -92,7 +93,7 @@ export default function Conseillers() {
                             <span> {User.localisation} </span>
                           </li>
                         </ul>
-                        <button className="text-jauneOr font-montserrat mt-4 space-x-1  ">
+                        <button className="text-jauneOr hover:text-yellow-600 transition-all font-montserrat mt-4 space-x-1  ">
                           <Link to={`./${User.id}`}>
                             En savoir plus sur {User.prenom}
                           </Link>

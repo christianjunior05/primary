@@ -8,6 +8,7 @@ import DivWebinaire from "./miniComponents/DivWebinar";
 import { HiArrowRight } from "react-icons/hi2";
 import { IoIosArrowDown } from "react-icons/io";
 import { IoCheckmark } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 // tout ce qui est ici concerne la page Homapage
 export default function Homepage() {
@@ -69,7 +70,11 @@ export default function Homepage() {
           </div>
           <div className="pb-[30px]">
 
-          <Button text="Trouvez une conseillere"  />
+          <button className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+        <Link to="/conseillers" > Trouvez une conseillere </Link> 
+   
+    </button>
+    
           </div>
         </div>
       </div>
@@ -149,6 +154,8 @@ Nous donnons les clés pour transformer le projet en plan concret, pas à pas.</
               text2="Pour aider les lycéens à choisir leurs spécialités et répondre à des interrogations spécifiques"
               text3=" Pour les parents qui s'interrogent sur l'orientation de leur enfant"
               image="/photo2.png"
+              link="/repere"
+            
             />
 
             <EnsavoirPlus
@@ -159,7 +166,9 @@ Nous donnons les clés pour transformer le projet en plan concret, pas à pas.</
               text1="Collégiens : pour transformer un premier intérêt en projet préparatoire pour la seconde."
               text2="Lycéens : pour commencer à construire son parcours d'orientation et initialiser son dossier Parcoursup"
               text3=" Étudiants qui s'interrogent sur une réorientation ou sur leur poursuite d’études."
-            />
+              link="/exploration"
+             
+           />
             <EnsavoirPlus
               image="EnsavoirPlus3.png"
               titre1="Pack"
@@ -167,7 +176,9 @@ Nous donnons les clés pour transformer le projet en plan concret, pas à pas.</
               objectif="Explorer son profil et construire une stratégie d'orientation complète"
               text1="Lycéens : pour définir et confirmer ses parcours d'orientation et construire sa stratégie Parcoursup"
               text2="Pour aider les lycéens à choisir leurs spécialités et répondre à des interrogations spécifiques"
-            />
+              link="/trajectoire"
+             
+          />
 
            
           </div>
@@ -201,8 +212,11 @@ Nous donnons les clés pour transformer le projet en plan concret, pas à pas.</
             suivi évolutif.
           </p>
 
-          {/* Bouton inchangé */}
-          <Button text="Contacter un conseiller " icons={true} />
+        <button className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+        <Link to="/conseillers" >  Contacter un conseiller <HiArrowRight className="font-semibold text-lg  inline " />
+    </Link> 
+   
+    </button>
         </div>
       </div>
 
@@ -237,8 +251,12 @@ Nous donnons les clés pour transformer le projet en plan concret, pas à pas.</
             </li>
           </ul>
 
-          {/* Bouton inchangé */}
-          <Button text="En savoir plus " icons={true} />
+
+             <button className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+        <Link to="/parcours" >  En savoir plus <HiArrowRight className="font-semibold text-lg  inline " />
+    </Link> 
+   
+    </button>
         </div>
       </div>
 
@@ -268,8 +286,10 @@ Nous donnons les clés pour transformer le projet en plan concret, pas à pas.</
             </li>
           </ul>
 
-          {/* Bouton inchangé */}
-          <Button text="Trouver un conseiller" />
+        <button className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+        <Link to="/conseillers" >Trouver un conseiller <HiArrowRight className="font-semibold text-lg  inline " />
+        </Link> 
+        </button>
         </div>
 
         {/* Composant profil */}
@@ -435,7 +455,11 @@ Nous donnons les clés pour transformer le projet en plan concret, pas à pas.</
             ensemble la formule la plus adaptée.
           </p>
           <p className="max-xl:text-sm  font-lato ">Prendre un rendez-vous :</p>
-          <Button text="Trouver un conseiller " icons={true} />
+
+           <button className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+        <Link to="/conseillers" >Trouver un conseiller <HiArrowRight className="font-semibold text-lg  inline " />
+        </Link> 
+        </button>
         </div>
       </div>
     </div>

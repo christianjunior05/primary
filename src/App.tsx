@@ -15,11 +15,14 @@ import Presentation from "./pages/Conseiller/Presentation";
 import Navbar from "./components/Navbar";
 import DevenirConseillers from "./pages/Conseiller/DevenirConseillers";
 import BlogWebinaires from "./pages/BlogWebinaire/BlogWebinaires";
+import ScrollToTop from "./ScrollTop";
+import Collaborateur from "./pages/Collaborateur";
 export default function App() {
 
  
   return (
     <main className="overflow-x-hidden">
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<Homepage />} />
@@ -32,9 +35,11 @@ export default function App() {
         <Route path="/QuiSommesNous" element={<QuiSommeNous />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/conseillers" element={<Conseillers />} />
+        <Route path="/conseillers" element={<Conseillers/>}/>
         <Route path="/conseillers/:id" element={<Presentation  />} />
         <Route path="/devenirconseiller" element={<DevenirConseillers />} />
         <Route path="/Blog-webinaires" element={<BlogWebinaires />} />
+        <Route path="/collaborateur" element={<Collaborateur />} />
       </Routes>
 
       <Footer />
