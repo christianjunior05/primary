@@ -64,11 +64,11 @@ export default function Conseillers() {
                       key={User.id}
                       className="text-lg w-72 bg-jauneOr/5  rounded-lg      shadow-xl shadow-jauneOr/10 "
                     >
-                    <div className="h-52 w-full">
+                    <div className="h-52 w-full ">
   <img
     src={`/${User.image1}`}
     alt="image"
-    className="w-full h-full rounded-t-xl object-cover"
+    className= {`${User.classNameImage1}`} 
   />
 </div>
 

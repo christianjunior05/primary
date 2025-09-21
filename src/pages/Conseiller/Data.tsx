@@ -10,7 +10,8 @@ type User = {
   number: string;
   email: string;
   localisation: string;
-  content: ReactNode; // facultatif
+  content: ReactNode; 
+  classNameImage1?: string;
 };
 
 
@@ -25,6 +26,7 @@ const Users:User[]  = [
     number: "07 51 06 42 84",
     email: "gwladys.kady@prometheor.fr",
     localisation: "Ile de france, Centre-Val de Loire",
+    classNameImage1:"w-full h-full rounded-t-xl object-cover object-center",
     content: ( <div className=" space-y-10 ">
               <h2 className="font-dmserif text-3xl text-blue">Présentation :</h2>
        
@@ -50,6 +52,8 @@ const Users:User[]  = [
      number: "06 62 82 32 01",
      email: "sonia@prometheor.fr",
      localisation: "Ile de France, Hauts de Seine",
+      classNameImage1:"w-full h-full rounded-t-xl object-cover ",
+
       content: ( <div className=" space-y-10 ">
               <h2 className="font-dmserif text-3xl text-blue">Présentation :</h2>
       
@@ -72,6 +76,8 @@ const Users:User[]  = [
    {
      id: 3,
      image1: "c3.png",
+    classNameImage1:"w-full h-full rounded-t-xl object-cover object-top",
+
      image2: "e3.png",
      nom: "Sarah ",
      prenom: "Pelisson",
@@ -117,6 +123,8 @@ const Users:User[]  = [
    {
      id: 4,
      image1: "c20.png",
+         classNameImage1:"w-full h-full rounded-t-xl object-cover object-center",
+
      image2: "e20.png",
      nom: "Duguet   ",
      prenom: "Karine",
@@ -147,6 +155,8 @@ const Users:User[]  = [
    {
      id: 5,
      image1: "5.png",
+         classNameImage1:"w-full h-full rounded-t-xl object-cover ",
+
      image2: "e5.png",
      nom: "Virgine ",
      prenom: "Colette",
@@ -173,6 +183,7 @@ const Users:User[]  = [
    {
      id: 6,
      image1: "c6.png",
+    classNameImage1:"w-full h-full rounded-t-xl object-cover ",
      image2: "e6.png",
      nom: "Fabyene",
      prenom: "Nimirf",
@@ -205,6 +216,8 @@ Mon approche est globale : au-delà du parcours scolaire, je prends en compte le
    {
      id: 7,
      image1: "c7.jpg",
+    classNameImage1:"w-full h-full rounded-t-xl object-cover object-center",
+
      image2: "e7.png",
      nom: "Juliette",
      prenom: "Lacoste",
@@ -235,6 +248,7 @@ Mon approche est globale : au-delà du parcours scolaire, je prends en compte le
    {
      id: 8,
      image1: "c8.png",
+     classNameImage1:"w-full h-full rounded-t-xl object-cover object-top",
      image2: "e8.png",
      nom: "Myriam",
      prenom: "Diebold",
@@ -263,6 +277,8 @@ Mon approche est globale : au-delà du parcours scolaire, je prends en compte le
    {
      id: 9,
      image1: "c9.png",
+         classNameImage1:"w-full h-full rounded-t-xl object-cover object-top",
+
      image2: "e9.png",
      nom: "Nadia ",
      prenom: "Royer",
@@ -289,6 +305,8 @@ Professeure contractuelle à l’université en parallèle, j’étais souvent a
    {
      id: 10,
      image1: "c10.jpg",
+         classNameImage1:"w-full h-full rounded-t-xl object-cover object-center",
+
      image2: "e10.png",
      nom: "Laetitia ",
      prenom: "Masini ",
@@ -318,6 +336,7 @@ Professeure contractuelle à l’université en parallèle, j’étais souvent a
    {
      id: 11,
      image1: "c11.png",
+         classNameImage1:"w-full h-full rounded-t-xl  object-cover object-center",
      image2: "e11.png",
      nom: "Caroline ",
      prenom: "Geraads ",
@@ -371,6 +390,7 @@ professionnelle réussie
    {
      id: 12,
      image1: "c12.png",
+     classNameImage1:"w-full h-full rounded-t-xl object-cover ",
      image2: "e12.png",
      nom: "Jessica  ",
      prenom: "Afonso ",
@@ -402,6 +422,8 @@ professionnelle réussie
    {
      id: 13,
      image1: "c13.jpeg",
+         classNameImage1:"w-full h-full rounded-t-xl object-cover object-top",
+
      image2: "e13.png",
      nom: "Allios",
      prenom: "Laurie ",
@@ -445,6 +467,8 @@ Mon approche ne se limite pas à l’écoute et à la bienveillance :</p>
    {
      id: 14,
      image1: "c14.png",
+         classNameImage1:"w-full h-full rounded-t-xl object-cover object-top",
+
      image2: "e14.png",
      nom: "Brigitte    ",
      prenom: "Fressy ",
@@ -477,136 +501,257 @@ Mon approche ne se limite pas à l’écoute et à la bienveillance :</p>
    {
      id: 15,
      image1: "cs1.png",
+         classNameImage1:"w-full h-full rounded-t-xl object-cover object-top",
+
      image2: "es1.png",
      nom: "Céline",
      prenom: "Sanchez  ",
      number: "06 72 02 41 52",
      email: "celine.sanchez@prometheor.com",
      localisation: "Occitanie",
- content: ( <div className=" space-y-10 ">
-              <h2 className="font-dmserif text-3xl text-blue">Présentation :</h2>
+     content: ( <div className=" space-y-10 ">
       
        <div className="space-y-5">
-<p>Basée dans le Val-de-Marne, j’ai exercé dans le domaine des Ressources Humaines et plus particulièrement du recrutement en entreprise pendant plus de 10 ans.</p>
-<p>Diplômée d’un Master en Ressources Humaines, j’ai toujours su que je m’orienterais vers un métier d’accompagnement et de conseils.</p>
+       <h1 className="font-dmserif text-2xl text-blue">Qui je suis ? : une professionnelle passionnée par l'accompagnement humain</h1>
+       <p>Consultante indépendante, j’ai fait de l’accompagnement et du conseil mon métier, animé par une conviction profonde : chaque personne possède les ressources pour évoluer et s’épanouir. Que ce soit sur le plan scolaire, professionnel ou personnel, j’interviens auprès de mes bénéficiaires pour les guider avec bienveillance et rigueur dans leurs projets et leurs réflexions.</p>
 
+     </div>
 
-<p>Passionnée par l’humain et son développement, je me suis rapidement tournée dans mes expériences professionnelles vers un public jeune en gérant, en plus des recrutements, les partenariats avec les grandes écoles de commerce, ingénieur, Université, etc... J’ai ainsi pu guider et orienter les jeunes, depuis leur entrée en formation jusqu’à leur insertion dans le monde du travail. </p>
+         <div className="space-y-5">
 
-<p>Après avoir fait le choix de l’entrepreneuriat, c’est donc tout naturellement que j’ai choisi de prendre cette casquette de Conseillère d’Orientation afin de poursuivre cette mission qui me tient à cœur : Accompagner les jeunes dans ce difficile chemin qu’est l’orientation scolaire et professionnelle. </p>
+       <h2 className="font-dmserif text-2xl text-blue">Mes valeurs, fondement de mon approche</h2>
+<p>L’écoute, l’empathie et l’honnêteté sont les piliers de mon travail. Ces valeurs me permettent de nouer une relation de confiance avec chaque personne que j’accompagne. Persévérante et réactive, je m’efforce d’adapter mon approche à chaque situation, dans le respect des besoins et des objectifs définis ensemble. Mon engagement est de fournir un
+accompagnement sur mesure, propice à des prises de décisions éclairées et à un épanouissement durable.</p>
+     </div>
 
-<p>J’ai à cœur de créer un environnement de confiance et bienveillant pour que l’accompagnement soit aussi un plaisir et un moment de découverte et de révélation de soi.</p>
+              <div className="space-y-5">
 
-<p>Ma valeur ajoutée : Grâce à ma casquette recrutement, une bonne connaissance du marché du travail et des différents métiers existants !</p>
+       <h3 className="font-dmserif text-2xl text-blue">Un accompagnement personnalisé pour des résultats concrets</h3>
+     <p>Chaque parcours est unique, et j’accorde une attention particulière à proposer un accompagnement adapté à chacun. Qu’il s’agisse d’un élève cherchant sa voie, d’un professionnel en quête de reconversion ou d’un particulier souhaitant retrouver confiance en soi, je mets tout en œuvre pour offrir un cadre rassurant et motivant. Mon rôle est de faire émerger des solutions qui répondent à vos attentes tout en respectant votre rythme.</p>   
+    
+     </div>
 
+     <div className="space-y-5" >
+      <h4 className="font-dmserif text-2xl text-blue">Une vision tournée vers l’avenir</h4>
+      <p>Je suis persuadée que chaque étape de vie peut être une opportunité de changement positif. Mon objectif est de vous donner les clés pour avancer, en mettant en lumière vos atouts et en vous aidant à construire des plans d’action concrets. Ensemble, nous travaillerons à révéler le meilleur de vous-même et à bâtir un avenir qui vous ressemble.</p>
+     </div>
+
+     <div className="space-y-5" >
+      <h5 className="font-dmserif text-2xl text-blue">« Mon objectif : vous aider à atteindre le vôtre »</h5>
+      <p>Avec ce credo, je m’engage à vos côtés pour vous accompagner dans vos projets avec professionnalisme, humanité et dévouement. Je crois profondément en votre capacité à réussir et je suis là pour vous guider à chaque étape de votre cheminement.</p>
      </div>
      
        </div> ),
    },
 
-  // {
-  //   id: 16,
-  //   image1: "c16.jpg",
-  //   image2: "e16.png",
-  //   nom: "Laurence    ",
-  //   prenom: "Rabier ",
-  //   number: "06 84 23 77 19",
-  //   email: "laurence.rabier@prometheor.fr",
-  //   localisation: "Nouvelle Aquitaine",
-  //   TextParagraphe: [
-  //     "Après 15 ans d’expérience professionnelle au sein de l’industrie pharmaceutique en tant que Chargée de Communication puis Chargée de Congrès pour le 5ème laboratoire mondial, j’ai souhaité intégrer une entreprise à taille humaine ce qui m’a amené à assurer la fonction de Responsable administrative au sein d’un Cabinet d’expertise comptable.",
-  //     "Ces différentes expériences ont été riches d’enseignements mais j’ai ensuite pris la décision de donner une nouvelle orientation à ma vie professionnelle avec un métier riche de sens et plus en phase avec mes affinités.",
-  //     "Mère de 3 enfants, j’ai toujours pensé qu’une bonne orientation scolaire est la clé de la réussite des jeunes. Même si l’on pense bien connaître ses enfants, je suis réellement persuadée qu’un accompagnement personnalisé par un professionnel de l’orientation est une réelle chance pour un jeune d’épanouissement dans sa future vie professionnelle.",
-  //     "Dans mon entourage, j’ai pu constater beaucoup d’erreurs d’orientation par manque d’informations et j’ai vu trop de jeunes qui ont subi plutôt que choisi leur orientation.",
-  //     "Forte de ce constat, j’ai souhaité orienter ma carrière vers un métier qui me permettait d’aider les jeunes et devenir Conseillère d’orientation répondait parfaitement à cet objectif.",
-  //     "Depuis 7 ans maintenant j’exerce ce métier qui me permet d’accompagner les jeunes dans leur parcours d’orientation afin de les aider à trouver le chemin qui correspond le mieux à leurs attentes et à leurs compétences.",
-  //     "Quel beau challenge que d’aider un jeune à identifier ses talents!",
-  //   ],
-  // },
+   {
+     id: 16,
+     image1: "c16.jpg",
+         classNameImage1:"w-full h-full rounded-t-xl object-cover object-top",
 
-  // {
-  //   id: 17,
-  //   image1: "c17.png",
-  //   image2: "e17.png",
-  //   nom: "Lolom   ",
-  //   prenom: "Martine ",
-  //   number: "06 30 40 01 07",
-  //   email: "martine.lolom@prometheor.fr",
-  //   localisation: "Bretagne",
-  //   TextParagraphe: [
-  //     "Après l’obtention de ma Maîtrise de Gestion, j’ai travaillé 5 ans dans la fonction finances. A l’issue de cette période, j’ai réalisé un bilan de compétences qui a conforté mon souhait d’évoluer vers les RH.",
-  //     "Pour asseoir ce nouveau projet sur des bases solides, j’ai réalisé une formation de généraliste en RH. Puis j’ai poursuivi mon activité professionnelle, pendant 10 ans, dans des cabinets conseils de « reclassement », accompagnement de la transition professionnelle avec ou sans reconversion.",
-  //     "A l’issue d’une expatriation de 13 ans, je me suis tournée vers l’orientation scolaire, à la suite de mon expérience au sein de l’association de parents d’élèves du lycée de mes enfants. J’y ai réalisé que chaque enfant devait avoir un accompagnement personnalisé. J’exerce donc le métier de conseillère en orientation scolaire et professionnelle depuis 2019.",
-  //     "Cette nouvelle expérience me procure énormément de joie et de plaisir. En effet, J’aide les collégiens et lycéens a déterminé leur choix d’orientation, grâce à des outils sérieux (test inspiré du RIASEC) et à des entretiens approfondis avec eux et leur famille. L’orientation scolaire est une étape cruciale dès la classe de 3ᵉ. ",
-  //     "C’est à ce moment que les élèves doivent choisir entre la filière générale et d’autres voies, un choix déterminant pour la suite de leur parcours. En classe de 2nde, la sélection des spécialités joue un rôle clé : elle permet de définir les orientations possibles et d’assurer une cohérence dans les choix de cursus post-bac. Ce travail de réflexion en amont facilite grandement la sélection des vœux sur Parcoursup.",
-  //     "Par ailleurs, j’accompagne les élèves dans leur préparation aux entretiens, qu’il s’agisse de concours ou du grand oral, afin qu’ils soient confiants et performants.",
-  //     "Quant aux adultes, je les accompagne lors de virage à 360°. Nous construisons ensemble étapes par étapes leur futur projet, jusqu’à la création de leur activité.",
-  //     "Au plaisir de vous rencontrer!",
-  //   ],
-  // },
+     image2: "e16.png",
+     nom: "Laurence    ",
+     prenom: "Rabier ",
+     number: "06 84 23 77 19",
+     email: "laurence.rabier@prometheor.fr",
+     localisation: "Nouvelle Aquitaine",
+       content: ( <div className=" space-y-10 ">
+              <h1 className="font-dmserif text-3xl text-blue">Presentation </h1>
+      
+       <div className="space-y-5">
 
-  // {
-  //   id: 18,
-  //   image1: "c18.jpg",
-  //   image2: "e18.png",
-  //   nom: "Toulouse",
-  //   prenom: "Karime",
-  //   number: "06 14 32 57 68",
-  //   email: "karine.toulouse@prometheor.fr",
-  //   localisation: "Bourgogne-Franche-Comté",
-  //   TextParagraphe: [
-  //     "Qui je suis ?",
-  //     "Conseillère en orientation, révélatrice de potentiels & souffleuse de sens",
-  //     "Vous avez un ado en plein flou artistique ? Une tête bien faite mais perdue entre médecine, BTS, année sabbatique et envie de 'changer le monde' ? Respirez... vous êtes au bon endroit.",
-  //     "Avec plus de 20 ans de parcours dans le recrutement, la formation, le développement personnel et la sophrologie, j’accompagne les jeunes (et leurs familles) à retrouver clarté, confiance et cap.",
-  //     "Je ne me contente pas de parler filières ou débouchés : je fais émerger ce qui fait sens, je traduis les ressentis en plans d'action, et j’aide chacun à prendre sa juste place dans un monde en mouvement.",
-  //     "Mon ADN :",
-  //     "Écoute active et sans jugement",
-  //     "Approche sur-mesure, ancrée dans le concret",
-  //     "Paroles vraies, pas de bla-bla scolaire",
-  //     "Un sens aigu des transitions de vie",
-  //     "Ce qui m’anime ?",
-  //     "Voir un jeune (ou un parent !) sortir de l’entretien avec l’étincelle dans les yeux. Le genre d’étincelle qui dit : OK, j’ai pigé où je vais et pourquoi.",
-  //     "Et si on en parlait ? Le premier pas, c’est parfois juste un coup de fil.",
-  //   ],
-  // },
-  // {
-  //   id: 19,
-  //   image1: "c15.png",
-  //   image2: "e15.png",
-  //   nom: "Finck-Rolly",
-  //   prenom: "Estelle",
-  //   number: "06 72 02 41 52",
-  //   email: "estelle.finck-rolly@prometheor.fr",
-  //   localisation: "Grand Est",
-  //   TextParagraphe: [
-  //     "<h1>Qui je suis ? : une professionnelle passionnée par l'accompagnement humain</h1>",
-  //     "Consultante indépendante, j’ai fait de l’accompagnement et du conseil mon métier, animé par une conviction profonde : chaque personne possède les ressources pour évoluer et s’épanouir. Que ce soit sur le plan scolaire, professionnel ou personnel, j’interviens auprès de mes bénéficiaires pour les guider avec bienveillance et rigueur dans leurs projets et leurs réflexions.",
-  //     "Mes valeurs, fondement de mon approche",
-  //     "L’écoute, l’empathie et l’honnêteté sont les piliers de mon travail. Ces valeurs me permettent de nouer une relation de confiance avec chaque personne que j’accompagne. Persévérante et réactive, je m’efforce d’adapter mon approche à chaque situation, dans le respect des besoins et des objectifs définis ensemble. Mon engagement est de fournir un accompagnement sur mesure, propice à des prises de décisions éclairées et à un épanouissement durable.",
-  //     "Un accompagnement personnalisé pour des résultats concrets",
-  //     "Chaque parcours est unique, et j’accorde une attention particulière à proposer un accompagnement adapté à chacun. Qu’il s’agisse d’un élève cherchant sa voie, d’un professionnel en quête de reconversion ou d’un particulier souhaitant retrouver confiance en soi, je mets tout en œuvre pour offrir un cadre rassurant et motivant. Mon rôle est de faire émerger des solutions qui répondent à vos attentes tout en respectant votre rythme.",
-  //   ],
-  // },
 
-  // {
-  //   id: 20,
-  //   image1: "c4.png",
-  //   image2: "e4.png",
-  //   nom: "Aminata ",
-  //   prenom: "Sacko",
-  //   number: "06 65 54 44 83",
-  //   email: "aminata.sacko@prometheor.fr",
-  //   localisation: "Val de Marne",
-  //   TextParagraphe: [
-  //     "Basée dans le Val-de-Marne, j’ai exercé dans le domaine des Ressources Humaines et plus particulièrement du recrutement en entreprise pendant plus de 10 ans.",
-  //     "Diplômée d’un Master en Ressources Humaines, j’ai toujours su que je m’orienterais vers un métier d’accompagnement et de conseils.",
-  //     "Passionnée par l’humain et son développement, je me suis rapidement tournée dans mes expériences professionnelles vers un public jeune en gérant, en plus des recrutements, les partenariats avec les grandes écoles de commerce, ingénieur, Université, etc... J’ai ainsi pu guider et orienter les jeunes, depuis leur entrée en formation jusqu’à leur insertion dans le monde du travail.",
-  //     "Après avoir fait le choix de l’entrepreneuriat, c’est donc tout naturellement que j’ai choisi de prendre cette casquette de Conseillère d’Orientation afin de poursuivre cette mission qui me tient à cœur : Accompagner les jeunes dans ce difficile chemin qu’est l’orientation scolaire et professionnelle.",
-  //     "J’ai à cœur de créer un environnement de confiance et bienveillant pour que l’accompagnement soit aussi un plaisir et un moment de découverte et de révélation de soi.",
-  //     "Ma valeur ajoutée : Grâce à ma casquette recrutement, une bonne connaissance du marché du travail et des différents métiers existants !",
-  //   ],
-  // },
+
+<p>Après 15 ans d’expérience professionnelle au sein de l’industrie pharmaceutique en tant que Chargée de Communication puis Chargée de Congrès pour le 5ème laboratoire mondial, j’ai souhaité intégrer une entreprise à taille humaine ce qui m’a amené à assurer la fonction de Responsable administrative au sein d’un Cabinet d’expertise comptable.</p>
+
+
+<p>Ces différentes expériences ont été riches d’enseignements mais j’ai ensuite pris la décision de donner une nouvelle orientation à ma vie professionnelle avec un métier riche de sens et plus en phase avec mes affinités.</p>
+
+<p>Mère de 3 enfants, j’ai toujours pensé qu’une bonne orientation scolaire est la clé de la réussite des jeunes. Même si l’on pense bien connaître ses enfants, je suis réellement persuadée qu’un accompagnement personnalisé par un professionnel de l’orientation est une réelle chance pour un jeune d’épanouissement dans sa future vie professionnelle. </p>
+
+<p>Dans mon entourage, j’ai pu constater beaucoup d’erreurs d’orientation par manque d’informations et j’ai vu trop de jeunes qui ont subi plutôt que choisi leur orientation.</p>
+
+<p>Forte de ce constat, j’ai souhaité orienter ma carrière vers un métier qui me permettait d’aider les jeunes et devenir Conseillère d’orientation répondait parfaitement à cet objectif.</p>
+
+<p>
+  Depuis 7 ans maintenant j’exerce ce métier qui me permet d’accompagner les jeunes dans leur parcours d’orientation afin de les aider à trouver le chemin qui correspond le mieux à leurs attentes et à leurs compétences.
+Quel beau challenge que d’aider un jeune à identifier ses talents !
+</p>
+</div>
+     
+       </div> ),
+  
+    },
+
+   {
+     id: 17,
+     image1: "c17.png",
+         classNameImage1:"w-full h-full rounded-t-xl object-cover object-top",
+
+     image2: "e17.png",
+     nom: "Lolom   ",
+     prenom: "Martine ",
+     number: "06 30 40 01 07",
+     email: "martine.lolom@prometheor.fr",
+     localisation: "Bretagne",
+      content: ( <div className=" space-y-10 ">
+              <h1 className="font-dmserif text-3xl text-blue">Presentation </h1>
+      
+       <div className="space-y-5">
+
+
+
+<p>Après l’obtention de ma Maîtrise de Gestion, j’ai travaillé 5 ans dans la fonction finances. A l’issue de cette période, j’ai réalisé un bilan de compétences qui a conforté mon souhait d’évoluer vers les RH. </p>
+
+<p>Pour asseoir ce nouveau projet sur des bases solides, j’ai réalisé une formation de généraliste en RH. Puis j’ai poursuivi mon activité professionnelle, pendant 10 ans, dans des cabinets conseils de « reclassement », accompagnement de la transition professionnelle avec ou sans reconversion.</p>
+
+<p>A l’issue d’une expatriation de 13 ans, je me suis tournée vers l’orientation scolaire, à la suite de mon expérience au sein de l’association de parents d’élèves du lycée de mes enfants. J’y ai réalisé que chaque enfant devait avoir un accompagnement personnalisé. J’exerce donc le métier de conseillère en orientation scolaire et professionnelle depuis 2019.</p>
+
+<p>Cette nouvelle expérience me procure énormément de joie et de plaisir. En effet, J’aide les collégiens et lycéens a déterminé leur choix d’orientation, grâce à des outils sérieux (test inspiré du RIASEC) et à des entretiens approfondis avec eux et leur famille. L’orientation scolaire est une étape cruciale dès la classe de 3ᵉ. </p>
+
+<p>C’est à ce moment que les élèves doivent choisir entre la filière générale et d’autres voies, un choix déterminant pour la suite de leur parcours. En classe de 2nde, la sélection des spécialités joue un rôle clé : elle permet de définir les orientations possibles et d’assurer une cohérence dans les choix de cursus post-bac. Ce travail de réflexion en amont facilite grandement la sélection des vœux sur Parcoursup.</p>
+
+<p>Par ailleurs, j’accompagne les élèves dans leur préparation aux entretiens, qu’il s’agisse de concours ou du grand oral, afin qu’ils soient confiants et performants.
+</p>
+<p>
+  Quant aux adultes, je les accompagne lors de virage à 360°. Nous construisons ensemble étapes par étapes leur futur projet, jusqu’à la création de leur activité.
+</p>
+
+<p>
+  Au plaisir de vous rencontrer !
+</p>
+</div>
+     
+       </div> ),
+  
+   },
+
+   {
+     id: 18,
+     image1: "c18.jpg",
+     classNameImage1:"w-full h-full rounded-t-xl object-cover object-center",
+     image2: "e18.png",
+     nom: "Toulouse",
+     prenom: "Karime",
+     number: "06 14 32 57 68",
+     email: "karine.toulouse@prometheor.fr",
+     localisation: "Bourgogne-Franche-Comté",
+     content: ( <div className=" space-y-10 ">
+                          <h1 className="font-dmserif text-3xl text-blue">Qui suis je ? </h1>
+
+       <div className="space-y-5">
+          <div className="space-x-3 ">
+            <i className="fa-solid fa-graduation-cap text-jauneOr  "></i>
+            <span className="  text-xl font-dmserif">Conseillère en orientation, révélatrice de potentiels & souffleuse de sens</span>
+          </div>
+          <p>Vous avez un ado en plein flou artistique ? Une tête bien faite mais perdue entre médecine, BTS, année sabbatique et envie de "changer le monde" ? Respirez... vous êtes au bon endroit.</p>
+         <p>Avec plus de 20 ans de parcours dans le recrutement, la formation, le développement personnel et la sophrologie, j’accompagne les jeunes (et leurs familles) à retrouver clarté, confiance et cap.</p>
+         <p>Je ne me contente pas de parler filières ou débouchés : je fais émerger ce qui fait sens, je traduis les ressentis en plans d'action, et j’aide chacun à prendre sa juste place dans un monde en mouvement.</p>
+     </div>
+
+      <h2 className="font-dmserif text-3xl text-blue">Mon ADN</h2>
+
+      <ul className="space-y-5">
+        <li className="space-x-3"><IoCheckmark className="inline text-jauneOr shrink-0 text-xl "/> 
+         <span>Écoute active et sans jugement</span>
+        </li>
+        <li className="space-x-3"><IoCheckmark className="inline text-jauneOr shrink-0 text-xl "/> 
+         <span>Approche sur-mesure, ancrée dans le concret</span>
+        </li>
+        <li className="space-x-3"><IoCheckmark className="inline text-jauneOr shrink-0 text-xl "/> 
+         <span>Paroles vraies, pas de bla-bla scolaire</span>
+        </li>
+        
+        <li className="space-x-3"><IoCheckmark className="inline text-jauneOr shrink-0 text-xl "/> 
+         <span>Un sens aigu des transitions de vie cl</span>
+        </li>
+      </ul>
+
+      <h3 className="font-dmserif text-3xl text-blue">Ce qui m’anime ?</h3>
+       <div className="space-y-5">
+         <p>Voir un jeune (ou un parent !) sortir de l’entretien avec l’étincelle dans les yeux. Le genre d’étincelle qui dit : "OK, j’ai pigé où je vais et pourquoi."</p>
+      <p>Et si on en parlait ? Le premier pas, c’est parfois juste un coup de fil.</p>
+      
+       </div>
+    
+       </div> ),
+   },
+   {
+     id: 19,
+     image1: "c15.png",
+     classNameImage1:"w-full h-full  rounded-t-xl object-cover object-center ",
+     image2: "e15.png",
+     nom: "Finck-Rolly",
+     prenom: "Estelle",
+     number: "06 72 02 41 52",
+     email: "estelle.finck-rolly@prometheor.fr",
+     localisation: "Grand Est",
+       content: ( <div className=" space-y-10 ">
+              <h1 className="font-dmserif text-3xl text-blue">Presentation </h1>
+      
+       <div className="space-y-5">
+<p>Après 20 ans dans l’enseignement en tant que professeure des écoles, j’ai décidé en 2020 de quitter l’Education nationale pour m’ouvrir à d’autres horizons.</p>
+
+<p>A cette même période, je me suis réorientée dans la relecture et correction d’ouvrages mais très vite, je me suis rendu compte que le contact avec les enfants et les adolescents me manquait. </p>
+<p>J’ai donc créé mon entreprise de formation et j’ai accompagné des élèves de la seconde jusqu’au BAC+2 en les préparant à plusieurs types d’examen.</p>
+
+<p>Souvent en échangeant avec eux, mon expérience d’enseignante m’indiquait que la voie dans laquelle les jeunes s’engageaient n’était pas la bonne… Elle ne correspondait pas à leurs attentes, leur personnalité, leur manière d’être et de travailler, leurs particularités (HPI, dys…). </p>
+
+<p>J’ai aussi retrouvé cette problématique en tant que maman lors de l’orientation de mon fils.</p>
+
+<p>Pour pallier ce manque d’informations et afin de répondre aux besoins de ces jeunes et de leurs parents, j’ai décidé de me former au métier de conseillère d’orientation.</p>
+
+<p>
+  Ma valeur ajoutée : une connaissance approfondie du milieu scolaire et de l’Education nationale, la préparation à certains examens, la connaissance des méthodes d’apprentissage des élèves à profil particulier (dyslexiques, HPI…).
+</p>
+
+
+</div>
+     
+       </div> ),
+   },
+
+   {
+     id: 20,
+     image1: "c4.png",
+         classNameImage1:"w-full h-full rounded-t-xl object-cover object-center",
+
+     image2: "e4.png",
+     nom: "  Sacko",
+     prenom: "Aminata",
+     number: "06 65 54 44 83",
+     email: "aminata.sacko@prometheor.fr",
+     localisation: "Val de Marne",
+      content: ( <div className=" space-y-10 ">
+              <h1 className="font-dmserif text-3xl text-blue">Presentation </h1>
+      
+       <div className="space-y-5">
+
+
+
+<p>Basée dans le Val-de-Marne, j’ai exercé dans le domaine des Ressources Humaines et plus particulièrement du recrutement en entreprise pendant plus de 10 ans.</p>
+
+<p>Diplômée d’un Master en Ressources Humaines, j’ai toujours su que je m’orienterais vers un métier d’accompagnement et de conseils.</p>
+
+<p>
+  Passionnée par l’humain et son développement, je me suis rapidement tournée dans mes expériences professionnelles vers un public jeune en gérant, en plus des recrutements, les partenariats avec les grandes écoles de commerce, ingénieur, Université, etc... J’ai ainsi pu guider et orienter les jeunes, depuis leur entrée en formation jusqu’à leur insertion dans le monde du travail. 
+</p>
+
+<p>
+  Après avoir fait le choix de l’entrepreneuriat, c’est donc tout naturellement que j’ai choisi de prendre cette casquette de Conseillère d’Orientation afin de poursuivre cette mission qui me tient à cœur : Accompagner les jeunes dans ce difficile chemin qu’est l’orientation scolaire et professionnelle. 
+</p>
+
+
+<p>J’ai à cœur de créer un environnement de confiance et bienveillant pour que l’accompagnement soit aussi un plaisir et un moment de découverte et de révélation de soi.</p>
+
+<p>Ma valeur ajoutée : Grâce à ma casquette recrutement, une bonne connaissance du marché du travail et des différents métiers existants !</p>
+
+
+</div>
+     
+       </div> ),
+  
+   },
 ];
 
 export default Users;
