@@ -93,7 +93,7 @@ export default function Conseillers() {
                             <span> {User.localisation} </span>
                           </li>
                         </ul>
-                        <button className="text-jauneOr font-montserrat mt-4 space-x-1  ">
+                        <button className="text-jauneOr hover:text-yellow-600 transition-all font-montserrat mt-4 space-x-1  ">
                           <Link to={`./${User.id}`}>
                             En savoir plus sur {User.prenom}
                           </Link>

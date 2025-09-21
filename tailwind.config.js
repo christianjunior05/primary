@@ -43,7 +43,8 @@ export default {
                 homepagee: "url('/h2.png')",
                 dc3: "url('/dc3.png')",
                 herooo:"url('/Herooo.jpg')",
-                reperee:"url('/r1.png')"
+                reperee:"url('/r1.png')",
+                headerContact:"url('/HeroC.png')"
 
        },
     

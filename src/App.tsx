@@ -16,6 +16,7 @@ import Navbar from "./components/Navbar";
 import DevenirConseillers from "./pages/Conseiller/DevenirConseillers";
 import BlogWebinaires from "./pages/BlogWebinaire/BlogWebinaires";
 import ScrollToTop from "./ScrollTop";
+import Collaborateur from "./pages/Collaborateur";
 export default function App() {
 
  
@@ -38,6 +39,7 @@ export default function App() {
         <Route path="/conseillers/:id" element={<Presentation  />} />
         <Route path="/devenirconseiller" element={<DevenirConseillers />} />
         <Route path="/Blog-webinaires" element={<BlogWebinaires />} />
+        <Route path="/collaborateur" element={<Collaborateur />} />
       </Routes>
 
       <Footer />
