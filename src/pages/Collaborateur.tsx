@@ -88,7 +88,7 @@ Ensemble pour la réussite des jeunes */}
 <p>Ce partenariat renforce notre mission : nous savons que pour atteindre leurs objectifs d’orientation, certains jeunes peuvent avoir besoin d’un accompagnement académique complémentaire.</p>
 <p>Anacours propose des services de qualité permettant de consolider les acquis scolaires, d’améliorer les résultats et d’ouvrir davantage de portes vers les parcours d’études correspondants.</p>
 
-<p>En associant nos expertises, nous offrons à chaque jeune un accompagnement global, à la fois sur le plan académique et sur la définition de leur projet d’avenir.</p>
+<p>En associant nos expertises, nous offrons à chaque jeune un accompagnement global, à la fois sur le plan académique et sur la définition de leur projet d’avenir..</p>
 
             <p>→ Découvrir l’offre Anacours</p>
             </div>
