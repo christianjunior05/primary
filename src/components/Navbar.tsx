@@ -131,7 +131,7 @@ export default function Navbar() {
           <li className="flex items-center space-x-2 text-jauneOr">
 
             <HiOutlineLockClosed />
-            <span>Connexion</span>
+            <span><Link to="https://app.prometheor.fr/">Connexion</Link></span>
           </li>
         </ul>
 
