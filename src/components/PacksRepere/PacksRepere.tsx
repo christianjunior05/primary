@@ -2,9 +2,9 @@ import { GoPlus } from "react-icons/go";
 import Section2 from "./sectionComponents/Section2";
 import Section4 from "./sectionComponents/Section4";
 import Section5 from "./sectionComponents/Section5";
-import Section6 from "./sectionComponents/Section6";
 import { HiArrowRight } from "react-icons/hi2";
 import { IoCheckmark } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 const PacksRepere = () => {
   return (
@@ -38,8 +38,11 @@ const PacksRepere = () => {
           {/* Image */}
           <div
             className="size-96  max-lg:w-60 max-lg:h-80 max-md:w-64 max-md:h-64 bg-cover bg-center rounded-[16px]"
-            style={{ backgroundImage: "url('/r1.png')" }}
-          ></div>
+            
+          >
+  <img src="/r1.png" alt="" className="size-full" />
+
+          </div>
 
           {/* Texte */}
           <div className="py-10 w-1/2 max-lg:w-7/12 max-md:w-full space-y-4 p-5 rounded-lg bg-jauneOr/5 text-sm flex flex-col items-start justify-around">
@@ -80,21 +83,23 @@ const PacksRepere = () => {
               </li>
             </ul>
 
-            <button className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+            <Link to="/conseillers" className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
               <span>Trouver un conseiller</span>
 
               <HiArrowRight className="font-semibold text-lg  inline " />
-            </button>
+            </Link>
           </div>
         </div>
       </section>
 
       <Section2 />
 
+<section>
+
       <div
         className={` bg-section3 bg-cover bg-center h-[600px] flex flex-col justify-center my-32`}
       >
-        <div className="space-y-5 ml-20 max-sm:mx-2 max-[1100px]:w-3/5 max-[740px]:w-4/5   w-6/12 shrink-0  p-6 rounded-xl bg-white/80">
+        <div className=" space-y-5 ml-20 max-sm:mx-2 max-[1100px]:w-3/5 max-[740px]:w-4/5   w-6/12 shrink-0  p-6 rounded-xl bg-white/80">
           <h5 className="text-4xl  font-dmserif text-blue">
             À l'issue de la séance :
           </h5>
@@ -114,22 +119,42 @@ const PacksRepere = () => {
             </li>
           </ul>
 
-          <button className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+          <Link to="/conseillers" className=" inline-block  max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
             Contacter un conseiller{" "}
             <HiArrowRight className="font-semibold text-lg  inline " />
-          </button>
+          </Link>
         </div>
       </div>
+</section>
 
-      <Section6
-        image="w16.png"
-        text1="Besoin de personnalié "
-        text2="votre accompagnement ?"
-        textbutton1="Contacter un conseiller "
-        paragraphe1="Chaque enfant est unique, avec ses forces, ses aspirations et parfois des besoins particuliers."
-        paragraphe2="Chez Prometheor, nous co-construisons un accompagnement  adapté :  Rendez-vous de cadrage, mise en place d'une solution adaptée avec un suivi évolutif."
-        icon={true}
-      />
+
+
+{/* Besoin de personnaliser
+votre accompagnement ? */}
+
+<section>
+     <div className="ml-16 flex items-center justify-center gap-20  max-sm:space-x-0 my-20 ">
+
+  <div className=" size-96  rounded-xl">
+    <img src="/w16.png" alt="image" className="size-full object-cover rounded-xl "/>
+  </div>
+  <div className=" items-start w-5/12  space-y-5 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center flex flex-col ">
+    <h2 className="text-blue font-lato font-dmserif  text-4xl max-md:text-center  "> Besoin de personnaliser <br /> <span className="text-jauneOr">votre accompagnement ?</span>   </h2>
+       
+ <p className="   " > Chaque enfant est unique, avec ses forces, ses aspirations et parfois des besoins particuliers.</p> 
+ <p className="  " > Chez Prometheor, nous co-construisons un accompagnement  adapté :  Rendez-vous de cadrage, mise en place d'une solution adaptée avec un suivi évolutif.</p> 
+
+
+   <Link to="/conseillers" className=" inline-block max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+           <span>Contacter un conseiller</span>   
+
+              <HiArrowRight className="font-semibold text-lg  inline " />
+            </Link>
+  </div>
+</div>
+</section>
+
+ 
 
       <Section4
         img1={false}
@@ -168,14 +193,14 @@ const PacksRepere = () => {
           </h2>
 
           <div className="space-x-6 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:space-x-0 max-sm:space-y-6 ">
-            <button className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+            <Link to="/trajectoire" className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
               Pack trajectoire{" "}
               <HiArrowRight className="font-semibold text-lg  inline " />
-            </button>
-            <button className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+            </Link>
+            <Link to="/exploration" className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
               Pack exploration{" "}
               <HiArrowRight className="font-semibold text-lg  inline " />
-            </button>
+            </Link>
           </div>
         </div>
       </div>
