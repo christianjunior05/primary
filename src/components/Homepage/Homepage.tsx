@@ -379,10 +379,10 @@ Nous donnons les clés pour transformer le projet en plan concret, pas à pas.</
               <HiArrowRight className="font-semibold text-xl ml-2  inline " />
             </Link>
 
-            <button className=" text-white block  max-sm:text-xs   bg-jauneOr py-4 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+            <Link to="/Blog"  className=" text-white block  max-sm:text-xs   bg-jauneOr py-4 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
               Découvir les Webinars
               <HiArrowRight className="font-semibold text-xl ml-2  inline " />
-            </button>
+            </Link>
           </div>
         </div>
 
