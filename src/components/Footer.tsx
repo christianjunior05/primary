@@ -8,7 +8,6 @@ const Footer=()=> {
       <ul  className=" ">
           <li className="mb-5"><img src="/logo.png" alt=" logo" /></li>
           <li className="mb-5">Email : contact@prometheor.fr</li>
-          <li className="mb-5 hover:text-jauneOr "> <Link to="/devenirconseiller"> Devenir conseillère ?</Link> </li>
         </ul>
 
         <ul className="  ">

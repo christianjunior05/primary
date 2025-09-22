@@ -45,7 +45,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className=" bg-blue text-white font-lato relative z-50  ">
+    <nav className=" bg-blue text-white font-lato w-full  z-50  fixed">
       <div className="flex justify-between items-baseline p-7">
         {/* Logo */}
         <div className="w-48 max-md:block max-lg:hidden">
@@ -109,7 +109,7 @@ export default function Navbar() {
               className="absolute menu ChildMenu text-white    bg-blue   rounded-md "
             >
               <li className="cursor-pointer hover:text-jauneOr p-2 rounded-md transition-all bg-blue ">
-                <Link to="/QuiSommesNous">Notre Equipe</Link>
+                <Link to="/QuiSommesNous">Notre équipe</Link>
               </li>
 
               <li className="cursor-pointer hover:text-jauneOr p-2 rounded-md transition-all bg-blue ">
