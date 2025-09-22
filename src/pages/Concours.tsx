@@ -45,14 +45,19 @@ const Concours = () => {
       <section className="py-16 ">
 
         <div className=" flex gap-14 m-auto   items-center justify-center w-10/12">
-          <div className="size-[25rem] cursor-pointer   rounded-lg overflow-hidden flex items-center justify-center">
-
-            <video onClick={HandleClick}
+          <div className=" flex-col  cursor-pointer   rounded-lg overflow-hidden flex items-center justify-center">
+      <div className="size-[25rem] ">
+       <video onClick={HandleClick}
               ref={VideoRef}
               src="/stages.mp4"
               poster="/w6.jpg"
               onEnded={HandleEnded}
-              className="object-cover size-full object-center rounded-lg" />
+              className="object-cover size-full  rounded-lg " >
+                votre navigateur ne supporte pas la  video
+               </video>
+       </div>
+            
+            <span className=" block text-blue hover:text-indigo-700 transition-all mt-2 text-xl ">Cliquez sur l'image pour regarder la vidéo </span>
 
           </div>
           <div className=" space-y-5  " >
@@ -71,14 +76,14 @@ const Concours = () => {
             <ul className="space-y-3">
               <li className="flex   items-start space-x-2">
                 <i className="fa-solid fa-graduation-cap text-jauneOr "></i>
-                <span className="text-gray-600 text-sm font-medium ">
+                <span className=" text-sm font-medium ">
                   ACCES, SESAME
                 </span>
               </li>
               <li className="flex items-start space-x-2 ">
                 <i className="fa-solid fa-graduation-cap text-jauneOr "></i>
 
-                <span className="text-gray-600 text-sm font-medium ">
+                <span className=" text-sm font-medium ">
                   Oraux de motivation des Bachelors et BBA (parcours hors concours commun)
                 </span>
               </li>

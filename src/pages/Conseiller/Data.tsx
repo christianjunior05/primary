@@ -248,7 +248,7 @@ Mon approche est globale : au-delà du parcours scolaire, je prends en compte le
 
    {
      id: 8,
-     image1: "c8.png",
+     image1: "cc8.png",
      classNameImage1:"w-full h-full rounded-t-xl object-cover object-top",
      image2: "e8.png",
      nom: "Myriam",
@@ -277,7 +277,7 @@ Mon approche est globale : au-delà du parcours scolaire, je prends en compte le
 
    {
      id: 9,
-     image1: "c9.png",
+     image1: "cc9.png",
          classNameImage1:"w-full h-full rounded-t-xl object-cover object-top",
 
      image2: "e9.png",

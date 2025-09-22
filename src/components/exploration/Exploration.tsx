@@ -66,7 +66,7 @@ const Exploration = () => {
               className="size-full  object-cover"
               
             >
-              votre navigateur ne supporte pas la balise video
+              votre navigateur ne supporte pas la  video
               </video>
             <span className="text-blue hover:text-indigo-700 transition-all mt-2 text-xl ">Cliquez sur l'image pour regarder la vidéo </span>
           </div>
@@ -294,7 +294,7 @@ const Exploration = () => {
               <HiArrowRight className="font-semibold text-lg  inline " />
             </Link>
               <Link to="/parcours" className=" inline-block max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
-              <span>Pack parcours</span>
+              <span>Pack parcoursup</span>
 
               <HiArrowRight className="font-semibold text-lg  inline " />
             </Link>

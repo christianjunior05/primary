@@ -28,7 +28,7 @@ export default {
                 section3:"url('/section3.png')",
                 section3:"url('/section3.png')",
                 section5Repere:"url('/section5.png')",
-                footer:"url('/image4.png')",
+                footer:"url('/foot.png')",
                 exploration:"url('/exploration.jpg')",
                 explorsection4:"url('/explorsection4.png')",
                 explorsection5:"url('/explorsection5.png')",
