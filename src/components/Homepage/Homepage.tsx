@@ -93,7 +93,7 @@ ce n’est pas tirer au sort une filière   */}
 <section>
 
     
-      <div className="flex justify-center items-center my-10  gap-10 ">
+      <div className="flex justify-center items-center my-10 pt-11  gap-10 ">
         {/* Texte */}
 
 <div className="w-[500px] h-[450px] ">
