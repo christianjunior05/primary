@@ -64,18 +64,16 @@ export default function Conseillers() {
                       key={User.id}
                       className="text-lg w-72 bg-jauneOr/5  rounded-lg      shadow-xl shadow-jauneOr/10 "
                     >
-                    <div className="h-52 w-full ">
-  <img
-    src={`/${User.image1}`}
-    alt="image"
-    className= {`${User.classNameImage1}`} 
-  />
-</div>
-
+                      <div className="h-52 w-full ">
+                        <img
+                          src={`/${User.image1}`}
+                          alt="image"
+                          className={`${User.classNameImage1}`}
+                        />
+                      </div>
 
                       <div className=" text-sm  p-2">
                         <span className=" text-xl text-blue">
-                         
                           {User.prenom} {User.nom}
                         </span>
 
@@ -103,20 +101,14 @@ export default function Conseillers() {
                     </div>
                   </>
                 ))}
-
-
-
-   
               </div>
             </div>
           </div>
         </section>
 
-
         <section>
           <div className=" bg-blue  py-14 my-20 ">
             <h3 className="text-3xl font-dmserif text-jauneOr mb-14 text-center ">
-              
               Ce qu'ils disent de l'accompagnement
             </h3>
             <div className="flex items-center gap-10  justify-center ">
@@ -210,8 +202,8 @@ export default function Conseillers() {
           </div>
         </section>
 
-{/* Formations de conseillers certifié Qualiopi */}
-       
+        {/* Formations de conseillers certifié Qualiopi */}
+
         {/* Section: Call to Action */}
 
         <section>
