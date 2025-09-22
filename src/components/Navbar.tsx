@@ -122,7 +122,7 @@ export default function Navbar() {
             </ul>
           </li>
             <li className="hover:text-jauneOr transition-all cursor-pointer">
-          <Link to="/parcours">Blog</Link>  
+          <Link to="/Blog">Blog</Link>  
           </li>
           <li className="hover:text-jauneOr transition-all cursor-pointer">
          <Link to="/contact">Nous contacter</Link>   
