@@ -75,7 +75,7 @@ export default function Homepage() {
           <div className="pb-[30px]">
 
           <button className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
-        <Link to="/conseillers" > Trouver une conseillère </Link> 
+        <Link to="/conseillers">Trouver un conseiller </Link> 
    
     </button>
     
