@@ -1,4 +1,3 @@
-import Button from "./miniComponents/Button";
 import Title from "./miniComponents/Title";
 import Coche from "./miniComponents/Coche";
 import EnsavoirPlus from "./miniComponents/EnsavoirPlus";
@@ -25,7 +24,12 @@ export default function Homepage() {
             <p className="text-base sm:text-lg md:text-xl  leading-relaxed">
               Donnez à votre enfant les clés de sa réussite, en toute confiance.
             </p>
-            <Button text="Découvrir nos offres " icons={true} />
+          
+             <a href="#DecouvrirNosOffres" className=" inline-block cursor-pointer max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+      <span>Découvrir nos offres</span>
+        <HiArrowRight className="font-semibold text-lg  inline " />
+    
+    </a>
           </div>
         </div>
   </header>
@@ -138,7 +142,8 @@ Nous donnons les clés pour transformer le projet en plan concret, pas à pas.</
 <section>
   <div className="   mt-20  my-20 ">
         <div className="text-center  ">
-          <Title text1="Nos solutions" text2="d'orientation" />
+                 <h2 id="DecouvrirNosOffres" className="text-blue font-lato font-dmserif  text-4xl max-md:text-center  "> Nos solutions <span className="text-jauneOr">d'orientation </span>  </h2>
+
           <p className="text-blue mt-10 mb-14  max-md:mx-5 ">
             {" "}
             Prometheor propose différents packs d'orientation pensés pour

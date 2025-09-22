@@ -4,9 +4,12 @@ import { Link } from "react-router-dom";
 import { CiMenuBurger } from "react-icons/ci";
 import { IoMdClose } from "react-icons/io";
 import { useState, useRef } from "react";
-
+import { IoIosArrowDown } from "react-icons/io";
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [animeIcon,setanimeIcon]=useState(false)
+  const [animeIcon2,setanimeIcon2]=useState(false)
+  const animeIconRef = useRef<HTMLSpanElement[]>([]);
   const ClickRef = useRef<HTMLUListElement[]>([]);
 
   const toggleMenu = () => {
@@ -14,9 +17,30 @@ export default function Navbar() {
   };
 
   const handleClick = (event: React.MouseEvent<HTMLLIElement>) => {
-    const target = event.currentTarget.querySelector(".menu");
-    if (target) {
-      target.classList.toggle("active");
+    const target = event.currentTarget.querySelectorAll(".menu");
+   
+    if (target && animeIconRef.current[0]) {
+      
+      target.forEach((el) => {
+        el.classList.toggle("active");
+        setanimeIcon(!animeIcon)
+      });
+     
+    }
+  };
+
+
+  
+  const handleClick2 = (event: React.MouseEvent<HTMLLIElement>) => {
+    const target = event.currentTarget.querySelectorAll(".menu");
+   
+    if (target && animeIconRef.current) {
+      
+      target.forEach((el) => {
+        el.classList.toggle("active");
+        setanimeIcon2(!animeIcon2)
+      });
+     
     }
   };
 
@@ -34,10 +58,11 @@ export default function Navbar() {
             <Link to="/"> Accueil</Link>
           </li>
           <li
+
             onClick={handleClick}
             className="   hover:text-jauneOr transition-all  cursor-pointer  "
           >
-            Nos offres d'orientation
+          <p > Nos offres d'orientation <span ref={(el)=>{ animeIconRef.current[0] =el!} }><IoIosArrowDown  className= {`${animeIcon && 'rotate-180 transition-all'} inline transition-all `}/>  </span> </p>  
             <ul
               ref={(el) => {
                 ClickRef.current[0] = el!;
@@ -62,7 +87,7 @@ export default function Navbar() {
             </ul>
           </li>
           <li
-            onClick={handleClick}
+           
             className=" hover:text-jauneOr transition-all   space-y-5  cursor-pointer "
           >
             <Link to="/concours"> Nos stages</Link>
@@ -71,10 +96,12 @@ export default function Navbar() {
             <Link to="/conseillers"> Nos conseillers</Link>
           </li>
           <li
-            onClick={handleClick}
+            onClick={handleClick2}
             className="hover:text-jauneOr transition-all cursor-pointer"
           >
-            Qui sommes-nous
+                      <p > 
+            Qui sommes-nous <span ref={ (el)=>{animeIconRef.current[1] =el!} }><IoIosArrowDown  className= {`${animeIcon2 && 'rotate-180 transition-all'} inline transition-all `}/>  </span> </p>  
+
             <ul
               ref={(el) => {
                 ClickRef.current[1] = el!;
@@ -95,12 +122,13 @@ export default function Navbar() {
             </ul>
           </li>
           <li className="hover:text-jauneOr transition-all cursor-pointer">
-            Nous contacter
+         <Link to="/contact">Nous contacter</Link>   
           </li>
           <li className="hover:text-jauneOr transition-all cursor-pointer">
-            Blog
+          <Link to="/parcours">Blog</Link>  
           </li>
           <li className="flex items-center space-x-2 text-jauneOr">
+
             <HiOutlineLockClosed />
             <span>Connexion</span>
           </li>
@@ -142,7 +170,7 @@ export default function Navbar() {
           </li>
           <li onClick={toggleMenu}>Qui sommes-nous</li>
           <li onClick={toggleMenu}>Nous contacter</li>
-          <li onClick={toggleMenu}>Blog</li>
+          <li onClick={toggleMenu}> <Link to="/parcours">Blog</Link> </li>
           <li
             className="flex items-center space-x-2 text-jauneOr"
             onClick={toggleMenu}
