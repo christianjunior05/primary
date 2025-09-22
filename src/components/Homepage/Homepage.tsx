@@ -1,4 +1,3 @@
-import Button from "./miniComponents/Button";
 import Title from "./miniComponents/Title";
 import Coche from "./miniComponents/Coche";
 import EnsavoirPlus from "./miniComponents/EnsavoirPlus";
