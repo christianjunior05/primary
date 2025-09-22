@@ -218,7 +218,7 @@ const Concours = () => {
 
               onClick={() => window.location.href = "https://educompetences.com/nos-preparations/stage-de-preparation-aux-tests-danglais/"}
               className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
-            <span>Accéder aux stages de préparation </span>   <FaArrowRight className="inline" />
+            <span>En savoir plus</span>   <FaArrowRight className="inline" />
             </button>
           </div>
 
