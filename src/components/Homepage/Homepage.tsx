@@ -374,7 +374,7 @@ Nous donnons les clés pour transformer le projet en plan concret, pas à pas.</
         <div className="  ">
           <div className=" max-[1000px]:flex max-[1000px]:flex-col  size-full ">
             <Title text1="Webinars " text2="& Blog" />
-            <Link to="/Blog" className="  text-white  max-sm:text-xs  block mb-5 mt-7   bg-jauneOr py-4 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+            <Link to="/Blog" className=" inline-block  text-white  max-sm:text-xs   mb-5 mt-7   bg-jauneOr py-4 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
               Découvrir le blog
               <HiArrowRight className="font-semibold text-xl ml-2  inline " />
             </Link>
