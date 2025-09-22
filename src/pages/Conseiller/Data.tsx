@@ -153,8 +153,49 @@ const Users:User[]  = [
        </div> ),
    },
 
-   {
+
+    {
      id: 5,
+     image1: "c4.png",
+    classNameImage1:"w-full h-full rounded-t-xl object-cover object-center",
+     image2: "e4.png",
+     nom: "  Sacko",
+     prenom: "Aminata",
+     number: "06 65 54 44 83",
+     email: "aminata.sacko@prometheor.fr",
+     localisation: "Val de Marne",
+      content: ( <div className=" space-y-10 ">
+              <h1 className="font-dmserif text-3xl text-blue">Presentation </h1>
+      
+       <div className="space-y-5">
+
+
+
+<p>Basée dans le Val-de-Marne, j’ai exercé dans le domaine des Ressources Humaines et plus particulièrement du recrutement en entreprise pendant plus de 10 ans.</p>
+
+<p>Diplômée d’un Master en Ressources Humaines, j’ai toujours su que je m’orienterais vers un métier d’accompagnement et de conseils.</p>
+
+<p>
+  Passionnée par l’humain et son développement, je me suis rapidement tournée dans mes expériences professionnelles vers un public jeune en gérant, en plus des recrutements, les partenariats avec les grandes écoles de commerce, ingénieur, Université, etc... J’ai ainsi pu guider et orienter les jeunes, depuis leur entrée en formation jusqu’à leur insertion dans le monde du travail.
+</p>
+
+<p>
+  Après avoir fait le choix de l’entrepreneuriat, c’est donc tout naturellement que j’ai choisi de prendre cette casquette de Conseillère d’Orientation afin de poursuivre cette mission qui me tient à cœur : Accompagner les jeunes dans ce difficile chemin qu’est l’orientation scolaire et professionnelle.
+</p>
+
+
+<p>J’ai à cœur de créer un environnement de confiance et bienveillant pour que l’accompagnement soit aussi un plaisir et un moment de découverte et de révélation de soi.</p>
+
+<p>Ma valeur ajoutée : Grâce à ma casquette recrutement, une bonne connaissance du marché du travail et des différents métiers existants !</p>
+
+
+</div>
+     
+       </div> ),
+  
+   },
+   {
+     id: 6,
      image1: "5.png",
          classNameImage1:"w-full h-full rounded-t-xl object-cover ",
 
@@ -182,7 +223,7 @@ const Users:User[]  = [
    },
 
    {
-     id: 6,
+     id: 7,
      image1: "c6.png",
     classNameImage1:"w-full h-full rounded-t-xl object-cover ",
      image2: "e6.png",
@@ -215,7 +256,7 @@ Mon approche est globale : au-delà du parcours scolaire, je prends en compte le
    },
 
    {
-     id: 7,
+     id: 8,
      image1: "c7.jpg",
     classNameImage1:"w-full h-full rounded-t-xl object-cover object-center",
 
@@ -247,7 +288,7 @@ Mon approche est globale : au-delà du parcours scolaire, je prends en compte le
   },
 
    {
-     id: 8,
+     id: 9,
      image1: "cc8.png",
      classNameImage1:"w-full h-full rounded-t-xl object-cover object-top",
      image2: "e8.png",
@@ -276,7 +317,7 @@ Mon approche est globale : au-delà du parcours scolaire, je prends en compte le
    },
 
    {
-     id: 9,
+     id: 10,
      image1: "cc9.png",
          classNameImage1:"w-full h-full rounded-t-xl object-cover object-top",
 
@@ -304,7 +345,7 @@ Professeure contractuelle à l’université en parallèle, j’étais souvent a
    },
 
    {
-     id: 10,
+     id: 11,
      image1: "c10.jpg",
          classNameImage1:"w-full h-full rounded-t-xl object-cover object-center",
 
@@ -388,39 +429,7 @@ professionnelle réussie
        </div> ),
    },
 
-   {
-     id: 12,
-     image1: "c12.png",
-     classNameImage1:"w-full h-full rounded-t-xl object-cover ",
-     image2: "e12.png",
-     nom: "Jessica  ",
-     prenom: "Afonso ",
-     number: "07 62 26 61 97",
-     email: "jessica.afonso@prometheor.fr",
-     localisation: "Occitanie",
-    content: ( <div className=" space-y-10 ">
-              <h2 className="font-dmserif text-3xl text-blue">Présentation :</h2>
-      
-       <div className="space-y-5">
-<p>Basée dans le Val-de-Marne, j’ai exercé dans le domaine des Ressources Humaines et plus particulièrement du recrutement en entreprise pendant plus de 10 ans.</p>
-<p>Diplômée d’un Master en Ressources Humaines, j’ai toujours su que je m’orienterais vers un métier d’accompagnement et de conseils.</p>
-
-
-<p>Passionnée par l’humain et son développement, je me suis rapidement tournée dans mes expériences professionnelles vers un public jeune en gérant, en plus des recrutements, les partenariats avec les grandes écoles de commerce, ingénieur, Université, etc... J’ai ainsi pu guider et orienter les jeunes, depuis leur entrée en formation jusqu’à leur insertion dans le monde du travail.</p>
-
-<p>Après avoir fait le choix de l’entrepreneuriat, c’est donc tout naturellement que j’ai choisi de prendre cette casquette de Conseillère d’Orientation afin de poursuivre cette mission qui me tient à cœur : Accompagner les jeunes dans ce difficile chemin qu’est l’orientation scolaire et professionnelle.</p>
-
-<p>J’ai à cœur de créer un environnement de confiance et bienveillant pour que l’accompagnement soit aussi un plaisir et un moment de découverte et de révélation de soi.</p>
-
-<p>Ma valeur ajoutée : Grâce à ma casquette recrutement, une bonne connaissance du marché du travail et des différents métiers existants !</p>
-
-     </div>
-     
-       </div> ),
-   
-   },
-
-   {
+{
      id: 13,
      image1: "c13.jpeg",
          classNameImage1:"w-full h-full rounded-t-xl object-cover object-top",
@@ -464,6 +473,40 @@ Mon approche ne se limite pas à l’écoute et à la bienveillance :</p>
      
        </div> ),
    },
+
+   {
+     id: 12,
+     image1: "c12.png",
+     classNameImage1:"w-full h-full rounded-t-xl object-cover ",
+     image2: "e12.png",
+     nom: "Jessica  ",
+     prenom: "Afonso ",
+     number: "07 62 26 61 97",
+     email: "jessica.afonso@prometheor.fr",
+     localisation: "Occitanie",
+    content: ( <div className=" space-y-10 ">
+              <h2 className="font-dmserif text-3xl text-blue">Présentation :</h2>
+      
+       <div className="space-y-5">
+<p>Basée dans le Val-de-Marne, j’ai exercé dans le domaine des Ressources Humaines et plus particulièrement du recrutement en entreprise pendant plus de 10 ans.</p>
+<p>Diplômée d’un Master en Ressources Humaines, j’ai toujours su que je m’orienterais vers un métier d’accompagnement et de conseils.</p>
+
+
+<p>Passionnée par l’humain et son développement, je me suis rapidement tournée dans mes expériences professionnelles vers un public jeune en gérant, en plus des recrutements, les partenariats avec les grandes écoles de commerce, ingénieur, Université, etc... J’ai ainsi pu guider et orienter les jeunes, depuis leur entrée en formation jusqu’à leur insertion dans le monde du travail.</p>
+
+<p>Après avoir fait le choix de l’entrepreneuriat, c’est donc tout naturellement que j’ai choisi de prendre cette casquette de Conseillère d’Orientation afin de poursuivre cette mission qui me tient à cœur : Accompagner les jeunes dans ce difficile chemin qu’est l’orientation scolaire et professionnelle.</p>
+
+<p>J’ai à cœur de créer un environnement de confiance et bienveillant pour que l’accompagnement soit aussi un plaisir et un moment de découverte et de révélation de soi.</p>
+
+<p>Ma valeur ajoutée : Grâce à ma casquette recrutement, une bonne connaissance du marché du travail et des différents métiers existants !</p>
+
+     </div>
+     
+       </div> ),
+   
+   },
+
+   
 
    {
      id: 14,
@@ -712,46 +755,7 @@ Quel beau challenge que d’aider un jeune à identifier ses talents !
        </div> ),
    },
 
-   {
-     id: 20,
-     image1: "c4.png",
-    classNameImage1:"w-full h-full rounded-t-xl object-cover object-center",
-     image2: "e4.png",
-     nom: "  Sacko",
-     prenom: "Aminata",
-     number: "06 65 54 44 83",
-     email: "aminata.sacko@prometheor.fr",
-     localisation: "Val de Marne",
-      content: ( <div className=" space-y-10 ">
-              <h1 className="font-dmserif text-3xl text-blue">Presentation </h1>
-      
-       <div className="space-y-5">
-
-
-
-<p>Basée dans le Val-de-Marne, j’ai exercé dans le domaine des Ressources Humaines et plus particulièrement du recrutement en entreprise pendant plus de 10 ans.</p>
-
-<p>Diplômée d’un Master en Ressources Humaines, j’ai toujours su que je m’orienterais vers un métier d’accompagnement et de conseils.</p>
-
-<p>
-  Passionnée par l’humain et son développement, je me suis rapidement tournée dans mes expériences professionnelles vers un public jeune en gérant, en plus des recrutements, les partenariats avec les grandes écoles de commerce, ingénieur, Université, etc... J’ai ainsi pu guider et orienter les jeunes, depuis leur entrée en formation jusqu’à leur insertion dans le monde du travail.
-</p>
-
-<p>
-  Après avoir fait le choix de l’entrepreneuriat, c’est donc tout naturellement que j’ai choisi de prendre cette casquette de Conseillère d’Orientation afin de poursuivre cette mission qui me tient à cœur : Accompagner les jeunes dans ce difficile chemin qu’est l’orientation scolaire et professionnelle.
-</p>
-
-
-<p>J’ai à cœur de créer un environnement de confiance et bienveillant pour que l’accompagnement soit aussi un plaisir et un moment de découverte et de révélation de soi.</p>
-
-<p>Ma valeur ajoutée : Grâce à ma casquette recrutement, une bonne connaissance du marché du travail et des différents métiers existants !</p>
-
-
-</div>
-     
-       </div> ),
   
-   },
 ];
 
 export default Users;
