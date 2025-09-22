@@ -8,6 +8,7 @@ import { useRef } from "react";
 import { IoCheckmark } from "react-icons/io5";
 import { GoPlus } from "react-icons/go";
 import { HiArrowRight } from "react-icons/hi2";
+import { Link } from "react-router-dom";
 
 const Exploration = () => {
   const VideoRef = useRef<HTMLVideoElement>(null);
@@ -55,7 +56,7 @@ const Exploration = () => {
       <section>
         <div className=" flex justify-center items-center gap-10 my-32 flex-wrap">
           {/* Image */}
-          <div className=" size-[500px] cursor-pointer border max-lg:w-80 max-lg:h-80 max-md:w-64 max-md:h-64 bg-gris ">
+          <div className=" size-[500px] text-center cursor-pointer border max-lg:w-80 max-lg:h-80 max-md:w-64 max-md:h-64 bg-gris ">
             <video
               onClick={HandleClick}
               ref={VideoRef}
@@ -63,8 +64,11 @@ const Exploration = () => {
               poster="/w3.jpg"
               onEnded={HandleEnded}
               className="size-full  object-cover"
-            />
-            <h1 className="text-blue text-center mt-2 text-xl">Cliquez sur l'image pour regarder la vidéo </h1>
+              
+            >
+              votre navigateur ne supporte pas la balise video
+              </video>
+            <span className="text-blue hover:text-indigo-700 transition-all mt-2 text-xl ">Cliquez sur l'image pour regarder la vidéo </span>
           </div>
 
           {/* Texte */}
@@ -111,9 +115,9 @@ const Exploration = () => {
               </li>
             </ul>
 
-            <button className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+            <Link to="/conseillers" className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
               Trouver une conseillère
-            </button>
+            </Link>
           </div>
         </div>
       </section>
@@ -231,10 +235,10 @@ const Exploration = () => {
             </li>
           </ul>
 
-          <button className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
-            Contacter un conseiller
+          <Link to="/conseillers" className=" inline-block max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+           <span>Contacter un conseiller</span> 
             <HiArrowRight className="font-semibold text-lg  inline " />
-          </button>
+          </Link>
         </div>
       </div>
 
@@ -278,17 +282,17 @@ const Exploration = () => {
           </h2>
 
           <div className="space-x-6 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:space-x-0 max-sm:space-y-6 ">
-            <button className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+            <Link to="/repere" className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
               <span>Pack repère </span>
 
               <HiArrowRight className="font-semibold text-lg  inline " />
-            </button>
+            </Link>
 
-            <button className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+            <Link to="/trajectoire" className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
               <span>Pack trajectoire</span>
 
               <HiArrowRight className="font-semibold text-lg  inline " />
-            </button>
+            </Link>
           </div>
         </div>
       </div>

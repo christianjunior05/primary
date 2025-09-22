@@ -72,7 +72,11 @@ if (VideoRef.current) {
     src="/parcoursup.mp4"  
     poster="/w5.jpg"
     onEnded={HandleEnded}
-    className="size-full  object-cover rounded-lg" />
+    className="size-full  object-cover rounded-lg" >
+      ce navigateur ne supporte pas la video
+   </video>
+        <span className="text-blue hover:text-indigo-700 transition-all mt-2 text-xl ">Cliquez sur l'image pour regarder la vidéo </span>
+
           </div>
 
           <div className="w-6/12  space-y-4  ">

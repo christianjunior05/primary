@@ -29,7 +29,7 @@ export default function Navbar() {
         </div>
 
         {/* Liens Desktop */}
-        <ul className="  md:flex space-x-6 items-center text-xs lg:text-base   whitespace-nowrap">
+        <ul className=" max-md:hidden  flex space-x-6 items-center text-xs lg:text-base   whitespace-nowrap">
           <li className="hover:text-jauneOr transition-all cursor-pointer">
             <Link to="/"> Accueil</Link>
           </li>

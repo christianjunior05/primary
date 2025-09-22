@@ -62,7 +62,7 @@ export default function Conseillers() {
                   <>
                     <div
                       key={User.id}
-                      className="text-lg w-72 bg-jauneOr/5  rounded-lg      shadow-xl shadow-jauneOr/10 "
+                      className="text-lg w-72   rounded-lg      shadow-xl shadow-jauneOr/10 "
                     >
                     <div className="h-52 w-full ">
   <img
@@ -73,7 +73,7 @@ export default function Conseillers() {
 </div>
 
 
-                      <div className=" text-sm  p-2">
+                      <div className=" text-sm  p-2 bg-jauneOr/5">
                         <span className=" text-xl text-blue">
                          
                           {User.prenom} {User.nom}
@@ -229,7 +229,10 @@ export default function Conseillers() {
                 d’analyser et de proposer des solutions concrètes pour
                 construire des projets d’études et de carrière adaptés.{" "}
               </p>
-              <button className=" text-white   max-sm:text-sm  bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+              <button
+              
+              onClick={() => window.location.href = "https://www.prometheor-solutions.fr/reseau-prometheor"}
+              className=" text-white   max-sm:text-sm  bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
                 Découvrir nos formations{" "}
                 <HiArrowRight className="font-semibold text-xl  inline " />
               </button>

@@ -9,6 +9,7 @@ import { IoCheckmark } from "react-icons/io5";
 import { useRef } from "react";
 import { HiArrowRight } from "react-icons/hi2";
 import { GoPlus } from "react-icons/go";
+import { Link } from "react-router-dom";
 
 const Trajectoire = () => {
   const VideoRef = useRef<HTMLVideoElement>(null);
@@ -47,7 +48,7 @@ const Trajectoire = () => {
 
       <div className=" flex justify-center items-center gap-10 my-32 flex-wrap">
         {/* Image */}
-        <div className=" size-[500px] cursor-pointer border max-lg:w-80 max-lg:h-80 max-md:w-64 max-md:h-64 bg-gris ">
+        <div className=" text-center size-[500px] cursor-pointer border max-lg:w-80 max-lg:h-80 max-md:w-64 max-md:h-64 bg-gris ">
           <video
             onClick={HandleClick}
             ref={VideoRef}
@@ -55,7 +56,11 @@ const Trajectoire = () => {
             poster="/w4.jpg"
             onEnded={HandleEnded}
             className="size-full  object-cover"
-          />
+          
+          >
+            </video>
+     <span className="text-blue hover:text-indigo-700 transition-all mt-2 text-xl ">Cliquez sur l'image pour regarder la vidéo </span>
+
         </div>
 
         {/* Texte */}
@@ -72,25 +77,24 @@ const Trajectoire = () => {
             confiance, clarté et des choix solides pour l’avenir.
           </p>
           <p className="text-blue font-dmserif text-2xl max-lg:text-xl max-md:text-lg">
-            À qui s’adresse
-            <span className="text-jauneOr">ce pack ?</span>
+            À qui s’adresse <span className="text-jauneOr">ce pack ?</span>
           </p>
 
           <ul className="space-y-4 mb-3">
             <li className="flex">
-              <IoCheckmark className="text-jauneOr inline size-5 max-md:size-4" />
+              <IoCheckmark className="text-jauneOr inline size-5 max-md:size-4 shrink-0 " />
               Lycéens : Définir et confirmer ses parcours d'orientation pour
               construire sa stratégie Parcoursup
             </li>
             <li className="flex">
-              <IoCheckmark className="text-jauneOr inline size-5 max-md:size-4" />{" "}
+              <IoCheckmark className="text-jauneOr inline size-5 max-md:size-4 shrink-0 " />{" "}
               Étudiants : valider ses choix de poursuite d'études
             </li>
           </ul>
 
-          <button className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+          <Link to="/conseilers" className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
             Trouver une conseillère
-          </button>
+          </Link>
         </div>
       </div>
 
@@ -208,10 +212,10 @@ const Trajectoire = () => {
             </li>
           </ul>
 
-          <button className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
-            Contacter un conseiller{" "}
+          <Link to="/conseillers" className=" inline-block max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+           <span> Contacter un conseiller</span>
             <HiArrowRight className="font-semibold text-lg  inline " />
-          </button>
+          </Link>
         </div>
       </div>
 
@@ -258,24 +262,23 @@ const Trajectoire = () => {
         </div>
         <div className="  w-5/12  space-y-5 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center flex flex-col ">
           <h2 className="text-blue font-lato font-dmserif  text-4xl max-md:text-center  ">
-            {" "}
-            Découvrez <span className="text-jauneOr">
-              nos autres packs
-            </span>{" "}
+            
+            Découvrez <span className="text-jauneOr"> nos autres packs
+            </span>
           </h2>
 
           <div className="space-x-6 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:space-x-0 max-sm:space-y-6 ">
-            <button className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+            <Link to="/exploration" className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
               <span>Pack exploration </span>
 
               <HiArrowRight className="font-semibold text-lg  inline " />
-            </button>
+            </Link>
 
-            <button className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+            <Link to="/repere" className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
               <span>Pack repère</span>
 
               <HiArrowRight className="font-semibold text-lg  inline " />
-            </button>
+            </Link>
           </div>
         </div>
       </div>

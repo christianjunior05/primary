@@ -1,4 +1,5 @@
 import { HiArrowRight } from "react-icons/hi2";
+import { Link } from "react-router-dom";
 
 type Typage={
     Title:string,
@@ -12,10 +13,10 @@ const Section5=({Title,text,textbutton ,image}:Typage)=>{
            <div className="  space-y-5 max-md:w-4/5  w-2/5   py-5 pl-10 bg-white/80 rounded-xl">
            <h2 className=" max-sm:text-3xl font-dmserif text-4xl text-blue "> {Title} </h2>
            <p className="  font-lato  text-sm"> {text} </p>
-                     <button className=" text-white  max-sm:text-sm  bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+                     <Link to="/conseillers" className=" inline-block text-white  max-sm:text-sm  bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
                          {textbutton}  
                <HiArrowRight className="font-semibold text-xl  inline "/>
-             </button>
+             </Link >
 
            </div>
   </div>
