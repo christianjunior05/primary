@@ -203,7 +203,7 @@ votre accompagnement ? */}
             </Link>
 
               <Link to="/parcours" className=" inline-block max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
-            <span> Pack parcours </span>   
+            <span> Pack parcoursup </span>   
               <HiArrowRight className="font-semibold text-lg  inline " />
             </Link>
           </div>

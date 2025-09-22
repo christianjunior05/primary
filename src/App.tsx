@@ -39,7 +39,7 @@ export default function App() {
         <Route path="/conseillers" element={<Conseillers/>}/>
         <Route path="/conseillers/:id" element={<Presentation  />} />
         <Route path="/devenirconseiller" element={<DevenirConseillers />} />
-        <Route path="/Blog-webinaires" element={<BlogWebinaires />} />
+        <Route path="/Blog" element={<BlogWebinaires />} />
         <Route path="/collaborateur" element={<Collaborateur />} />
       </Routes>
 

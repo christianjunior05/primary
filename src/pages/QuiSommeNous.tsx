@@ -171,7 +171,7 @@ export default function () {
               <img
                 src="/qsm-3.png"
                 alt="Vision complète de l'accompagnement"
-                className="object-cover size-full rounded-lg"
+                className="object-cover object-top size-full rounded-lg"
               />
             </div>
           </div>

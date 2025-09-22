@@ -121,12 +121,13 @@ export default function Navbar() {
               </li>
             </ul>
           </li>
+            <li className="hover:text-jauneOr transition-all cursor-pointer">
+          <Link to="/Blog">Blog</Link>  
+          </li>
           <li className="hover:text-jauneOr transition-all cursor-pointer">
          <Link to="/contact">Nous contacter</Link>   
           </li>
-          <li className="hover:text-jauneOr transition-all cursor-pointer">
-          <Link to="/parcours">Blog</Link>  
-          </li>
+        
           <li className="flex items-center space-x-2 text-jauneOr">
 
             <HiOutlineLockClosed />
