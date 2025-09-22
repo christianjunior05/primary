@@ -17,6 +17,7 @@ import DevenirConseillers from "./pages/Conseiller/DevenirConseillers";
 import BlogWebinaires from "./pages/BlogWebinaire/BlogWebinaires";
 import ScrollToTop from "./ScrollTop";
 import Collaborateur from "./pages/Collaborateur";
+import "../src/App.css"
 export default function App() {
 
  

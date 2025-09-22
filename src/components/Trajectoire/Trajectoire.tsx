@@ -260,7 +260,7 @@ const Trajectoire = () => {
             className="size-full object-cover rounded-xl "
           />
         </div>
-        <div className="  w-5/12  space-y-5 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center flex flex-col ">
+        <div className="  w-6/12  space-y-5 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center flex flex-col ">
           <h2 className="text-blue font-lato font-dmserif  text-4xl max-md:text-center  ">
             
             Découvrez <span className="text-jauneOr"> nos autres packs
@@ -268,14 +268,20 @@ const Trajectoire = () => {
           </h2>
 
           <div className="space-x-6 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:space-x-0 max-sm:space-y-6 ">
-            <Link to="/exploration" className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+            <Link to="/exploration" className=" inline max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
               <span>Pack exploration </span>
 
               <HiArrowRight className="font-semibold text-lg  inline " />
             </Link>
 
-            <Link to="/repere" className=" max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+            <Link to="/repere" className=" inline max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
               <span>Pack repère</span>
+
+              <HiArrowRight className="font-semibold text-lg  inline " />
+            </Link>
+
+             <Link to="/parcours" className=" inline-block max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+              <span>Pack parcours</span>
 
               <HiArrowRight className="font-semibold text-lg  inline " />
             </Link>

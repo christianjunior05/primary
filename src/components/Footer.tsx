@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 const Footer=()=> {
   return (
@@ -7,11 +8,11 @@ const Footer=()=> {
       <ul  className=" ">
           <li className="mb-5"><img src="/logo.png" alt=" logo" /></li>
           <li className="mb-5">Email : contact@prometheor.fr</li>
-          <li className="mb-5"> Devenir conseillère ? </li>
+          <li className="mb-5 hover:text-jauneOr "> <Link to="/devenirconseiller"> Devenir conseillère ?</Link> </li>
         </ul>
 
         <ul className="  ">
-          <li className="mb-5">Lien utiles </li>
+          <li className="mb-5">  Lien utiles </li>
           <li className="mb-5">CGV</li>
           <li className="mb-5"> Politique de confidentialité </li>
           <li className="mb-5"> Plan du site</li>
@@ -20,7 +21,7 @@ const Footer=()=> {
 
         <ul className="  ">
           <li className="mb-5">Support </li>
-          <li className="mb-5">Contactez-nous </li>
+          <li className="mb-5 hover:text-jauneOr"> <Link to="/contact">Contactez-nous</Link>  </li>
         
         </ul>
 
