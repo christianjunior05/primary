@@ -19,14 +19,15 @@ type User = {
 const Users:User[]  = [
   {
     id: 1,
-    image1: "c1.png",
+    image1: "cc1.png",
+    classNameImage1:"w-full h-full rounded-t-xl object-cover object-center",
+
     image2: "e1.png",
     nom: " khady",
     prenom: "Gladys",
     number: "07 51 06 42 84",
     email: "gwladys.kady@prometheor.fr",
     localisation: "Ile de france, Centre-Val de Loire",
-    classNameImage1:"w-full h-full rounded-t-xl object-cover object-center",
     content: ( <div className=" space-y-10 ">
               <h2 className="font-dmserif text-3xl text-blue">Présentation :</h2>
        
@@ -714,8 +715,7 @@ Quel beau challenge que d’aider un jeune à identifier ses talents !
    {
      id: 20,
      image1: "c4.png",
-         classNameImage1:"w-full h-full rounded-t-xl object-cover object-center",
-
+    classNameImage1:"w-full h-full rounded-t-xl object-cover object-center",
      image2: "e4.png",
      nom: "  Sacko",
      prenom: "Aminata",
