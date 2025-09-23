@@ -12,6 +12,7 @@ type User = {
   localisation: string;
   content: ReactNode;
   classNameImage1?: string;
+  link?:string;
 };
 
 const Users: User[] = [
@@ -76,6 +77,7 @@ const Users: User[] = [
     prenom: "Sonia",
     number: "06 62 82 32 01",
     email: "sonia@prometheor.fr",
+    link: "https://calendar.app.google/Hz4mqmjjrTAvsgCt9",
     localisation: "Ile de France, Hauts de Seine",
     classNameImage1: "w-full h-full rounded-t-xl object-cover",
 
@@ -132,6 +134,7 @@ const Users: User[] = [
     prenom: "Sarah",
     number: "06 50 99 49 56",
     email: "sarah.pelisson@prometheor.fr",
+    link: "https://calendar.app.google/Bc8AmciYKfLrYyrX8",
     localisation: "Ile de France, Val de Marne",
     content: (
       <div className=" space-y-10 ">
@@ -593,6 +596,7 @@ const Users: User[] = [
     prenom: " Laetitia",
     number: "06 06 63 22 34",
     email: "laetitia.masini@prometheor.fr",
+    link:"https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0CKiitwXmsHtWXG9GPMXwYW_gt3r1HTAKgV-7n4fCAXWHNcP5xshFiSmOIXHZ1KjE86ABSEi_I",
     localisation: "Auvergne-Rhône-Alpes",
     content: (
       <div className=" space-y-10 ">
@@ -1166,6 +1170,7 @@ const Users: User[] = [
     prenom: "Karime",
     number: "06 14 32 57 68",
     email: "karine.toulouse@prometheor.fr",
+    link:"https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1_9m5__oACoU1Y0o_GKlMzA0KyvVbWgxnNx8VjyX2XX1ExOdA6UUa-Y0zQRiQ197k-DnLiSwBM",
     localisation: "Bourgogne-Franche-Comté",
     content: (
       <div className=" space-y-10 ">
@@ -1243,6 +1248,7 @@ const Users: User[] = [
     prenom: "Estelle",
     number: "06 72 02 41 52",
     email: "estelle.finck-rolly@prometheor.fr",
+    link: "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3KYM6eVUYwZR-euq_gK0KPRcZr-J49ebbX0CeHbqT-OssERlWUj1BFZ2W0QFqyj1G4bfEx7Zac",
     localisation: "Grand Est",
     content: (
       <div className=" space-y-10 ">

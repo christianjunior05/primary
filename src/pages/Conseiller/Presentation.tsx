@@ -2,7 +2,7 @@
 import { FiPhone } from "react-icons/fi";
 import { HiArrowRight } from "react-icons/hi2";
 import { MdOutlineEmail, MdOutlineLocationOn } from "react-icons/md";
-import { useParams } from "react-router-dom";
+import {  useParams } from "react-router-dom";
 import Users from "./Data";
 
 const Presentation = () => {
@@ -52,7 +52,7 @@ console.log(id)
             </button>
 
             <button className="space-x-2 max-lg:text-xs text-white text-sm bg-jauneOr py-3 px-5 font-montserrat font-semibold rounded-lg hover:bg-jauneOr/80">
-              <span>Réserver un appel découverte</span>
+              <button onClick={() => { window.location.href = `${Conseiller.link}`; }}>Réserver un appel découverte</button>
               <HiArrowRight className="font-semibold text-lg inline" />
             </button>
           </div>
