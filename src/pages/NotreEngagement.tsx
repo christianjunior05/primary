@@ -1,3 +1,6 @@
+import { HiArrowRight } from "react-icons/hi2";
+import { Link } from "react-router-dom";
+
  
 
 
@@ -306,6 +309,28 @@ const NotreEgagement = () => {
           </div>
       
       </section>
+          <div className="  w-6/12  space-y-5 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center flex flex-col ">
+          <h2 className="text-blue font-lato font-dmserif    text-4xl max-md:text-center  ">
+            Vous <span className="text-jauneOr"> pouvez aussi </span> :
+          </h2>
+
+          <div className=" items-center space-x-6 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:space-x-0 max-sm:space-y-6 flex-wrap space-y-3  ">
+            <Link
+              to="/QuiSommesNous"
+              className=" inline-block max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      "
+            >
+              <span>Découvrir notre équipe</span>
+              <HiArrowRight className="font-semibold text-lg  inline " />
+            </Link>
+            <Link
+              to="/devenirconseiller"
+              className=" inline-block max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      "
+            >
+              <span>Devenir conseillers</span>
+              <HiArrowRight className="font-semibold text-lg  inline" />
+            </Link>
+          </div>
+        </div>
     </div>
   );
 };
