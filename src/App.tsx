@@ -18,6 +18,8 @@ import BlogWebinaires from "./pages/BlogWebinaire/BlogWebinaires";
 import ScrollToTop from "./ScrollTop";
 import Collaborateur from "./pages/Collaborateur";
 import "../src/App.css"
+import CVG from "./pages/CVG";
+import Politique from "./pages/Politique";
 export default function App() {
 
  
@@ -42,12 +44,12 @@ export default function App() {
         <Route path="/devenirconseiller" element={<DevenirConseillers />} />
         <Route path="/Blog" element={<BlogWebinaires />} />
         <Route path="/collaborateur" element={<Collaborateur />} />
-          
+        <Route path="/cvg" element={<CVG />} />
+        <Route path="/politique" element={<Politique/>} />
       </Routes>
-<Footer />
- 
-    
+       <Footer />
 
+    
     </main>
 
 

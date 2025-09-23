@@ -1,5 +1,4 @@
-import { FiArrowLeft } from "react-icons/fi";
-import { FiArrowRight } from "react-icons/fi";
+
 import DivTemoignage from "./DivTemoignage";
 // section Temoignage d'anciens élèves
 
