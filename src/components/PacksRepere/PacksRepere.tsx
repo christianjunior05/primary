@@ -1,6 +1,5 @@
 import { GoPlus } from "react-icons/go";
 import Section2 from "./sectionComponents/Section2";
-import Section4 from "./sectionComponents/Section4";
 import Section5 from "./sectionComponents/Section5";
 import { HiArrowRight } from "react-icons/hi2";
 import { IoCheckmark } from "react-icons/io5";
@@ -20,11 +19,11 @@ const PacksRepere = () => {
                   l’orientation de votre enfant.
                 </span>
               </p>
-              <p className="text-base sm:text-lg md:text-2xl leading-relaxed w-10/12">
+              <p className="text-base   sm:text-lg md:text-2xl leading-relaxed w-10/12">
                 Un rendez-vous pensé pour lever les doutes, rassurer et apporter
                 un premier éclairage sur ses choix de filière.
               </p>
-              <p className="text-sm sm:text-base md:text-xl leading-relaxed">
+              <p className="text-sm  sm:text-base md:text-xl leading-relaxed">
                 Parce que chaque choix éclairé commence par une meilleure
                 connaissance de soi.
               </p>
@@ -156,7 +155,7 @@ votre accompagnement ? */}
 
  
 
-      <Section4
+      {/* <Section4
         img1={false}
         img2={false}
         img3={false}
@@ -170,7 +169,7 @@ votre accompagnement ? */}
         nom2="Léa"
         nom3="Jules"
         dimenssion="size-80"
-      />
+      /> */}
 
       {/* section 12 de la home page réutilisé */}
       <Section5

@@ -11,42 +11,56 @@ export default function Navbar() {
   const [animeIcon2,setanimeIcon2]=useState(false)
   const animeIconRef = useRef<HTMLSpanElement[]>([]);
   const ClickRef = useRef<HTMLUListElement[]>([]);
-
+  const [color,setColor]=useState("accueil")
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
 
-  const handleClick = (event: React.MouseEvent<HTMLLIElement>) => {
-    const target = event.currentTarget.querySelectorAll(".menu");
-   
-    if (target && animeIconRef.current[0]) {
+  const handleClick = (e?: React.MouseEvent<HTMLLIElement> ,color?:string) => {
+  if (color) {
+    setColor(color)
+  }
+
+    if (e) {
+         const target = e.currentTarget.querySelectorAll(".menu"); 
+    if (target && animeIconRef.current) {
       
       target.forEach((el) => {
         el.classList.toggle("active");
         setanimeIcon(!animeIcon)
       });
+
+    
      
+    }
     }
   };
 
 
   
-  const handleClick2 = (event: React.MouseEvent<HTMLLIElement>) => {
-    const target = event.currentTarget.querySelectorAll(".menu");
-   
-    if (target && animeIconRef.current) {
+  const handleClick2 = (e?: React.MouseEvent<HTMLLIElement> ,color?:string) => {
+   if (color) {
+    setColor(color)
+   }
+
+    if (e) {
+          const target = e.currentTarget.querySelectorAll(".menu");
+
+       if (target && animeIconRef.current) {
       
-      target.forEach((el) => {
+        target.forEach((el) => {
         el.classList.toggle("active");
         setanimeIcon2(!animeIcon2)
       });
      
     }
+    }
+   
   };
 
   return (
     <nav className=" bg-blue text-white font-lato w-full  z-50  fixed">
-      <div className="flex justify-between items-baseline p-7">
+      <div className="flex justify-between items-baseline p-7 space-x-4">
         {/* Logo */}
         <div className="w-48 max-md:block max-lg:hidden">
           <img src="/logo.png" alt="Logo" className="w-full object-cover" />
@@ -54,14 +68,14 @@ export default function Navbar() {
 
         {/* Liens Desktop */}
         <ul className=" max-md:hidden  flex space-x-6 items-center text-xs lg:text-base   whitespace-nowrap">
-          <li className="hover:text-jauneOr transition-all cursor-pointer">
+          <li 
+            onClick={()=> handleClick(undefined,"accueil")}
+            className=    {`${color === "accueil" ? "text-jauneOr":""}  transition-all cursor-pointer`}>
             <Link to="/"> Accueil</Link>
           </li>
           <li
-
-            onClick={handleClick}
-            className="   hover:text-jauneOr transition-all  cursor-pointer  "
-          >
+            onClick={(e)=> handleClick(e,"offre")}
+            className=  {`${color === "offre" ? "text-jauneOr":""}  hover:text-jauneOr transition-all  cursor-pointer `}>
           <p > Nos offres d'orientation <span ref={(el)=>{ animeIconRef.current[0] =el!} }><IoIosArrowDown  className= {`${animeIcon && 'rotate-180 transition-all'} inline transition-all `}/>  </span> </p>  
             <ul
               ref={(el) => {
@@ -69,35 +83,44 @@ export default function Navbar() {
               }}
               className=" menu   absolute z-20 text-white   leading-10 bg-blue w-44  rounded-md  "
             >
-              <li className="cursor-pointer pl-2    bg-blue hover:text-jauneOr transition-all  ">
+              <li
+             
+              className="   cursor-pointer pl-2    bg-blue hover:text-jauneOr transition-all  ">
                 <Link to="/repere">Repère </Link>
               </li>
 
-              <li className="cursor-pointer pl-2    bg-blue hover:text-jauneOr transition-all  ">
+              <li
+             
+              className="  cursor-pointer pl-2    bg-blue hover:text-jauneOr transition-all  ">
                 <Link to="/exploration">Exploration</Link>
               </li>
 
-              <li className="cursor-pointer pl-2    bg-blue hover:text-jauneOr transition-all   ">
+              <li className="   cursor-pointer pl-2    bg-blue hover:text-jauneOr transition-all   ">
                 <Link to="/trajectoire">Trajectoire </Link>
               </li>
 
-              <li className="cursor-pointer pl-2      rounded-b-md   bg-blue hover:text-jauneOr transition-all  ">
+              <li className="  cursor-pointer pl-2      rounded-b-md   bg-blue hover:text-jauneOr transition-all  ">
                 <Link to="/parcours">Parcoursup</Link>
               </li>
             </ul>
           </li>
           <li
+          
+            // onClick={(e)=>handleClick(e.target)}
+            onClick={()=> handleClick(undefined,"stage")}
            
-            className=" hover:text-jauneOr transition-all   space-y-5  cursor-pointer "
-          >
+            className= {`${color === "stage" ? "text-jauneOr":""} hover:text-jauneOr transition-all   space-y-5  cursor-pointer `} >
             <Link to="/concours"> Nos stages</Link>
           </li>
-          <li className="hover:text-jauneOr transition-all cursor-pointer">
+          <li 
+            onClick={()=> handleClick(undefined,"conseillers")}
+          
+          className={`${color === "conseillers" ? "text-jauneOr":""} hover:text-jauneOr transition-all cursor-pointer `} >
             <Link to="/conseillers"> Nos conseillers</Link>
           </li>
           <li
-            onClick={handleClick2}
-            className="hover:text-jauneOr transition-all cursor-pointer"
+            onClick={(e)=>handleClick2(e,"qui")}
+            className={`${color === "qui" ? "text-jauneOr":""} hover:text-jauneOr transition-all cursor-pointer`}  
           >
                       <p > 
             Qui sommes-nous <span ref={ (el)=>{animeIconRef.current[1] =el!} }><IoIosArrowDown  className= {`${animeIcon2 && 'rotate-180 transition-all'} inline transition-all `}/>  </span> </p>  
@@ -112,23 +135,38 @@ export default function Navbar() {
                 <Link to="/QuiSommesNous">Notre équipe</Link>
               </li>
 
-              <li className="cursor-pointer hover:text-jauneOr p-2 rounded-md transition-all bg-blue ">
+              <li className="  cursor-pointer hover:text-jauneOr p-2 rounded-md transition-all bg-blue ">
                 <Link to="/notreengagement">Notre engagement</Link>
               </li>
 
-              <li className="cursor-pointer hover:text-jauneOr p-2 rounded-md transition-all bg-blue ">
+              <li className="  cursor-pointer hover:text-jauneOr p-2 rounded-md transition-all bg-blue ">
                 <Link to="/devenirconseiller">Devenir conseillers</Link>
+              </li>
+
+              <li className="  cursor-pointer hover:text-jauneOr p-2 rounded-md transition-all bg-blue ">
+                <Link to="/collaborateur">Nos collaborateurs</Link>
               </li>
             </ul>
           </li>
-            <li className="hover:text-jauneOr transition-all cursor-pointer">
+            <li 
+            
+             onClick={()=>handleClick2(undefined,"blog")}
+            className={`${color === "blog" ? "text-jauneOr":""} hover:text-jauneOr transition-all cursor-pointer`}
+            >
           <Link to="/Blog">Blog</Link>  
           </li>
-          <li className="hover:text-jauneOr transition-all cursor-pointer">
+          <li
+          
+          onClick={()=>handleClick2(undefined,"contacter")}
+            className={`${color === "contacter" ? "text-jauneOr":""} hover:text-jauneOr transition-all cursor-pointer`}>
          <Link to="/contact">Nous contacter</Link>   
           </li>
         
-          <li className="flex items-center space-x-2 text-jauneOr">
+          <li
+          
+          
+                onClick={()=>handleClick2(undefined,"connexion")}
+            className={`${color === "connexion" ? "text-jauneOr":""} hover:text-jauneOr transition-all cursor-pointer flex items-center space-x-2 `}>
 
             <HiOutlineLockClosed />
             <span><Link to="https://app.prometheor.fr/">Connexion</Link></span>

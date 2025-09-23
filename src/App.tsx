@@ -26,6 +26,7 @@ export default function App() {
       <ScrollToTop />
       <Navbar />
       <Routes>
+        
         <Route path="/" element={<Homepage />} />
         <Route path="/repere" element={<PacksRepere />} />
         <Route path="/exploration" element={<Exploration />} />
@@ -41,9 +42,14 @@ export default function App() {
         <Route path="/devenirconseiller" element={<DevenirConseillers />} />
         <Route path="/Blog" element={<BlogWebinaires />} />
         <Route path="/collaborateur" element={<Collaborateur />} />
+          
       </Routes>
+<Footer />
+ 
+    
 
-      <Footer />
     </main>
+
+
   );
 }

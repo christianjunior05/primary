@@ -44,31 +44,31 @@ export default function Homepage() {
         {/* texte */}
 
         <div className=" bg-jauneOr/10  flex flex-col   bg-no-repeat bg-cover  justify-centern  items-center">
-          <div className="w-1/2 flex flex-col items-center space-y-8 pt-[30px]">
+          <div className=" flex flex-col items-center space-y-8 pt-[30px]">
             <h1 className="text-blue text-4xl font-dmserif">
               L'origine de Prometheor
             </h1>
-            <p className=" text-center">
+            <p className=" text-center w-1/2 ">
               Nous avons fondé Prometheor avec une conviction : l’orientation
               doit être à la fois humaine, moderne et ambitieuse.
             </p>
-            <p className="text-center">
+            <p className="text-center w-1/2 ">
             
               <span className="text-jauneOr">Notre objectif </span>: est de
               transformer un moment souvent stressant en une expérience
               constructive, où chaque jeune peut découvrir son potentiel et
               tracer un chemin qui lui ressemble.
             </p>
-            <p className=" text-center">
+            <p className=" text-center w-1/2 ">
               Pour cela, nous avons réuni un réseau de conseillères
               d’orientation qualifiées partout en France et développé une
               plateforme digitale innovante. Elle centralise des outils
               pratiques, une méthode éprouvée et des ressources fiables, pour
               offrir un accompagnement à la fois personnalisé et structuré.
             </p>
-            <div className="  flex  space-x-2  ">
+            <div className="  flex  space-x-2 justify-center ">
               <IoCheckmark className=" text-jauneOr shrink-0 text-xl mt-1" />
-              <p className="  w-9/12 text-center ">
+              <p className="   text-center ">
                 Notre mission : donner à chaque adolescent les clés pour bâtir
                 son avenir avec confiance et ambition.
               </p>

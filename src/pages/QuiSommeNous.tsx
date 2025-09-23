@@ -57,7 +57,7 @@ export default function () {
       {/* Section 2: Une équipe de conseillers engagée */}
       <section className="">
        
-          <div className="flex justify-center gap-16 items-center flex-wrap my-32">
+          <div className="flex justify-center gap-5 items-center flex-wrap my-32">
             <div className="w-6/12 space-y-7 bg-jauneOr/5 p-10 rounded-lg">
               <h2 className="text-3xl text-blue font-dmserif">
                 Une équipe de <span className="text-jauneOr">conseillers engagée</span> , partout en France
@@ -73,11 +73,11 @@ export default function () {
                 Nos conseillères sont également sensibilisées aux situations de handicap, aux troubles des apprentissages et aux besoins spécifiques. Elles portent cette attention avec sérieux et engagement, dans une approche respectueuse des singularités de chaque jeune.
               </p>
             </div>
-            <div className="size-[500px]">
+            <div className="w-[500px] ">
               <img
                 src="/qsm-2.png"
                 alt="Équipe de conseillers"
-                className="object-cover size-full "
+                className=" object-center size-full  rounded-lg "
               />
             </div>
           </div>
@@ -150,7 +150,7 @@ export default function () {
       {/* Section 4: Mais c'est aussi tenir compte du vécu scolaire */}
       <section className="">
         
-          <div className="flex justify-center flex-wrap gap-20 items-center my-32">
+          <div className="flex justify-center  gap-20 items-center my-32">
             <div className="w-6/12 space-y-5 p-10 rounded-lg bg-jauneOr/5  ">
               <h2 className=" text-3xl font-dmserif text-blue mb-6">
                 Mais c'est aussi tenir compte <span className="text-jauneOr">du vécu scolaire du jeune</span> ...
@@ -205,7 +205,7 @@ export default function () {
               to="/devenirconseiller"
               className=" inline-block max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      "
             >
-              <span>Devenir conseillers</span>
+              <span>Devenir conseiller</span>
               <HiArrowRight className="font-semibold text-lg  inline" />
             </Link>
           </div>

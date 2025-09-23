@@ -25,7 +25,7 @@ const Collaborateur = () => {
       {/* Nos partenaires : 
 Ensemble pour la réussite des jeunes */}
       <section>
-        <div className="flex flex-wrap items-center justify-center gap-20 my-32">
+        <div className="flex  items-center justify-center gap-20 my-32">
           <div className="w-6/12 space-y-3">
             <h1 className="text-3xl font-dmserif text-blue">
              
@@ -63,7 +63,7 @@ Ensemble pour la réussite des jeunes */}
 
       {/* UNIsCo – Séjours linguistiques et éducatifs */}
       <section>
-        <div className="flex flex-wrap items-center justify-center gap-20 ">
+        <div className="flex  items-center justify-center gap-10 ">
           <div className="h-96 ">
             <img src="/w12.png" alt="image supétudes" className="size-full " />
           </div>
@@ -104,7 +104,7 @@ Ensemble pour la réussite des jeunes */}
       {/* UNIsCo – Séjours linguistiques et éducatifs */}
 
       <section>
-        <div className="flex flex-wrap items-center justify-center gap-20 my-32 ">
+        <div className="flex  items-center justify-center gap-10 my-32 ">
           <div className="h-96">
             <img src="/w13.png" alt="image supétudes" className="size-full" />
           </div>
@@ -141,7 +141,7 @@ Ensemble pour la réussite des jeunes */}
       </section>
 
       <section>
-        <div className="flex flex-wrap items-center justify-center gap-20 my-32 ">
+        <div className="flex  items-center justify-center gap-10 my-32 ">
           <div className="h-96">
             <img
               src="/w14.png"

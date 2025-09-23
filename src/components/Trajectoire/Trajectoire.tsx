@@ -1,7 +1,6 @@
 import Coche from "../Homepage/miniComponents/Coche";
 import Title from "../Homepage/miniComponents/Title";
 import ListElement from "../exploration/miniComponents/ListElement";
-import Section4 from "../PacksRepere/sectionComponents/Section4";
 import Section5 from "../PacksRepere/sectionComponents/Section5";
 import Section6 from "../PacksRepere/sectionComponents/Section6";
 import { IoCheckmark } from "react-icons/io5";
@@ -229,7 +228,7 @@ const Trajectoire = () => {
         icon={true}
       />
 
-      <Section4
+      {/* <Section4
         img1={true}
         img2={true}
         img3={true}
@@ -243,7 +242,7 @@ const Trajectoire = () => {
         nom2="Mme et M. Lefevre, Bordeaux"
         nom3="Mme et M. Lefevre, Bordeaux"
         dimenssion="w-80 h-60"
-      />
+      /> */}
 
       <Section5
         Title="Prêt à avancer ?"
@@ -260,7 +259,7 @@ const Trajectoire = () => {
             className="size-full object-cover rounded-xl "
           />
         </div>
-        <div className="  w-6/12  space-y-5 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center flex flex-col ">
+        <div className="    space-y-5 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center flex flex-col ">
           <h2 className="text-blue font-lato font-dmserif  text-4xl max-md:text-center  ">
             
             Découvrez <span className="text-jauneOr"> nos autres packs
@@ -274,7 +273,7 @@ const Trajectoire = () => {
               <HiArrowRight className="font-semibold text-lg  inline " />
             </Link>
 
-            <Link to="/repere" className=" inline max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
+            <Link to="/repere" className=" inline-block max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
               <span>Pack repère</span>
 
               <HiArrowRight className="font-semibold text-lg  inline " />

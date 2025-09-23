@@ -21,27 +21,33 @@ export default function Conseillers() {
           ></div>
 
           {/* Hero Content */}
-          <div className="absolute flex flex-col items-start gap-3 left-[65px] top-1/2 transform -translate-y-1/2 w-[1184px] h-[247px]">
+          <div className="absolute text-white  flex flex-col justify-center gap-3 left-[65px] top-1/2 transform -translate-y-1/2 w-[1184px] h-[247px]">
             {/* Hero Badge - Label qualité OPRA */}
-            <div className="w-[1184px] h-[105px] text-white font-['DM_Serif_Display'] font-normal text-[40px] leading-[52px] order-0 flex-none">
+            <p className="text-3xl font-dmserif  ">
               Nos conseillers d’orientation <br /> Allier écoute et expertise
               pour accompagner parents et élèves
-            </div>
+            </p>
+           
+           <p className="font-medium text-xl ">
+            Chez Prometheor, chaque réussite repose sur un accompagnement de
+              qualité. <br /> Nos conseillers font preuve d’écoute, de rigueur et de
+              neutralité.
+           </p>
+
+
 
             {/* Hero Title */}
-            <div className="w-[838px] h-[28px] text-white font-['DM_Serif_Display'] font-normal text-[25px] leading-[100%] order-1 flex-none mb-4">
-              Chez Prometheor, chaque réussite repose sur un accompagnement de
-              qualité.Nos conseillers font preuve d’écoute, de rigueur et de
-              neutralité.
-            </div>
+          
 
             {/* Hero Description */}
-            <div className="w-[1184px] h-[90px] text-white font-['DM_Serif_Display'] font-normal text-l leading-[30px] order-2 self-stretch flex-none mt-2">
+           <p className="font-medium text-xl w-10/12">
               Engagés par notre Charte Qualité, ils mettent leurs compétences au
-              service de chaque jeune pour répondre aux questions, clarifier les
+              service de chaque jeune pour répondre aux questions,  clarifier les
               choix d’orientation et construire un parcours cohérent et adapté à
               son profil.
-            </div>
+           </p>
+
+          
           </div>
         </header>
 
