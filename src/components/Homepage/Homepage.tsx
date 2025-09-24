@@ -79,7 +79,7 @@ export default function Homepage() {
           </div>
         </div>
         {/* Image */}
-        <div className="bg-homepagee mt-10   h-[300px] w-full md:h-[450px] bg-no-repeat bg-cover flex justify-center items-center"></div>
+        <div className="bg-homepagee mt-10 h-[300px] w-full md:h-[450px] bg-no-repeat bg-cover flex justify-center items-center"></div>
       
       </section>
 

@@ -23,7 +23,7 @@ const Footer=()=> {
         
         </ul>
 
-         <div className=" ">
+         {/* <div className=" ">
           <ul>
             <li className="mb-5">Newsletter</li>
             <li className="mb-5">Inscrivez-vous à la newsletter pour restez informés !</li>
@@ -32,7 +32,7 @@ const Footer=()=> {
             <input type="email" name="" id="" placeholder=" Adresse mail" className="  py-2 bg-transparent w-4/5 rounded-full placeholder:text-black text-black mx-5 outline-none" />
             <button className=" border bg-jauneOr w-40 rounded-full"> S'inscrire </button>
           </form>
-         </div>
+         </div> */}
         </div>
        <img src="/appliFooter.png" alt="" className="my-10" />
 

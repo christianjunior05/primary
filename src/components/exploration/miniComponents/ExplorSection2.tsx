@@ -61,9 +61,7 @@ const  ExplorSection=()=> {
           <ListElement text="Choix des enseignements de spécialité" />
           <ListElement text="Orientation vers une filière adaptée" />
           <ListElement text="Premières pistes d'établissements adaptés" />
-
-      
-  	
+	
    </ul>
 
             </div>

@@ -89,7 +89,6 @@ export default function Contact() {
             <h3 className="text-2xl font-dmserif text-blue mb-3">Nos coordonnées</h3>
             <ul className="text-gray-700 space-y-2">
               <li><span className="font-medium">Email:</span> contact@prometheor.fr</li>
-              <li><span className="font-medium">Adresse:</span> 10 rue de l'Orientation, 75000 Paris</li>
             </ul>
           </div>
         </div>
