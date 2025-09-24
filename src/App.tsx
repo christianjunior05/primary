@@ -23,8 +23,6 @@ import Collaborateur from "./pages/Collaborateur";
 import CGV from "./pages/CGV";
 import Politique from "./pages/Politique";
 import NotFound from "./NoteFound";
-import Eblog from "./pages/BlogWebinaire/Eblog";
-import RehypeDemo from "./pages/Rehypte";
 
 import "../src/App.css";
 
@@ -56,9 +54,9 @@ export default function App() {
           <Route path="/conseillers/:id" element={<Presentation />} />
           <Route path="/devenirconseiller" element={<DevenirConseillers />} />
           <Route path="/Blog" element={<BlogWebinaires />} />
-          <Route path="/Eblog" element={<Eblog/>} />
+         
           <Route path="/collaborateur" element={<Collaborateur />} />  
-          <Route path="/rehype" element={<RehypeDemo />} />
+         
         </Route>
 
        
