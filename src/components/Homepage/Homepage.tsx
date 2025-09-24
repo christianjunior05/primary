@@ -39,9 +39,7 @@ export default function Homepage() {
       {/* L'origine de Prometheor */}
 
       <section>
-        {/* Image */}
-        <div className="bg-homepagee mt-10   h-[300px] w-full md:h-[450px] bg-no-repeat bg-cover flex justify-center items-center"></div>
-        {/* texte */}
+          {/* texte */}
 
         <div className=" bg-jauneOr/10  flex flex-col   bg-no-repeat bg-cover  justify-centern  items-center">
           <div className=" flex flex-col items-center space-y-8 pt-[30px]">
@@ -80,6 +78,9 @@ export default function Homepage() {
             </div>
           </div>
         </div>
+        {/* Image */}
+        <div className="bg-homepagee mt-10   h-[300px] w-full md:h-[450px] bg-no-repeat bg-cover flex justify-center items-center"></div>
+      
       </section>
 
       {/* section Choisir son orientation, 

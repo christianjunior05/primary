@@ -1,4 +1,4 @@
-export default function CVG() {
+export default function CGV() {
   return (
     <div className="w-full">
       <main className="w-full px-4 py-10 text-slate-900 space-y-12 leading-relaxed">

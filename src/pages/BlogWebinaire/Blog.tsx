@@ -1,7 +1,7 @@
 const Blog= ()=> {
     return ( 
         <>
-       <div className="w-96 flex flex-col  mb-10">
+       <div className=" flex flex-col  mb-10">
         <div className="w-auto h-72 bg-gris">
 
         </div>

@@ -7,13 +7,12 @@ const Footer=()=> {
         <div className=" flex max-md:flex-col max-lg:space-y-5 flex-wrap justify-between items-start " >
       <ul  className=" ">
           <li className="mb-5"><img src="/logo.png" alt=" logo" /></li>
-          <li className="mb-5">Email : contact@prometheor.fr</li>
         </ul>
 
         <ul className="  ">
           <li className="mb-5">  Lien utiles </li>
-          <li className="mb-5">CGV</li>
-          <li className="mb-5"> Politique de confidentialité </li>
+          <li className="mb-5"><Link to="/cgv" >CGV</Link></li> 
+          <li className="mb-5"><Link to="/politique">Politique de confidentialité </Link> </li>
           <li className="mb-5"> Plan du site</li>
         </ul>
 

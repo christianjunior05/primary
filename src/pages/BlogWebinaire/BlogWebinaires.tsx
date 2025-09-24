@@ -63,7 +63,7 @@ const BlogWebinaires= ()=> {
     <li>Catégorie 4</li>
   </ul>
 
-  <div className="flex justify-center gap-5 flex-wrap">
+  <div className="grid grid-cols-3  px-10 gap-5">
     <Blog/>
     <Blog/>
     <Blog/>
