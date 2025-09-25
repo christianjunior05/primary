@@ -432,18 +432,10 @@ ce n’est pas tirer au sort une filière   */}
               title="BLOG"
               text="Actualitées orientation"
             />
-            <DivWebinaire color={false} title="BLOG" text="Conseils pratique" />
-            <DivWebinaire
-              color={true}
-              title="WEBINAR"
-              text="Métiers d'avenir"
-            />
+       
           </div>
 
-          <div className=" flex max-sm:flex-row  max-[730px]:hi flex-col items-center gap-5">
-            <IoIosArrowDown className="border rotate-180 text-3xl p-1 cursor-pointer rounded-full text-gray-400 border-gray-400" />
-            <IoIosArrowDown className="border text-3xl p-1 cursor-pointer rounded-full text-blue border-blue" />
-          </div>
+
         </div>
       </div>
 
