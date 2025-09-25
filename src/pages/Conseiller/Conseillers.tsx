@@ -1,9 +1,9 @@
 import { HiArrowRight } from "react-icons/hi2";
-import { FiArrowLeft, FiArrowRight, FiPhone } from "react-icons/fi";
 import Users from "./Data";
 
 import { MdOutlineEmail, MdOutlineLocationOn } from "react-icons/md";
 import { Link } from "react-router-dom";
+import { FiPhone } from "react-icons/fi";
 
 export default function Conseillers() {
   return (
@@ -118,11 +118,11 @@ export default function Conseillers() {
               Ce qu'ils disent de l'accompagnement
             </h3>
             <div className="flex items-center gap-10  justify-center ">
-              <FiArrowLeft className=" max-sm:hidden border size-10 p-2 shrink-0  rounded-full text-jauneOr border-jauneOr cursor-pointer hover:bg-jauneOr hover:text-white transition-all " />
+              
 
               <div className="flex gap-10  flex-wrap justify-center items-center ">
                 <div
-                  className={` w-72  max-sm:space-y-2  space-y-7 bg-white     p-5    flex flex-col  rounded-xl border`}
+                  className={` w-72  max-sm:space-y-2  space-y-7 bg-white p-5 flex flex-col  rounded-xl border`}
                 >
                   <p className=" max-md:text-base text-xs">
                     Accompagnement très réussi auprès de mes fils. Sonia est une
@@ -203,7 +203,7 @@ export default function Conseillers() {
                   </div>
                 </div>
               </div>
-              <FiArrowRight className=" max-sm:hidden border shrink-0 size-10 p-2 rounded-full text-jauneOr border-jauneOr cursor-pointer hover:bg-jauneOr hover:text-white transition-all " />
+             
             </div>
           </div>
         </section>
