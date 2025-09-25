@@ -72,7 +72,7 @@ const Users: User[] = [
     id: 2,
     image1: "c2.png",
     image2: "e2.png",
-    nom: "Dridri",
+    nom: "Dridi",
     prenom: "Sonia",
     number: "06 62 82 32 01",
     email: "sonia@prometheor.fr",
