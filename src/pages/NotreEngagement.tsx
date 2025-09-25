@@ -11,7 +11,7 @@ const NotreEgagement = () => {
       >
         {/* Overlay - rgba(12, 11, 11, 0.38) */}
         <div
-          className="absolute inset-0 "
+          className="absolute inset-0"
           style={{ background: "rgba(12, 11, 11, 0.38)" }}
         ></div>
 
@@ -52,7 +52,7 @@ const NotreEgagement = () => {
           </div>
           <div className="w-6/12">
             <h2 className="text-4xl font-dmserif  mb-4 text-blue ">
-              Des conseillères{" "}
+              Des conseillères
               <span className=" text-jauneOr ">qualifiées et expertes</span>
             </h2>
             <p className="text-lg  mb-4">
@@ -97,10 +97,10 @@ const NotreEgagement = () => {
 
       {/* Section: Un accompagnement 100% personnalisé */}
       <section className=" ">
-        <div className="flex   justify-center gap-10  items-center">
+        <div className="flex justify-center gap-10  items-center">
           <div className="bg-jauneOr/5 p-5 rounded-lg w-6/12 ">
             <h2 className="text-3xl  text-blue font-dmserif mb-6">
-              Un accompagnement{" "}
+              Un accompagnement
               <span className="text-jauneOr">100% personnalisé</span>
             </h2>
             <p className="text-lg  mb-6">
@@ -148,7 +148,7 @@ const NotreEgagement = () => {
             <img
               src="/45c4858ae07bf0aab2c507ef6cc8ec257a259ef3.jpg"
               alt="Conseillère souriante"
-              className="object-cover size-full  rounded-lg"
+              className="object-cover size-full rounded-lg"
             />
           </div>
         </div>
@@ -166,7 +166,7 @@ const NotreEgagement = () => {
           </div>
           <div className="w-6/12">
             <h2 className="text-4xl text-blue font-dmserif mb-6">
-              Une méthodologie{" "}
+              Une méthodologie
               <span className="text-jauneOr">éprouvée et innovante</span>
             </h2>
             <p className="text-lg mb-6">
@@ -222,7 +222,7 @@ const NotreEgagement = () => {
         <div className="flex justify-center gap-10 items-center">
           <div className="w-6/12">
             <h2 className="text-4xl font-dmserif mb-6 text-blue">
-              Un cadre{" "}
+              Un cadre
               <span className="text-jauneOr">éthique et bienveillant</span>
             </h2>
             <p className="text-lg  mb-6">
