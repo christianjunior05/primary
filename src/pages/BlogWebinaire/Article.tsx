@@ -4,7 +4,7 @@ export default function Article() {
     <div>
 
     <main className="mx-auto max-w-3xl px-4 py-12 text-slate-900">
-    <img src="article.png" alt="" />
+
       <article className="prose prose-lg mx-auto mt-20">
         <h1 className="text-center text-3xl font-bold mb-20">
           À quel moment faire un bilan d’orientation scolaire ? <br />
