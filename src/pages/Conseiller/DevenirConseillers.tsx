@@ -1,6 +1,5 @@
 import { GiCheckMark } from "react-icons/gi";
 import { HiArrowRight } from "react-icons/hi2";
-import { IoIosArrowDown } from "react-icons/io";
 import { Link } from "react-router-dom";
 
 export default function DevenirConseillers() {
@@ -201,75 +200,6 @@ export default function DevenirConseillers() {
               Ce savoir-faire leur permet de guider chaque élève, quelle que
               soit sa situation, vers des choix éclairés et cohérents.
             </p>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div className="flex justify-center my-20 gap-44 py-20 bg-jauneOr/15">
-          <div className="space-y-5">
-            <h4 className="text-blue font-dmserif text-4xl">
-              Les indicateurs de satisfaction
-            </h4>
-            <span className="block">Les taux mesurés:</span>
-            <ul className="space-y-4">
-              <li>
-                <GiCheckMark className="  text-jauneOr inline " />{" "}
-                <span>La satisfaction globale : 100%</span>
-              </li>
-              <li>
-                <GiCheckMark className="  text-jauneOr  inline " />{" "}
-                <span>Contenu de la formation : 100%</span>
-              </li>
-              <li>
-                <GiCheckMark className="  text-jauneOr inline  " />{" "}
-                <span>Compétences de la formatrice : 100%</span>
-              </li>
-            </ul>
-            <button className=" max-lg:text-xs text-white text-sm space-x-8   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
-              <span> Découvrir les avis Google </span>
-              <HiArrowRight className="font-semibold text-lg  inline " />
-            </button>
-          </div>
-
-          <div className="flex items-center gap-20   ">
-            <div className=" w-80 h-full  space-y-14  bg-white shadow-xl shadow-jauneOr/15      p-5    flex flex-col justify-evenly   rounded-xl ">
-              <p className=" max-md:text-base ">
-                “Formation très complète et de grande qualité. Accompagnement
-                personnalisé et adapté au parcours de chaque conseiller. Je
-                recommande.”
-              </p>
-
-              <div className="space-y-3">
-                <div className=" flex  text-sm max-md:text-base">
-                  <i className="fa-solid fa-star text-jauneOr"></i>
-                  <i className="fa-solid fa-star text-jauneOr"></i>
-                  <i className="fa-solid fa-star text-jauneOr"></i>
-                  <i className="fa-solid fa-star text-jauneOr"></i>
-                  <i className="fa-solid fa-star text-jauneOr"></i>
-                </div>
-
-                <div className="flex space-x-3">
-                  <div className="size-10">
-                    <img
-                      src="/e1.png"
-                      alt=""
-                      className="size-full object-cover object-center"
-                    />
-                  </div>
-                  <div>
-                    <span className="block text-xs md:text-sm">Charles</span>
-                    <span className="block text-xs md:text-sm">
-                      Élève de terminale
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className=" space-y-2  ">
-              <IoIosArrowDown className="border hover:bg-blue hover:text-white  transition-all hover:border-white text-3xl p-1 cursor-pointer rounded-full text-gray-400 border-gray-400 rotate-180" />
-              <IoIosArrowDown className="border bg-white/50 hover:bg-blue hover:text-white  transition-all hover:border-white text-3xl p-1 cursor-pointer rounded-full text-blue border-blue" />
-            </div>
           </div>
         </div>
       </section>

@@ -51,8 +51,8 @@ const NotreEgagement = () => {
             />
           </div>
           <div className="w-6/12">
-            <h2 className="text-4xl font-dmserif  mb-4 text-blue ">
-              Des conseillères
+            <h2 className="text-4xl space-x-2 font-dmserif  mb-4 text-blue ">
+            <span> Des conseillères</span> 
               <span className=" text-jauneOr ">qualifiées et expertes</span>
             </h2>
             <p className="text-lg  mb-4">
@@ -99,8 +99,8 @@ const NotreEgagement = () => {
       <section className=" ">
         <div className="flex justify-center gap-10  items-center">
           <div className="bg-jauneOr/5 p-5 rounded-lg w-6/12 ">
-            <h2 className="text-3xl  text-blue font-dmserif mb-6">
-              Un accompagnement
+            <h2 className="text-3xl  space-x-2 text-blue font-dmserif mb-6">
+            <span>Un accompagnement</span>  
               <span className="text-jauneOr">100% personnalisé</span>
             </h2>
             <p className="text-lg  mb-6">
@@ -165,8 +165,8 @@ const NotreEgagement = () => {
             />
           </div>
           <div className="w-6/12">
-            <h2 className="text-4xl text-blue font-dmserif mb-6">
-              Une méthodologie
+            <h2 className="text-4xl space-x-2 text-blue font-dmserif mb-6">
+            <span>Une méthodologie</span>  
               <span className="text-jauneOr">éprouvée et innovante</span>
             </h2>
             <p className="text-lg mb-6">
@@ -221,8 +221,8 @@ const NotreEgagement = () => {
       <section className="">
         <div className="flex justify-center gap-10 items-center">
           <div className="w-6/12">
-            <h2 className="text-4xl font-dmserif mb-6 text-blue">
-              Un cadre
+            <h2 className="text-4xl space-x-2 font-dmserif mb-6 text-blue">
+            <span>Un cadre</span>  
               <span className="text-jauneOr">éthique et bienveillant</span>
             </h2>
             <p className="text-lg  mb-6">
@@ -282,9 +282,9 @@ const NotreEgagement = () => {
             />
           </div>
           <div className="w-6/12">
-            <h2 className="text-4xl text-blue font-dmserif mb-6">
-              Une <span className="text-jauneOr">amélioration continue</span> de
-              nos services
+            <h2 className="text-4xl space-x-2 text-blue font-dmserif mb-6">
+            <span>Une</span>   <span className="text-jauneOr">amélioration continue</span>
+              <span> de  nos services</span>
             </h2>
             <p className="text-lg  mb-6">
               Chez Prometheor, la qualité de l'accompagnement est une priorité.
