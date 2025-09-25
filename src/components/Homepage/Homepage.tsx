@@ -3,9 +3,7 @@ import Coche from "./miniComponents/Coche";
 import EnsavoirPlus from "./miniComponents/EnsavoirPlus";
 import InfoProfile from "./miniComponents/InfoProfile";
 import Temoignage from "./miniComponents/Temoignage";
-import DivWebinaire from "./miniComponents/DivWebinar";
 import { HiArrowRight } from "react-icons/hi2";
-import { IoIosArrowDown } from "react-icons/io";
 import { IoCheckmark } from "react-icons/io5";
 import { Link } from "react-router-dom";
 
@@ -422,17 +420,37 @@ ce n’est pas tirer au sort une filière   */}
 
         <div className="flex max-sm:flex-col   items-center gap-5">
           <div className="max-[730px]:grid    max-[730px]:grid-cols-1 max-[730px]:justify-center  max-[730px]:flex-wrap size-full grid grid-cols-2 gap-5">
-            <DivWebinaire
-              color={true}
-              title="WEBINAR"
-              text="Gestion du Stress"
-            />
-            <DivWebinaire
-              color={false}
-              title="BLOG"
-              text="Actualitées orientation"
-            />
-       
+           
+
+         <div className=" flex flex-col h-72 w-60 rounded-md">
+            <div className=" bg-gris rounded-t-md h-1/2">
+             <img className="size-full object-cover object-top"  src="/webinaire.jpg" alt="" />
+
+            </div>
+            <div className=" bg-white space-y-1 rounded-b-md h-1/2 p-4 leading-7 flex flex-col items-start justify-center">
+                <span className=  "bg-blue block font-roboto text-xs  text-white px-3 py-1 rounded-full" > WEBINAR</span>
+                <span className="block font-dmserif text-blue"> Gestion du Stress </span>
+                         <button 
+                          
+                          onClick={() => window.location.href = "https://youtu.be/mOB_Fv0ePIY?si=Owwtr_AOuv91409L"}
+                         className="text-blue " > <span>Regarder le webinar </span> <HiArrowRight className="inline " />
+                          </button>   
+
+            </div>
+        </div>
+
+         <div className=" flex flex-col h-72 w-60 rounded-md">
+            <div className=" bg-gris rounded-t-md h-1/2">
+            <img className="size-full object-cover object-top"  src="/article.png" alt="" />
+            </div>
+            <div className=" bg-white space-y-1 rounded-b-md h-1/2 p-4 leading-7 flex flex-col items-start justify-center">
+                <span className=  "bg-jauneOr block font-roboto text-xs  text-white px-3 py-1 rounded-full" > BLOG</span>
+                <span className="block font-dmserif text-blue"> Actualitées orientation</span>
+                         <Link to="/article" className="text-jauneOr  inline-block " > <span>Lire l'article </span> <HiArrowRight className="inline shrink-0 " /> </Link>   
+
+            </div>
+        </div>
+              
           </div>
 
 

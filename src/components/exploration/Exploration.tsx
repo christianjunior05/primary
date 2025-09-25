@@ -1,7 +1,6 @@
 import Title from "../Homepage/miniComponents/Title";
 import Coche from "../Homepage/miniComponents/Coche";
 import { TbPointFilled } from "react-icons/tb";
-import Section4 from "../PacksRepere/sectionComponents/Section4";
 import Section5 from "../PacksRepere/sectionComponents/Section5";
 import ListElement from "./miniComponents/ListElement";
 import { useRef } from "react";
@@ -242,21 +241,7 @@ const Exploration = () => {
         </div>
       </div>
 
-      <Section4
-        img1={true}
-        img2={true}
-        img3={true}
-        commentaire1="Nous étions perdus entre la voie générale et la voie pro ; le Pack Repère nous a donné un éclairage limpide en une heure."
-        commentaire2="Ma fille doutait de sa spécialité S ; grâce au Pack Repère, elle est passée en toute sérenité en Première."
-        commentaire3="Ma fille doutait de sa spécialité S ; grâce au Pack Repère, elle est passée en toute sérenité en Première."
-        profession1="Parents de X"
-        profession2="Parents de X"
-        profession3="Parents de X"
-        nom1="Mme et M. Lefevre, Bordeaux"
-        nom2="Mme et M. Lefevre, Bordeaux"
-        nom3="Mme et M. Lefevre, Bordeaux"
-        dimenssion="w-80 h-60"
-      />
+   
 
       <Section5
         Title="Prêt à avancer ?"
@@ -281,7 +266,7 @@ const Exploration = () => {
             </span>
           </h2>
 
-          <div className="space-x-6 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:space-x-0 max-sm:space-y-6 ">
+          <div className="space-x-2 ">
             <Link to="/repere" className=" inline-block max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
               <span>Pack repère </span>
 
