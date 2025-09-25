@@ -207,7 +207,7 @@ const Users: User[] = [
     classNameImage1: "w-full h-full rounded-t-xl object-cover object-center",
 
     image2: "e20.png",
-    nom: "Duguet   ",
+    nom: "Duguet",
     prenom: "Karine",
     number: "06 72 02 41 52",
     email: "karine.duguet@prometheor.fr",
