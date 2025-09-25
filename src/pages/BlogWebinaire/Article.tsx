@@ -198,7 +198,7 @@ export default function Article() {
             ✨ Vous pensez que c'est le bon moment pour faire le point ?
           </p>
           <p>
-            Prenez rendez-vous avec un conseiller du réseau{" "}
+            Prenez rendez-vous avec un conseiller du réseau
             <span className="font-bold">Prometheor</span>. Votre adolescent bénéficiera d’un
             accompagnement personnalisé pour faire des choix éclairés et se préparer au
             mieux pour son avenir scolaire et professionnel.
