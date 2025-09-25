@@ -191,7 +191,7 @@ votre accompagnement ? */}
             Découvrez <span className="text-jauneOr"> nos autres packs </span>
           </h2>
 
-          <div  className=" items-center space-x-6 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:space-x-0 max-sm:space-y-6 flex-wrap space-y-3  ">
+          <div  className="flex items-center space-x-2  ">
             <Link to="/trajectoire" className=" inline-block max-lg:text-xs text-white text-sm space-x-2   bg-jauneOr py-3 px-5  font-montserrat font-semibold  rounded-lg hover:bg-jauneOr/80      ">
              <span>Pack trajectoire</span> 
               <HiArrowRight className="font-semibold text-lg  inline " />

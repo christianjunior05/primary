@@ -11,26 +11,26 @@ const NotreEgagement = () => {
       >
         {/* Overlay - rgba(12, 11, 11, 0.38) */}
         <div
-          className="absolute inset-0"
+          className="absolute inset-0 "
           style={{ background: "rgba(12, 11, 11, 0.38)" }}
         ></div>
 
         {/* Hero Content */}
-        <div className="absolute flex flex-col items-start gap-3 left-[65px] top-1/2 transform -translate-y-1/2 w-[1184px] h-[247px]">
+        <div className="absolute  flex flex-col items-start gap-3 left-[65px] top-1/2 transform -translate-y-1/2 w-[1184px] h-[247px]">
           {/* Hero Badge - Label qualité OPRA */}
-          <div className="w-[1184px] h-[105px] text-white font-['DM_Serif_Display'] font-normal text-[40px] leading-[52px] order-0 flex-none">
+          <div className="text-3xl font-dmserif text-white w-9/12 ">
             Au travers de notre Label qualité OPRA – Orientation Personnalisé,
             Responsable & Accompagnée,
           </div>
 
           {/* Hero Title */}
-          <div className="w-[838px] h-[28px] text-white font-['DM_Serif_Display'] font-normal text-[25px] leading-[100%] order-1 flex-none mb-4">
+          <div className=" text-xl font-medium text-white ">
             Nous nous engageons à vos côtés pour Une Orientation Scolaire
             d'Excellence
           </div>
 
           {/* Hero Description */}
-          <div className="w-[1184px] h-[90px] text-white font-['DM_Serif_Display'] font-normal text-[20px] leading-[30px] order-2 self-stretch flex-none mt-2">
+          <div className="w-9/12 text-white font-medium">
             Chez Prometheor, nous accompagnons les jeunes et leurs familles dans
             une étape clé : l'orientation scolaire. Grâce à un réseau de
             conseillères indépendantes, nous proposons un suivi personnalisé,
@@ -42,7 +42,7 @@ const NotreEgagement = () => {
 
       {/* Section: Des conseillères qualifiées et expertes */}
       <section className="">
-        <div className="flex justify-center items-center gap-20 my-20">
+        <div className="flex justify-center items-center gap-10 my-20">
           <div className="size-[500px] rounded-lg overflow-hidden flex items-center justify-center">
             <img
               src="/w18.png"
@@ -97,7 +97,7 @@ const NotreEgagement = () => {
 
       {/* Section: Un accompagnement 100% personnalisé */}
       <section className=" ">
-        <div className="flex  flex-wrap  justify-center gap-20  items-center">
+        <div className="flex   justify-center gap-10  items-center">
           <div className="bg-jauneOr/5 p-5 rounded-lg w-6/12 ">
             <h2 className="text-3xl  text-blue font-dmserif mb-6">
               Un accompagnement{" "}
@@ -156,7 +156,7 @@ const NotreEgagement = () => {
 
       {/* Section: Une méthodologie éprouvée et innovante */}
       <section className="">
-        <div className="flex justify-center gap-20 items-center flex-wrap my-20">
+        <div className="flex justify-center gap-10 items-center  my-20">
           <div className="size-[500px] rounded-lg flex items-center justify-center">
             <img
               src="/w2.jpg"
@@ -219,7 +219,7 @@ const NotreEgagement = () => {
 
       {/* Section: Un cadre éthique et bienveillant */}
       <section className="">
-        <div className="flex justify-center gap-20 items-center">
+        <div className="flex justify-center gap-10 items-center">
           <div className="w-6/12">
             <h2 className="text-4xl font-dmserif mb-6 text-blue">
               Un cadre{" "}
@@ -273,7 +273,7 @@ const NotreEgagement = () => {
 
       {/* Section: Une amélioration continue de nos services */}
       <section className="">
-        <div className="flex justify-center gap-20 items-center my-20">
+        <div className="flex justify-center gap-10 items-center my-20">
           <div className="size-[500px] rounded-lg flex items-center justify-center">
             <img
               src="/ea4ff2f81b7123f87c8416129d0a10005552bd4c.jpg"

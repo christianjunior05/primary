@@ -34,17 +34,9 @@ const BlogWebinaires= ()=> {
 
                 </div>
                 <div className="space-y-3">
-                    <span className="font-roboto">WEBINAIRE</span>
-                    <h3 className="text-xl font-dmserif text-jauneOr">3 conseils pour choisir vos enseignements de spécialités</h3>
-                    {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in <br /> eros.</p> */}
-                {/* <div className="flex space-x-4 items-center">
-                  <div className="size-10"><img src="/e1.png" alt="" className="size-full object-cover object-center" /></div>
-                   <div className="flex flex-col">
-                     <span>Angel Monet</span>
-                  <span>Professeur de physique</span>
-                   </div>
+                <span className="font-roboto">WEBINAIRE</span>
+                <h3 className="text-xl font-dmserif text-jauneOr">3 conseils pour choisir vos enseignements de spécialités</h3>
                  
-                </div> */}
                 </div>
    
          <FaArrowRight className=" rounded-full border-2 border-black hover:cursor-pointer shrink-0 text-5xl  p-3 hover:bg-black hover:text-white transition-all "/>

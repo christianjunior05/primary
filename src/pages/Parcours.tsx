@@ -200,7 +200,7 @@ if (VideoRef.current) {
 
       {/* Pourquoi un accompagnement ? */}
       <section className=" ">
-        <div className=" my-20 flex  justify-center items-center gap-20 ">
+        <div className=" my-20 flex   justify-center items-center gap-20 ">
 
           <div className="size-96">
             <img
@@ -211,7 +211,7 @@ if (VideoRef.current) {
           </div>
 
 
-          <div className=" space-y-5 " >
+          <div className=" space-y-5 w-1/2 " >
             <h2 className="text-3xl font-dmserif text-blue ">
               Pourquoi <span className="text-jauneOr">un accompagnement ?</span>
             </h2>

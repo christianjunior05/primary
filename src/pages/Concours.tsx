@@ -36,7 +36,7 @@ const Concours = () => {
       <header className="h-[400px] bg-concours gb-center bg-cover flex  items-center pl-10 bg-no-repeat ">
         <div className="space-y-3">
           <p className="text-4xl text-white font-dmserif">Préparez efficacement <span className="text-jauneOr " >vos concours et certifications post-bac</span> </p>
-          <p className="text-xl text-white font-dmserif  " >Vous visez une école de commerce ou une école d’ingénieur après le bac ?</p>
+          <p className="text-xl text-white font-dmserif" >Vous visez une école de commerce ou une école d’ingénieur après le bac ?</p>
           <p className="text-white  font-montserrat w-10/12 ">Vous souhaitez valoriser votre niveau en français ou en anglais avec une certification reconnue ?  <br />  Nous vous proposons des stages de préparation ciblés, adaptés aux exigences des épreuves et aux profils des candidats.</p>
         </div>
       </header>
