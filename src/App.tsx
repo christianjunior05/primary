@@ -25,6 +25,7 @@ import Politique from "./pages/Politique";
 import NotFound from "./NoteFound";
 
 import "../src/App.css";
+import Article from "./pages/BlogWebinaire/Article";
 
 export default function App() {
   return (
@@ -56,7 +57,7 @@ export default function App() {
           <Route path="/Blog" element={<BlogWebinaires />} />
          
           <Route path="/collaborateur" element={<Collaborateur />} />  
-         
+         <Route path="/article" element={<Article />} /> 
         </Route>
 
        

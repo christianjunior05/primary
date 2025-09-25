@@ -1,6 +1,7 @@
 import { FaArrowRight } from "react-icons/fa";
 import Blog from "./Blog";
 
+
 const BlogWebinaires= ()=> {
     return ( 
 
@@ -63,16 +64,12 @@ const BlogWebinaires= ()=> {
     <li>Catégorie 4</li>
   </ul>
 
-  <div className="grid grid-cols-3  px-10 gap-5">
+  <div className="grid grid-cols-3 px-10 gap-5">
     <Blog/>
-    <Blog/>
-    <Blog/>
-    <Blog/>
-    <Blog/>
-    <Blog/>
+  
   </div>
           </div>
-       </section>
+      </section>
         </>
     );
 }

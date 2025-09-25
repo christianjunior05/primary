@@ -44,7 +44,8 @@ export default {
                 dc3: "url('/dc3.png')",
                 herooo:"url('/Herooo.jpg')",
                 reperee:"url('/r1.png')",
-                headerContact:"url('/HeroC.png')"
+                headerContact:"url('/HeroC.png')",
+                headerCollaborateur:"url('/colab.jpg')",
 
        },
     
