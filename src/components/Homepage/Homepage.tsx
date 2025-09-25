@@ -5,7 +5,6 @@ import InfoProfile from "./miniComponents/InfoProfile";
 import Temoignage from "./miniComponents/Temoignage";
 import DivWebinaire from "./miniComponents/DivWebinar";
 import { HiArrowRight } from "react-icons/hi2";
-import { IoIosArrowDown } from "react-icons/io";
 import { IoCheckmark } from "react-icons/io5";
 import { Link } from "react-router-dom";
 

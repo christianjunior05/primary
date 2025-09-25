@@ -7,55 +7,49 @@ import { useState, useRef } from "react";
 import { IoIosArrowDown } from "react-icons/io";
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [animeIcon,setanimeIcon]=useState(false)
-  const [animeIcon2,setanimeIcon2]=useState(false)
+  const [animeIcon, setanimeIcon] = useState(false);
+  const [animeIcon2, setanimeIcon2] = useState(false);
   const animeIconRef = useRef<HTMLSpanElement[]>([]);
   const ClickRef = useRef<HTMLUListElement[]>([]);
-  const [color,setColor]=useState("accueil")
+  const [color, setColor] = useState("accueil");
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
 
-  const handleClick = (e?: React.MouseEvent<HTMLLIElement> ,color?:string) => {
-  if (color) {
-    setColor(color)
-  }
+  const handleClick = (e?: React.MouseEvent<HTMLLIElement>, color?: string) => {
+    if (color) {
+      setColor(color);
+    }
 
     if (e) {
-         const target = e.currentTarget.querySelectorAll(".menu"); 
-    if (target && animeIconRef.current) {
-      
-      target.forEach((el) => {
-        el.classList.toggle("active");
-        setanimeIcon(!animeIcon)
-      });
-
-    
-     
-    }
+      const target = e.currentTarget.querySelectorAll(".menu");
+      if (target && animeIconRef.current) {
+        target.forEach((el) => {
+          el.classList.toggle("active");
+          setanimeIcon(!animeIcon);
+        });
+      }
     }
   };
 
-
-  
-  const handleClick2 = (e?: React.MouseEvent<HTMLLIElement> ,color?:string) => {
-   if (color) {
-    setColor(color)
-   }
+  const handleClick2 = (
+    e?: React.MouseEvent<HTMLLIElement>,
+    color?: string
+  ) => {
+    if (color) {
+      setColor(color);
+    }
 
     if (e) {
-          const target = e.currentTarget.querySelectorAll(".menu");
+      const target = e.currentTarget.querySelectorAll(".menu");
 
-       if (target && animeIconRef.current) {
-      
+      if (target && animeIconRef.current) {
         target.forEach((el) => {
-        el.classList.toggle("active");
-        setanimeIcon2(!animeIcon2)
-      });
-     
+          el.classList.toggle("active");
+          setanimeIcon2(!animeIcon2);
+        });
+      }
     }
-    }
-   
   };
 
   return (
@@ -68,30 +62,46 @@ export default function Navbar() {
 
         {/* Liens Desktop */}
         <ul className=" max-md:hidden  flex space-x-6 items-center text-xs lg:text-base   whitespace-nowrap">
-          <li 
-            onClick={()=> handleClick(undefined,"accueil")}
-            className=    {`${color === "accueil" ? "text-jauneOr":""}  transition-all cursor-pointer`}>
+          <li
+            onClick={() => handleClick(undefined, "accueil")}
+            className={`${
+              color === "accueil" ? "text-jauneOr" : ""
+            }  transition-all cursor-pointer`}
+          >
             <Link to="/"> Accueil</Link>
           </li>
           <li
-            onClick={(e)=> handleClick(e,"offre")}
-            className=  {`${color === "offre" ? "text-jauneOr":""}  hover:text-jauneOr transition-all  cursor-pointer `}>
-          <p > Nos offres d'orientation <span ref={(el)=>{ animeIconRef.current[0] =el!} }><IoIosArrowDown  className= {`${animeIcon && 'rotate-180 transition-all'} inline transition-all `}/>  </span> </p>  
+            onClick={(e) => handleClick(e, "offre")}
+            className={`${
+              color === "offre" ? "text-jauneOr" : ""
+            }  hover:text-jauneOr transition-all  cursor-pointer `}
+          >
+            <p>
+              {" "}
+              Nos offres d'orientation{" "}
+              <span
+                ref={(el) => {
+                  animeIconRef.current[0] = el!;
+                }}
+              >
+                <IoIosArrowDown
+                  className={`${
+                    animeIcon && "rotate-180 transition-all"
+                  } inline transition-all `}
+                />{" "}
+              </span>{" "}
+            </p>
             <ul
               ref={(el) => {
                 ClickRef.current[0] = el!;
               }}
               className=" menu   absolute z-20 text-white   leading-10 bg-blue w-44  rounded-md  "
             >
-              <li
-             
-              className="   cursor-pointer pl-2    bg-blue hover:text-jauneOr transition-all  ">
+              <li className="   cursor-pointer pl-2    bg-blue hover:text-jauneOr transition-all  ">
                 <Link to="/repere">Repère </Link>
               </li>
 
-              <li
-             
-              className="  cursor-pointer pl-2    bg-blue hover:text-jauneOr transition-all  ">
+              <li className="  cursor-pointer pl-2    bg-blue hover:text-jauneOr transition-all  ">
                 <Link to="/exploration">Exploration</Link>
               </li>
 
@@ -105,32 +115,46 @@ export default function Navbar() {
             </ul>
           </li>
           <li
-          
             // onClick={(e)=>handleClick(e.target)}
-            onClick={()=> handleClick(undefined,"stage")}
-           
-            className= {`${color === "stage" ? "text-jauneOr":""} hover:text-jauneOr transition-all   space-y-5  cursor-pointer `} >
+            onClick={() => handleClick(undefined, "stage")}
+            className={`${
+              color === "stage" ? "text-jauneOr" : ""
+            } hover:text-jauneOr transition-all   space-y-5  cursor-pointer `}
+          >
             <Link to="/concours"> Nos stages</Link>
           </li>
-          <li 
-            onClick={()=> handleClick(undefined,"conseillers")}
-          
-          className={`${color === "conseillers" ? "text-jauneOr":""} hover:text-jauneOr transition-all cursor-pointer `} >
+          <li
+            onClick={() => handleClick(undefined, "conseillers")}
+            className={`${
+              color === "conseillers" ? "text-jauneOr" : ""
+            } hover:text-jauneOr transition-all cursor-pointer `}
+          >
             <Link to="/conseillers"> Nos conseillers</Link>
           </li>
           <li
-            onClick={(e)=>handleClick2(e,"qui")}
-            className={`${color === "qui" ? "text-jauneOr":""} hover:text-jauneOr transition-all cursor-pointer`}  
+            onClick={(e) => handleClick2(e, "qui")}
+            className={`${
+              color === "qui" ? "text-jauneOr" : ""
+            } hover:text-jauneOr transition-all cursor-pointer`}
           >
-                      <p > 
-            Qui sommes-nous <span ref={ (el)=>{animeIconRef.current[1] =el!} }><IoIosArrowDown  className= {`${animeIcon2 && 'rotate-180 transition-all'} inline transition-all `}/>  </span> </p>  
+            <p>
+              Qui sommes-nous{" "}
+              <span
+                ref={(el) => {
+                  animeIconRef.current[1] = el!;
+                }}
+              >
+                <IoIosArrowDown
+                  className={`${
+                    animeIcon2 && "rotate-180 transition-all"
+                  } inline transition-all `}
+                />{" "}
+              </span>{" "}
+            </p>
 
-            <ul
-              ref={(el) => {
+            <ul ref={(el) => {
                 ClickRef.current[1] = el!;
-              }}
-              className="absolute menu ChildMenu text-white    bg-blue   rounded-md "
-            >
+              }} className="absolute menu ChildMenu text-white bg-blue   rounded-md">
               <li className="cursor-pointer hover:text-jauneOr p-2 rounded-md transition-all bg-blue ">
                 <Link to="/QuiSommesNous">Notre équipe</Link>
               </li>
@@ -148,28 +172,32 @@ export default function Navbar() {
               </li>
             </ul>
           </li>
-            <li 
-            
-             onClick={()=>handleClick2(undefined,"blog")}
-            className={`${color === "blog" ? "text-jauneOr":""} hover:text-jauneOr transition-all cursor-pointer`}
-            >
-          <Link to="/Blog">Blog</Link>  
+          <li
+            onClick={() => handleClick2(undefined, "blog")}
+            className={`${
+              color === "blog" ? "text-jauneOr" : ""
+            } hover:text-jauneOr transition-all cursor-pointer`}
+          >
+            <Link to="/Blog">Blog</Link>
           </li>
           <li
-          
-          onClick={()=>handleClick2(undefined,"contacter")}
-            className={`${color === "contacter" ? "text-jauneOr":""} hover:text-jauneOr transition-all cursor-pointer`}>
-         <Link to="/contact">Nous contacter</Link>   
+            onClick={() => handleClick2(undefined, "contacter")}
+            className={`${
+              color === "contacter" ? "text-jauneOr" : ""
+            } hover:text-jauneOr transition-all cursor-pointer`}>
+            <Link to="/contact">Nous contacter</Link>
           </li>
-        
-          <li
-          
-          
-                onClick={()=>handleClick2(undefined,"connexion")}
-            className={`${color === "connexion" ? "text-jauneOr":""} hover:text-jauneOr transition-all cursor-pointer flex items-center space-x-2 `}>
 
+          <li
+            onClick={() => handleClick2(undefined, "connexion")}
+            className={`${
+              color === "connexion" ? "text-jauneOr" : ""
+            } hover:text-jauneOr transition-all cursor-pointer flex items-center space-x-2 `}
+          >
             <HiOutlineLockClosed />
-            <span><Link to="https://app.prometheor.fr/">Connexion</Link></span>
+            <span>
+              <Link to="https://app.prometheor.fr/">Connexion</Link>
+            </span>
           </li>
         </ul>
 
@@ -209,7 +237,10 @@ export default function Navbar() {
           </li>
           <li onClick={toggleMenu}>Qui sommes-nous</li>
           <li onClick={toggleMenu}>Nous contacter</li>
-          <li onClick={toggleMenu}> <Link to="/parcours">Blog</Link> </li>
+          <li onClick={toggleMenu}>
+            {" "}
+            <Link to="/parcours">Blog</Link>{" "}
+          </li>
           <li
             className="flex items-center space-x-2 text-jauneOr"
             onClick={toggleMenu}
