@@ -26,10 +26,17 @@ const Collaborateur = () => {
 Ensemble pour la réussite des jeunes */}
       <section>
         <div className="flex  items-center justify-center gap-20 my-32">
+          <div className=" h-96">
+            <img
+              src="/w11.png"
+              alt=" deux qui se serrent"
+              className="size-full object-cover object-center"
+            />
+          </div>
           <div className="w-6/12 space-y-3">
             <h1 className="text-3xl font-dmserif text-blue">
              
-              Nos partenaires : <br />{" "}
+              Vous êtes parents et vous vous posez  <br />des questions ... <br />
               <span className="text-jauneOr">
                 Ensemble pour la réussite des jeunes
               </span>{" "}
@@ -51,13 +58,7 @@ Ensemble pour la réussite des jeunes */}
               objectifs de nos jeunes.
             </p>
           </div>
-          <div className=" h-96">
-            <img
-              src="/w11.png"
-              alt=" deux qui se serrent"
-              className="size-full object-cover object-center"
-            />
-          </div>
+          
         </div>
       </section>
 
