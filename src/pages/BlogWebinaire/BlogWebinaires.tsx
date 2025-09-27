@@ -129,17 +129,17 @@ const filtre = (id_categorie:number) => {
   Articles ?
   
   <div className="grid grid-cols-3 px-10 gap-5">
-    <Blog/>
+   
   {Articles.map((article)=>(
     
         <div className="flex flex-col  mb-10 bg-gray-50  ">
         <div className="w-full h-80 bg-gris">
-          <img className="size-full object-cover object-top"  src="/article.png" alt="" />
+          <img className="size-full object-cover object-top"  src={article.cover_photo_path} alt="" />
         </div>
      
      <div className="p-2 space-y-3">
   <span className="font-dmserif my-2 block "> {article.title} </span>
-        <Link  to="/article" className="my-5 inline-block  cursor-pointer">
+        <Link  to={`./${article.id}`} className="my-5 inline-block  cursor-pointer">
          <p className="hover:text-jauneOr transition-all"> {article.sub_title} </p>
         </Link>
      </div>
