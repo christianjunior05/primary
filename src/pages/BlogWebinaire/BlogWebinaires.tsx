@@ -43,6 +43,7 @@ const BlogWebinaires= ()=> {
 
 
 const [Articles,setArticle]=useState<typage[] >([])
+  const [articlesAffiches, setArticlesAffiches] = useState<typage[]>([]);
 
 
 const handleArticle=async ()=>{
@@ -57,13 +58,21 @@ useEffect(()=>{
 },[])
 
 
-const filtre = (id_categorie:number) => {
-  const nouvelleTab = Articles.filter(article =>
-    article.categories.some(category => category.id === id_categorie)
-  );
-  setArticle(nouvelleTab);
-}
+ 
+  // Ce qu'on affiche (filtré ou pas)
 
+  // Fonction de filtre
+  const filtre = (id_categorie: number) => {
+    if (id_categorie === 0) {
+      // si 0 => on remet tout
+      setArticlesAffiches(Articles);
+    } else {
+      const nouvelleTab = Articles.filter(article =>
+        article.categories.some(category => category.id === id_categorie)
+      );
+      setArticlesAffiches(nouvelleTab);
+    }
+  };
 
 
 
@@ -126,11 +135,11 @@ const filtre = (id_categorie:number) => {
 
  { 
   
-  Articles ?
+  articlesAffiches ?
   
   <div className="grid grid-cols-3 px-10 gap-5">
    
-  {Articles.map((article)=>(
+  {articlesAffiches.map((article)=>(
     
         <div className="flex flex-col  mb-10 bg-gray-50  ">
         <div className="w-full h-80 bg-gris">
