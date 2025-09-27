@@ -1,5 +1,5 @@
 import { FaArrowRight } from "react-icons/fa";
-import Blog from "./Blog";
+
 import axios from "axios";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
