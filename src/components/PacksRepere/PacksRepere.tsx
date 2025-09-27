@@ -9,7 +9,7 @@ const PacksRepere = () => {
   return (
     <div>
       <header>
-        <div className="bg-repere h-[400px] bg-cover bg-center flex items-center" id="repere">
+        <div className="mt-[76px] bg-repere h-[400px] bg-cover bg-center flex items-center" id="repere">
           <div className="flex flex-col justify-center size-full backdrop-brightness-50">
             <div className=" px-6 md:px-20 space-y-4  text-white font-dmserif max-w-full max-md:w-4xl ">
               <p className="text-xl leading-5    sm:text-3xl md:text-3xl w-6/12 ">
