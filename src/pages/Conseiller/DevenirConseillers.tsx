@@ -6,7 +6,7 @@ export default function DevenirConseillers() {
   return (
     <div className="min-h-screen">
       <header>
-        <div className="bg-DevenezConseiler mb-20 h-[400px] bg-cover bg-center flex items-center">
+        <div className="mt-[80px] bg-DevenezConseiler mb-20 h-[400px] bg-cover bg-center flex items-center">
           <div className="  size-full flex flex-col justify-center">
             <div className=" md:px-10    text-white font-dmserif max-w-full  ">
               <p className="text-2xl sm:text-3xl md:text-4xl mb-5 leading-snug">

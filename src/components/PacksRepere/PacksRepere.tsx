@@ -15,7 +15,7 @@ const PacksRepere = () => {
               <p className="text-xl leading-5    sm:text-3xl md:text-3xl w-6/12 ">
                 Des réponses claires et personnalisées pour guider
                 <span className="text-jauneOr">
-                  {" "}
+               
                   l’orientation de votre enfant.
                 </span>
               </p>
