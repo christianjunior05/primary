@@ -37,8 +37,8 @@ if (VideoRef.current) {
     <div className="min-h-screen">
       {/* Hero */}
       <header
-        className="relative w-full h-[480px] bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('/Hero2.jpg')" }}
+        className="mt-[83px] relative w-full h-[480px] bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: "url('/HeroP.jpg')" }}
       >
         <div
           className="absolute inset-0"
