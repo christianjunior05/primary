@@ -39,7 +39,7 @@ const PacksRepere = () => {
             className="size-96  max-lg:w-60 max-lg:h-80 max-md:w-64 max-md:h-64 bg-cover bg-center rounded-[16px]"
             
           >
-  <img src="/r1.png" alt="" className="size-full" />
+  <img src="/w11.png" alt="" className="size-full" />
 
           </div>
 
