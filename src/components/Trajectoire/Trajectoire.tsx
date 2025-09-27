@@ -27,7 +27,7 @@ const Trajectoire = () => {
 
   return (
     <div>
-      <div className="bg-trajectoireHeader h-[600px] bg-cover bg-center flex items-center">
+      <div className="mt-[79px] bg-trajectoireHeader h-[500px] bg-cover bg-center flex items-center">
         <div className="  backdrop-brightness-50 size-full flex flex-col justify-center">
           <div className=" md:px-10    text-white font-dmserif max-w-full  ">
             <p className="text-2xl sm:text-3xl md:text-4xl mb-5 leading-snug">

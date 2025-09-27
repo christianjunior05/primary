@@ -2,7 +2,7 @@ const Collaborateur = () => {
   return (
     <>
       <header>
-        <div className=" h-[400px] bg-headerCollaborateur bg-no-repeat  bg-cover ">
+        <div className="mt-[80px] h-[400px] bg-headerCollaborateur bg-no-repeat  bg-cover ">
           <div className="size-full  backdrop-brightness-75 pl-10 place-content-center ">
             <div className="space-y-3 w-7/12 ">
               <h1 className="text-3xl font-dmserif text-white  ">
