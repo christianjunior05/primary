@@ -1,9 +1,12 @@
-import { Link } from "react-router-dom";
 
+import { Link } from "react-router-dom";
 const Blog = () => {
   return (
     <>
-      <div className="flex flex-col  mb-10 bg-gray-50  ">
+      {
+        
+      
+        <div className="flex flex-col  mb-10 bg-gray-50  ">
         <div className="w-full h-80 bg-gris">
           <img className="size-full object-cover object-top"  src="/article.png" alt="" />
         </div>
@@ -16,7 +19,9 @@ const Blog = () => {
      </div>
       
       
-      </div>
+        </div>     
+
+      }
     </>
   );
 };

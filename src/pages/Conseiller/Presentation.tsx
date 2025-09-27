@@ -7,7 +7,6 @@ import Users from "./Data";
 
 const Presentation = () => {
   const { id } = useParams();
-console.log(id)
   // Récupérer directement le conseiller depuis le tableau
   const Conseiller = Users.find(
     (user) => user.id === parseInt(id || "0", 10)
