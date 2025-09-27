@@ -43,8 +43,9 @@ const BlogWebinaires= ()=> {
 
 
 const [Articles,setArticle]=useState<typage[] >([])
-  const [articlesAffiches, setArticlesAffiches] = useState<typage[]>([]);
 
+  const [articlesAffiches, setArticlesAffiches] = useState<typage[]>([]);
+const [categories,setCatgories]=useState(0)
 
 const handleArticle=async ()=>{
 
@@ -53,26 +54,24 @@ const handleArticle=async ()=>{
   setArticle(response.data.data)
 }
 
-useEffect(()=>{
-  handleArticle()
-},[])
-
-
- 
-  // Ce qu'on affiche (filtré ou pas)
-
-  // Fonction de filtre
   const filtre = (id_categorie: number) => {
     if (id_categorie === 0) {
-      // si 0 => on remet tout
+     setCatgories(id_categorie)
       setArticlesAffiches(Articles);
     } else {
       const nouvelleTab = Articles.filter(article =>
         article.categories.some(category => category.id === id_categorie)
       );
+     setCatgories(id_categorie)
       setArticlesAffiches(nouvelleTab);
+      
     }
   };
+
+useEffect(()=>{
+  handleArticle()
+filtre(0)
+},[])
 
 
 
@@ -125,12 +124,12 @@ useEffect(()=>{
         <section>
           <div className="space-y-10 my-20   ">
          <h4 className="text-blue font-dmserif text-3xl   ml-10  ">Notre <span className="text-jauneOr">blog</span> </h4>
-  <ul className="flex space-x-10">
-    <li onClick={handleArticle} className=" cursor-pointer border-b-4 border-jauneOr  ml-10 ">Tout voir </li>
-    <li onClick={()=>filtre(1)} className=" cursor-pointer">Catégorie 1</li>
-    <li onClick={()=>filtre(2)} className="cursor-pointer ">Catégorie 2</li>
-    <li onClick={()=>filtre(3)} className="cursor-pointer ">Catégorie 3</li>
-    <li onClick={()=>filtre(4)} className="cursor-pointer ">Catégorie 4</li>
+  <ul className="flex space-x-10 ml-10">
+    <li onClick={()=>filtre(0)} className={`${categories === 0 && "border-b-4 border-jauneOr"} cursor-pointer  `} >Tout voir </li>
+    <li onClick={()=>filtre(1)} className={`${categories === 1 && "border-b-4 border-jauneOr"} cursor-pointer  `} >Catégorie 1</li>
+    <li onClick={()=>filtre(2)} className={`${categories === 2 && "border-b-4 border-jauneOr"} cursor-pointer  `} >Catégorie 2</li>
+    <li onClick={()=>filtre(3)} className={`${categories === 3 && "border-b-4 border-jauneOr"} cursor-pointer  `} >Catégorie 3</li>
+    <li onClick={()=>filtre(4)} className={`${categories === 4 && "border-b-4 border-jauneOr"} cursor-pointer  `} >Catégorie 4</li>
   </ul>
 
  { 
