@@ -168,7 +168,7 @@ export default function Navbar() {
               </li>
 
               <li className="  cursor-pointer hover:text-jauneOr p-2 rounded-md transition-all bg-blue ">
-                <Link to="/collaborateur">Nos collaborateurs</Link>
+                <Link to="/partenaires">Nos Partenaires</Link>
               </li>
             </ul>
           </li>

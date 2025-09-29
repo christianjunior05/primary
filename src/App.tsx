@@ -19,13 +19,14 @@ import Conseillers from "./pages/Conseiller/Conseillers";
 import Presentation from "./pages/Conseiller/Presentation";
 import DevenirConseillers from "./pages/Conseiller/DevenirConseillers";
 import BlogWebinaires from "./pages/BlogWebinaire/BlogWebinaires";
-import Collaborateur from "./pages/Collaborateur";
+import Partenaires from "./pages/Partenaires";
 import CGV from "./pages/CGV";
 import Politique from "./pages/Politique";
 import NotFound from "./NoteFound";
 
 import "../src/App.css";
 import Article from "./pages/BlogWebinaire/Article";
+
 
 export default function App() {
   return (
@@ -55,7 +56,7 @@ export default function App() {
           <Route path="/conseillers/:id" element={<Presentation />} />
           <Route path="/devenirconseiller" element={<DevenirConseillers />} />
           <Route path="/Blog" element={<BlogWebinaires />} />       
-          <Route path="/collaborateur" element={<Collaborateur />} />  
+          <Route path="/partenaires" element={<Partenaires />} />  
           <Route path="/Blog/:id" element={<Article />} />
         </Route>
 

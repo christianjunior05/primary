@@ -1,4 +1,4 @@
-const Collaborateur = () => {
+const Partenaires= () => {
   return (
     <>
       <header>
@@ -186,4 +186,4 @@ Ensemble pour la réussite des jeunes */}
   );
 };
 
-export default Collaborateur;
+export default Partenaires;
