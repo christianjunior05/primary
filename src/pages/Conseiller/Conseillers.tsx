@@ -11,7 +11,7 @@ export default function Conseillers() {
       <div className="min-h-screen">
         {/* Hero Section - Transformé en Tailwind CSS */}
         <header
-          className="relative w-full h-[480px] bg-cover bg-center bg-no-repeat"
+          className="mt-[83px] relative w-full h-[480px] bg-cover bg-center bg-no-repeat"
           style={{ backgroundImage: "url('/HeroC.png')" }}
         >
           {/* Overlay - rgba(12, 11, 11, 0.38) */}
