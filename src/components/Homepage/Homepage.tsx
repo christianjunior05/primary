@@ -14,7 +14,7 @@ export default function Homepage() {
       {/*  entete de la page Homepage */}
 
       <header>
-        <div className="bg-homepage h-[500px] bg-cover bg-center flex items-center px-6 md:px-20">
+        <div className=" mt-[83px] bg-homepage h-[500px] bg-cover bg-center flex items-center px-6 md:px-20">
           <div className="text-white font-dmserif max-w-full space-y-7  ">
             <h1 className="text-2xl sm:text-4xl  md:text-5xl  leading-tight">
               La promesse d’une orientation choisie.
