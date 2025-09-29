@@ -27,7 +27,7 @@ const Exploration = () => {
   return (
     <div>
       <header>
-        <div className="bg-exploration h-[400px] bg-cover bg-center flex items-center">
+        <div className="mt-[83px] bg-exploration h-[400px] bg-cover bg-center flex items-center">
           <div className="backdrop-brightness-50 size-full flex flex-col justify-center">
             <div className="px-6  md:px-10 space-y-4  text-white font-dmserif max-w-full ">
               <p className="text-2xl sm:text-3xl md:text-4xl leading-snug ">
