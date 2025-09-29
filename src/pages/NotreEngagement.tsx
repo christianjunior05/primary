@@ -6,7 +6,7 @@ const NotreEgagement = () => {
     <div className="min-h-screen">
       {/* Hero Section - Transformé en Tailwind CSS */}
       <header
-        className="relative w-full h-[480px] bg-cover bg-center bg-no-repeat"
+        className="mt-[82px] relative w-full h-[480px] bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: "url('/w7.jpg')" }}
       >
         {/* Overlay - rgba(12, 11, 11, 0.38) */}
